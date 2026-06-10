@@ -1,0 +1,260 @@
+{
+  "paper_id": "pmid_22556050",
+  "source": "pubmed",
+  "title": "Prevention of acute knee injuries in adolescent female football players: cluster randomised controlled trial.",
+  "authors": [
+    "Markus Waldén",
+    "Isam Atroshi",
+    "Henrik Magnusson",
+    "Philippe Wagner",
+    "Martin Hägglund"
+  ],
+  "year": "2012",
+  "journal": "BMJ (Clinical research ed.)",
+  "doi": "10.1136/bmj.e3042",
+  "pmid": "22556050",
+  "abstract": "To evaluate the effectiveness of neuromuscular training in reducing the rate of acute knee injury in adolescent female football players. OBJECTIVE: To evaluate the effectiveness of neuromuscular training in reducing the rate of acute knee injury in adolescent female football players. Stratified cluster randomised controlled trial with clubs as the unit of randomisation. DESIGN: Stratified cluster randomised controlled trial with clubs as the unit of randomisation. 230 Swedish football clubs (121 in the intervention group, 109 in the control group) were followed for one season (2009, seven months). SETTING: 230 Swedish football clubs (121 in the intervention group, 109 in the control group) were followed for one season (2009, seven months). 4564 players aged 12-17 years (2479 in the intervention group, 2085 in the control group) completed the study. PARTICIPANTS: 4564 players aged 12-17 years (2479 in the intervention group, 2085 in the control group) completed the study. 15 minute neuromuscular warm-up programme (targeting core stability, balance, and proper knee alignment) to be carried out twice a week throughout the season. INTERVENTION: 15 minute neuromuscular warm-up programme (targeting core stability, balance, and proper knee alignment) to be carried out twice a week throughout the season. The primary outcome was rate of anterior cruciate ligament injury; secondary outcomes were rates of severe knee injury (>4 weeks' absence) and any acute knee injury. MAIN OUTCOME MEASURES: The primary outcome was rate of anterior cruciate ligament injury; secondary outcomes were rates of severe knee injury (>4 weeks' absence) and any acute knee injury. Seven players (0.28%) in the intervention group, and 14 (0.67%) in the control group had an anterior cruciate ligament injury. By Cox regression analysis according to intention to treat, a 64% reduction in the rate of anterior cruciate ligament injury was seen in the intervention group (rate ratio 0.36, 95% confidence interval 0.15 to 0.85). The absolute rate difference was -0.07 (95% confidence interval -0.13 to 0.001) per 1000 playing hours in favour of the intervention group. No significant rate reductions were seen for secondary outcomes. RESULTS: Seven players (0.28%) in the intervention group, and 14 (0.67%) in the control group had an anterior cruciate ligament injury. By Cox regression analysis according to intention to treat, a 64% reduction in the rate of anterior cruciate ligament injury was seen in the intervention group (rate ratio 0.36, 95% confidence interval 0.15 to 0.85). The absolute rate difference was -0.07 (95% confidence interval -0.13 to 0.001) per 1000 playing hours in favour of the intervention group. No significant rate reductions were seen for secondary outcomes. A neuromuscular warm-up programme significantly reduced the rate of anterior cruciate ligament injury in adolescent female football players. However, the absolute rate difference did not reach statistical significance, possibly owing to the small number of events. CONCLUSIONS: A neuromuscular warm-up programme significantly reduced the rate of anterior cruciate ligament injury in adolescent female football players. However, the absolute rate difference did not reach statistical significance, possibly owing to the small number of events. Clinical trials NCT00894595. TRIAL REGISTRATION: Clinical trials NCT00894595.",
+  "publication_type": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "keywords": [
+    "Adolescent",
+    "Anterior Cruciate Ligament Injuries",
+    "Athletic Injuries",
+    "Child",
+    "Cluster Analysis",
+    "Exercise",
+    "Exercise Therapy",
+    "Female",
+    "Humans",
+    "Intention to Treat Analysis",
+    "Knee Injuries",
+    "Outcome Assessment, Health Care",
+    "Regression Analysis",
+    "Sex Characteristics",
+    "Sex Distribution",
+    "Soccer",
+    "Sweden"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "ACL injury prevention neuromuscular training proprioceptive training balance training plyometric training",
+    "comparator": "",
+    "outcomes": "ACL injury knee injury injury rate risk reduction",
+    "study_design": "randomized_controlled_trial"
+  },
+  "journal_evaluation": {
+    "journal_name": "BMJ (Clinical research ed.)",
+    "issn_input": "1756-1833",
+    "journal_match_status": "not_found",
+    "journal_match_confidence": 0.0,
+    "matched_journal_name": "",
+    "jcr_quartile": "",
+    "cas_quartile": "",
+    "impact_factor": "",
+    "impact_factor_year": "",
+    "ranking_source": "",
+    "publisher": "",
+    "last_verified": "",
+    "journal_score": null,
+    "journal_score_reason": "本地期刊分区表中未找到匹配期刊，需人工核验",
+    "journal_rank_status": "未获取，需人工核验"
+  },
+  "study_design_evaluation": {
+    "study_type": "randomized_controlled_trial",
+    "study_type_confidence": 0.9,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Randomized Controlled Trial, Research Support, Non-U.S. Gov't"
+    ],
+    "design_score": 8.1,
+    "design_strengths": [
+      "Research design: 研究声称随机分配",
+      "Control group: 提及对照组/比较组",
+      "Registration: 提及试验注册",
+      "Follow-up: 摘要中提及脱落/依从性/完成率信息",
+      "Outcome: 明确报告主要结局指标"
+    ],
+    "design_limitations": [
+      "Blinding: 摘要未报告盲法 — 需查看全文",
+      "Sample size: 摘要未报告样本量 — 需查看全文",
+      "Ethics: 摘要未提及伦理审批 — 需查看全文"
+    ],
+    "design_score_reason": "研究设计严谨 (score=8.1)，方法与研究问题匹配良好。 存在多项设计相关信息缺失。",
+    "intervention_details": {
+      "population": "摘要未报告，需查看全文",
+      "sample_size": "未获取",
+      "sex_distribution": "摘要未报告，需查看全文",
+      "age_range_or_mean": "摘要未报告，需查看全文",
+      "training_status": "摘要未报告，需查看全文",
+      "sport_type": "摘要未报告，需查看全文",
+      "randomization": "是",
+      "allocation_concealment": "摘要未报告，需查看全文",
+      "blinding": "未报告",
+      "control_group": "是",
+      "intervention_type": "摘要未报告，需查看全文",
+      "intervention_duration": "摘要未报告，需查看全文",
+      "frequency_per_week": "摘要未报告，需查看全文",
+      "session_duration": "摘要未报告，需查看全文",
+      "intensity_control": "摘要未报告，需查看全文",
+      "volume_control": "摘要未报告，需查看全文",
+      "progression_model": "摘要未报告，需查看全文",
+      "adherence": "摘要未报告，需查看全文",
+      "dropout_rate": "摘要未报告，需查看全文",
+      "co_interventions_controlled": "摘要未报告，需查看全文",
+      "primary_outcome": "未明确",
+      "secondary_outcomes": "未获取",
+      "measurement_validity": "摘要未报告，需查看全文",
+      "follow_up": "摘要未报告，需查看全文",
+      "trial_registration": "已提及",
+      "ethical_approval": "未报告"
+    },
+    "review_details": {}
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [
+      "Cox regression"
+    ],
+    "model_type": "regression model",
+    "primary_analysis": "regression model",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "是",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "是",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "是",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "是",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 7.5,
+    "statistics_strengths": [
+      "报告了置信区间",
+      "统计方法较为先进，使用了 regression model",
+      "报告了缺失数据处理方法"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法总体合理，但有少量报告不充分。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: randomized_controlled_trial → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 7.0,
+    "pico_match": {
+      "population_match": "population: 弱匹配 (1/4 terms)",
+      "intervention_match": "intervention: 部分匹配 (5/8 terms)",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "outcome: 部分匹配 (4/6 terms)",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的population术语: adolescent | 匹配到的intervention术语: injury, prevention, neuromuscular, training, balance | 匹配到的outcome术语: injury, knee, rate, reduction | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 5.0,
+    "abstract_relevance_score": 9.0,
+    "pico_coverage_score": 9.0,
+    "mandatory_coverage_score": 0.2,
+    "exclusion_penalty": 2.0,
+    "final_relevance_score": 4.4,
+    "relevance_label": "exclude",
+    "matched_terms": {
+      "population": [
+        "adolescent"
+      ],
+      "intervention_or_exposure": [
+        "neuromuscular training"
+      ],
+      "comparator": [],
+      "outcomes": [
+        "knee injury"
+      ],
+      "context": [
+        "training"
+      ]
+    },
+    "missing_required_concepts": [
+      "ACL injury prevention",
+      "ACL",
+      "injury prevention",
+      "soccer"
+    ],
+    "exclusion_terms_found": [
+      "rat"
+    ],
+    "decision_reason": "排除：发现排除词: rat (罚分: -2.0)"
+  },
+  "overall_appraisal": {
+    "journal_score": null,
+    "design_score": 8.1,
+    "statistics_score": 7.5,
+    "relevance_score": 7.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 8.0,
+    "overall_quality_score": 7.1,
+    "weights_used": {
+      "journal_score": 0,
+      "design_score": 0.3,
+      "statistics_score": 0.3,
+      "relevance_score": 0.25,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "期刊分区缺失，综合评分未纳入期刊分区因素，需人工核验。",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (7.1/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "期刊分区信息缺失 — 需查找JCR/中科院分区或人工核验",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Waldén_2012_Prevention_of_acute_knee_injuries_in_ado.md",
+  "created_at": "2026-06-03T13:17:06.665972",
+  "updated_at": "2026-06-03T13:17:06.665972"
+}

@@ -1,0 +1,198 @@
+{
+  "paper_id": "pmid_42153869",
+  "source": "pubmed",
+  "title": "Association between periodontal disease and rheumatoid arthritis: A systematic review and meta-analysis.",
+  "authors": [
+    "Seham Alyafei",
+    "Betsy Joseph",
+    "Aishah Adam",
+    "Sukumaran Anil"
+  ],
+  "year": "2026",
+  "journal": "Dental and medical problems",
+  "doi": "10.17219/dmp/191308",
+  "pmid": "42153869",
+  "abstract": "This systematic review and meta-analysis aimed to evaluate the association between periodontitis and rheumatoid arthritis (RA) in middle-aged populations.The study followed the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) 2020 guidelines. A comprehensive search of major electronic databases was conducted for studies published between 2013 and 2023. In addition, a manual search was performed to identify relevant studies examining an association between these 2 conditions. The Newcastle-Ottawa scale was used to assess the risk of bias for the included cross-sectional and case-control studies. The certainty of evidence was evaluated using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) analysis, and a meta-analysis of eligible studies was conducted.A total of 11 articles were included in the systematic review, with 9 incorporated into the meta-analysis. A statistically significant positive association was observed between periodontitis and RA for clinical attachment loss (CAL). The GRADE assessment indicated low to moderate level of certainty across studies, indicating strong evidence regarding clinical parameters. The meta-analysis showed a high overall odds ratio (OR) (OR = 11.37; 95% confidence interval (95% CI): 4.22-30.61; p < 0.01), suggesting that patients with RA have a significantly higher risk of developing periodontitis. In conclusion, this systematic review and meta-analysis identified a positive association between periodontitis and RA. However, the GRADE analysis highlights the need for clinical and longitudinal studies with extended follow-up periods to further clarify this relationship and account for potential confounding factors.",
+  "publication_type": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis",
+    "Review"
+  ],
+  "keywords": [
+    "Arthritis, Rheumatoid",
+    "Humans",
+    "Periodontitis",
+    "Periodontal Diseases",
+    "Risk Factors"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "systematic_review_with_meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "Dental and medical problems",
+    "issn_input": "2300-9020",
+    "journal_match_status": "not_found",
+    "journal_match_confidence": 0.0,
+    "matched_journal_name": "",
+    "jcr_quartile": "",
+    "cas_quartile": "",
+    "impact_factor": "",
+    "impact_factor_year": "",
+    "ranking_source": "",
+    "publisher": "",
+    "last_verified": "",
+    "journal_score": null,
+    "journal_score_reason": "本地期刊分区表中未找到匹配期刊，需人工核验",
+    "journal_rank_status": "未获取，需人工核验"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review_with_meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Systematic Review, Meta-Analysis, Review"
+    ],
+    "design_score": 8.0,
+    "design_strengths": [
+      "Reporting: 提及PRISMA报告规范",
+      "Risk of bias: 提及偏倚风险评估工具",
+      "GRADE: 使用了GRADE证据质量分级"
+    ],
+    "design_limitations": [
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Search: 摘要未明确列出检索数据库 — 需查看全文",
+      "Heterogeneity: Meta分析的异质性评估信息不足 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计严谨 (score=8.0)，方法与研究问题匹配良好。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "是",
+      "prospero_registration": "未报告",
+      "databases_searched": "未报告",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "已提及",
+      "heterogeneity_assessment": "未报告",
+      "model_choice": "unclear",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "已使用"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "是",
+    "confidence_interval_reported": "是",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "是",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 8.5,
+    "statistics_strengths": [
+      "报告了 p 值",
+      "报告了效应量 (effect size)",
+      "报告了置信区间",
+      "考虑了协变量调整/基线调整"
+    ],
+    "statistics_limitations": [
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法总体合理，但有少量报告不充分。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review_with_meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 5.0,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "用户未指定intervention，无法评估匹配度",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "overall_appraisal": {
+    "journal_score": null,
+    "design_score": 8.0,
+    "statistics_score": 8.5,
+    "relevance_score": 5.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 8.5,
+    "overall_quality_score": 6.9,
+    "weights_used": {
+      "journal_score": 0,
+      "design_score": 0.3,
+      "statistics_score": 0.3,
+      "relevance_score": 0.25,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "期刊分区缺失，综合评分未纳入期刊分区因素，需人工核验。",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (6.9/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "期刊分区信息缺失 — 需查找JCR/中科院分区或人工核验",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Alyafei_2026_Association_between_periodontal_disease.md",
+  "created_at": "2026-06-03T09:10:38.712866",
+  "updated_at": "2026-06-03T09:10:38.712866"
+}

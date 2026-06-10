@@ -1,0 +1,21 @@
+{
+  "session": "20260603_152033",
+  "topic": "Optimal load training  ",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "optimal load training",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"optimal\"[Title/Abstract] OR \"load\"[Title/Abstract] OR \"training\"[Title/Abstract]) AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])",
+      "results_count": 10,
+      "timestamp": "2026-06-03T15:20:45.488352"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

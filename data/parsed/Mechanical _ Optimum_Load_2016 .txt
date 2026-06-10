@@ -1,0 +1,858 @@
+Journal of Human Kinetics volume 54/2016, 153-162  DOI: 10.1515/hukin-2016-0044  
+153 
+Section III – Sports Training 
+ 
+ 
+ 
+1 - NAR - Nucleus of High Performance in Sport, São Paulo, SP, Brazil. 
+2 - Department of Mechatronics Engineering, University of São Paulo, SP, Brazil. 
+3 - Red Bull Brazil Football, SP, Brazil. 
+4 - State University of Londrina, Londrina, PR, Brazil. 
+.   
+Authors submitted their contribution to the article to the editorial board. 
+Accepted for printing in the Journal of Human Kinetics vol. 54/2016 in December 2016. 
+ Mechanical Differences between Barbell and Body Optimum 
+Power Loads in the Jump Squat Exercise 
+by 
+Irineu Loturco1,2, Lucas A. Pereira1, Vinicius Zanetti3, Katia Kitamura1,  
+César C. Cal Abad1, Ronaldo Kobal1, Fabio Y. Nakamura1,4 
+This study compared the values of bar-peak force (PFBar) and power (PPBar), body-peak force (PFBody) and power 
+(PPBody) and bar-mean propulsive power (MPPBar) in different jump-squat (JS) conditions: unloaded condition (UC); 
+bar-loaded condition (BLC) and optimum bar-MPP condition (OBC). Twenty-five soccer players performed the JS 
+using a bar with negligible mass (UC), using the Smith-machine bar (BLC) and using the load capable of maximizing 
+the bar-MPP (OBC). The PFBody was significantly higher in the UC (2847.9 ± 489.1 N) than in the OBC (2655.4 ± 
+444.3 N). The UC presented greater PPBody (3775.9 ± 631.5 W) than the BLC (3359.7 ± 664.3 W) and OBC (3357.8 ± 
+625.3 W). The OBC presented higher values of PFBar, PPBar and MPPBar (676.2 ± 109.4 W) than the BLC (MPPBar = 
+425.8 ± 53.7 W) (all p < 0.05). In the OBC (compared to the UC), the body peak-power presented a reduction of ≈ 11%, 
+while generating bar-power output from ≈ 59 to 73% higher than the BLC. While the fact that the body-peak power is 
+maximized in the UC denotes a mechanical phenomenon, the bar-optimum load represents an intensity at which both 
+components of the power equation (force and velocity) are optimized. This has important implications for sports 
+training. 
+Key words: optimal loads, muscle power, ballistic, plyometrics, neuromuscular. 
+ 
+Introduction 
+In the literature, the load capable of 
+maximizing the muscle power production in a 
+specific strength-power exercise is usually defined 
+as the optimum power load (OPL) (Cormie et al., 
+2011; Loturco et al., 2013). For some authors, due 
+to its optimized mechanical characteristics, this 
+specific range of loads may provide effective 
+neuromuscular 
+training 
+stimuli 
+to 
+improve 
+strength-power performance, both in recreational 
+and 
+elite 
+athletes 
+(Cormie 
+et 
+al., 
+2011). 
+Nevertheless, 
+in 
+spite 
+of 
+its 
+suggested 
+effectiveness 
+(Cormie 
+et 
+al., 
+2011), 
+the 
+determination 
+of 
+the 
+OPL 
+is 
+somewhat  
+ 
+ 
+ 
+complicated, making the selection of appropriate 
+training strategies difficult for coaches. Indeed, 
+the use of different methods and measures to 
+define the optimum range of loads has precluded 
+drawing definitive conclusions on this issue 
+(Cormie et al., 2011; Mcmaster et al., 2014). 
+ 
+It has been common to compare the body-
+power output collected in unloaded jump squats 
+(JS) (i.e., JS at 0% of the squat one repetition 
+maximum [1-RM]) with body-power assessed in 
+loaded jump squats (Cormie et al., 2011; Jimenez-
+Reyes et al., 2015). For instance, Jimenez-Reyes et 
+al. (2015) found that the load that maximized JS  
+ 
+ 
+ 
+
+154  
+Mechanical Differences between Barbell and Body Optimum Power Loads in the Jump Squat Exercise 
+Journal of Human Kinetics - volume 54/2016 
+http://www.johk.pl 
+ 
+power output was 0% of 1-RM, when comparing 
+unloaded countermovement jumps with JSs 
+executed under different loading intensities. 
+Similarly, 
+Cormie 
+et 
+al. 
+(2007b) 
+reported 
+maximum values of body muscle power in 
+unloaded JSs, after examining the values of peak 
+power produced within a range of loads from 
+zero to 90% of maximal dynamic strength, 
+calculated by including or not including the 
+contribution of body mass in force output. Thus, it 
+is clear from the literature that body-power in the 
+JS is optimized in the complete absence of external 
+loads (i.e., 0% of 1-RM) (Cormie et al., 2007c; 
+Nuzzo et al., 2010).  
+ 
+Another common way of testing the 
+“optimum power zone” is to assess the power 
+production directly from the barbell, using a 
+linear position transducer (LPT) (Loturco et al., 
+2015d; Talpey et al., 2014). Different from the 
+body-power 
+measurements 
+(traditionally 
+performed using force plates) (Soriano et al., 
+2015), the bar-power production is always 
+optimized at a moderate range of loads (Loturco 
+et al., 2015d; Loturco et al., 2013). For instance, 
+Baker et al. (2001) revealed that loads in the range 
+of circa 48–63% of 1-RM seemed to be effective at 
+maximizing bar-power during the JS in power-
+trained subjects. Importantly, maximum power 
+tends to be lower in non-specialized athletes, as a 
+consequence, the range of loads used to optimize 
+the bar-power production in this case may need to 
+be lower. Indeed, Cormie et al. (2007a) reported 
+that values of peak force and peak power were 
+overestimated in recreationally trained subjects 
+when executing the JS at 30% of 1-RM.  
+ 
+Recently, some authors have suggested 
+the use of mean propulsive power (MPP) to 
+determine the optimum power zone in strength-
+power exercises (Loturco et al., 2015d; Sanchez-
+Medina et al., 2010). Accordingly, Sanchez-
+Medina et al. (2010) demonstrated that the 
+mechanical values collected during the propulsive 
+phase of a lift better reflected the differences in 
+neuromuscular performance between two given 
+individuals. In fact, JS MPP has been shown to be 
+highly correlated with specific performance in 
+athletes from distinct sports (Loturco et al., 2014, 
+2015a, 2016a). Additionally, it has been shown 
+that training at the optimum load produces 
+greater 
+performance 
+improvements 
+than 
+traditional strength training and reduces the  
+ 
+ 
+speed-power decrements that usually occur 
+during soccer preseasons (Loturco et al., 2015d, 
+2016b).  
+ 
+Given the effectiveness of MPP, it is 
+important to determine the mechanical behaviour 
+of body- and bar-peak power in the MPP 
+optimum power zone. Based on it, strength 
+coaches could select better and more appropriate 
+training strategies to increase strength-power 
+abilities in athletes. Furthermore, this knowledge 
+may clarify the conceptual confusion that exists in 
+the literature concerning the estimation of 
+optimum power loads. Therefore, this study 
+aimed at examining the mechanical behaviour of 
+body- and bar-peak power in the JS MPP 
+optimum power zone. For this purpose, we 
+investigated the values of bar-peak force and 
+power, body-peak force and power and bar-mean 
+propulsive power in three different conditions: (1) 
+unloaded condition (UC); (2) bar-loaded condition 
+(BLC); and (3) optimum bar-MPP condition 
+(OBC).  
+Material and Methods 
+Study Design 
+ 
+This cross-sectional study compared the 
+mechanical output (peak force, peak power and 
+mean propulsive power) obtained using a linear 
+position encoder and a force plate in the unloaded 
+jump squat, the bar-loaded jump squat and the 
+jump squat at the optimum power load. This 
+conceptual investigation was originally designed 
+to differentiate the mechanical behaviour of 
+exercising using or not using external loading 
+during 
+the 
+jump 
+squat, 
+and 
+explore 
+the 
+possibilities of contrasting the body- and bar-
+dynamic and kinematic output. Prior to the 
+testing session, a general and specific warm-up 
+was performed, involving light running (5 min at 
+a self-selected pace followed by 3 min lower limb 
+active stretching) and submaximal attempts of 
+each testing exercise (e.g., submaximal vertical or 
+horizontal jumps). 
+Participants 
+Twenty-five well trained youth soccer 
+players (18.5 ± 0.4 years; 71.3 ± 8.5 kg; 176.2 ± 7.1 
+cm) volunteered to participate in the study. Due 
+to their professional training and assessment 
+routine, all players were highly familiarized with 
+the 
+testing 
+procedures. 
+The 
+athletes 
+were 
+members of the same soccer club and were in the  
+ 
+
+ by Irineu Loturco et al. 
+155 
+© Editorial Committee of Journal of Human Kinetics 
+ 
+competitive period, having recently participated  
+in the most important regional youth soccer 
+competition in Brazil (i.e., Under-20 São Paulo 
+State Championship). The soccer players and their 
+legal guardians (for the athletes <18 years) were 
+informed of the study procedures and signed an 
+informed consent form prior to the investigation. 
+The study was approved by the Bandeirante 
+Anhanguera University Ethics Committee. 
+Jump Squat Tests 
+The JS tests comprised sets of 4 repetitions 
+at maximal velocity for each load, with 15 s rest 
+intervals between repetitions. The first set was 
+performed in the “unloaded condition” (UC) (0% 
+of 1-RM), set up with participants in a standing 
+position while holding a plastic bar with 
+negligible mass across their shoulders (Figure 1) 
+in order to mimic the movement pattern 
+performed in the actual loaded conditions. The 
+athletes executed a knee flexion until the thigh 
+was parallel to the ground (≈ 100° knee angle) 
+and, after a command, jumped as fast as possible, 
+without their shoulder losing contact with the bar. 
+Considering that JSs are always executed with (at 
+least) the barbell (Soriano et al., 2015), the 
+following set was performed solely using the 
+Smith-machine bar, which weighs 20 kg (fixed 
+bar-loaded condition - BLC). The BLC was 
+intentionally created to establish the mechanical 
+behaviour of body- and bar-peak power in this 
+minimum 
+loading 
+condition 
+(Figure 
+2). 
+Afterwards, the soccer players performed the JS 
+with a load corresponding to 40% of their body 
+mass (BM). A load of 10% of BM was gradually 
+added in each set, until a decrease in MPP was 
+observed. The individual maximum MPP value 
+obtained (optimum bar-MPP condition - OBC) 
+was considered for further analysis. A 5 min rest 
+interval was allowed between sets. In all sets and 
+repetitions, the JS was performed with the 
+subjects positioned on the force plate (AccuPower, 
+AMTI, USA). Similarly, except for the UC, all the 
+repetitions corresponding to the BLC and OBC 
+were performed with the bar attached to a linear 
+position 
+transducer 
+(T-Force, 
+Dynamic 
+Measurement System; Ergotech Consulting S.L., 
+Murcia, Spain). 
+Bar Mechanical Measures 
+ 
+To determine peak power (PPBar), peak 
+force (PFBar) and mean propulsive power (MPP), a 
+linear position transducer (T-Force, Dynamic  
+ 
+ 
+Measurement System; Ergotech Consulting S.L.,  
+Murcia, Spain) was used, attached to the Smith-
+machine bar. The finite differentiation technique 
+was applied to calculate bar velocity and 
+acceleration. The bar position data were sampled 
+at 1,000 Hz using a PC (Toshiba Satellite; Toshiba 
+Computers, Tokyo, Japan). Mean rather than peak 
+power was used as Sanchez-Medina et al. (2010) 
+had observed that the mean mechanical values 
+during the propulsive phase better reflected the 
+differences in neuromuscular potential between 
+individuals. Such an approach permits to avoid 
+underestimation of the true strength potential, as 
+the higher the mean velocity (and the lower the 
+relative load), the greater the relative contribution 
+of the braking phase to the entire concentric time. 
+Force Plate Measures 
+Peak power (PPBody) and peak force 
+(PFBody) were assessed during the JS tests on a 
+force plate (AccuPower, AMTI, USA) with 
+custom-designed software (AccuPower; AMTI, 
+Watertown, MA, USA), which sampled at a rate of 
+400 Hz (Walsh et al., 2006). 
+Statistical Analysis 
+ 
+Means and standard deviations (SD) were 
+used to represent centrality and spread of the 
+data. A repeated measures analysis of variance 
+was used to compare force and power variables 
+between the three conditions (UC, BLC and OBC), 
+followed by the Bonferroni post hoc test in order to 
+identify where the differences occurred. The effect 
+size (ES) was also calculated by the mean 
+difference between a pair of condition values 
+divided by their mean standard deviation (Cohen, 
+1988). The magnitude of the ES was interpreted 
+using the thresholds proposed by Rhea (2004) as 
+follows: <0.25, 0.25-0.50, 0.50-1, and >1 for trivial, 
+small, moderate and large, respectively. The level 
+of significance was set at p < 0.05. 
+Results 
+ 
+The maximum MPP values in the OBC 
+were observed in a load corresponding to ≈ 68% 
+of BM (values ranging from 60 to 70%). Table 1 
+shows the comparisons between body and bar 
+mechanical output (peak force, peak power and 
+mean propulsive power) in the three different JS 
+conditions (unloaded, bar-loaded and optimum 
+bar-MPP condition). The PFBody was significantly 
+higher in the UC than in the OBC (difference: 
+6.76%; ES = 0.41, small; p < 0.05) and was not  
+ 
+
+156  
+Mechanical Differences between Barbell and Body Optimum Power Loads in the Jump Squat Exercise 
+Journal of Human Kinetics - volume 54/2016 
+http://www.johk.pl 
+ 
+significantly different from the BLC (difference: 
+5.16%; ES = 0.31, small; p > 0.05). The UC presented 
+greater PPBody than the BLC and OBC (difference: 
+11.02%; ES = 0.64, moderate; p < 0.05; difference: 
+11.07%; ES = 0.67, moderate; p < 0.05, respectively). 
+In 
+addition, 
+PFBody 
+and 
+PPBody 
+were 
+not 
+significantly different between BLC and OBC 
+(difference: 1.68%; ES = 0.10, trivial; p > 0.05; 
+difference: 0.05%; ES = 0.01, trivial; p > 0.05,  
+ 
+respectively). In relation to the bar measures, 
+when compared to the BLC, the OBC presented 
+higher values in the three assessed variables 
+(PFBar, PPBar and MPPBar) (difference: 92.56%; ES = 
+4.92, large; p < 0.05; difference: 72.60%; ES = 2.79, 
+large; p < 0.05, difference: 58.82%; ES = 3.07, large; p 
+< 0.05, respectively).  
+ 
+ 
+ 
+Figure 1 
+Athlete executing a jump squat in the unloaded condition. The exercise was performed 
+using a plastic bar with negligible mass. 
+  
+ 
+Figure 2 
+Athlete executing a jump squat in the bar-loaded condition, using only the Smith-
+machine barbell as the external load. In the optimum bar-mean propulsive power 
+condition, a load capable of maximizing the individual's value of mean propulsive 
+power was added to the Smith-machine barbell. 
+ 
+ 
+
+ by Irineu Loturco et al. 
+157 
+© Editorial Committee of Journal of Human Kinetics 
+ 
+ 
+ 
+Table 1 
+Comparisons of the body and bar mechanical measures between the three loading conditions. 
+ 
+UC 
+BLC 
+OBC 
+PFBody (N) 
+2847.9 ± 489.1* 
+2700.8 ± 448.2 
+2655.4 ± 444.3 
+PPBody (W) 
+3775.9 ± 631.5*# 
+3359.7 ± 664.3 
+3357.8 ± 625.3 
+PFBar (N) 
+- 
+416.4 ± 35.1* 
+801.9 ± 121.6 
+PPBar (W) 
+- 
+938.1 ± 160.1* 
+1619.2 ± 328.1 
+MPPBar (W) 
+- 
+425.8 ± 53.7* 
+676.2 ± 109.4 
+UC = unloaded condition; BLC = bar loaded condition; OBC = optimum bar-MPP 
+condition; PFBody = peak force measured on the force plate; PPBody = peak power measured 
+on the force plate; PFBar = peak force measured in the bar; PPBar = peak power measured 
+in the bar; MPPBar = mean propulsive power measured in the bar; *p < 0.05 in 
+comparison to the OBC; #p < 0.05 in comparison to the BLC. 
+ 
+ 
+ 
+ 
+ 
+Figure 3 
+Body (Panel A) and bar (Panel B) mechanical measures in different loading conditions. 
+ 
+ 
+ 
+
+158  
+Mechanical Differences between Barbell and Body Optimum Power Loads in the Jump Squat Exercise 
+Journal of Human Kinetics - volume 54/2016 
+http://www.johk.pl 
+ 
+Figure 3 depicts the PF and PP variations in the 
+three different loading conditions in order to 
+present the mechanical behaviour of body- and 
+bar-mechanical output among the three different 
+conditions of JS execution. 
+Discussion 
+This conceptual research is the first study 
+to test and compare the mechanical behaviour of 
+three distinct values of muscle power (i.e., bar- 
+and body-peak power and bar-mean propulsive 
+power) in three different conditions: UC, BLC and 
+OBC. As already reported in other studies 
+(Cormie et al., 2007c; Nuzzo et al., 2010), we 
+observed that the maximum values of body-peak 
+power occurred in the complete absence of 
+external loads (i.e., UC). Importantly, when 
+compared with both JS loaded settings (i.e., BLC 
+and OBS); this theoretically superior condition of 
+generating muscle power was only able to 
+increase body-peak power by 11% (ES ≈ 0.65). 
+Furthermore, using a zero-loaded barbell, the UC 
+was not capable of providing any external 
+resistance to the subjects while jump squatting. 
+Finally, 
+in 
+line 
+with 
+our 
+hypothesis, 
+independently of the power measure considered 
+(i.e., PPBar or MPPBar), the OBC was able to 
+generate bar-power output from ≈ 59 to 73% 
+higher than the BLC.  
+Our results are in agreement with other 
+investigations reporting that JS body-peak power 
+is maximized in the UC (Cormie et al., 2011). 
+Remarkably, to draw this conclusion, the authors 
+had to create an artificial training condition, by 
+instructing their subjects to hold a PVC pipe or a 
+0.4 kg carbon fiber pole (in place of a barbell) 
+(Mcbride et al., 2011), to enable them to perform 
+JSs at 0% 1-RM. More recently, another study 
+revealed that body-peak power in the JS was 
+reached with a load corresponding to 0% 1-RM, 
+after comparing the power output obtained in a 
+loaded JS with the measures collected in unloaded 
+countermovement jumps (Jimenez-Reyes et al., 
+2015), which is actually a different exercise. 
+Essentially, as defined by Soriano et al. (2015), 
+during the JSs, the subjects have to set up in a 
+standing position while holding a barbell across 
+their shoulders. Considering that the Olympic 
+barbells (used in JSs) weigh on average 20 kg 
+(Cormie et al., 2010a), it seems worthless to create 
+simulated conditions for training purposes (i.e.,  
+ 
+using barbells of negligible weight during testing 
+sessions) only to optimize the body-power 
+production (Dayne et al., 2011). In addition, elite 
+athletes always execute JSs with appropriate 
+weight plates, since it has been established that 
+subjects who train with the load that maximizes 
+mechanical power (i.e., loaded JSs at 30% of 
+maximum isometric force) achieve best overall 
+results 
+in 
+enhancing 
+dynamic 
+athletic 
+performance (rather than performing traditional 
+strength training or plyometric training) (Mcbride 
+et al., 2002; Wilson et al., 1993). 
+In fact, the simulated unloaded JS only 
+mimics the widely used squat jump – a type of a 
+vertical jump generally used to evaluate jumping 
+performance (Loturco et al., 2015c, 2016a). 
+Similarly, unloaded countermovement jumps are 
+normally employed to assess vertical jump height 
+and in training sessions aimed at developing 
+plyometric ability in trained subjects (Loturco et 
+al., 2015c). Thus, although body-peak power tends 
+to be maximized in the UC, under this mechanical 
+condition the training stimulus is comparable to 
+that found in regular plyometric training, which 
+potentially reduces the importance of this 
+conceptual determination. Even recognizing that 
+plyometrics can improve neuromuscular function 
+in elite athletes (Holcomb et al., 1996; Saez-Saez 
+De Villarreal et al., 2010), it is essential to 
+underline that loaded jumps have already shown 
+their greater effectiveness in enhancing the overall 
+athletic performance (Cormie et al., 2011; Wilson 
+et al., 1993).  
+In this study, the BLC setting was 
+deliberately designed to establish (and mediate) 
+the mechanical behaviour of body- and bar-peak 
+power while executing the JS at the minimum 
+possible load (i.e., using exclusively the 20 kg 
+barbell). Taking into account that JSs are always 
+performed with the barbell (Soriano et al., 2015), 
+this realistic approach enables coaches and sport 
+scientists to better understand the importance of 
+measuring muscle power output directly from the 
+barbell. In spite of the slight decrease in body-
+peak power in the BLC (≈ -11%, in comparison to 
+the UC), in this condition the subjects can jump 
+with a load of 20 kg, thus producing significant 
+bar-peak power of ≈ 940 W. Furthermore, when 
+jumping with this minimum external load, the 
+subjects can generate important peak force of ≈ 
+416 N on the barbell. In this sense, it is clear from  
+ 
+
+ by Irineu Loturco et al. 
+159 
+© Editorial Committee of Journal of Human Kinetics 
+ 
+the literature that weight-resistance exercises (i.e., 
+exercises with external loads) are essential to 
+properly develop strength-power qualities and 
+elicit neuromuscular adaptations in recreational 
+and elite athletes (Hansen and Cronin, 2009). 
+Moreover, rather than comparing maximum 
+mechanical outcome which can be produced 
+under different loaded-conditions, defining bar-
+optimum power zones implies searching for the 
+best combination of both components of the 
+power equation. Based on this mechanical 
+relation, it is possible to determine a specific range 
+of loads capable of maximizing the bar-force 
+production without significant impairment of 
+movement velocity, and thus enhancing bar-
+power output. 
+Concisely, this optimum range of loads 
+solely 
+represents 
+balanced 
+and 
+optimized 
+integration between force and velocity in a 
+determined mechanical system. However, when 
+selecting the optimum bar-loads to perform JSs, 
+sport practitioners consider not only the resistance 
+placed on the barbell, but also the relationship 
+between this referred mass and bar velocity. As 
+the athletes regularly have to apply great amounts 
+of force at high velocities, it is plausible that this 
+individually-based loading selection pattern may 
+be more interrelated to sports performance than 
+patterns based solely on the mass calculation (i.e., 
+fixed % of 1-RM) (Loturco et al., 2015b). 
+Importantly, as already mentioned, the possibility 
+of selecting mean mechanical values related to the 
+propulsive phase of a lift (i.e., MPP) may increase 
+the importance of MPP in sports performance 
+settings.  
+It is critical to observe that, in many motor 
+tasks, the athletes have to apply force/develop 
+power while working (only) against their own 
+body 
+mass 
+(Loturco 
+et 
+al., 
+2014, 
+2015c). 
+Nevertheless, 
+several 
+studies 
+have 
+already 
+reported that bar MPP in the OBC is highly 
+related to actual performance in different sport 
+disciplines (Loturco et al., 2014, 2015a, 2016a). In 
+addition, it has been demonstrated that training at 
+this optimum intensity may lead to superior 
+performance improvements when compared to 
+other loading/unloading conditions (Loturco et 
+al., 2016b; Moss et al., 1997; Wilson et al., 1993). 
+Although the reasons for these significant 
+findings are not entirely clear, the current study 
+shows that this range of loads (i.e., OBC) presents  
+ 
+ 
+a singular mechanical condition. Firstly, during 
+the OBC (in relation to the BLC) bar-peak power 
+increases by ≈ 73% and bar-MPP increases by ≈ 
+59%. Secondly, in spite of the reduction in 
+movement velocity/acceleration (due to the 
+loading effect), in the OBC, body-peak power and 
+body-peak force presented only slight reductions 
+of ≈ 11% and ≈ 7%, respectively (in relation to the 
+UC). Indeed, the parametric relationship between 
+force and velocity (i.e., the higher the force, the 
+lower the velocity) determines this enhanced 
+mechanical condition in the OBC (Loturco et al., 
+2015b). It appears that at this optimum range of 
+loads, force is optimized, although velocity is not 
+heavily impaired.  
+In 
+fact, 
+this 
+force 
+optimization 
+is, 
+unquestionably, the key difference between the 
+UC and OBC. Although body acceleration 
+necessarily diminishes under loaded conditions, 
+in the OBC, in comparison to the UC, body peak-
+force presented only a small reduction of ≈ 11%. 
+However, due to the complete absence of external 
+loads, in the UC, the athletes cannot apply any 
+quantity of force against any type of implement. 
+Assuming that overloading is an important 
+premise of strength-power development (Cormie 
+et al., 2010b; Hansen and Cronin, 2009), the UC is 
+inherently 
+limited 
+to 
+improving 
+specific 
+neuromuscular performance, mainly in highly 
+trained subjects (Baker et al., 2001). Conversely, 
+when jumping in the OBC, the athletes can apply 
+significant amounts of bar-peak force. Of note, in 
+this study, the subjects were able to generate peak 
+force of ≈ 800 N on the barbell in the OBC. 
+Certainly, training under this dynamic condition 
+produces greater adaptations (than the UC) in 
+power-related performance (Cormie et al., 2010b). 
+We acknowledge the inherent limitations 
+of a cross-sectional study design, which reduces 
+our 
+ability 
+to 
+confidently 
+infer 
+causality. 
+However, it is important to emphasize that the 
+effects of training under loaded or unloaded 
+conditions are well-established in the scientific 
+literature, 
+and 
+this 
+study 
+was 
+exclusively 
+conceived to better elucidate the conceptual basis 
+of these constructs. Hence, from a biomechanical 
+perspective, there is no point in comparing body- 
+and bar-peak power. The scientific concept behind 
+this theme involves much more than a single 
+mechanical comparison. When seeking for bar-
+optimum 
+power 
+loads, 
+coaches 
+and 
+sport  
+ 
+
+160  
+Mechanical Differences between Barbell and Body Optimum Power Loads in the Jump Squat Exercise 
+Journal of Human Kinetics - volume 54/2016 
+http://www.johk.pl 
+ 
+scientists search for a more effective range of 
+loads to develop strength-power qualities in 
+athletes. In opposition to the conventional loading 
+method (i.e., % of 1-RM), based on the scalar 
+variable (i.e., mass) of the force equation, the 
+optimum range of loads reflects, at the same time, 
+the force and velocity applied to the barbell. This 
+mechanical behaviour definitely seems to be 
+directly related to actual sports performance. On 
+the other hand, the fact that body-peak power is 
+maximized 
+in 
+the 
+UC 
+simply 
+denotes 
+a 
+mechanical 
+phenomenon, 
+which 
+does 
+not 
+necessarily imply a causative relationship (the 
+amount of power generated vs. training results). 
+Conclusions 
+Since it has been widely established that 
+maximum body-peak power always occurs in the  
+ 
+UC, less effort should be spent on replicating this 
+information. Conversely, due to the strong 
+relationship between bar-power loads and actual 
+sports performance, more studies should be 
+performed to establish (and define) optimum 
+range of loads for different types of strength-
+power exercises. Additionally, further studies are 
+necessary to extend the findings related to 
+adaptations provided by training in the bar-
+optimum power zones and their effects on athletic 
+performance. Based on the conceptual differences 
+elucidated in this paper, sports practitioners may 
+better understand the importance of performing 
+loaded muscle power tests in recreational and 
+elite athletes.  
+ 
+ 
+ 
+ 
+References 
+Baker D, Nance S, Moore M. The load that maximizes the average mechanical power output during jump 
+squats in power-trained athletes. J Strength Cond Res, 2001; 15: 92-97 
+Cohen J. Statistical Power Analysis for the Behavioral Sciences. Hillsdale (NJ): Lawrence Erlbaum Associates; 
+1988 
+Cormie P, Deane R, Mcbride JM. Methodological concerns for determining power output in the jump squat. J 
+Strength Cond Res, 2007a; 21: 424-430 
+Cormie P, Mcbride JM, Mccaulley GO. The influence of body mass on calculation of power during lower-
+body resistance exercises. J Strength Cond Res, 2007b; 21: 1042-1049 
+Cormie P, Mccaulley GO, Triplett NT, Mcbride JM. Optimal loading for maximal power output during 
+lower-body resistance exercises. Med Sci Sports Exerc, 2007c; 39: 340-349 
+Cormie P, Mcguigan MR, Newton RU. Influence of strength on magnitude and mechanisms of adaptation to 
+power training. Med Sci Sports Exerc, 2010a; 42: 1566-1581 
+Cormie P, Mcguigan MR, Newton RU. Adaptations in athletic performance after ballistic power versus 
+strength training. Med Sci Sports Exerc, 2010b; 42: 1582-1598 
+Cormie P, Mcguigan MR, Newton RU. Developing maximal neuromuscular power: part 2 - training 
+considerations for improving maximal power production. Sports Med, 2011; 41: 125-146 
+Dayne AM, Mcbride JM, Nuzzo JL, Triplett NT, Skinner J, Burr A. Power output in the jump squat in 
+adolescent male athletes. J Strength Cond Res, 2011; 25: 585-589 
+Hansen K, Cronin J. Training loads for the development of lower body muscular power during squatting 
+movements. J Strength Cond Res, 2009; 31: 17-33 
+Holcomb WR, Lander JE, Rutland RM, Wilson GD. The effectiveness of a modified plyometric program on 
+power and the vertical jump. J Strength Cond Res, 1996; 10: 89-92 
+Jimenez-Reyes P, Pareja-Blanco F, Balsalobre-Fernandez C, Cuadrado-Penafiel V, Ortega-Becerra MA, 
+Gonzalez-Badillo JJ. Jump squat performance and its relationship with relative training intensity in  
+ 
+
+ by Irineu Loturco et al. 
+161 
+© Editorial Committee of Journal of Human Kinetics 
+ 
+high-level athletes. Int J Sports Physiol Perform, 2015; 10: 1036-1040 
+Loturco I, Artioli GG, Kobal R, Gil S, Franchini E. Predicting punching acceleration from selected strength 
+and power variables in elite karate athletes: a multiple regression analysis. J Strength Cond Res, 2014; 
+28: 1826-1832 
+Loturco I, Kobal R, Maldonado T, Piazzi AF, Bottino A, Kitamura K, Cal Abad CC, Pereira LA, Nakamura  
+FY. Jump squat is more related to sprinting and jumping abilities than Olympic push press. Int J Sports 
+Med, 2015a; In Press  
+Loturco I, Nakamura FY, Artioli GG, Kobal R, Kitamura K, Cal Abad CC, Cruz IF, Romano F, Pereira LA, 
+Franchini E. Strength and power qualities are highly associated with punching impact in elite amateur 
+boxers. J Strength Cond Res, 2016a; 30: 109-116 
+Loturco I, Nakamura FY, Kobal R, Gil S, Cal Abad CC, Cuniyochi R, Pereira LA, Roschel H. Training for 
+Power and Speed: Effects of Increasing or Decreasing Jump-Squat Velocity in Elite Young Soccer 
+Players. J Strength Cond Res, 2015b; 29: 2771-2779 
+Loturco I, Nakamura FY, Kobal R, Gil S, Pivetti B, Pereira LA, Roschel H. Traditional periodization versus 
+optimum training load applied to soccer players: effects on neuromuscular abilities. Int J Sports Med, 
+2016b; In Press  
+Loturco I, Pereira LA, Cal Abad CC, D'angelo RA, Fernandes V, Kitamura K, Kobal R, Nakamura FY. 
+Vertical and horizontal jump tests are strongly associated with competitive performance in 100-m 
+dash events. J Strength Cond Res, 2015c; 29: 1966-1971 
+Loturco I, Pereira LA, Kobal R, Zanetti V, Gil S, Kitamura K, Abad CC, Nakamura FY. Half-squat or jump 
+squat training under optimum power load conditions to counteract power and speed decrements in 
+Brazilian elite soccer players during the preseason. J Sports Sci, 2015d; 33: 1283-1292 
+Loturco I, Ugrinowitsch C, Roschel H, Tricoli V, Gonzalez-Badillo JJ. Training at the optimum power zone 
+produces similar performance improvements to traditional strength training. J Sports Sci Med, 2013; 12: 
+109-115 
+Mcbride JM, Haines TL, Kirby TJ. Effect of loading on peak power of the bar, body, and system during 
+power cleans, squats, and jump squats. J Sports Sci, 2011; 29: 1215-1221 
+Mcbride JM, Triplett-Mcbride T, Davie A, Newton RU. The effect of heavy- vs. light-load jump squats on the 
+development of strength, power, and speed. J Strength Cond Res, 2002; 16: 75-82 
+Mcmaster DT, Gill N, Cronin J, Mcguigan M. A brief review of strength and ballistic assessment 
+methodologies in sport. Sports Med, 2014; 44: 603-623 
+Moss BM, Refsnes PE, Abildgaard A, Nicolaysen K, Jensen J. Effects of maximal effort strength training with 
+different loads on dynamic strength, cross-sectional area, load-power and load-velocity relationships. 
+Eur J Appl Physiol Occup Physiol, 1997; 75: 193-199 
+Nuzzo JL, Mcbride JM, Dayne AM, Israetel MA, Dumke CL, Triplett NT. Testing of the maximal dynamic 
+output hypothesis in trained and untrained subjects. J Strength Cond Res, 2010; 24: 1269-1276 
+Rhea MR. Determining the magnitude of treatment effects in strength training research through the use of 
+the effect size. J Strength Cond Res, 2004; 18: 918-920 
+Saez-Saez De Villarreal E, Requena B, Newton RU. Does plyometric training improve strength performance? 
+A meta-analysis. J Sci Med Sport, 2010; 13: 513-522 
+Sanchez-Medina L, Perez CE, Gonzalez-Badillo JJ. Importance of the propulsive phase in strength 
+assessment. Int J Sports Med, 2010; 31: 123-129 
+Soriano MA, Jimenez-Reyes P, Rhea MR, Marin PJ. The optimal load for maximal power production during  
+lower-body resistance exercises: a meta-analysis. Sports Med, 2015; 45: 1191-1205 
+
+162  
+Mechanical Differences between Barbell and Body Optimum Power Loads in the Jump Squat Exercise 
+Journal of Human Kinetics - volume 54/2016 
+http://www.johk.pl 
+ 
+Talpey SW, Young WB, Saunders N. The acute effects of conventional, complex, and contrast protocols on 
+lower-body power. J Strength Cond Res, 2014; 28: 361-366 
+Walsh MS, Ford KR, Bangen KJ, Myer GD, Hewett TE. The validation of a portable force plate for measuring 
+force-time data during jumping and landing tasks. J Strength Cond Res, 2006; 20: 730-734 
+Wilson GJ, Newton RU, Murphy AJ, Humphries BJ. The optimal training load for the development of 
+dynamic athletic performance. Med Sci Sports Exerc, 1993; 25: 1279-1286 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Corresponding author: 
+ 
+Irineu Loturco  
+NAR - Nucleus of High Performance in Sport. 
+Av. Padre José Maria, 555 - Santo Amaro, 04753-060 – São Paulo, SP, Brazil. 
+Phonel.: +55-11-3758-0918 
+E-mail: irineu.loturco@terra.com.br 
+ 

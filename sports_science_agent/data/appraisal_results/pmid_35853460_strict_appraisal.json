@@ -1,0 +1,209 @@
+{
+  "paper_id": "pmid_35853460",
+  "source": "pubmed",
+  "title": "Practices and Applications of Heart Rate Variability Monitoring in Endurance Athletes.",
+  "authors": [
+    "Christopher J Lundstrom",
+    "Nicholas A Foreman",
+    "George Biltz"
+  ],
+  "year": "2023",
+  "journal": "International journal of sports medicine",
+  "doi": "10.1055/a-1864-9726",
+  "pmid": "35853460",
+  "abstract": "Heart rate variability reflects fluctuations in the changes in consecutive heartbeats, providing insight into cardiac autonomic function and overall physiological state. Endurance athletes typically demonstrate better cardiac autonomic function than non-athletes, with lower resting heart rates and greater variability. The availability and use of heart rate variability metrics has increased in the broader population and may be particularly useful to endurance athletes. The purpose of this review is to characterize current practices and applications of heart rate variability analysis in endurance athletes. Important considerations for heart rate variability analysis will be discussed, including analysis techniques, monitoring tools, the importance of stationarity of data, body position, timing and duration of the recording window, average heart rate, and sex and age differences. Key factors affecting resting heart rate variability will be discussed, including exercise intensity, duration, modality, overall training load, and lifestyle factors. Training applications will be explored, including heart rate variability-guided training and the identification and monitoring of maladaptive states such as overtraining. Lastly, we will examine some alternative uses of heart rate variability, including during exercise, post-exercise, and for physiological forecasting and predicting performance.",
+  "publication_type": [
+    "Review",
+    "Journal Article"
+  ],
+  "keywords": [
+    "Humans",
+    "Heart Rate",
+    "Physical Endurance",
+    "Exercise",
+    "Athletes",
+    "Heart"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "heart rate variability HRV HRV monitoring heart rate variability assessment",
+    "comparator": "usual training no monitoring traditional load monitoring",
+    "outcomes": "training load training stress fatigue overtraining recovery performance adaptation internal load session RPE",
+    "study_design": "unknown"
+  },
+  "journal_evaluation": {
+    "journal_name": "International journal of sports medicine",
+    "issn_input": "1439-3964",
+    "journal_match_status": "fuzzy_name",
+    "journal_match_confidence": 0.53,
+    "matched_journal_name": "British Journal of Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "18.4",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "BMJ Publishing Group",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "unknown",
+    "study_type_confidence": 0.0,
+    "study_type_evidence": [],
+    "design_score": 3.0,
+    "design_strengths": [
+      "信息不足，需人工评估"
+    ],
+    "design_limitations": [
+      "研究类型未能自动识别，设计评价受限"
+    ],
+    "design_score_reason": "研究类型未能明确识别，给予中性评分。建议人工审核。",
+    "intervention_details": {},
+    "review_details": {}
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 5.0,
+    "statistics_strengths": [
+      "摘要中统计方法信息不足，无法评估优点"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "very_low",
+    "evidence_level_reasons": [
+      "研究类型: unknown → 基线证据等级: very_low",
+      "偏倚风险不明确 → 降1级",
+      "研究类型识别置信度低 (0%) → 降1级",
+      "最终证据等级: very_low (降2级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 6.9,
+    "pico_match": {
+      "population_match": "population: 弱匹配 (2/8 terms)",
+      "intervention_match": "intervention: 部分匹配 (4/6 terms)",
+      "comparator_match": "comparator: 部分匹配 (3/5 terms)",
+      "outcome_match": "outcome: 部分匹配 (4/8 terms)",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的population术语: endurance, athletes | 匹配到的intervention术语: heart, rate, variability, monitoring | 匹配到的outcome术语: training, load, overtraining, performance | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 9.3,
+    "abstract_relevance_score": 10,
+    "pico_coverage_score": 9.0,
+    "mandatory_coverage_score": 1.0,
+    "exclusion_penalty": 2.0,
+    "final_relevance_score": 7.5,
+    "relevance_label": "exclude",
+    "matched_terms": {
+      "population": [
+        "endurance athletes"
+      ],
+      "intervention_or_exposure": [
+        "heart rate variability"
+      ],
+      "comparator": [],
+      "outcomes": [
+        "training load",
+        "overtraining",
+        "performance"
+      ],
+      "context": [
+        "exercise",
+        "training"
+      ]
+    },
+    "missing_required_concepts": [],
+    "exclusion_terms_found": [
+      "rat"
+    ],
+    "decision_reason": "排除：发现排除词: rat (罚分: -2.0)"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 3.0,
+    "statistics_score": 5.0,
+    "relevance_score": 6.9,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 5.0,
+    "overall_quality_score": 5.4,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度较低",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "maybe",
+    "recommendation_reason": "综合评分较低 (5.4/10)，但主题相关 | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "研究类型未能明确识别 — 需人工确认",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Lundstrom_2023_Practices_and_Applications_of_Heart_Rate.md",
+  "created_at": "2026-06-03T13:17:58.206653",
+  "updated_at": "2026-06-03T13:17:58.206653"
+}

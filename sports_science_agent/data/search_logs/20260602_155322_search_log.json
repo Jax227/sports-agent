@@ -1,0 +1,28 @@
+{
+  "session": "20260602_155322",
+  "topic": "OPL最佳负荷在抗阻训练当中对不同人群的干预效果",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 0,
+      "timestamp": "2026-06-02T15:53:22.453707"
+    }
+  ],
+  "total_found": 0,
+  "errors": [
+    {
+      "database": "pubmed",
+      "type": "connection",
+      "message": "PubMed 连接失败：无法连接到 eutils.ncbi.nlm.nih.gov，请检查网络或代理设置",
+      "detail": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ]
+}

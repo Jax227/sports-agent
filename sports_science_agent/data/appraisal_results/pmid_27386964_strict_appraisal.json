@@ -1,0 +1,210 @@
+{
+  "paper_id": "pmid_27386964",
+  "source": "pubmed",
+  "title": "Optimal Loads for Power Differ by Exercise in Older Adults.",
+  "authors": [
+    "Melanie Potiaumpai",
+    "Kristine Gandia",
+    "Ambika Rautray",
+    "Troy Prendergast",
+    "Joseph F Signorile"
+  ],
+  "year": "2016",
+  "journal": "Journal of strength and conditioning research",
+  "doi": "10.1519/JSC.0000000000001549",
+  "pmid": "27386964",
+  "abstract": "Potiaumpai, M, Gandia, K, Rautray, A, Prendergast, T, and Signorile, JF. Optimal loads for power differ by exercise in older adults. J Strength Cond Res 30(10): 2703-2712, 2016-Power training in older adults has been shown to increase muscle strength, power, and physical function, and decrease the risk of falls and related injuries. Although there are clear indications that optimal loads for power vary due to biomechanical factors, no studies have attempted to determine the optimal loads for specific exercises used to improve muscle power. Using the load that maximizes power output for individual exercises can maximize power gains, improve training efficiency, and augment gains in physical function. Seventy community-dwelling older adults (age = 70.5 ± 5.7 years) participated in strength and power testing during 2 sessions, each lasting for 1.5 hours. Participants were tested on 6 different pneumatic resistance machines to determine their one repetition maximum (1RM) and power. Power testing was performed at loads between 30 and 90% of each participant's 1RM. For the chest press and seated row, the optimal load range was between 40 and 60% 1RM, with peak power at 50% (p < 0.001) for both machines. The LAT pull-down optimal load range was between 30 and 50%, with peak power occurring at 40% (p < 0.001). The leg curl and leg press optimal load range was between 50 and 70%, with peak power occurring at 60% (p < 0.001). Peak power for the calf raise occurred at 60% (p < 0.001). We conclude that different exercise movements require the use of different optimal load ranges to maximize muscle power in older persons.",
+  "publication_type": [
+    "Journal Article"
+  ],
+  "keywords": [
+    "Aged",
+    "Female",
+    "Humans",
+    "Male",
+    "Muscle Strength",
+    "Resistance Training"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "optimal load power load load for peak power optimal power load",
+    "comparator": "different loads various loads submaximal loads maximal loads load spectrum",
+    "outcomes": "power output peak power maximal power muscle power",
+    "study_design": "unknown"
+  },
+  "journal_evaluation": {
+    "journal_name": "Journal of strength and conditioning research",
+    "issn_input": "1533-4287",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "Journal of Strength and Conditioning Research",
+    "jcr_quartile": "Q2",
+    "cas_quartile": "Q2",
+    "impact_factor": "3.2",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "NSCA/LWW",
+    "last_verified": "2026-05",
+    "journal_score": 7.5,
+    "journal_score_reason": "JCR Q2 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "unknown",
+    "study_type_confidence": 0.0,
+    "study_type_evidence": [],
+    "design_score": 3.0,
+    "design_strengths": [
+      "信息不足，需人工评估"
+    ],
+    "design_limitations": [
+      "研究类型未能自动识别，设计评价受限"
+    ],
+    "design_score_reason": "研究类型未能明确识别，给予中性评分。建议人工审核。",
+    "intervention_details": {},
+    "review_details": {}
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 5.5,
+    "statistics_strengths": [
+      "报告了 p 值"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "very_low",
+    "evidence_level_reasons": [
+      "研究类型: unknown → 基线证据等级: very_low",
+      "偏倚风险不明确 → 降1级",
+      "研究类型识别置信度低 (0%) → 降1级",
+      "最终证据等级: very_low (降2级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 7.0,
+    "pico_match": {
+      "population_match": "population: 基本不匹配 (1/6 terms)",
+      "intervention_match": "intervention: 高度匹配 (4/4 terms)",
+      "comparator_match": "comparator: 弱匹配 (3/7 terms)",
+      "outcome_match": "outcome: 高度匹配 (4/5 terms)",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的population术语: adults | 匹配到的intervention术语: optimal, load, power, peak | 匹配到的outcome术语: power, output, peak, muscle | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 5.0,
+    "abstract_relevance_score": 8.8,
+    "pico_coverage_score": 7.0,
+    "mandatory_coverage_score": 0.6,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 6.7,
+    "relevance_label": "moderate",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [
+        "optimal load"
+      ],
+      "comparator": [],
+      "outcomes": [
+        "peak power",
+        "power output",
+        "muscle power"
+      ],
+      "context": [
+        "exercise",
+        "training"
+      ]
+    },
+    "missing_required_concepts": [
+      "resistance training",
+      "load-power relationship"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "中等相关：评分 6.65/10，核心词覆盖率 60% | 匹配维度: 干预/暴露(optimal load); 结局(peak power, power output, muscle power) | 摘要中明确包含核心概念 | 未匹配核心词: resistance training, load-power relationship"
+  },
+  "overall_appraisal": {
+    "journal_score": 7.5,
+    "design_score": 3.0,
+    "statistics_score": 5.5,
+    "relevance_score": 7.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 5.0,
+    "overall_quality_score": 5.2,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度较低",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "maybe",
+    "recommendation_reason": "综合评分较低 (5.2/10)，但主题相关 | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "研究类型未能明确识别 — 需人工确认",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Potiaumpai_2016_Optimal_Loads_for_Power_Differ_by_Exerci.md",
+  "created_at": "2026-06-03T16:43:47.988463",
+  "updated_at": "2026-06-03T16:43:47.988463"
+}

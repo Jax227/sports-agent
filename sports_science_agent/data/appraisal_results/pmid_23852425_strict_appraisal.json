@@ -1,0 +1,215 @@
+{
+  "paper_id": "pmid_23852425",
+  "source": "pubmed",
+  "title": "Training adaptation and heart rate variability in elite endurance athletes: opening the door to effective monitoring.",
+  "authors": [
+    "Daniel J Plews",
+    "Paul B Laursen",
+    "Jamie Stanley",
+    "Andrew E Kilding",
+    "Martin Buchheit"
+  ],
+  "year": "2013",
+  "journal": "Sports medicine (Auckland, N.Z.)",
+  "doi": "10.1007/s40279-013-0071-8",
+  "pmid": "23852425",
+  "abstract": "The measurement of heart rate variability (HRV) is often considered a convenient non-invasive assessment tool for monitoring individual adaptation to training. Decreases and increases in vagal-derived indices of HRV have been suggested to indicate negative and positive adaptations, respectively, to endurance training regimens. However, much of the research in this area has involved recreational and well-trained athletes, with the small number of studies conducted in elite athletes revealing equivocal outcomes. For example, in elite athletes, studies have revealed both increases and decreases in HRV to be associated with negative adaptation. Additionally, signs of positive adaptation, such as increases in cardiorespiratory fitness, have been observed with atypical concomitant decreases in HRV. As such, practical ways by which HRV can be used to monitor training status in elites are yet to be established. This article addresses the current literature that has assessed changes in HRV in response to training loads and the likely positive and negative adaptations shown. We reveal limitations with respect to how the measurement of HRV has been interpreted to assess positive and negative adaptation to endurance training regimens and subsequent physical performance. We offer solutions to some of the methodological issues associated with using HRV as a day-to-day monitoring tool. These include the use of appropriate averaging techniques, and the use of specific HRV indices to overcome the issue of HRV saturation in elite athletes (i.e., reductions in HRV despite decreases in resting heart rate). Finally, we provide examples in Olympic and World Champion athletes showing how these indices can be practically applied to assess training status and readiness to perform in the period leading up to a pinnacle event. The paper reveals how longitudinal HRV monitoring in elites is required to understand their unique individual HRV fingerprint. For the first time, we demonstrate how increases and decreases in HRV relate to changes in fitness and freshness, respectively, in elite athletes.",
+  "publication_type": [
+    "Journal Article",
+    "Review"
+  ],
+  "keywords": [
+    "Adaptation, Physiological",
+    "Athletic Performance",
+    "Heart Rate",
+    "Humans",
+    "Physical Conditioning, Human",
+    "Physical Exertion",
+    "Sports",
+    "Time Factors"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "heart rate variability HRV HRV monitoring heart rate variability assessment",
+    "comparator": "usual training no monitoring traditional load monitoring",
+    "outcomes": "training load training stress fatigue overtraining recovery performance adaptation internal load session RPE",
+    "study_design": "observational_unspecified"
+  },
+  "journal_evaluation": {
+    "journal_name": "Sports medicine (Auckland, N.Z.)",
+    "issn_input": "1179-2035",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "14.8",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "Springer",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "observational_unspecified",
+    "study_type_confidence": 0.35,
+    "study_type_evidence": [
+      "依据摘要中观察性研究关键词推断"
+    ],
+    "design_score": 3.0,
+    "design_strengths": [
+      "摘要信息不足，需阅读全文判断"
+    ],
+    "design_limitations": [
+      "Sample size: 摘要未报告 — 需查看"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计评价信息严重不足 (score=3.0)，需阅读全文后重新评价。 设计优点信息不足。",
+    "intervention_details": {},
+    "review_details": {}
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 5.0,
+    "statistics_strengths": [
+      "摘要中统计方法信息不足，无法评估优点"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "very_low",
+    "evidence_level_reasons": [
+      "研究类型: observational_unspecified → 基线证据等级: low",
+      "偏倚风险不明确 → 降1级",
+      "研究类型识别置信度低 (35%) → 降1级",
+      "最终证据等级: very_low (降2级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 7.3,
+    "pico_match": {
+      "population_match": "population: 弱匹配 (2/8 terms)",
+      "intervention_match": "intervention: 高度匹配 (6/6 terms)",
+      "comparator_match": "comparator: 部分匹配 (3/5 terms)",
+      "outcome_match": "outcome: 部分匹配 (4/8 terms)",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的population术语: endurance, athletes | 匹配到的intervention术语: heart, rate, variability, hrv, monitoring | 匹配到的outcome术语: training, load, performance, adaptation | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 9.3,
+    "abstract_relevance_score": 10,
+    "pico_coverage_score": 9.0,
+    "mandatory_coverage_score": 1.0,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 9.5,
+    "relevance_label": "high",
+    "matched_terms": {
+      "population": [
+        "endurance athletes"
+      ],
+      "intervention_or_exposure": [
+        "HRV",
+        "HRV monitoring",
+        "heart rate variability"
+      ],
+      "comparator": [],
+      "outcomes": [
+        "training load",
+        "adaptation",
+        "performance"
+      ],
+      "context": [
+        "training"
+      ]
+    },
+    "missing_required_concepts": [],
+    "exclusion_terms_found": [],
+    "decision_reason": "高度相关：评分 9.54/10，核心词覆盖率 100% | 匹配维度: 人群(endurance athletes); 干预/暴露(HRV, HRV monitoring, heart rate variability); 结局(training load, adaptation, performance) | 标题中明确包含核心概念 | 摘要中明确包含核心概念"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 3.0,
+    "statistics_score": 5.0,
+    "relevance_score": 7.3,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 5.0,
+    "overall_quality_score": 5.4,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度较低",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "maybe",
+    "recommendation_reason": "综合评分较低 (5.4/10)，但主题相关 | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "研究类型未能明确识别 — 需人工确认",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Plews_2013_Training_adaptation_and_heart_rate_varia.md",
+  "created_at": "2026-06-03T13:17:58.234695",
+  "updated_at": "2026-06-03T13:17:58.234695"
+}

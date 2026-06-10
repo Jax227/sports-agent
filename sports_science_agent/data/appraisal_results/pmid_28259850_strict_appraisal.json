@@ -1,0 +1,233 @@
+{
+  "paper_id": "pmid_28259850",
+  "source": "pubmed",
+  "title": "Blood flow restriction training in clinical musculoskeletal rehabilitation: a systematic review and meta-analysis.",
+  "authors": [
+    "Luke Hughes",
+    "Bruce Paton",
+    "Ben Rosenblatt",
+    "Conor Gissane",
+    "Stephen David Patterson"
+  ],
+  "year": "2017",
+  "journal": "British journal of sports medicine",
+  "doi": "10.1136/bjsports-2016-097071",
+  "pmid": "28259850",
+  "abstract": "Low-load exercise training with blood flow restriction (BFR) can increase muscle strength and may offer an effective clinical musculoskeletal (MSK) rehabilitation tool. The aim of this review was to systematically analyse the evidence regarding the effectiveness of this novel training modality in clinical MSK rehabilitation. BACKGROUND AND OBJECTIVE: Low-load exercise training with blood flow restriction (BFR) can increase muscle strength and may offer an effective clinical musculoskeletal (MSK) rehabilitation tool. The aim of this review was to systematically analyse the evidence regarding the effectiveness of this novel training modality in clinical MSK rehabilitation. This is a systematic review and meta-analysis of peer-reviewed literature examining BFR training in clinical MSK rehabilitation (Research Registry; researchregistry91). DESIGN: This is a systematic review and meta-analysis of peer-reviewed literature examining BFR training in clinical MSK rehabilitation (Research Registry; researchregistry91). A literature search was conducted across SPORTDiscus (EBSCO), PubMed and Science Direct databases, including the reference lists of relevant papers. Two independent reviewers extracted study characteristics and MSK and functional outcome measures. Study quality and reporting was assessed using the Tool for the assEssment of Study qualiTy and reporting in EXercise. DATA SOURCES: A literature search was conducted across SPORTDiscus (EBSCO), PubMed and Science Direct databases, including the reference lists of relevant papers. Two independent reviewers extracted study characteristics and MSK and functional outcome measures. Study quality and reporting was assessed using the Tool for the assEssment of Study qualiTy and reporting in EXercise. Search results were limited to exercise training studies investigating BFR training in clinical MSK rehabilitation, published in a scientific peer-reviewed journal in English. ELIGIBILITY: Search results were limited to exercise training studies investigating BFR training in clinical MSK rehabilitation, published in a scientific peer-reviewed journal in English. Twenty studies were eligible, including ACL reconstruction (n=3), knee osteoarthritis (n=3), older adults at risk of sarcopenia (n=13) and patients with sporadic inclusion body myositis (n=1). Analysis of pooled data indicated low-load BFR training had a moderate effect on increasing strength (Hedges' g=0.523, 95% CI 0.263 to 0.784, p<0.001), but was less effective than heavy-load training (Hedges' g=0.674, 95% CI 0.296 to 1.052, p<0.001). RESULTS: Twenty studies were eligible, including ACL reconstruction (n=3), knee osteoarthritis (n=3), older adults at risk of sarcopenia (n=13) and patients with sporadic inclusion body myositis (n=1). Analysis of pooled data indicated low-load BFR training had a moderate effect on increasing strength (Hedges' g=0.523, 95% CI 0.263 to 0.784, p<0.001), but was less effective than heavy-load training (Hedges' g=0.674, 95% CI 0.296 to 1.052, p<0.001). Compared with low-load training, low-load BFR training is more effective, tolerable and therefore a potential clinical rehabilitation tool. There is a need for the development of an individualised approach to training prescription to minimise patient risk and increase effectiveness. CONCLUSION: Compared with low-load training, low-load BFR training is more effective, tolerable and therefore a potential clinical rehabilitation tool. There is a need for the development of an individualised approach to training prescription to minimise patient risk and increase effectiveness.",
+  "publication_type": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+  ],
+  "keywords": [
+    "Anterior Cruciate Ligament Injuries",
+    "Exercise Therapy",
+    "Humans",
+    "Muscle Strength",
+    "Muscle, Skeletal",
+    "Musculoskeletal Diseases",
+    "Myositis, Inclusion Body",
+    "Osteoarthritis, Knee",
+    "Outcome Assessment, Health Care",
+    "Regional Blood Flow",
+    "Resistance Training",
+    "Sarcopenia"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "optimal load training",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "systematic_review_with_meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "British journal of sports medicine",
+    "issn_input": "1473-0480",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "British Journal of Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "18.4",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "BMJ Publishing Group",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review_with_meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Meta-Analysis, Systematic Review"
+    ],
+    "design_score": 6.0,
+    "design_strengths": [
+      "Search: 检索了 pubmed, sportdiscus 等数据库 (≥2)"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Risk of bias: 摘要未提及偏倚风险评估工具 — 需查看全文",
+      "Heterogeneity: Meta分析的异质性评估信息不足 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计总体合理 (score=6.0)，存在部分方法学信息不足。 设计优点信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "pubmed, sportdiscus",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "未报告",
+      "heterogeneity_assessment": "未报告",
+      "model_choice": "unclear",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "是",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 7.0,
+    "statistics_strengths": [
+      "报告了 p 值",
+      "报告了效应量 (effect size)"
+    ],
+    "statistics_limitations": [
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应",
+      "小样本 (n=3) 未见非参数检验考虑 — 小样本下正态性假设难以验证，建议使用非参数检验或贝叶斯方法"
+    ],
+    "statistics_score_reason": "统计方法总体合理，但有少量报告不充分。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review_with_meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 6.3,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "intervention: 部分匹配 (2/3 terms)",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的intervention术语: load, training | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 5.7,
+    "abstract_relevance_score": 9.0,
+    "pico_coverage_score": 4.0,
+    "mandatory_coverage_score": 0.67,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 6.3,
+    "relevance_label": "moderate",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [
+        "load",
+        "training"
+      ],
+      "comparator": [],
+      "outcomes": [],
+      "context": [
+        "training",
+        "exercise"
+      ]
+    },
+    "missing_required_concepts": [
+      "optimal"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "中等相关：评分 6.3/10，核心词覆盖率 67% | 匹配维度: 干预/暴露(load, training) | 摘要中明确包含核心概念 | 未匹配核心词: optimal"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 6.0,
+    "statistics_score": 7.0,
+    "relevance_score": 6.3,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 7.5,
+    "overall_quality_score": 6.6,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "high",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (6.6/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Hughes_2017_Blood_flow_restriction_training_in_clini.md",
+  "created_at": "2026-06-03T15:20:49.108019",
+  "updated_at": "2026-06-03T15:20:49.108019"
+}

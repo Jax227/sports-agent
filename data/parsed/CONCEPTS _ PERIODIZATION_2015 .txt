@@ -1,0 +1,1082 @@
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 734
+ABSTRACT
+The rehabilitation process is driven by the manipulation of training variables that elicit specific adaptations 
+in order to meet established goals. Periodization is an overall concept of training that deals with the divi-
+sion of the training process into specific phases. Programming is the manipulation of the variables within 
+these phases (sets, repetitions, load) that are needed to bring about the specific adaptations desired within 
+that particular period. The current body of literature is very limited when it comes to how these variables 
+are best combined in an injured population since most of the periodization research has been done in a 
+healthy population. This manuscript explores what is currently understood about periodization, gives clini-
+cal guidelines for implementation, and provides the sports physical therapist with a framework to apply 
+these principles in designing rehabilitation programs. 
+Keywords: periodization, sports rehabilitation, strength and conditioning, sports physical therapy, pro-
+gressive overload, strength, power
+Level of Evidence: 5
+IJSPT
+CLINICAL COMMENTARY
+CURRENT CONCEPTS IN PERIODIZATION OF 
+STRENGTH AND CONDITIONING FOR THE SPORTS 
+PHYSICAL THERAPIST 
+Daniel Lorenz, DPT, PT, LAT, CSCS1
+Scot Morrison, PT, DPT, CSCS2
+1 Specialists in Sports and Orthopedic Rehabilitation, Overland 
+Park, KS, USA
+2 Washougal Sport and Spine, Washougal, WA, USA
+CORRESPONDING AUTHOR
+Daniel Lorenz, DPT, PT, LAT, CSCS
+Specialists in Sports and Orthopedic 
+Rehabilitation, 
+7381 W 133rd St. Suite 302, Overland Park, 
+KS 66213
+Phone: 913-904-1128
+Fax: 913-851-5083
+E-mail: danielslorenz@gmail.com
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 735
+INTRODUCTION
+Restoration of strength is arguably the most vital 
+aspect of a rehabilitation plan and is a central tenet 
+of strength and conditioning programs. Strength is 
+the foundation from which all other physical quali-
+ties of performance like power, speed, and agility, 
+are developed. Without proper strength develop-
+ment, these qualities cannot be optimized. 
+Sports physical therapists design programs that 
+include several components including endurance, 
+flexibility, proprioception/kinesthesia, balance, joint 
+and soft tissue mobility, speed, and power.1 These 
+programs often follow a logical sequence to not only 
+promote optimal healing, but also to restore peak per-
+formance. A significant challenge for sports physi-
+cal therapists is designing optimal training programs 
+that facilitate neural and muscular adaptations while 
+being mindful of biologic healing constraints and 
+safety for the athlete.1 Unfortunately, most strength 
+training research to date on program design has been 
+conducted on healthy, trained and/or untrained 
+adults,1-35 while only two studies have been loosely 
+based on rehabilitation.36,37 Unfortunately, few studies 
+have examined the effect of periodization approaches 
+in adolescent athletic populations.38 
+Periodization is one way for the sports physi-
+cal therapist to approach the design of resistance 
+training programs. Periodization is defined as the 
+planned manipulation of training variables (load, 
+sets, and repetitions) in order to maximize train-
+ing adaptations and to prevent the onset of over-
+training syndrome.1,39 It appears from the strength 
+training literature that is available that periodiza-
+tion is usually needed for maximal strength gains to 
+occur,20,31,30,40-44 although evidence stating otherwise 
+exists.4,24,45 Periodized training is a safe method of 
+training for older adults, as well as those in pain.8,46 
+Periodization has been shown improve training adap-
+tations but the most effective periodization approach 
+for muscular strength development for a wide variety 
+of populations is yet to be determined.38 
+The classic understanding of periodization is attrib-
+uted to Selye’s General Adaptation Syndrome (GAS), 
+the template from which the original concept of peri-
+odization was derived.47 In summary, GAS effectively 
+states that systems will adapt to any stressors they 
+might experience in an attempt to meet the demands 
+of these stressors.47,48 According to Selye this is accom-
+plished through a process of three phases. Initial reac-
+tion to the stressor is termed the alarm/reaction phase 
+where the athlete may experience stiffness, soreness, 
+or a small drop in performance from fatigue after the 
+training session. The second phase was termed the 
+resistance phase and is where the body responds to 
+the stressor by adapting to the new stress with less 
+soreness, stiffness, more tolerance to activity, and 
+improved performance. This is considered to occur 
+at a level greater than that demanded by the stressor 
+and was termed “supercompensation”. The final phase 
+occurs if the stressor goes on longer than the organ-
+ism can adapt, and exhaustion results, whereby the 
+athlete may experience staleness in training or 
+deal with symptoms of overtraining.47 In contrast to 
+Selye, the fitness-fatigue model looks at periodization 
+as a balancing act between fitness and fatigue.49 An 
+individual’s level of preparedness is thus a result of 
+the interaction between their level of fitness and the 
+amount of fatigue.49 This idea has significant impli-
+cations for programming if preparedness can be 
+optimized by methodical improvements in fitness 
+while minimizing the resulting fatigue.49 For the neu-
+romuscular system to adapt maximally to the train-
+ing load or stress, volume and intensity alterations 
+are necessary.1 Increased demands cause the neu-
+romuscular system to adapt by increasing muscular 
+performance but there is also a concurrent increase 
+in the physical, mental, and metabolic cost of recov-
+ery. Without concomitant changes in overload, the 
+system has no need to adapt to stressors. Therefore, 
+no further adaptations are needed and increases in 
+the desired outcome will eventually stop.20,50 On the 
+other hand, if load is too high, the physiological costs 
+will be too great and the physical readiness for train-
+ing of the athlete will be comprised. A periodized 
+program helps avoid these issues because the load 
+on the neuromuscular system is varied in order to 
+drive adaptation while minimizing fatigue. 
+Periodization may also be beneficial due to adding 
+variation to workouts by manipulating sets, repeti-
+tions, exercise order, number of exercises, resistance, 
+rest periods, type of contractions, or training fre-
+quency.1,40,48 Another added benefit is the avoidance 
+of training plateaus or boredom.1,20,50 The reader is 
+referred to Table 1 for a summary of training param-
+eters to address specific training goals. 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 736
+The purpose of this commentary is threefold. First, 
+a review of various periodization models will be 
+provided, and a discussion about the potential pros 
+and cons of each approach will be explored. A sec-
+ondary purpose is to provide a sample program or 
+structural framework of the various approaches 
+described herein for the sports physical therapist 
+to implement into a rehabilitation or strength and 
+conditioning program. Finally, a review of program-
+ming for maximization of strength and power will be 
+discussed as these two variables are most critical not 
+only for the recovering athlete but also for healthy 
+trained or untrained athletes. 
+LINEAR PERIODIZATION
+The “classic” or “linear” periodization (LP) model is 
+based on changing exercise volume and load across 
+several predictable mesocycles.1 Classical periodiza-
+tion was originally discussed by Russian scien-
+tist Leo Matveyev51 and further expanded upon by 
+Stone44 and Bompa.52 The program is broken down 
+into distinct blocks that are named based on time 
+frames. Planning that spans over a 12-month period 
+is referred to as a macrocycle, and two subdivisions 
+are the mesocycle (3-4 months) and the microcycle 
+(1-4 weeks). Most rehabilitation protocols follow this 
+model. After pain and swelling have subsided, the 
+sports physical therapist typically follows a system-
+atic progression of range of motion, strength, power, 
+and speed with progression to each phase depend-
+ing on achievement of specific goals in the previ-
+ous phase. In an athlete recovering from an anterior 
+cruciate ligament (ACL) reconstruction, the mesocy-
+cle from months three through six may be strength 
+and power focused, but individual mesocycles may 
+reflect different training loads in one to two weeks 
+of training. There are a number of potential advan-
+tages of utilizing a linear approach. First of all, rep-
+etition and loading schemes are predictable for both 
+the athlete and the sports physical therapist because 
+they are ultimately determined by what phase the 
+athlete is in. Each phase typically focuses on only 
+one training parameter. Secondly, the linear model 
+helps ensure that each training parameter (strength, 
+power, speed) is addressed in step-wise progression. 
+Advancement to other training methods is depen-
+dent upon successful completion of training in the 
+previous phase. With declining reimbursement as 
+well as allowable visits for physical therapy, another 
+possible advantage of the linear model is that it pro-
+vides the patient a predictable sequence of loading 
+and repetitions that they can follow when doing 
+supervised independent home exercise programs. 
+Effectively, the linear program helps take the “guess-
+work” out of loading and repetitions schemes. 
+There are also several potential disadvantages to the 
+linear program. The linear program was originally 
+devised as a training model for preparing for one peak 
+competition per year in Olympic weightlifters.51 For 
+athletes that play several sports or athletes that have 
+multiple competitions in a season, this may not be 
+optimal as an athlete’s tolerance to loading may ebb 
+and flow based on injuries or frequency/intensity of 
+competition. Another potential disadvantage is that 
+maintenance of specific training parameters is diffi-
+cult once an athlete transitions to another phase. For 
+example, an athlete may have a six-week strength 
+phase, but once they transition to the power phase, 
+there may be a decline in strength since the loading and 
+repetition schemes for the power phase are not well-
+aligned with strength development. Unfortunately, all 
+of these potential advantages and disadvantages are 
+speculative at this time. The reader is referred to Table 
+2 for a one-week sample program of lower extremity 
+strengthening utilizing linear periodization. 
+Author’s note: For all sample programs, 2-3 “core” 
+lifts (total body lifts i.e. squat, deadlift, and power 
+clean central to athletic development) will be used 
+to illustrate how program design would occur. Such 
+sample programs are not meant to be all-inclusive 
+and could include many other exercises (i.e lunges, 
+step ups, calf raises) that may be added in order to 
+provide a comprehensive program for the athlete. 
+Table 1.  General Training Guidelines102
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 737
+NON-LINEAR/UNDULATING
+The other main model is the non-linear or “undulat-
+ing” periodization model, first proposed by Poliquin.53 
+While undulating periodization has been used, the 
+term “non-linear” has become more favorable. Non-
+linear periodization (NP) is based on the concept that 
+volume and load are altered more frequently (daily, 
+weekly, biweekly) in order to allow the neuromuscu-
+lar system longer periods of recovery as lighter loads 
+are performed more often.1 In the NP model, there are 
+more frequent changes in stimuli. These more frequent 
+changes may be highly conducive to strength gains.1,53 
+There are many potential advantages to the NP 
+approach, although no definitive conclusions can 
+be made at this time. First of all, the weekly fluc-
+tuations in training loads may lead to better neuro-
+muscular adaptations compared to the LP approach, 
+as loads are more unpredictable. Secondly, the NP 
+program accounts for the need for modifications in 
+the training program based on an athlete’s recovery 
+from competition or from a previous workout/train-
+ing session. Additionally, in the NP model, several 
+training parameters may be addressed at the same 
+time. Therefore, an athlete may address power and 
+strength within the same week. Finally, due to the 
+concurrent nature of the training, the detraining 
+effects that occur in a LP approach might be avoided.
+Like LP, there are a few potential disadvantages 
+for the NP approach. Particularly in the recovering 
+athlete, the athlete may not be appropriate for lifts 
+focusing on power development, like the clean and 
+snatch, if an appropriate strength base has yet to be 
+achieved or established. Therefore, a “power” ses-
+sion may not be indicated. Finally, the NP program 
+may not allow each performance characteristic to be 
+optimally developed due to focus on several param-
+eters at once. Again, definitive conclusions cannot 
+be made at this time about the advantages or disad-
+vantages to the NP approach.
+The reader is referred to Table 3 for a one-week sam-
+ple program of NP.  
+Evidence-Based Update: LP vs. NP
+A recent meta-analysis and systematic review by 
+Harries et al found that were no differences in 
+the effectiveness of linear vs. undulating periodiza-
+tion on upper-body or lower-body strength in healthy 
+trained and untrained subjects.38 Possible explanations 
+include the short-term nature of studies and the pre-
+vious training history of participants. The results sug-
+Table 2. Linear Periodization
+Table 3. Non-Linear Periodization
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 738
+gest that novelty or training variety are important for 
+stimulating further strength development.38 Based on 
+available data, it appears that daily program manipu-
+lation is more beneficial than non-periodized train-
+ing for eliciting strength gains.9 
+To date, most authors have found only minimal dif-
+ferences in strength and power measures between LP 
+and NP.1 Recent studies by Franchini et al54 in judo ath-
+letes, Miranda et al55 in resistance trained men training 
+with the leg press and bench press, de Lima et al56 in 
+young, sedentary women, Prestes et al19 in previously 
+trained females, Baker3 and Buford et al39 in trained 
+males, Rhea et al20 and Rhea et al21 in untrained men 
+and women, and Hoffman et al9 in American football 
+players determined that neither LP or NP were supe-
+rior. Although there were subtle differences in outcome 
+measures studied, but these differences were not sta-
+tistically significant. No definitive conclusions can be 
+made at this time as to which method is preferred. 
+BLOCK PERIODIZATION
+Block periodization is an approach to the periodiza-
+tion of strength that has experienced a renewed 
+interest of late.57 Block periodization involves highly 
+concentrated, specialized workloads. Each step in the 
+training cycle has a large volume of exercises focused 
+on specific, targeted training abilities to ensure maxi-
+mum adaptation. The rationale for block periodiza-
+tion is that traditional models often account for only 
+one “peak” per year, while many athletes have numer-
+ous competitions throughout the year (basketball, 
+soccer, baseball, etc). The LP model increases basic 
+qualities, but these tend to decline during the com-
+petitive season. The block system allows for these 
+qualities to be maintained throughout the year. This 
+is known as the long-lasting delayed training effect – 
+retention of changes even after the cessation of train-
+ing.58 Issurin has proposed that power and strength 
+can be maintained for up to 30 days while peak per-
+formance can be maintained for 5-8 days.57,58 Further-
+more, the “classic” models, like LP and NP, have time 
+devoted to endurance, strength, power, and speed, 
+regardless of the sport. In the block approach, if an 
+athlete doesn’t require endurance for their sport, it is 
+not a focus of training. Similarly, the block approach 
+would not include balance, strength, and agility in 
+one training block – they would be performed sep-
+arately with a specific focus. Another example of 
+differences in the block approach is the concept of 
+“complex training,” whereby a strength exercise is 
+followed by a biomechanically similar plyometric 
+exercise (i.e. back squat followed by a squat jump). 
+Because these exercises comprise two different train-
+ing modalities (strength and power), they would not 
+be performed simultaneously. On the contrary, com-
+plex training would be used in an LP or NP programs. 
+Another difference is that the block program is bro-
+ken down into 2-4 week blocks, while the linear and 
+non-linear models have at least four-week phases. In 
+other words, an athlete may do strength, power, and 
+peaking within four weeks while it may be several 
+months before each phase is completed in the LP or 
+NP because they are of longer duration. 
+The block approach is divided into three distinct 
+phases.58 The accumulation phase builds work capac-
+ity. Compared to the other two phases, there is a 
+higher volume of exercises performed at 50-70% of 
+1RM, composed of general movements. Typically, this 
+phase may last from 2-6 weeks, based on how long the 
+athlete has till the competitive season, as well as their 
+training history. Untrained athletes would require 
+more time in this phase. The second phase is the 
+transmutation phase. In this phase, specific exercises 
+with greater loads, comprising 75-90% of 1RM are 
+performed. Accommodating resistance, like the use 
+of chains or elastic bands with squats, may be used to 
+promote a strength overload. Finally, the realization 
+phase is comprised of even more specific movements 
+than the transmutation phase with loads at 90% of 
+1RM or greater. For example, accommodating resis-
+tance in not typically used in this phase. Instead, ath-
+letes will perform >90% 1RM squats, deadlift, bench 
+press, cleans, etc. In some cases, there is a week of 
+reduced loading and volume following the realization 
+phase to allow recovery due to the high-intensities 
+utilized within the realization phase. 
+Evidence-Based Update: Block Periodization 
+There are a few studies that have utilized the block 
+approach compared to other approaches. To the 
+authors’ knowledge, only one study by Bartolomei 
+et al59 did not support the block model when com-
+pared to an NP program with regard to strength, 
+power, and hypertrophy in recreationally-trained 
+women. Another study by Bartolomei et al60 found 
+there were no differences between the block and 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 739
+a more traditional LP program on upper and lower 
+body strength in trained athletes. Compared to the 
+LP approach block training was found to be a supe-
+rior method of training by Ronnstad et al61 in a group 
+of cyclists for VO2max and power output, Ronnstad 
+and others62 in a group of elite cross country skiers 
+for peak power and maximal oxygen uptake, and 
+by Breil and coauthors63 in elite junior alpine ski-
+ers. Interestingly, two studies found that the block 
+program lead to greater improvements in strength 
+per volume of load when compared to other pro-
+grams.60,64 In other words, the block program was 
+more efficient in training effectiveness. 
+In summary, block periodization is showing some 
+promise when compared to more common approaches 
+like LP and NP. The positive results may be partially 
+explained by the fact that the block periodization 
+studies were short in duration and the intensity was 
+high. The intensity seemed to be a direct correlate to 
+performance. Furthermore, it appears that the block 
+program was indeed better for athletes who have 
+multiple events per year (cycling, skiing, track, etc). 
+More research is needed before definitive conclusions 
+can be made. See Table 4 for a generalized four-week 
+block program and Table 5 for more specific training 
+parameters (sets, repetitions, load). 
+Programming for Strength and Conditioning
+The periodization schemes laid out previously define 
+methods of sequencing the training process over 
+time. In turn, the creation of the specific program 
+within the selected periodization scheme drives the 
+desired adaptations. This process is built around 
+the principles of overload, variation, and specific-
+ity. Overload is described as a stimulus of sufficient 
+strength, duration, and frequency as such that it 
+forces an organism to adapt.65 Variation describes 
+the manipulation of training variables that changes 
+the overload stimulus. These variables are tradition-
+ally considered to be the exercise type, the order 
+performed, the intensity (percentage of repetition 
+maximum) prescribed, as well as the sets, repeti-
+tions and rest periods assigned. Specificity can be 
+approached via a bioenergetics or metabolic and/
+or mechanical perspective. Siff and Verkoshansky 
+laid out a number of considerations for addressing 
+mechanical specificity such as looking at the move-
+ment’s amplitude and direction, the dynamics of the 
+effort, the rates of force development, and contrac-
+tion types.66 
+When viewed from a bioenergetics perspective, a 
+task analysis must be performed and the identified 
+demands on the energy systems should be reflected 
+in the programming. A growing body of literature 
+exists specific to the energy system demands of 
+sport. For example, researchers have found that the 
+physiologic demands in American football include 
+7-10 seconds of maximal effort followed by 20-60 sec-
+onds of recovery.8 When specific research is unavail-
+Table 4. Block Periodization  - General Structure 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 740
+able to describe physiologic demands of a sport, a 
+demands analysis must be performed in order to 
+determine the specific needs of the athlete. The 
+rehabilitation programming should be structured 
+to prepare the athlete for the metabolic demands of 
+their specific sport.
+Load
+Without monitoring and adaptation the most elegant 
+program can quickly become irrelevant. Further-
+more, the sports physical therapist has the added 
+challenge of dealing with the healing process. While 
+adherence to a consistent approach will drive adap-
+tation, structured variability is also necessary within 
+this framework to ensure relevance on any given 
+day. Because of this, a method of programming that 
+is modifiable based on relevant feedback is impor-
+tant. One such method is autoregulation, a modi-
+fication of the daily adjusted progressive resistive 
+exercise (DAPRE) system that allows for a more flexi-
+ble application than more traditional approaches.68,69 
+This modified protocol is a zone-based approach 
+built around a focus on strength/power, strength/
+hypertrophy, and hypertrophy (Table 6). This 
+approach has been applied successfully in both 
+rehabilitation and performance based settings and 
+has been shown to actually outperform more stan-
+dard methods of periodization in some cases.70 The 
+use of Rating of Perceived Exertion (RPE) has been 
+shown to be a reliable measure of session intensity 
+as well as specific exercise intensity within a train-
+ing session.71-73 The use of RPE offers a significant 
+Table 5. Block Periodization – Detailed Description
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 741
+advantage for the rehabilitation professional since 
+it allows for monitoring intensity without establish-
+ing a true one-repetition maximum (1RM), which is 
+often contraindicated due to stages of healing. Other 
+models exist to estimate 1RM without actually lift-
+ing a true 1RM such as the Oddvar Holten Curve74 
+and other models by Baechle et al which are used to 
+establish an estimated 1RM based off of submaximal 
+loads taken to failure.75 
+Velocity based training is another within-session 
+method of monitoring that has grown increasingly 
+popular as the technology for monitoring repetition 
+velocity in the clinic or gym has become available. 
+Research at this point is still emerging but a few 
+practical models have been developed that deter-
+mine intensity based on the velocity of the bar dur-
+ing the lift and the end of the set being based on a 
+predetermined decrease in velocity.76 When applied 
+systematically this approach allows for immediate 
+feedback, fatigue control, prediction and monitor-
+ing of biomotor changes, and a guide to the training 
+process.77 To the authors’ knowledge, velocity-based 
+training has not been studied in rehabilitative litera-
+ture to date. 
+Strength
+Strength should be considered fundamental to all 
+other aspects of training and forms the foundation of 
+most successful return to play (RTP) approaches.78 
+Strength is defined as the ability to produce force68 
+and is traditionally measured with a single repeti-
+tion maximum (RM) or by taking a percentage of 
+RM to failure with the RM calculated based on a per-
+centage table. Strength is closely correlated with the 
+capacity to rapidly produce high levels of force and 
+as a result maximal force development should be the 
+initial emphasis with those presenting with lower 
+levels of strength.79-81 The mechanism proposed for 
+this increase in force as a result of strength work 
+has been attributed to increased muscle cross-sec-
+tional area and changes in neural drive.79 Exercise 
+intensity or load is commonly accepted as one of 
+the critical components for achieving strength based 
+adaptations. This is fairly well supported in the lit-
+erature and the common recommendation of loads 
+approximately >80% of RM in trained individuals 
+should build the foundation of most programming 
+for strength.50,82,83 
+Optimal dosage has been debated, but the evidence 
+to date supports multiple sets over single sets with 
+up to 46% greater strength gains and 40% increase 
+in hypertrophy seen when comparing multiple set 
+to single set approaches in trained and untrained 
+healthy individuals.50,82-85 Peterson also found that 
+three to four sets per exercise with approximately 
+eight sets per muscle group elicited the greatest pre/
+Table 6. Daily Adjusted Progressive Resistance/Autoregulatory68,69,70 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 742
+post effect sizes (standardized mean differences) in 
+strength.84 When multiple sets are not an option, sin-
+gle set training taken to failure is still of a sufficient 
+stimulus to elicit significant changes in strength and 
+hypertrophy.50,82-86 
+This brief review of strength principles highlighted 
+some of the considerations that the sports rehabilita-
+tion professional must consider when programming 
+within any of the periodization schemes. Practical 
+recommendations for strength training loads are 
+presented in Table 7.
+Power
+Many aspects of sport and daily life require the 
+ability to produce relatively high levels of force in 
+a brief period of time. This characteristic is com-
+monly described as power although there are some 
+concerns that this term may not be as accurate as 
+the biomechanical term, impulse.87 For the pur-
+pose of this paper the term will be used in its com-
+monly accepted definition. Power is defined as the 
+rate at which work is performed and is the product 
+of force and velocity. As a result it becomes appar-
+ent that the ability to apply high levels of force in a 
+brief period of time and to contract at high veloci-
+ties are vital components of its development.88 The 
+importance of power development in the rehabilita-
+tion environment ranges from fall risk reduction in 
+the elderly89,90 to returning an athlete to sport post 
+anterior cruciate ligament reconstruction.91 In ath-
+letics the ability to produce high power outputs with 
+a high rate of force development has been proposed 
+by Stone et al to be a critical aspect of success in 
+many sports.92 As such an understanding of power 
+development and its integration into a periodization 
+approach is important. 
+Power development can be subdivided into a focus 
+on muscular strength, rate of force development, 
+and maximal force at high velocities of movement.81 
+There are excellent arguments for a high load 
+approach (50-70% of one repetition maximum 1RM) 
+as well as for a low load approach (<50% [1RM]) in 
+exclusion but a “mixed methods approach” combin-
+ing both appears to be the most beneficial.93,94 This 
+approach to training for power has been suggested 
+as optimal since it combines heavy resistance train-
+ing with higher velocity work in order to develop 
+power production across the entire force/velocity 
+spectrum.80.81 The result is more relevant adapta-
+tions when compared with strength training or bal-
+listic exercise alone. For the novice trainee, focused 
+strength development alone is often sufficient for 
+power development without the addition of any 
+specific work80,81,95 and in general, a stronger indi-
+vidual responds better to the addition of specific 
+power-based exercises than a weaker counterpart.79 
+It should be noted that all guidelines are general and 
+acceptable levels of strength prior to initiation of 
+power work is dependent on the individual and the 
+demands of their task. Regardless of the specifics, 
+maximal strength levels constrain the upper limits of 
+maximal power output. The ability to generate force 
+rapidly is of little use if the level of force generated 
+is below a necessary threshold and thus adequate 
+strength levels form the foundation of maximal neu-
+romuscular power development.32,80
+Cormie et al randomized individuals into groups 
+based on their squat 1RM to body mass ratio.79 
+They found that the stronger individuals displayed 
+greater power production initially and also a trend 
+towards a greater effect size when compared to the 
+weaker group although both groups improved at a 
+similar magnitude and displayed similar adaptive 
+abilities when exposed to lower extremity ballistic 
+(plyometric) power training. As a result, the authors 
+concluded that there is potential benefit to develop-
+Table 7. Intensity Training Zones104 *All loads expressed 
+as percentage of 1RM
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 743
+ing strength initially before performing a focused 
+ballistic program. In addition, they advise regarding 
+the importance of maintaining strength through-
+out a power-specific training phase since decreases 
+in maximal strength are theorized to result in a 
+decreased ability to adapt to ballistic training. 
+There is a paucity of data with regard to power 
+development or training in the upper body, but the 
+same trend for stronger athletes to respond better 
+to ballistic work compared to their weaker counter-
+parts has also been seen. Young et al100 found that 
+athletes with a lower bench press repetition maxi-
+mum benefited more from strength work, however, 
+those with higher relative strength also benefit from 
+the inclusion of ballistic work. Mangine et al96 took 
+a group of 17 resistance-trained men and compared 
+combined ballistic and heavy resistance work with 
+a group that only performed heavy resistance train-
+ing. Their findings indicated that the addition of bal-
+listic exercise increased power when compared to 
+strength training alone.
+Training for Power
+Ballistic training, which includes techniques such as 
+jump squats, medicine ball throws, and box jumps 
+has been argued to impact the high velocity area of 
+the force velocity curve. This is in contrast to power 
+work done with heavier loads, such as the Olympic 
+lifts, which will have a greater effect on the higher 
+force aspect of this relationship. These exercises 
+also differ from more traditional strength exercises 
+in that they allow for acceleration throughout the 
+entire movement, versus something like the bench 
+press where up to 52% of the exercise duration is 
+deceleration.80.81 
+The concept of optimal load training indicates that 
+training loads should be chosen to allow for maximal 
+power output as this is the most effective means of 
+further power development.97,98 Neglecting higher 
+load work can be problematic however since train-
+ing power at higher loads results in higher power 
+outputs at heavier loads which is very important in 
+sports such as American football or rugby.99 Optimal 
+power development across the entire force veloc-
+ity profile therefore requires training across the full 
+spectrum of loads and velocities. While training with 
+the intent to move explosively is very important a 
+majority of the research demonstrates velocity-
+specific adaptations to training.80 Thus, all exercises 
+should be performed as rapidly as possible regard-
+less of the actual speed of exercise. Table 8 gives 
+some general recommendations for power training 
+intensity zones based on various exercises com-
+monly used for power development. 
+Conclusions and Directions for Future 
+Research
+At this time, the research on periodization is limited, 
+not only in the rehabilitation literature but also in 
+strength and conditioning. The block model has not 
+yet been studied in rehabilitation literature. Further, 
+previous papers have shown that there is clear ben-
+efit to periodization over non-periodized programs, 
+but there is no conclusive evidence that LP or NP is 
+superior to the other.1 Likewise, block periodization 
+has not been established as the definitive approach, 
+but early studies show some promise with training 
+improvements. Clearly, there is potential to use these 
+various models for more “long term” rehabilitation 
+programs, such as labral repairs of the hip and shoul-
+der, rotator cuff repairs, ulnar collateral ligament 
+reconstructions, or anterior cruciate ligament recon-
+structions, to see if recovery time can be improved 
+or clinical testing methods for performance can be 
+optimized. Additionally, use of these periodization 
+models has not been utilized in interval sport pro-
+grams. Truly, this is a relatively unexplored area of 
+Table 8. Optimal Power Load
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 744
+research and there are vast opportunities for stud-
+ies to be conducted, all with the goal of maximizing 
+long-term athletic rehabilitation, development, and 
+performance. 
+REFERENCES
+ 1. Lorenz DS, Reiman MP, Walker JC. Periodization: 
+Current review and suggested implementation for 
+athletic rehabilitation. Sports Health. 2010;2(6):509-
+518.
+ 2. Anderson T, Kearney JT. Effects of three resistance 
+training programs on muscular strength and absolute 
+and relative endurance. Res Q. 1982;53:1–7.
+ 3. Baker D: A series of studies on the training of 
+high-intensity muscle power and rugby league 
+football player. J Strength Conditioning Res. 
+2001;15:198-209.
+ 4. Baker D, Wilson G, Carolyn R. Periodization: The 
+effect on strength of manipulating volume and 
+intensity. J Strength Cond Res. 1994; 8: 235-242. 
+ 5. Berger RA. Effect of varied weight training programs 
+on strength. Res Q. 1962;33:168–181.
+ 6. Borst SE, Dehoyos DV, Garzarella L, et al. Effects of 
+resistance training on insulin-like growth factor-1 
+and IGF binding proteins. Med Sci Sports Exerc. 
+2001;33:648–653.
+ 7. Capen EK. Study of four programs of heavy 
+resistance exercises for development of muscular 
+strength. Res Q. 1956;27:132–142.
+ 8. Häkkinen K, Alen M, Komi PV. Changes in isometric 
+force-and relaxation-time, electromyographic and 
+muscle ﬁ bre characteristics of human skeletal 
+muscle during strength training and detraining. Acta 
+Physiol Scand. 1985;125:573–585.
+ 9. Hoffman J, Ratamess N, Klatt M, et al. Comparison 
+between different off-season resistance training 
+programs in Division III American college football 
+players. J Strength Cond Res. 2009; 23; 11-19.
+10. Jacobson BH. A comparison of two progressive 
+weight training techniques on knee extensor 
+strength. J Athl Train. 1986;21:315–319.
+11. Kemmler WK, Lauber D, Engelke K, Weineck J. 
+Effects of single- vs. multiple-set resistance training 
+on maximum strength and body composition in 
+trained postmenopausal women. J Strength Cond Res. 
+2004;18:689–694.
+12. Kraemer WJ. A series of studies-the physiological 
+basis for strength training in American football: fact 
+over philosophy. J Strength Cond Res. 1997;11:131–
+142.
+13. Kraemer WJ, Ratamess N, Fry AC, et al. Inﬂ uence of 
+resistance training volume and periodization on 
+physiological and performance adaptations in 
+college women tennis players. Am J Sports Med. 
+2000;28:626–633.
+14. Kraemer, WJ, et al.  Physiological changes with 
+periodized resistance training in women tennis 
+players. Med Sci Sports Exerc 35: 157-168, 2003. 
+15. Kraemer WJ, SJ Fleck. Optimizing strength training: 
+designing non-linear periodization workouts. 
+Champaign, IL: Human Kinetics, 2007. 
+16. Mayhew JL, Gross PM. Body composition changes in 
+young women with high resistance training. Res Q. 
+1974;45:433–440.
+17. Newton RU, Kraemer WJ, Hakkinen K: Effects of 
+ballistic training on preseason preparation of elite 
+volleyball players. Med Sci Sports Exerc. 1999;31:323-
+330.
+18. Ohberg L, R Lorentzon, and H Alfredson. Eccentric 
+training in patients with chronic Achilles tendinosis: 
+normalized tendon structure and decreased 
+thickness at follow-up. Br J Sports Med 2004; 38:8-11. 
+19. Prestes J, De Lima C, Frollini AB, et al. Comparison 
+of linear and reverse linear periodization effects on 
+maximal strength and body composition. J Strength 
+Cond Res. 2009; 23: 266-274. 
+20. Rhea MR, Ball SD, Phillips WT, Burkett LN. A 
+comparison of linear and daily undulating 
+periodized programs with equated volume and 
+intensity for strength. J Strength Cond Res. 2002; 
+16(2): 250-255. 
+21. Rhea MR, Phillips WT, Burkett LN, et al. A 
+comparison of linear and daily undulating programs 
+with equated volume and intensity for local 
+muscular endurance. J Strength Cond Res. 2003; 17: 
+82-87. 
+22. Rhea MR, Alvar BA, Ball SD, Burkett LN. Three sets 
+of weight training superior to 1 set with equal 
+intensity for eliciting strength. J Strength Cond Res. 
+2002;16:525–529.
+23. Sanborn K, Boros R, Hruby J, et al. Short-term 
+performance effects of weight training with multiple 
+sets not to failure vs a single set to failure in women. 
+J Strength Cond Res. 2000;14:328–331.
+24. Schiotz MK, Potteiger JA, Huntsinger PG, Denmark 
+DC. The short-term effects of periodized and 
+constant-intensity training on body composition, 
+strength, and performance. J Strength Cond Res. 1998; 
+12: 173-178. 
+25. Schlumberger A, Stec J, Schmidtbleicher D. Single- 
+vs. multiple-set strength training in women. J 
+Strength Cond Res. 2001;15:284–289.
+26. Starkey DB, Pollock ML, Ishida Y, et al. Effect of 
+resistance training volume on strength and muscle 
+thickness. Med Sci Sports Exerc. 1996;28:1311–1320. 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 745
+27. Stone MH, Johnson RL, Carter DR. A short term 
+comparison of two different methods of resistance 
+training on leg strength and power. J Athl Train. 
+1979;14:158–161.
+28. Stone WJ, Coulter SP. Strength/endurance effects 
+from three resistance training protocols with 
+women. J Strength Cond Res. 1994;8:231–234.
+29. Stowers T, McMillian J, Scala D, et al. The short-term 
+effects of three different strength-power training 
+methods. NSCA J. 1983;5:24–27.
+30. Weiss LW, Coney HD, Clark FC. Differential 
+functional adaptations to short-term low-, moderate 
+and high-repetition weight training. J Strength Cond 
+Res. 1999;13:236-241.
+31. Willoughby DS. The effects of mesocycle-length 
+weight training programs involving periodization 
+and partially equated volumes on upper and lower 
+body strength. J Strength Cond Res. 1993; 7: 2-8. 
+32. Wilson GJ, Murphy AJ, Walshe AD: Performance 
+beneﬁ ts from weight and plyometric training: effects 
+of initial strength levels. Coach Sport Sci J. 1997;2:3-8.
+33. Wilson GJ, Newton RU, Murphy AJ, et al: The 
+optimal training load for the development of 
+dynamic athletic performance. Med Sci Sports Exerc. 
+1993;25(11):1279-1286.
+34. Witvrouw E, Danneels L, Van Tiggelen D, et al. 
+Open versus closed kinetic chain exercises in 
+patellofemoral pain: a ﬁ ve year prospective 
+randomized study. Am J Sports Med. 2004; 32: 
+1122-1130. 
+35. Zaryski C, Smith DJ. Training principles and issues 
+for ultra-endurance athletes. Curr Sports Med Rep. 
+2005; 4(3): 165-170. 
+36. Kell R, Asmundson G. A comparison of two forms of 
+periodized exercise rehabilitation programs in the 
+management of chronic nonspeciﬁ c low-back pain. J 
+Strength Cond Res. 2009; 23; 513-523. 
+37. Wong Y, Chan S, Tang K, Ng G. Two modes of weight 
+training programs and patellar stabilization. J Ath 
+Train. 2009; 44(3): 264-271. 
+38. Harries SK, Lubans DR, Callister R. Systematic 
+review and meta-analysis of linear and undulating 
+periodized resistance training programs on muscular 
+strength. J Strength Cond Res. 2015; 29(4): 1113-1125. 
+39. Buford TW, Rossi SJ, Smith DB, Warren AJ. A 
+comparison of periodization models during nine 
+weeks with equated volume and intensity for 
+strength. J Strength Cond Res. 2007; 21(4): 1245-1250. 
+40. Fleck SJ, Kraemer WJ: Designing Resistance Training 
+Programs, ed 3, Champaign, IL, 2004, Human 
+Kinetics.
+41. Fleck SJ. Periodized strength training: a critical 
+review. J Strength Cond Res. 1999; 13: 82-89. 
+42. Kraemer WJ, Ratamess NA. Fundamentals of 
+resistance training: progression and exercise 
+prescription. Med Sci Sports Exerc. 2004; 36: 697-688. 
+43. Pearson D, Faigenbaum A, Conley M, Kraemer WJ. 
+The National Strength and Conditioning 
+Association’s basic guidelines for the resistance 
+training of athletes. Strength Cond J. 2000; 22: 14-27. 
+44. Stone MH, O’Bryant HS. Weight Training: A Scientiﬁ c 
+Approach. Minneapolis: Burgess. 1987.
+45. Alfredson H, Pietila T, Jonsson P, Lorenzton R. 
+Heavy-load eccentric calf muscle training for the 
+treatment of chronic Achilles tendinosis. Am J Sports 
+Med. 1998; 26: 360-366. 
+46. Kell R, Asmundson G. A comparison of two forms of 
+periodized exercise rehabilitation programs in the 
+management of chronic nonspeciﬁ c low-back pain. J 
+Strength Cond Res. 2009; 23; 513-523. 
+47. Selye H. Stress without distress. New York: J.B. 
+Lippincott, 1974. 
+48. Rhea MR, Alderman BL. A meta-analysis of 
+periodized versus nonperiodized strength and power 
+training programs. Res Q Exerc Sport. 2004; 75: 
+413-423. 
+49. Plisk SS, Stone MH. Periodization strategies. Strength 
+Cond J. 2003; 25(6): 19-37. 
+50. Rhea MR, Alvar BA, Burkett LN, Ball SD. A meta-
+analysis to determine the dose response for strength 
+development. Med Sci Sports Exerc. 2003;35:456–464.
+51. Matveyev L. Fundamentals of Sports Training. 
+Moscow: Progress, 1981. 
+52. Bompa TO. Theory and Methodology of Training: The 
+key to athletic performance. Dubuque, IA: Kendall/
+Hunt, 1994. 
+53. Poliquin C. Five steps to increasing the effectiveness 
+of your strength training program. NSCA J. 1988; 10: 
+34-39. 
+54. Franchini E, Branco BM, Agostino MF, et al. 
+Inﬂ uence of linear and undulating strength 
+periodization on physical ﬁ tness, physiological, and 
+performance responses to simulated judo matches. J 
+Strength Cond Res. 29(2): 358-367. 
+55. Miranda F, Simao R, Rhea M, et al. Effects of linear 
+vs. daily undulatory periodized resistance training 
+on maximal and submaximal strength gains. J 
+Strength Cond Res. 2011; 25(7): 1824-1830. 
+56. de Lima C, Boulossa DA, Frolini AB, et al. Linear and 
+daily undulating resistance training periodizations 
+have differential beneﬁ cial effects in young 
+sedentary women. Int J Sports Med. 2012; 33(9): 
+723-727. 
+57. Issurin VB. New horizons for the methodology and 
+physiology of training periodization. Sports Med. 
+2010; 40(3); 189-206. 
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 746
+58. Dietz C, Peterson B. Triphasic Training: A Systematic 
+Approach to Elite Speed and Explosive Strength 
+Performance. Hudson, WI: Bye Dietz Sport 
+Enterprise. 
+59. Bartolomei S, Stout JR, Fukuda DH, et al. Block 
+versus weekly undulating periodized resistance 
+training programs in women. J Strength Cond Res. 
+2015. Epub ahead of print. 
+60. Bartolomei S, Hoffman JR, Memi F, Stout JR. A 
+comparison of traditional and block periodized 
+strength training programs in trained athletes. J 
+Strength Cond Res. 2014; 28(4): 990-997. 
+61. Ronnstad BR, Hansen J, Ellefsen S. Block 
+periodization of high-intensity aerobic intervals 
+provides superior training effects in trained cyclists. 
+Scan J Med Sci Sports. 2014; 24(1): 34-42. 
+62. Ronnstad BR, Hansen J, Thyli V, et al. 5-week block 
+periodization increases aerobic power in elite 
+cross-country skiers. Scand J Med Sci Sports. 2015; Feb 
+3. Epub ahead of print. 
+63. Breil FA, Weber SN, Koller S, et al. Block training 
+periodization in alpine skiing: effects of 11-day HIT 
+on VO2max and performance. Eur J Appl Physiol. 
+2010; 109(6): 1077-1086.
+64. Painter KB, Haff GG, Ramsey MW, et al. Strength 
+gains: block versus daily undulating periodization 
+weight training among track and ﬁ eld athletes. Int J 
+Physiol Perform. 2012; 7(2): 161-169. 
+65. Cardinale M, Newton R, Nosaka K. Strength and 
+Conditioning. Wiley; 2011.
+66. Verkhoshansky YV, Siff MC. Supertraining. 
+Verkhoshansky.com; 2009. 
+67. Iosia MF, Bishop PA. Analysis of exercise-to-rest 
+ratios during division IA televised football 
+competition. J Strength Cond Res. 2008;22(2):332-340. 
+68. Rhea MR, Hunter RL, Hunter TJ. Competition 
+modeling of American football: observational data 
+and implications for high school, collegiate, and 
+professional player conditioning. Journal of Strength 
+and Conditioning Research. 2006;20(1):58-61. 
+68. Siff MC, Verkoshansky YV. Supertraining. Denver, 
+CO: Supertraining International, 4th ed. 1999.
+69. Knight KL. Knee rehabilitation by the daily 
+adjustable progressive resistive exercise technique. 
+Am J Sports Med. 1979;7(6):336-337.
+70. Mann JB, Thyfault JP, Ivey PA, et al. The effect of 
+autoregulatory progressive resistance exercise vs. 
+linear periodization on strength improvement in 
+college athletes. J Strength Cond Res. 2010;24(7):1718-
+1723. 
+71. Day ML, McGuigan MR, Brice G, et al. Monitoring 
+exercise intensity during resistance training using 
+the session RPE scale. Journal of Strength and 
+Conditioning Research. 2004;18(2):353-358.
+72. Kraft JA, Green JM, Gast TM. Work Distribution 
+Inﬂ uences Session Ratings of Perceived Exertion 
+Response During Resistance Exercise Matched for 
+Total Volume. Journal of Strength and Conditioning 
+Research. 2014;28(7):2042-2046. 
+73. Lins-Filho O de L, Robertson RJ, Farah BQ, et al. 
+Effects of exercise intensity on rating of perceived 
+exertion during a multiple-set resistance exercise 
+session. J Strength Cond Res. 2012;26(2):466-472.
+74. Holten Institute. www.holteninstitute.com. 
+Downloaded 5/29/2015. 
+75. Baechle TR, Earle RW, Wathen D. Resistance 
+training. In: Baechle TR, Earle RW, eds. Essentials of 
+Strength Training and Conditioning. 2nd ed. 
+Champaign, IL: Human Kinetics, 395-425. 2000. 
+76. González-Badillo JJ, Marques MC, Sánchez-Medina 
+L. The importance of movement velocity as a 
+measure to control resistance training intensity. J 
+Hum Kinet. 2011;29A(Special Issue):15-19.
+77. Jovanovic M, Flanagan EP. Researched applications 
+of velocity based strength training. 22(2)58-69. 2014. 
+J Aust Strength Cond. 2014;22(2):58-69.
+78. Petersen W, Taheri P, Forkel P, et al. Return to play 
+following ACL reconstruction: a systematic review 
+about strength deﬁ cits. Arch Orthop Trauma Surg. 
+2014;134(10):1417-1428. 
+79. Cormie P, McGuigan MR, Newton RU. Inﬂ uence of 
+strength on magnitude and mechanisms of 
+adaptation to power training. Med Sci Sports Exerc. 
+2010;42(8):1566-1581. 
+80. Cormie P, McGuigan MR, Newton RU. Developing 
+maximal neuromuscular power. Sports Med. 
+2011;41(1):17-38. 
+81. Haff GG, Nimphius S. Training Principles for Power. 
+Strength & Conditioning Journal. 2012.
+82. Peterson MD, Rhea MR, Alvar BA. Applications of 
+the dose-response for muscular strength 
+development: a review of meta-analytic efﬁ cacy and 
+reliability for designing training prescription. J 
+Strength Cond Res. 2005;19(4):950-958. 
+83. Peterson MD, Rhea MR, Alvar BA. Maximizing 
+strength development in athletes: a meta-analysis to 
+determine the dose-response relationship. Journal of 
+Strength and Conditioning Research. 2004;18(2):377-
+382. 
+84. Krieger JW. Single vs. multiple sets of resistance 
+exercise for muscle hypertrophy: a meta-analysis. J 
+Strength Cond Res. 2010;24(4):1150-1159. 
+85. Krieger JW. Single versus multiple sets of resistance 
+exercise: a meta-regression. J Strength Cond Res. 
+2009;23(6):1890-1901.
+
+The International Journal of Sports Physical Therapy | Volume 10, Number 6 | November 2015 | Page 747
+86. Fisher J, Steele J, Bruce-Low S, Smith D. Evidence-
+based resistance training recommendations. Med 
+Sport. 2011.
+87. Knudson DV. Correcting the use of the term “power” 
+in the strength and conditioning literature. J Strength 
+Cond Res. 2009;23(6):1902-1908.
+88. Kawamori N, Haff GG. The optimal training load for 
+the development of muscular power. Journal of 
+Strength and Conditioning Research. 2004;18(3):675-
+684. 
+89. Orr R, Raymond J, Fiatarone Singh M. Efﬁ cacy of 
+progressive resistance training on balance 
+performance in older adults : a systematic review of 
+randomized controlled trials. Sports Med. 
+2008;38(4):317-343.
+90. Granacher U, Zahner L, Gollhofer A. Strength, 
+power, and postural control in seniors: 
+Considerations for functional adaptations and for fall 
+prevention. European Journal of Sport Science. 
+2008;8(6):325-340.
+91. Angelozzi M, Madama M, Corsica C, et al. Rate of 
+force development as an adjunctive outcome 
+measure for return-to-sport decisions after anterior 
+cruciate ligament reconstruction. The Journal of 
+orthopaedic and sports physical therapy. 
+2012;42(9):772-780. 
+92. Stone MH, Moir G, Glaister M, et al. How much 
+strength is necessary? Physical Therapy in Sport. 
+2002;3(2):88-96. 
+93. Cormie P, McGuigan MR, Newton RU. Developing 
+maximal neuromuscular power: part 2 - training 
+considerations for improving maximal power 
+production. Sports Med. 2011;41(2):125-146. 
+94. Newton RU, Kraemer WJ. Developing explosive 
+muscular power: implications for a mixed methods 
+training strategy. Strength Cond J. 1994; 16: 20-31. 
+95. Lovell DI, Cuneo R, Gass GC. The effect of strength 
+training and short-term detraining on maximum 
+force and the rate of force development of older 
+men. Eur J Appl Physiol. 2010;109(3):429-435.
+96. Mangine GT, Ratamess NA, Hoffman JR, et al. The 
+effects of combined ballistic and heavy resistance 
+training on maximal lower- and upper-body strength 
+in recreationally trained men. J Strength Cond Res. 
+2008;22(1):132-139. 
+97. Bride JM, Triplett-McBride T, Davie A, et al. The 
+effect of heavy- vs. light-load jump squats on the 
+development of strength, power, and speed. J 
+Strength Cond Res. 2002;16(1):75-82
+98. Kaneko M, Fuchimoto T, Toji H, at al. Training effect 
+of different loads on the force-velocity relationship 
+and mechanical power output in human muscle. 
+Scandinavian Journal of Medicine & Science in Sports. 
+1983;5:50-55.
+99. Moss BM, Refsnes PE, Abildgaard A, at al. Effects of 
+maximal effort strength training with different loads 
+on dynamic strength, cross-sectional area, load-
+power and load-velocity relationships. Eur J Appl 
+Physiol Occup Physiol. 1997;75(3):193-199. 
+100.  Young, K., Gabbett, TJ., Haff, G, et al. The effect of 
+initial strength levels on the training response to 
+heavy resistance training and ballistic training on 
+upper body pressing strength. Journal of Australian 
+Strength and Conditioning. 2013; 21(8):85-87. 
+102.  Bird SP, Tarpenning KM, Marino FE. Designing 
+resistance training programmes to
+enhance muscular ﬁ tness: a review of the acute 
+programme variables. Sports Med. 
+2005;35(10):841-51. 
+103.  Kawamori N, Crum AJ, Blumert PA, et al. Inﬂ uence 
+of different relative intensities on power output 
+during the hang power clean: identiﬁ cation of the 
+optimal load. J Strength Cond Res. 2005; 19(3): 
+698-708. 
+104.  Baker D, Newton RU. Methods to increase the 
+effectiveness of maximal power training for the 
+upper body.  Strength Cond J. 2005; 27(6): 24-32.
+105.  Cormie P, McCaulley GO, Triplett NT, et al. Optimal 
+loading for maximal power output during lower-
+body resistance exercises. Med Sci Sports Exerc. 2007 
+Feb;39(2):340-9.
+106.  Cormie P, McCaulley GO, McBride JM. Power versus 
+strength-power jump squat training: inﬂ uence on 
+the load-power relationship. Med Sci Sports 
+Exerc. 2007. 39(6):996-1003. 

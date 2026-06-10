@@ -1,0 +1,616 @@
+©Journal of Sports Science and Medicine (2014) 13, 511-515 
+http://www.jssm.org 
+ 
+ 
+Received: 12 February 2014 / Accepted: 30 March 2014 / Published (online): 01 September 2014 
+ 
+ 
+ 
+  
+ 
+ 
+Effect of Load on Peak Power of the Bar, Body and System during the Deadlift 
+ 
+Justin A. Blatnik, Courtney L. Goodman, Christopher R. Capps, Olumide O. Awelewa, Travis N. 
+Triplett, Travis M. Erickson and Jeffery M. McBride   
+Appalachian State University, Department of Health, Leisure & Exercise Science, Neuromuscular & Biomechanics 
+Laboratory, Boone, NC, USA 
+ 
+ 
+Abstract  
+The purpose of this investigation was to examine how load 
+would affect peak power (PP) of the bar, body and system (bar + 
+body) during the deadlift. Eight healthy males (age = 22.00 ± 
+2.38 years; height = 1.80 ± 0.05 m; body mass = 88.97 ± 14.88 
+kg; deadlift one repetition maximum [1RM] =  203.44 ± 21.59 
+kg, 1RM/BM = 2.32 ± 0.31) with a minimum of 2 years’ resis-
+tance training experience and a deadlift 1RM over 1.5 times 
+their bodyweight participated in the investigation. During the 
+first session, anthropometric data were recorded and a 1RM 
+deadlift was obtained from the participants. During the second 
+session, participants performed two repetitions at intensities of 
+30, 40, 50, 60, 70, 80 and 90% of their 1RM in a randomized 
+order. Three-dimensional videography with a force plate was 
+used for data collection and analysis. Peak force (PF), peak 
+velocity (PV), an d PP were calculated for the bar, body, and 
+system (bar + body) during the deadlift. PP occurred at 50%, 
+30%, and 70% of 1RM for the bar, body, and system, respec-
+tively. The optimal loading for the deadlift exercise may vary 
+depending on the desired stimulus and whether the bar, body, or 
+system variables are of most interest. 
+ 
+Key words: Deadlift, peak power, force plate, resistance train-
+ing. 
+ 
+ 
+ 
+Introduction 
+ 
+Many investigations have examined the power–load rela-
+tionships 
+in 
+various 
+resistance 
+training 
+exercises 
+(McBride et al., 2011). The primary motivation for this 
+research arose from evidence that training with loads that 
+maximize peak power (PP) have been shown to increase 
+power production capability (Cormie et al., 2007). Power 
+production has been shown to be a key variable in many 
+sporting events and athletic endeavors (Stone, 1993; Zink 
+et al., 2006). While many investigations have examined 
+the power–load relationship in other exercises, only one 
+investigation has established the power–load curve for the 
+deadlift exercise with PP occurring at 30% of one repeti-
+tion maximum (1RM) (Swinton et al., 2011). However, 
+they neither separated the bar, body, and system (bar + 
+body) nor used a full range of loading intensities (Swinton 
+et al., 2011).  Only a few investigations have separated 
+the body, bar, and system (bar + body) for analysis pur-
+poses and none have done so for the deadlift (Hori et al., 
+2007; McBride et al., 2011; Swinton et al., 2011). Results 
+from McBride et al. (2001) indicate that PP occurred at 
+different loads for the bar, body and system depending on 
+which exercise was examined (McBride et al., 2011). For 
+instance in the squat, PP occurred at 90% of 1RM for the 
+bar, 10% of 1RM for the body, and 50% of 1RM for the 
+system. In contrast, jump squat PP occurred at 80% of 
+1RM for the bar, 0% of 1RM for the body and 0% of 
+1RM for the system. During the power clean PP occurred 
+at 90% of 1RM for the bar, 90% of 1RM for the body and 
+80% of 1RM for the system. 
+Previous research has reported that training at a 
+load that maximizes PP leads to subsequently greater 
+increases in PP after 12 weeks in comparison to other 
+training loads (isotonic, 30%, 60% and 100% PP) 
+(Kaneko et al., 1983). In a subsequent study the same 
+researchers found that training the elbow flexors with 
+30% and 100% of maximum isometric force improved 
+power more than training with 30% and 0% of maximum 
+isometric force (Toji et al., 1997). The same researchers 
+again observed that elbow flexor power output had greater 
+increases when trained with multiple power loads com-
+pared with one power load and one strength load (Toji 
+and Kaneko, 2004). Cormie et al. (2007) found that 
+strength and power training using the jump-squat for 5 
+sets x 6 repetitions at body mass in addition to a 3x3 at 
+90% of 1RM exercise improved power across a broader 
+spectrum of the power–load relationship than power train-
+ing alone using only 7x6 at body mass. Given its’ com-
+mon usage and the lack of research on the topic, deter-
+mining the loads that maximize PP in the deadlift  may be 
+useful for training athletes in order to improve power 
+production across a spectrum of power–load relationships 
+similar to the stimuli an athlete faces on the field (Cormie 
+et al., 2007).   
+Thus, the primary purpose of this investigation was 
+to determine a more comprehensive power–load curve for 
+the deadlift exercise and to establish the loads that opti-
+mize power for the bar, body, and system (bar + body). 
+Establishing loads that optimize bar power might be use-
+ful for throwing athletes or weight lifters who move an 
+external mass; whereas, body or system power might be 
+more relevant to sprint athletes or jump athletes who 
+accelerate their own body mass (McBride et al., 2011).  
+ 
+Methods   
+ 
+Participants 
+Eight healthy males (age = 22.00 ± 2.38 years; height = 
+1.80 ± 0.05 m; body mass = 88.97 ± 14.88 kg; deadlift 
+1RM = 203.44 ± 21.59 kg, 1RM/BM = 2.32 ± 0.31) with 
+a minimum of 2 years’ resistance training experience, and 
+a deadlift 1RM over 1.5x their bodyweight were recruited 
+Research article 
+
+Deadlift power 
+ 
+ 
+ 
+512 
+for the investigation. Participants completed an informed 
+consent sheet and health screening tool to monitor for any 
+contraindications for participation. The project received 
+approval from the Institutional Review Board at Appala-
+chian State University. 
+ 
+Study design 
+Participants visited the Neuromuscular and Biomechanics 
+Laboratory (NBL) for an orientation and two testing ses-
+sions separated by one week. Participants were asked to 
+refrain from performing any type of resistance exercise or 
+strenuous activity 48 hours prior to each testing session. 
+During the first session, anthropometric data (height, 
+weight) was obtained and a 1RM in the deadlift was de-
+termined. The warm-up protocol for the 1RM testing 
+involved performing 1 set of 10 repetitions, 1 set of 6 
+repetitions, and 1 set of 3 repetitions with progressively 
+increasing weight. The participants were then given a 
+maximum of 4 attempts to determine a 1RM (McBride et 
+al., 2011). During the second session, participants per-
+formed two repetitions of the deadlift exercise with each 
+load from 30% to 90% of 1RM (in 10% increments). 
+Trials were performed in a randomized fashion utilizing a 
+computer program random number generator. Rest peri-
+ods of 5 minutes were given between repetitions to mini-
+mize the effects of fatigue.  All deadlift performances 
+were monitored by a research assistant who had obtained 
+Certified Strength and Conditioning Specialist (CSCS) 
+certification as well as first aid and CPR. 
+ 
+Kinetic and kinematic data collection and analysis 
+A portable force plate (AMTI, BP6001200, Watertown, 
+MA) was used during all deadlift testing sessions and 
+trials. Kinematic data were collected using a three-
+dimensional videography system (VICON Systems, Cen-
+tennial, CO) consisting of seven MX03 + NIR cameras at 
+a frequency of 240 Hz using infrared detection of optical 
+markers. Three optical markers were placed on the bar 
+(left, center, right) and one on the sacrum to denote the 
+body. A global orthogonal coordinate system was used 
+and calibrated using set spaced markers (0.2 m) connected 
+to a rod (VICON Systems, Centennial, CO). A static trial 
+was obtained for each participant to define the anatomical 
+position of the participant and bar position. The mean 
+residual for each camera was 51.1 mm and static repro-
+ducibility was 51%. Filtering was performed using a Wol-
+tring predicted mean square error quintic spline (VICON 
+Systems, Centennial, CO). Analog signals from the force 
+place were collected for each trial at 1000 Hz using a 
+BNC-2010 interface box with an analog-to-digital card 
+(NI PCI-6014, National Instruments, Austin, TX). Lab-
+VIEW (Version 7.1, National Instruments, Austin, TX) 
+was used for recording and analyzing the data. Signals 
+from the force plate underwent rectangular smoothing 
+with a moving average half-width of 12 (Cormie et al., 
+2007). From laboratory calibrations, force plate voltage 
+outputs were converted into vertical ground reaction 
+force. Kinematic data were analyzed using Vicon Nexus 
+Software (VICON Systems, Centennial, CO). For calcula-
+tion of bar peak force (PF), peak velocity (PV), and PP, 
+videography displacement–time data from the right-hand 
+side bar optical marker were differentiated into velocity 
+and then acceleration. Acceleration was multiplied by bar 
+mass to determine bar force. Bar power was calculated as 
+force multiplied by velocity. Peak force (PF), peak veloc-
+ity (PV), and PP of the bar were calculated from the 
+videography displacement–time data. The displacement-
+time data were single and double differentiated into veloc-
+ity- and acceleration-time data; the acceleration was than 
+multiplied by bar mass to determine the bar force. This 
+was used in place of a more complex segmental analysis, 
+which requires a full body optical marker set. Previous 
+investigations have shown the validity and reliability of 
+using a single sacral optical marker to track the system 
+center of mass (COM) instead of a full segmental analysis 
+(Gard et al., 2004). System PF, PV, and PP were calcu-
+lated from the force plate. The system force was deter-
+mined from the force plate and represented as the theo-
+retical location where all forces are evenly distributed. 
+Force–time data were divided by mass to determine ac-
+celeration and then velocity. System power was deter-
+mined by taking force multiplied by velocity. This value 
+represents mechanical power output (Knudson, 2009). 
+Peak values for the bar, body, and system were obtained 
+from the resulting force–, velocity–, and power–time 
+curves created from the bar optical marker, the sacral 
+optical marker, and the force plate.  
+ 
+Statistical analysis  
+A general linear model with repeated-measures multivari-
+ate analysis of variance was used to examine the perform-
+ance variables between the bar, body, and system and 
+exercise load (SPSS, Version 11.0). Analyses were fol-
+lowed by least significant difference post hoc compari-
+sons. Statistical significance was set at p ≤ 0.05.  
+ 
+ 
+ 
+ 
+ 
+Figure 1. Peak bar, body, and system power in the deadlift 
+from 30 to 100% of deadlift 1RM. # = Bar significantly different 
+from body and system (p ≤ 0.05). ^ = Bar significantly different from 
+system. @ = Bar significantly different from the body. &= Body signifi-
+cantly different from the system. 
+ 
+Results 
+ 
+Peak power 
+Bar  PP  during  the  deadlift occurred at 50% of 1RM and 
+was  significantly  different  than  30, 80, 90, and 100% of 
+ 
+ 
+ 
+
+Blatnik et al.
+ 
+ 
+ 
+ 
+513
+ 
+Table 1. Deadlift bar, body, and system peak power (PP), peak force (PF), and peak velocity (PV) from 30 to 100% of deadlift 
+1-RM. Data are means (±SD). 
+ 
+ Percentage of deadlift 1RM 
+Variable 
+30% 
+40% 
+50% 
+60% 
+70% 
+80% 
+90% 
+100% 
+Bar PP (W) 
+1263 (304)* 1358 (310) 
+1462 (230) 
+1413 (266) 1385 (208) 1166 (335) * 945 (272) * 778 (240) *
+Body PP (W) 
+1082 (383) 
+970 (327) 
+800 (277)* 
+732 (259)* 667 (179)*
+513 (121)* 
+360 (176)* 419 (539)*
+System PP (W) 
+1443 (309) 
+1495 (397) 
+1647 (204) 
+1795 (324) 1932 (384)
+1683 (288) 1361 (338)* 863 (269)*
+Bar PF (N) 
+970 (134)* 1169 (133)* 1354 (159)* 1532 (172)* 1657 (202)* 1816 (210)* 1981 (233)* 2169 (246)
+Body PF (N) 
+1275 (236) 
+1221 (241) 1174 (237)* 1129 (263)* 1161 (244)* 1062 (196)* 1022 (210)* 1001 (178)*
+System PF (N) 
+2085 (286)* 2139 (314)* 2256 (225)* 2395 (251)* 2483 (298)* 2661 (233)* 2799 (357)* 3005 (401)
+Bar PV (m·s-1) 
+1.78 (.19)  
+1.28 (.18)* 
+1.24 (.09)* 
+1.03 (.17)*
+.95 (.11)* 
+.67 (.15)* 
+.52 (.11)* 
+.36 (.08)* 
+Body PV (m·s-1) 
+.91 (.14) 
+.82 (.17) 
+.71 (.11)* 
+.69 (.11)* 
+.61 (.11)* 
+.50 (.11)* 
+.39 (.14)* 
+.23 (.15)* 
+System PV (m·s-1) 
+.84 (.14) 
+.81 (.21) 
+.82 (.11) 
+.82 (.20) 
+.81 (.20) 
+.66 (.14)* 
+.50 (.11)* 
+.29 (.07)* 
+* Significant difference from highest observed value (p ≤ 0.05). 
+ 
+1RM (Table 1, Figure 1). The maximum body PP oc-
+curred at 30% of 1RM and was significantly different 
+than 50, 60, 70, 80, 90, 100%. System (bar + body) PP 
+occurred at 70% of 1RM and was significantly different 
+than 90 and 100%.  An estimated effect size of η2 = 0.975, 
+0.921, and 0.674 at an observed power level of 1.000, 
+1.000, and 1.000 for bar PF, bar PV, and bar PP respec-
+tively. An estimated effect size of η2 = 0.629, 0.796, and 
+0.520 at an observed power level of 0.992, 1.000, and 
+0.845 for body PF, body PV, and body PP respectively. 
+An estimated effect size of η2 = 0.925, 0.684, and 0.530 at 
+an observed power level of 1.000, 0.995, and 0.925 for 
+system PF, system PV, and system PP respectively.  
+ 
+ 
+ 
+ 
+ 
+Figure 2. Peak bar, body, and system force (mean + s) in the 
+deadlift from 30 to 100% of deadlift 1RM. # = Bar significantly 
+different from body and system (p ≤ 0.05). ^ = Bar significantly differ-
+ent from system. @ = Bar significantly different from the body. &= 
+Body significantly different from the system. 
+ 
+Peak force 
+Maximum bar PF during the deadlift occurred at 100% of 
+deadlift 1RM and was significantly different than 30, 40, 
+50, 60, 70, 80, and 90% (Table 1, Figure 2). Body PF 
+occurred at 30% of 1RM and was significantly different 
+than 50, 60, 70, 80, 90, and 100% (Table 1). System (bar 
++ body) PF occurred at 100% of 1 RM and was signifi-
+cantly different than 30, 40, 50, 60, 70, 80, and 90%.  
+ 
+Peak velocity 
+Maximum bar PV during the deadlift exercise occurred at 
+30% of deadlift 1RM and was significantly different than 
+40, 50, 60, 70, 80, 90, and 100% (Table 1, Figure 3). 
+Maximum body PV occurred at 30% of deadlift 1RM and 
+was significantly different than 50, 60, 70, 80, 90, and 
+100%. Maximum system (bar + body) PV occurred at 
+30% of deadlift 1RM and was significantly different than 
+80, 90, and 100%. 
+ 
+ 
+ 
+ 
+ 
+Figure 3. Peak bar, body, and system velocity (mean + s) in 
+the deadlift from 30 to 100% of deadlift 1RM. # = Bar signifi-
+cantly different from body and system (p ≤ 0.05). ^ = Bar significantly 
+different from system. @ = Bar significantly different from the body. 
+&= Body significantly different from the system. 
+ 
+Discussion 
+ 
+This investigation revealed that the PP load differed sig-
+nificantly between the bar, body and system (bar + body). 
+PP occurred at 70% of 1RM for the system, 50% of 1RM 
+for the bar, and 30% of 1RM for the body. The findings 
+were similar to the results from previous investigations 
+using similar methods during the squat, jump squat, and 
+power clean (McBride et al., 2011). Swinton et al. (2011) 
+found that optimal PP was produced at 30% 1RM during 
+the deadlift; however, they also found no significant dif-
+ferences in PP between the 30% and 50% 1RM loads. 
+Also, Swinton et al. (2011) calculated only a single power 
+value from a bar marker and ground reaction force data 
+and did not separate the bar, body, and system.  
+These loads may have training implications as ath-
+letes that accelerate their own body mass would be inter-
+ested in body or system power and would load the deadlift 
+at times with only 30–70% of 1RM. A throwing athlete or 
+
+Deadlift power 
+ 
+ 
+ 
+514 
+a weightlifter might be more interested in bar power and 
+would thus at times perform the deadlift with a 50% 1RM 
+load. As mentioned previously, training at a load that 
+elicits PP produced the greatest increase in PP after 12 
+weeks in an elbow flexion model (Kaneko et al., 1983). 
+Weightlifters or throwing athletes who are primarily in-
+terested in the power they can impart to an external object 
+(e.g. bar, discus, javelin, etc.) would train at times with 
+loads that elicit peak bar power in order to produce the 
+maximum possible increase in sport-specific performance. 
+Cormie et al. (2007) also demonstrated that a strength 
+load and power load combination during training im-
+proved the power–load relationship across a broader spec-
+trum of loading and thus it would be prudent to utilize 
+loads which elicit higher force production at times as 
+well. 
+Peak force occurred at the highest load tested and 
+the force–velocity relationship predicts that muscle force 
+decreases exponentially with increasing contraction ve-
+locity and so maximal force contractions rarely result 
+simultaneously in maximal PP (Hill, 1938). Our data 
+confirmed that the loads which elicited PF also produced 
+the lowest velocities for the bar, body, and system (bar + 
+body). High velocity contractions, similar to high force 
+contractions, tend not to produce PP due to the relatively 
+low force output predicted by the force–velocity relation-
+ship (Hill, 1938). Interestingly in our data, PV was ob-
+served at 30% of 1RM for the bar, body, and system (bar 
++ body); however, the system velocities did not decline 
+significantly until 70% of 1RM, which is where PP oc-
+curred. This may explain the difference between body PP 
+observed at only 30% of 1RM while system PP was ob-
+served at 70% of 1RM. Because system velocity was still 
+relatively high unlike body PV at 70%, which had signifi-
+cantly declined to two-thirds of the peak value observed 
+at 30% of 1RM. Bar PV was routinely observed at higher 
+values than body and system PV and this results from the 
+bar having to travel slightly farther than the hips as the 
+bar rests on the shins in the ready position during the 
+deadlift exercise well below the level of the sacrum. The 
+starting positions differ but both the bar and sacrum end at 
+roughly the same vertical height from the floor in the 
+finish position of the deadlift, making the barbell’s total 
+travel path slightly longer. The system PV was derived 
+from ground reaction force data whereas body and bar PV 
+values were derived from physical markers and thus sys-
+tem velocities tend to be lower.  
+ 
+Conclusion 
+ 
+In conclusion, the PP output varies dependent upon the 
+load utilized and whether the bar, body, or system is con-
+sidered. This data can allow athletes to load the deadlift 
+exercise properly dependent upon their desired sport-
+specificity focus of bar versus body versus system power 
+output. Power outputs observed in this study may lead to 
+future training studies utilizing these loads to elicit PP as 
+well as traditional loads to elicit PF in order to optimize 
+power gains across the entire velocity continuum as had 
+previously been demonstrated (Cormie et al., 2007).  
+ 
+References   
+ 
+Cormie, P., Deane, R. and McBride, J.M. (2007) Methodological 
+concerns for determining power output in the jump squat. 
+Journal of Strength & Conditioning Research 21(2), 424-430.  
+Cormie, P., McCaulley, G.O. and McBride, J.M. (2007) Power versus 
+strength-power jump squat training: Influence on the load-
+power relationship. Medicine & Science in Sports & Exercise 
+39(6), 996-1003.  
+Gard, S. A., Miff, S.C. and Kuo, A.D. (2004) Comparison of kinematic 
+and kinetic methods for computing the vertical motion of the 
+body center of mass during walking. Human Movement Science 
+22(6), 597-610.  
+Hill, A.V. (1938) The heat of shortening and the dynamic constants of 
+muscle. Proceedings of the Royal Society of London. Series B, 
+Biological Sciences 126(843), 136-195.  
+Hori, N., Newton, R.U., Andrews, W.A., Kawamori, N., McGuigan, 
+M.R. and Nosaka, K. (2007) Comparison of four different 
+methods to measure power output during the hang power clean 
+and the weighted jump squat. Journal of Strength & 
+Conditioning Research 21(2), 314-320.  
+Kaneko, M., Fuchimoto, T., Toji, H. and Suei, K. (1983) Training effect 
+of different loads on the force-velocity relationship and 
+mechanical power output in human muscle. Scandinavian 
+Journal of Sports Sciences 5(2), 50-55.  
+Knudson, D.V. (2009) Correcting the use of the term "power" in the 
+strength and conditioning literature. Journal of Strength & 
+Conditioning Research 23(6), 1902-1908.  
+McBride, J.M., Haines, T.L. and Kirby, T.J. (2011) Effect of loading on 
+peak power of the bar, body, and system during power cleans, 
+squats, and jump squats. Journal of Sports Sciences 29(11), 
+1215-1221.  
+Stone, M.H. (1993) Literature review: explosive exercises and training. 
+National Strength & Conditioning Association Journal 15(3), 
+7;9-15.  
+Swinton, P.A., Stewart, A.D., Keogh, J.W.L., Agouris, L. and Lloyd, R. 
+(2011) Kinematic and kinetic analysis of maximal velocity 
+deadlifts performed with and without the inclusion of chain 
+resistence. Journal of Strength & Conditioning Research 
+25(11), 3163-3174.  
+Toji, H. and Kaneko, M. (2004) Effect of multiple-load training on the 
+force-velocity relationship. Journal of Strength & Conditioning 
+Research 18(4), 792-795.  
+Toji, H., Suei, K. and Kaneko, M. (1997) Effects of combined training 
+loads on relations among force, velocity, and power 
+development. Canadian Journal of Applied Physiology 22(4), 
+328-336.  
+Zink, A.J., Perry, A.C., Robertson, B.L., Roach, K.E. and Signorile, J.F. 
+(2006) Peak power, ground reaction forces, and velocity during 
+the squat exercise performed at different loads. Journal of 
+Strength & Conditioning Research 20(3), 658-664.  
+ 
+ 
+Key points 
+ 
+• Peak power of the bar, body and system vary de-
+pending upon load. 
+• Loading should be chosen according to desired 
+training effect, with considerations for sport speci-
+ficity. 
+• Additional exercises should be investigated concern-
+ing the effect of various loads on power. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Blatnik et al.
+ 
+ 
+ 
+ 
+515
+AUTHORS BIOGRAPHY 
+Justin A. BLATNIK 
+Employment 
+Personal trainer in North Carolina.  
+Degree 
+MSc 
+Research interests 
+Power training and athletic performance.  
+E-mail: Blatnikja@gmail.com 
+Courtney L. GOODMAN  
+Employment 
+Graduate assistant in the Neuromuscular Laboratory, De-
+partment of Health, Leisure and Exercise Science at Appala-
+chian State University.  
+Degree 
+BSc 
+Research interests 
+Landing biomechanics and muscle activation in elite jumpers. 
+E-mail: Goodmancl1@appstate.edu 
+Christopher R. CAPPS  
+Employment 
+Graduate assistant in the Neuromuscular Laboratory, De-
+partment of Health, Leisure and Exercise Science at Appala-
+chian State University.  
+Degree 
+BSc 
+Research interests 
+Strength training for endurance athletes and the stretch-
+shortening cycle. 
+E-mail: cappsc@appstate.edu 
+Olumide O. AWELEWA  
+Employment 
+Graduate assistant in the Neuromuscular Laboratory, De-
+partment of Health, Leisure and Exercise Science at Appala-
+chian State University.  
+Degree 
+BSc 
+Research interests 
+The sport of tennis and racket velocity.  
+E-mail: Plumide@gmail.com 
+Travis N. TRIPLETT  
+Employment 
+Professor in Exercise Science and Chairperson of the De-
+partment of Health, Leisure & Exercise Science at Appala-
+chian State University. 
+Degree 
+PhD 
+E-mail: Triplettnt@appstate.edu 
+Travis M. ERICKSON  
+Employment 
+Lecturer at Appalachian State University where he teaches in 
+the department of Health, Leisure, and Exercise Science. 
+Degree 
+PhD  
+Research interests  
+Examining how resistance training can improve athletic 
+performance.  
+E-mail: ericksontm@appstate.edu 
+Jeffery M. McBRIDE  
+Employment 
+Professor in Biomechanics at Appalachian State University in 
+the Department of Health, Leisure & Exercise Science and 
+the Director of the Neuromuscular & Biomechanics Labora-
+tory. 
+Degree 
+PhD 
+E-mail: Mcbridejm@appstate.edu 
+ 
+ Jeffrey M. McBride, PhD, Professor 
+Director of Neuromuscular & Biomechanics Laboratory, Appa-
+lachian State University, Convocation 
+Center 
+Room 
+045, 
+Boone, NC  28607, USA 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,219 @@
+{
+  "paper_id": "pmid_26063470",
+  "source": "pubmed",
+  "title": "The Optimal Load for Maximal Power Production During Lower-Body Resistance Exercises: A Meta-Analysis.",
+  "authors": [
+    "Marco A Soriano",
+    "Pedro Jiménez-Reyes",
+    "Matthew R Rhea",
+    "Pedro J Marín"
+  ],
+  "year": "2015",
+  "journal": "Sports medicine (Auckland, N.Z.)",
+  "doi": "10.1007/s40279-015-0341-8",
+  "pmid": "26063470",
+  "abstract": "The development of muscular power is often a key focus of sports performance enhancement programs. BACKGROUND: The development of muscular power is often a key focus of sports performance enhancement programs. The purpose of this meta-analysis was to examine the effect of load on peak power during the squat, jump squat, power clean, and hang power clean, thus integrating the findings of various studies to provide the strength and conditioning professional with more reliable evidence upon which to base their program design. OBJECTIVE: The purpose of this meta-analysis was to examine the effect of load on peak power during the squat, jump squat, power clean, and hang power clean, thus integrating the findings of various studies to provide the strength and conditioning professional with more reliable evidence upon which to base their program design. A search of electronic databases [MEDLINE (SPORTDiscus), PubMed, Google Scholar, and Web of Science] was conducted to identify all publications up to 30 June 2014. Hedges' g (95% confidence interval) was estimated using a weighted random-effect model. A total of 27 studies with 468 subjects and 5766 effect sizes met the inclusion criterion and were included in the statistical analyses. Load in each study was labeled as one of three intensity zones: Zone 1 represented an average intensity ranging from 0 to 30% of one repetition maximum (1RM); Zone 2 between 30 and 70% of 1RM; and Zone 3 ≥70% of 1RM. METHODS: A search of electronic databases [MEDLINE (SPORTDiscus), PubMed, Google Scholar, and Web of Science] was conducted to identify all publications up to 30 June 2014. Hedges' g (95% confidence interval) was estimated using a weighted random-effect model. A total of 27 studies with 468 subjects and 5766 effect sizes met the inclusion criterion and were included in the statistical analyses. Load in each study was labeled as one of three intensity zones: Zone 1 represented an average intensity ranging from 0 to 30% of one repetition maximum (1RM); Zone 2 between 30 and 70% of 1RM; and Zone 3 ≥70% of 1RM. These results showed different optimal loads for each exercise examined. Moderate loads (from >30 to <70% of 1RM) appear to provide the optimal load for power production in the squat exercise. Lighter loads (≤30% of 1RM) showed the highest peak power production in the jump squat. Heavier loads (≥70% of 1RM) resulted in greater peak power production in the power clean and hang power clean. RESULTS: These results showed different optimal loads for each exercise examined. Moderate loads (from >30 to <70% of 1RM) appear to provide the optimal load for power production in the squat exercise. Lighter loads (≤30% of 1RM) showed the highest peak power production in the jump squat. Heavier loads (≥70% of 1RM) resulted in greater peak power production in the power clean and hang power clean. Our meta-analysis of results from the published literature provides evidence for exercise-specific optimal loads for power production. CONCLUSION: Our meta-analysis of results from the published literature provides evidence for exercise-specific optimal loads for power production.",
+  "publication_type": [
+    "Journal Article",
+    "Meta-Analysis"
+  ],
+  "keywords": [
+    "Humans",
+    "Muscle Strength",
+    "Resistance Training",
+    "Weight Lifting",
+    "Weight-Bearing"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "optimal load optimal loading",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "Sports medicine (Auckland, N.Z.)",
+    "issn_input": "1179-2035",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "14.8",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "Springer",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Meta-Analysis"
+    ],
+    "design_score": 7.0,
+    "design_strengths": [
+      "Search: 检索了 pubmed, medline, web of science, sportdiscus 等数据库 (≥2)",
+      "Heterogeneity: 考虑了异质性"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Risk of bias: 摘要未提及偏倚风险评估工具 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计总体合理 (score=7.0)，存在部分方法学信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "pubmed, medline, web of science, sportdiscus",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "未报告",
+      "heterogeneity_assessment": "已提及",
+      "model_choice": "random",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "是",
+    "confidence_interval_reported": "是",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 7.5,
+    "statistics_strengths": [
+      "报告了效应量 (effect size)",
+      "报告了置信区间"
+    ],
+    "statistics_limitations": [
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法总体合理，但有少量报告不充分。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 6.3,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "intervention: 部分匹配 (2/3 terms)",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的intervention术语: optimal, load | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 6.5,
+    "abstract_relevance_score": 7.0,
+    "pico_coverage_score": 4.0,
+    "mandatory_coverage_score": 0.5,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 5.7,
+    "relevance_label": "low",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [
+        "optimal load"
+      ],
+      "comparator": [],
+      "outcomes": [],
+      "context": [
+        "sport",
+        "exercise"
+      ]
+    },
+    "missing_required_concepts": [
+      "resistance training"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "低相关：评分 5.7/10 | 缺失核心概念: resistance training"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 7.0,
+    "statistics_score": 7.5,
+    "relevance_score": 6.3,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 8.5,
+    "overall_quality_score": 7.0,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "high",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (7.0/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260610_Soriano_2015_The_Optimal_Load_for_Maximal_Power_Produ.md",
+  "created_at": "2026-06-10T14:16:36.566208",
+  "updated_at": "2026-06-10T14:16:36.566208"
+}

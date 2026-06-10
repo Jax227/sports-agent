@@ -1,0 +1,204 @@
+{
+  "paper_id": "pmid_3057313",
+  "source": "pubmed",
+  "title": "Neural adaptation to resistance training.",
+  "authors": [
+    "D G Sale"
+  ],
+  "year": "1988",
+  "journal": "Medicine and science in sports and exercise",
+  "doi": "",
+  "pmid": "3057313",
+  "abstract": "Strength performance depends not only on the quantity and quality of the involved muscles, but also upon the ability of the nervous system to appropriately activate the muscles. Strength training may cause adaptive changes within the nervous system that allow a trainee to more fully activate prime movers in specific movements and to better coordinate the activation of all relevant muscles, thereby effecting a greater net force in the intended direction of movement. The evidence indicating neural adaptation is reviewed. Electromyographic studies have provided the most direct evidence. They have shown that increases in peak force and rate of force development are associated with increased activation of prime mover muscles. Possible reflex adaptations related to high stretch loads in jumping and rapid reciprocal movements have also been revealed. Other studies, including those that demonstrate the \"cross-training\" effect and specificity of training, provide further evidence of neural adaptation. The possible mechanisms of neural adaptation are discussed in relation to motor unit recruitment and firing patterns. The relative roles of neural and muscular adaptation in short- and long-term strength training are evaluated.",
+  "publication_type": [
+    "Journal Article",
+    "Review"
+  ],
+  "keywords": [
+    "Adaptation, Physiological",
+    "Electromyography",
+    "Exercise",
+    "Humans",
+    "Muscle Contraction",
+    "Muscles",
+    "Nervous System Physiological Phenomena",
+    "Reflex",
+    "Weight Lifting"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "optimal load optimum load load optimization load prescription velocity-based training force-velocity profiling optimal loading",
+    "comparator": "high load heavy load low load light load moderate load traditional training fixed load",
+    "outcomes": "maximum strength muscular strength power output hypertrophy muscle thickness athletic performance force velocity 1RM one-repetition maximum muscle cross-sectional area",
+    "study_design": "unknown"
+  },
+  "journal_evaluation": {
+    "journal_name": "Medicine and science in sports and exercise",
+    "issn_input": "0195-9131",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "Medicine & Science in Sports & Exercise",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "6.3",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "American College of Sports Medicine",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "unknown",
+    "study_type_confidence": 0.0,
+    "study_type_evidence": [],
+    "design_score": 3.0,
+    "design_strengths": [
+      "信息不足，需人工评估"
+    ],
+    "design_limitations": [
+      "研究类型未能自动识别，设计评价受限"
+    ],
+    "design_score_reason": "研究类型未能明确识别，给予中性评分。建议人工审核。",
+    "intervention_details": {},
+    "review_details": {}
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 5.0,
+    "statistics_strengths": [
+      "摘要中统计方法信息不足，无法评估优点"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "very_low",
+    "evidence_level_reasons": [
+      "研究类型: unknown → 基线证据等级: very_low",
+      "偏倚风险不明确 → 降1级",
+      "研究类型识别置信度低 (0%) → 降1级",
+      "最终证据等级: very_low (降2级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 3.4,
+    "pico_match": {
+      "population_match": "population: 基本不匹配 (0/8 terms)",
+      "intervention_match": "intervention: 弱匹配 (2/8 terms)",
+      "comparator_match": "comparator: 部分匹配 (4/8 terms)",
+      "outcome_match": "outcome: 弱匹配 (3/8 terms)",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "文献中未找到population相关术语 | 匹配到的intervention术语: load, training | 匹配到的outcome术语: strength, muscular, muscle | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 5.7,
+    "abstract_relevance_score": 9.0,
+    "pico_coverage_score": 4.0,
+    "mandatory_coverage_score": 0.67,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 6.3,
+    "relevance_label": "exclude",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [],
+      "comparator": [],
+      "outcomes": [
+        "force"
+      ],
+      "context": [
+        "training"
+      ]
+    },
+    "missing_required_concepts": [
+      "optimal load"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "排除：标题和摘要中均未找到核心干预/暴露概念 | 缺失核心词: optimal load"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 3.0,
+    "statistics_score": 5.0,
+    "relevance_score": 3.4,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 5.0,
+    "overall_quality_score": 4.7,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度较低",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "exclude",
+    "recommendation_reason": "主题相关性不足 (3.4/10) | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "研究类型未能明确识别 — 需人工确认",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Sale_1988_Neural_adaptation_to_resistance_training.md",
+  "created_at": "2026-06-03T15:29:01.863174",
+  "updated_at": "2026-06-03T15:29:01.863174"
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "paper_id": "pmid_28834797",
+    "source": "pubmed",
+    "title": "Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis.",
+    "authors": [
+      "Brad J Schoenfeld",
+      "Jozo Grgic",
+      "Dan Ogborn",
+      "James W Krieger"
+    ],
+    "authors_str": "Brad J Schoenfeld; Jozo Grgic; Dan Ogborn; James W Krieger",
+    "year": "2017",
+    "journal": "Journal of strength and conditioning research",
+    "issn": "1533-4287",
+    "abstract": "Schoenfeld, BJ, Grgic, J, Ogborn, D, and Krieger, JW. Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis. J Strength Cond Res 31(12): 3508-3523, 2017-The purpose of this article was to conduct a systematic review of the current body of literature and a meta-analysis to compare changes in strength and hypertrophy between low- vs. high-load resistance training protocols. Searches of PubMed/MEDLINE, Cochrane Library, and Scopus were conducted for studies that met the following criteria: (a) an experimental trial involving both low-load training [≤60% 1 repetition maximum (1RM)] and high-load training (>60% 1RM); (b) with all sets in the training protocols being performed to momentary muscular failure; (c) at least one method of estimating changes in muscle mass or dynamic, isometric, or isokinetic strength was used; (d) the training protocol lasted for a minimum of 6 weeks; (e) the study involved participants with no known medical conditions or injuries impairing training capacity. A total of 21 studies were ultimately included for analysis. Gains in 1RM strength were significantly greater in favor of high- vs. low-load training, whereas no significant differences were found for isometric strength between conditions. Changes in measures of muscle hypertrophy were similar between conditions. The findings indicate that maximal strength benefits are obtained from the use of heavy loads while muscle hypertrophy can be equally achieved across a spectrum of loading ranges.",
+    "doi": "10.1519/JSC.0000000000002200",
+    "pmid": "28834797",
+    "pmc_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+    "publication_type": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ],
+    "keywords": [
+      "Adaptation, Physiological",
+      "Humans",
+      "Hypertrophy",
+      "Muscle Strength",
+      "Muscle, Skeletal",
+      "Resistance Training"
+    ],
+    "language": "eng",
+    "retrieved_at": "2026-06-02T18:49:52.810414",
+    "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords"
+  },
+  {
+    "paper_id": "pmid_28698222",
+    "source": "pubmed",
+    "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults.",
+    "authors": [
+      "Robert W Morton",
+      "Kevin T Murphy",
+      "Sean R McKellar",
+      "Brad J Schoenfeld",
+      "Menno Henselmans",
+      "Eric Helms",
+      "Alan A Aragon",
+      "Michaela C Devries",
+      "Laura Banfield",
+      "James W Krieger",
+      "Stuart M Phillips"
+    ],
+    "authors_str": "Robert W Morton; Kevin T Murphy; Sean R McKellar; Brad J Schoenfeld; Menno Henselmans; Eric Helms; Alan A Aragon; Michaela C Devries; Laura Banfield; James W Krieger; Stuart M Phillips",
+    "year": "2018",
+    "journal": "British journal of sports medicine",
+    "issn": "1473-0480",
+    "abstract": "We performed a systematic review, meta-analysis and meta-regression to determine if dietary protein supplementation augments resistance exercise training (RET)-induced gains in muscle mass and strength. OBJECTIVE: We performed a systematic review, meta-analysis and meta-regression to determine if dietary protein supplementation augments resistance exercise training (RET)-induced gains in muscle mass and strength. A systematic search of Medline, Embase, CINAHL and SportDiscus. DATA SOURCES: A systematic search of Medline, Embase, CINAHL and SportDiscus. Only randomised controlled trials with RET ≥6 weeks in duration and dietary protein supplementation. ELIGIBILITY CRITERIA: Only randomised controlled trials with RET ≥6 weeks in duration and dietary protein supplementation. Random-effects meta-analyses and meta-regressions with four a priori determined covariates. Two-phase break point analysis was used to determine the relationship between total protein intake and changes in fat-free mass (FFM). DESIGN: Random-effects meta-analyses and meta-regressions with four a priori determined covariates. Two-phase break point analysis was used to determine the relationship between total protein intake and changes in fat-free mass (FFM). Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) and muscle size-muscle fibre cross-sectional area (CSA; 310 µm RESULTS: Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) and muscle size-muscle fibre cross-sectional area (CSA; 310 µm Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults. Increasing age reduces and training experience increases the efficacy of protein supplementation during RET. With protein supplementation, protein intakes at amounts greater than ~1.6 g/kg/day do not further contribute RET-induced gains in FFM. SUMMARY/CONCLUSION: Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults. Increasing age reduces and training experience increases the efficacy of protein supplementation during RET. With protein supplementation, protein intakes at amounts greater than ~1.6 g/kg/day do not further contribute RET-induced gains in FFM.",
+    "doi": "10.1136/bjsports-2017-097608",
+    "pmid": "28698222",
+    "pmc_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+    "publication_type": [
+      "Journal Article",
+      "Meta-Analysis",
+      "Systematic Review"
+    ],
+    "keywords": [
+      "Adult",
+      "Dietary Proteins",
+      "Dietary Supplements",
+      "Humans",
+      "Muscle Strength",
+      "Muscle, Skeletal",
+      "Randomized Controlled Trials as Topic",
+      "Regression Analysis",
+      "Resistance Training"
+    ],
+    "language": "eng",
+    "retrieved_at": "2026-06-02T18:49:53.843599",
+    "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords"
+  }
+]

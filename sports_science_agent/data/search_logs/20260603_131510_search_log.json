@@ -1,0 +1,21 @@
+{
+  "session": "20260603_131510",
+  "topic": "阻力训练对老年人肌肉力量的影响",
+  "pico": {
+    "population": "elderly older adults aged senior",
+    "intervention_or_exposure": "resistance training strength training weight training",
+    "comparator": "",
+    "outcomes": "muscle strength strength force",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"resistance training\"[Title/Abstract] OR \"strength training\"[Title/Abstract] OR \"weight training\"[Title/Abstract]) AND (\"muscle strength\"[Title/Abstract] OR \"strength\"[Title/Abstract] OR \"force\"[Title/Abstract]) AND (\"elderly\"[Title/Abstract] OR \"older adults\"[Title/Abstract] OR \"aged\"[Title/Abstract] OR \"senior\"[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR controlled clinical trial[Publication Type]) NOT (animal[Title/Abstract] OR rat[Title/Abstract] OR mouse[Title/Abstract] OR cell[Title/Abstract] OR \"in vitro\"[Title/Abstract])",
+      "results_count": 5,
+      "timestamp": "2026-06-03T13:15:46.380882"
+    }
+  ],
+  "total_found": 5,
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "session": "20260602_184951",
+  "topic": "resistance training muscle hypertrophy optimal load",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "resistance training muscle hypertrophy optimal load",
+    "comparator": "control / usual care / moderate-intensity continuous training",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"resistance\"[Title/Abstract] OR \"training\"[Title/Abstract] OR \"muscle\"[Title/Abstract] OR \"hypertrophy\"[Title/Abstract] OR \"optimal\"[Title/Abstract] OR \"load\"[Title/Abstract]) AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 2,
+      "timestamp": "2026-06-02T18:49:54.187799"
+    }
+  ],
+  "total_found": 2,
+  "errors": []
+}

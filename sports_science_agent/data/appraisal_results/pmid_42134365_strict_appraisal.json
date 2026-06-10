@@ -1,0 +1,209 @@
+{
+  "paper_id": "pmid_42134365",
+  "source": "pubmed",
+  "title": "Pharmacological interventions for ADHD: a systematic review and dose-effect network meta-analysis.",
+  "authors": [
+    "Mikail Nourredine",
+    "Lucie Jurek",
+    "Tasnim Hamza",
+    "Andrea Cipriani",
+    "Fabien Subtil",
+    "Valeria Parlatini",
+    "Luis C Farhat",
+    "Guilherme Fusetto Veronesi",
+    "Orestis Efthimiou",
+    "Georgia Salanti",
+    "Samuele Cortese"
+  ],
+  "year": "2026",
+  "journal": "The lancet. Psychiatry",
+  "doi": "10.1016/S2215-0366(26)00091-X",
+  "pmid": "42134365",
+  "abstract": "Optimising the dosage of pharmacological treatments for ADHD is key to maximising their benefits, yet most clinical guidelines provide only limited information on this issue. Dose-effect relationships have not been comprehensively assessed across all ADHD medications and age groups, despite growing concerns about subtherapeutic prescribing. We aimed to estimate dose-effect curves for efficacy and tolerability of ADHD medications (stimulants and non-stimulants) across age groups. BACKGROUND: Optimising the dosage of pharmacological treatments for ADHD is key to maximising their benefits, yet most clinical guidelines provide only limited information on this issue. Dose-effect relationships have not been comprehensively assessed across all ADHD medications and age groups, despite growing concerns about subtherapeutic prescribing. We aimed to estimate dose-effect curves for efficacy and tolerability of ADHD medications (stimulants and non-stimulants) across age groups. We conducted a systematic review and dose-effect network meta-analysis of double-blind randomised controlled trials (RCTs) evaluating oral monotherapy (stimulants and non-stimulants) in individuals aged 5 years and older meeting standardised ADHD criteria. Studies involving genetic syndromes, treatment-resistant populations, or withdrawal-phase designs were excluded. We retrieved eligible studies from the MED-ADHD database, updated on Feb 17, 2025, without language restrictions. We included published and unpublished aggregated-level data. The primary outcome was efficacy (measured using validated clinical scales) and the secondary outcome was tolerability (discontinuation due to adverse events). Within-study bias was assessed with the Cochrane Risk of Bias Tool (version 2). We summarised dose-effect associations using a hierarchical Bayesian model with restricted cubic splines. Separate analyses were conducted for children or adolescents (aged <18 years) and adults (aged ≥18 years). The distribution of key effect modifiers was used to examine transitivity of the network. People with lived experience were involved in the conceptualisation and design of the study, and in the interpretation of the findings. The protocol was pre-registered on OSF. METHODS: We conducted a systematic review and dose-effect network meta-analysis of double-blind randomised controlled trials (RCTs) evaluating oral monotherapy (stimulants and non-stimulants) in individuals aged 5 years and older meeting standardised ADHD criteria. Studies involving genetic syndromes, treatment-resistant populations, or withdrawal-phase designs were excluded. We retrieved eligible studies from the MED-ADHD database, updated on Feb 17, 2025, without language restrictions. We included published and unpublished aggregated-level data. The primary outcome was efficacy (measured using validated clinical scales) and the secondary outcome was tolerability (discontinuation due to adverse events). Within-study bias was assessed with the Cochrane Risk of Bias Tool (version 2). We summarised dose-effect associations using a hierarchical Bayesian model with restricted cubic splines. Separate analyses were conducted for children or adolescents (aged <18 years) and adults (aged ≥18 years). The distribution of key effect modifiers was used to examine transitivity of the network. People with lived experience were involved in the conceptualisation and design of the study, and in the interpretation of the findings. The protocol was pre-registered on OSF. Our 2017 search identified 9948 potential references for inclusion and our Feb 17, 2025 search identified 5148 references. Of these 15 096 references, 8467 were excluded after title and abstract screening, and a further 5862 references were excluded after a full-text read. Of the 767 remaining reports, 164 were included in the systematic review and 113 RCTs (45 in adults and 68 in children and adolescents) were included in the dose-effect network meta-analysis. The 68 RCTs on children and adolescents included 14 138 participants (9981 [70·6%] males and 4157 [29·4%] females) and the 45 RCTs on adults included 11 016 participants (5958 [54·0%] males and 5056 [46·0%] females). Data on ethnicity or race were inconsistently reported across RCTs. We found distinct dose-effect patterns by medication class and age group. In children and adolescents, methylphenidate, amphetamines, and guanfacine showed increasing median efficacy up to 45 mg/day, 25 mg/day and 4 mg/day, respectively, with no evidence of additional benefit at higher doses, although estimates at higher doses were characterised by wide credible intervals. In adults, amphetamines showed a plateau above approximatively 50 mg/day, whereas methylphenidate efficacy increased without evidence of a plateau, possibly due to sparse data. Dose-dependent increases in discontinuation probability due to adverse events were observed for amphetamines (above 25 mg/day for children and 50 mg/day for adults) and methylphenidate (above 50 mg/day for adults, with no clear dose-dependent risk for children). We found no evidence of dose-effect patterns for atomoxetine (in fixed-doses studies) and modafinil. Multiple sensitivity analyses confirmed the robustness of these findings. We found no evidence of intransitivity. FINDINGS: Our 2017 search identified 9948 potential references for inclusion and our Feb 17, 2025 search identified 5148 references. Of these 15 096 references, 8467 were excluded after title and abstract screening, and a further 5862 references were excluded after a full-text read. Of the 767 remaining reports, 164 were included in the systematic review and 113 RCTs (45 in adults and 68 in children and adolescents) were included in the dose-effect network meta-analysis. The 68 RCTs on children and adolescents included 14 138 participants (9981 [70·6%] males and 4157 [29·4%] females) and the 45 RCTs on adults included 11 016 participants (5958 [54·0%] males and 5056 [46·0%] females). Data on ethnicity or race were inconsistently reported across RCTs. We found distinct dose-effect patterns by medication class and age group. In children and adolescents, methylphenidate, amphetamines, and guanfacine showed increasing median efficacy up to 45 mg/day, 25 mg/day and 4 mg/day, respectively, with no evidence of additional benefit at higher doses, although estimates at higher doses were characterised by wide credible intervals. In adults, amphetamines showed a plateau above approximatively 50 mg/day, whereas methylphenidate efficacy increased without evidence of a plateau, possibly due to sparse data. Dose-dependent increases in discontinuation probability due to adverse events were observed for amphetamines (above 25 mg/day for children and 50 mg/day for adults) and methylphenidate (above 50 mg/day for adults, with no clear dose-dependent risk for children). We found no evidence of dose-effect patterns for atomoxetine (in fixed-doses studies) and modafinil. Multiple sensitivity analyses confirmed the robustness of these findings. We found no evidence of intransitivity. Our findings challenge both therapeutic inertia-accepting suboptimal response without further dose titration-and uncritical dose escalation beyond licensed limits, when potential harms outweigh expected benefits. Our findings can inform clinical guidelines and should support shared decision making regarding ADHD medication dosage. INTERPRETATION: Our findings challenge both therapeutic inertia-accepting suboptimal response without further dose titration-and uncritical dose escalation beyond licensed limits, when potential harms outweigh expected benefits. Our findings can inform clinical guidelines and should support shared decision making regarding ADHD medication dosage. National Institute for Health and Care Research (NIHR303122). FUNDING: National Institute for Health and Care Research (NIHR303122).",
+  "publication_type": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+  ],
+  "keywords": [
+    "Humans",
+    "Attention Deficit Disorder with Hyperactivity",
+    "Network Meta-Analysis as Topic",
+    "Dose-Response Relationship, Drug",
+    "Central Nervous System Stimulants",
+    "Child",
+    "Adolescent",
+    "Randomized Controlled Trials as Topic",
+    "Adult",
+    "Child, Preschool"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "systematic_review_with_meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "The lancet. Psychiatry",
+    "issn_input": "2215-0374",
+    "journal_match_status": "not_found",
+    "journal_match_confidence": 0.0,
+    "matched_journal_name": "",
+    "jcr_quartile": "",
+    "cas_quartile": "",
+    "impact_factor": "",
+    "impact_factor_year": "",
+    "ranking_source": "",
+    "publisher": "",
+    "last_verified": "",
+    "journal_score": null,
+    "journal_score_reason": "本地期刊分区表中未找到匹配期刊，需人工核验",
+    "journal_rank_status": "未获取，需人工核验"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review_with_meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Systematic Review, Meta-Analysis"
+    ],
+    "design_score": 7.0,
+    "design_strengths": [
+      "Registration: 提及注册或方案",
+      "Search: 检索了 cochrane",
+      "Risk of bias: 提及偏倚风险评估工具"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Heterogeneity: Meta分析的异质性评估信息不足 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计总体合理 (score=7.0)，存在部分方法学信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "cochrane",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "已提及",
+      "heterogeneity_assessment": "未报告",
+      "model_choice": "unclear",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 6.0,
+    "statistics_strengths": [
+      "统计方法较为先进，使用了 未识别"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review_with_meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 5.0,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "用户未指定intervention，无法评估匹配度",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "overall_appraisal": {
+    "journal_score": null,
+    "design_score": 7.0,
+    "statistics_score": 6.0,
+    "relevance_score": 5.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 7.0,
+    "overall_quality_score": 5.8,
+    "weights_used": {
+      "journal_score": 0,
+      "design_score": 0.3,
+      "statistics_score": 0.3,
+      "relevance_score": 0.25,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "期刊分区缺失，综合评分未纳入期刊分区因素，需人工核验。",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "maybe",
+    "recommendation_reason": "综合评分较低 (5.8/10)，但主题相关 | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "期刊分区信息缺失 — 需查找JCR/中科院分区或人工核验",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Nourredine_2026_Pharmacological_interventions_for_ADHD.md",
+  "created_at": "2026-06-03T09:10:38.652640",
+  "updated_at": "2026-06-03T09:10:38.652640"
+}

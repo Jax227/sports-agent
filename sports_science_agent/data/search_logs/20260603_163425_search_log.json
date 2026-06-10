@@ -1,0 +1,21 @@
+{
+  "session": "20260603_163425",
+  "topic": "Optimal power load training",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "optimal power load training optimal load for power training at optimal load power load optimal resistance for power load that maximizes power",
+    "comparator": "",
+    "outcomes": "power output peak power mean power velocity force jump performance sprint performance",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "((\"optimal power load\"[Title/Abstract] OR \"maximal power load\"[Title/Abstract] OR \"optimal load for power\"[Title/Abstract] OR \"power load training\"[Title/Abstract]) AND (\"training\"[Title/Abstract] OR \"exercise\"[Title/Abstract] OR \"sport\"[Title/Abstract]) AND (\"power output\"[Title/Abstract] OR \"peak power\"[Title/Abstract] OR \"mean power\"[Title/Abstract])) AND \"humans\"[MeSH Terms] NOT (\"animal\"[Title/Abstract] OR \"rat\"[Title/Abstract] OR \"mouse\"[Title/Abstract] OR \"cell\"[Title/Abstract] OR \"in vitro\"[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR controlled clinical trial[Publication Type] OR comparative study[Publication Type])",
+      "results_count": 3,
+      "timestamp": "2026-06-03T16:35:09.108422"
+    }
+  ],
+  "total_found": 3,
+  "errors": []
+}

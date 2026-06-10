@@ -1,0 +1,220 @@
+{
+  "paper_id": "pmid_26553497",
+  "source": "pubmed",
+  "title": "Resisted Sled Sprint Training to Improve Sprint Performance: A Systematic Review.",
+  "authors": [
+    "George Petrakos",
+    "Jean-Benoit Morin",
+    "Brendan Egan"
+  ],
+  "year": "2016",
+  "journal": "Sports medicine (Auckland, N.Z.)",
+  "doi": "10.1007/s40279-015-0422-8",
+  "pmid": "26553497",
+  "abstract": "Based on recent findings regarding the mechanical determinants of sprint performance, resisted sled sprint (RSS) training may provide an effective tool for the improvement of sprint acceleration and maximal velocity. However, the volume and intensity for effective RSS training in different populations is unclear. BACKGROUND: Based on recent findings regarding the mechanical determinants of sprint performance, resisted sled sprint (RSS) training may provide an effective tool for the improvement of sprint acceleration and maximal velocity. However, the volume and intensity for effective RSS training in different populations is unclear. The primary objective was to evaluate the effectiveness of RSS training compared with unresisted sprint (URS) training, and the differential effects of sled load on RSS training outcomes. OBJECTIVES: The primary objective was to evaluate the effectiveness of RSS training compared with unresisted sprint (URS) training, and the differential effects of sled load on RSS training outcomes. STUDY ELIGIBILITY AND APPRAISAL: A systematic review was performed primarily using PubMed and SPORTDiscus databases. Peer-reviewed studies were accepted only if the participants used a sled towing device for a longitudinal intervention of resisted sprint training, and if RSS training was the primary difference in training intervention between groups. Effect size (ES) reported using Cohen's d was presented to compare the magnitude of effect between both dependent and independent groups. DATA SOURCES: STUDY ELIGIBILITY AND APPRAISAL: A systematic review was performed primarily using PubMed and SPORTDiscus databases. Peer-reviewed studies were accepted only if the participants used a sled towing device for a longitudinal intervention of resisted sprint training, and if RSS training was the primary difference in training intervention between groups. Effect size (ES) reported using Cohen's d was presented to compare the magnitude of effect between both dependent and independent groups. A total of 11 studies fulfilled the eligibility criteria. Sled loads were prescribed either as a percentage of body mass (%BM), a targeted reduction in velocity compared with unresisted sprint velocity (%V(dec)) or as an absolute load (kg). RSS training with 'light' (<10 %BM or <10 %V(dec)) loads provide 'small' decrements in acceleration (-1.5%, ES = 0.50) to 'moderate' improvements in maximal sprint velocity (2.4%, ES = 0.80) in sprint-trained individuals. 'Moderate' (10-19.9%BM or 10-14.9%V(dec)) to 'very heavy' (>30%BM or >30%V(dec)) sled loads provide 'trivial' to 'extremely large' improvements in acceleration performance (0.5-9.1%, ES = 0.14-4.00) in strength-trained or team sport individuals. Whether RSS training is more effective than URS training in the improvement of acceleration or maximal sprint velocity remains equivocal. RESULTS: A total of 11 studies fulfilled the eligibility criteria. Sled loads were prescribed either as a percentage of body mass (%BM), a targeted reduction in velocity compared with unresisted sprint velocity (%V(dec)) or as an absolute load (kg). RSS training with 'light' (<10 %BM or <10 %V(dec)) loads provide 'small' decrements in acceleration (-1.5%, ES = 0.50) to 'moderate' improvements in maximal sprint velocity (2.4%, ES = 0.80) in sprint-trained individuals. 'Moderate' (10-19.9%BM or 10-14.9%V(dec)) to 'very heavy' (>30%BM or >30%V(dec)) sled loads provide 'trivial' to 'extremely large' improvements in acceleration performance (0.5-9.1%, ES = 0.14-4.00) in strength-trained or team sport individuals. Whether RSS training is more effective than URS training in the improvement of acceleration or maximal sprint velocity remains equivocal. RSS training is a novel training method with potential for the improvement of sprint performance, but its performance benefits over URS training remain to be conclusively demonstrated. Between-study comparisons are limited primarily by discrepancies in the training status and phase of the participants, and sled load prescription. Future work is required to define the optimal load and volume for RSS depending on the specific components of sprint performance to be enhanced. CONCLUSIONS: RSS training is a novel training method with potential for the improvement of sprint performance, but its performance benefits over URS training remain to be conclusively demonstrated. Between-study comparisons are limited primarily by discrepancies in the training status and phase of the participants, and sled load prescription. Future work is required to define the optimal load and volume for RSS depending on the specific components of sprint performance to be enhanced.",
+  "publication_type": [
+    "Journal Article",
+    "Systematic Review"
+  ],
+  "keywords": [
+    "Acceleration",
+    "Athletic Performance",
+    "Biomechanical Phenomena",
+    "Humans",
+    "Physical Conditioning, Human",
+    "Resistance Training",
+    "Running"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "optimal load optimal loading",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "systematic_review"
+  },
+  "journal_evaluation": {
+    "journal_name": "Sports medicine (Auckland, N.Z.)",
+    "issn_input": "1179-2035",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "14.8",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "Springer",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review",
+    "study_type_confidence": 0.9,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Systematic Review"
+    ],
+    "design_score": 6.0,
+    "design_strengths": [
+      "Search: 检索了 pubmed, sportdiscus 等数据库 (≥2)"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Risk of bias: 摘要未提及偏倚风险评估工具 — 需查看全文"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计总体合理 (score=6.0)，存在部分方法学信息不足。 设计优点信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "pubmed, sportdiscus",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "未报告",
+      "heterogeneity_assessment": "未报告",
+      "model_choice": "unclear",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "是",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "摘要未报告，需查看全文",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 6.5,
+    "statistics_strengths": [
+      "报告了效应量 (effect size)"
+    ],
+    "statistics_limitations": [
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 5.0,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "intervention: 弱匹配 (1/3 terms)",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的intervention术语: load | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 0.0,
+    "abstract_relevance_score": 7.0,
+    "pico_coverage_score": 4.0,
+    "mandatory_coverage_score": 0.5,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 3.8,
+    "relevance_label": "low",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [
+        "optimal load"
+      ],
+      "comparator": [],
+      "outcomes": [],
+      "context": [
+        "sport",
+        "training"
+      ]
+    },
+    "missing_required_concepts": [
+      "resistance training"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "低相关：评分 3.75/10 | 标题未体现核心概念 | 缺失核心概念: resistance training"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 6.0,
+    "statistics_score": 6.5,
+    "relevance_score": 5.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 7.5,
+    "overall_quality_score": 6.2,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "high",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (6.2/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260610_Petrakos_2016_Resisted_Sled_Sprint_Training_to_Improve.md",
+  "created_at": "2026-06-10T14:16:36.516208",
+  "updated_at": "2026-06-10T14:16:36.516208"
+}

@@ -1,0 +1,28 @@
+{
+  "session": "20260602_133831",
+  "topic": "OPL最佳负荷在抗阻训练当中的干预效果",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 0,
+      "timestamp": "2026-06-02T13:38:31.387372"
+    }
+  ],
+  "total_found": 0,
+  "errors": [
+    {
+      "database": "pubmed",
+      "type": "connection",
+      "message": "PubMed 连接失败：无法连接到 eutils.ncbi.nlm.nih.gov，请检查网络或代理设置",
+      "detail": "HTTPSConnectionPool(host='eutils.ncbi.nlm.nih.gov', port=443): Max retries exceeded with url: /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22systematic+review%22%5BPublication+Type%5D+OR+%22meta-analysis%22%5BPublication+Type%5D%29&retmax=3&retmode=xml&sort=relevance (Caused by ProxyError('Unable "
+    }
+  ]
+}

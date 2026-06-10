@@ -1,0 +1,21 @@
+{
+  "session": "20260603_131405",
+  "topic": "HIIT 对中老年人 VO2max 的影响",
+  "pico": {
+    "population": "middle aged aged elderly older adult* senior*",
+    "intervention_or_exposure": "high intensity interval training HIIT sprint interval training interval exercise high-intensity intermittent exercise",
+    "comparator": "",
+    "outcomes": "VO2max maximal oxygen uptake maximal oxygen consumption peak oxygen uptake aerobic capacity cardiorespiratory fitness",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(high intensity interval training[Title/Abstract] OR HIIT[Title/Abstract] OR sprint interval training[Title/Abstract] OR interval exercise[Title/Abstract]) AND (VO2max[Title/Abstract] OR maximal oxygen uptake[Title/Abstract] OR maximal oxygen consumption[Title/Abstract] OR peak oxygen uptake[Title/Abstract] OR aerobic capacity[Title/Abstract] OR cardiorespiratory fitness[Title/Abstract]) AND (middle aged[Title/Abstract] OR aged[Title/Abstract] OR elderly[Title/Abstract] OR older adult*[Title/Abstract] OR senior*[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR clinical trial[Publication Type] OR systematic review[Publication Type])",
+      "results_count": 5,
+      "timestamp": "2026-06-03T13:14:52.290011"
+    }
+  ],
+  "total_found": 5,
+  "errors": []
+}

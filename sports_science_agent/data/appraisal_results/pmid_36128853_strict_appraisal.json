@@ -1,0 +1,229 @@
+{
+  "paper_id": "pmid_36128853",
+  "source": "pubmed",
+  "title": "Natural history and biomarkers of retinal dystrophy caused by the biallelic TULP1 variant c.148delG.",
+  "authors": [
+    "Anna Majander",
+    "Eeva-Marja Sankila",
+    "Aura Falck",
+    "Laura Kristiina Vasara",
+    "Sanna Seitsonen",
+    "Maarit Kulmala",
+    "Anna-Kaisa Haavisto",
+    "Kristiina Avela",
+    "Joni A Turunen"
+  ],
+  "year": "2023",
+  "journal": "Acta ophthalmologica",
+  "doi": "10.1111/aos.15252",
+  "pmid": "36128853",
+  "abstract": "To report clinical features and potential disease markers of inherited retinal dystrophy (IRD) caused by the biallelic c.148delG variant in the tubby-like protein 1 (TULP1) gene. PURPOSE: To report clinical features and potential disease markers of inherited retinal dystrophy (IRD) caused by the biallelic c.148delG variant in the tubby-like protein 1 (TULP1) gene. A retrospective observational study of 16 IRD patients carrying a homozygous pathogenic TULP1 c.148delG variant. Clinical data including fundus spectral-domain optical coherence tomography (SD-OCT) were assessed. A meta-analysis of visual acuity of previously reported other pathogenic TULP1 variants was performed for reference. METHODS: A retrospective observational study of 16 IRD patients carrying a homozygous pathogenic TULP1 c.148delG variant. Clinical data including fundus spectral-domain optical coherence tomography (SD-OCT) were assessed. A meta-analysis of visual acuity of previously reported other pathogenic TULP1 variants was performed for reference. The biallelic TULP1 variant c.148delG was associated with infantile and early childhood onset IRD. Retinal ophthalmoscopy was primarily normal converting to peripheral pigmentary retinopathy and maculopathy characterized by progressive extra-foveal loss of the ellipsoid zone (EZ), the outer plexiform layer (OPL), and the outer nuclear layer (ONL) bands in the SD-OCT images. The horizontal width of the foveal EZ showed significant regression with the best-corrected visual acuity (BCVA) of the eye (p < 0.0001, R RESULTS: The biallelic TULP1 variant c.148delG was associated with infantile and early childhood onset IRD. Retinal ophthalmoscopy was primarily normal converting to peripheral pigmentary retinopathy and maculopathy characterized by progressive extra-foveal loss of the ellipsoid zone (EZ), the outer plexiform layer (OPL), and the outer nuclear layer (ONL) bands in the SD-OCT images. The horizontal width of the foveal EZ showed significant regression with the best-corrected visual acuity (BCVA) of the eye (p < 0.0001, R This study describes the progression of TULP1 IRD suggesting a potential time window for therapeutic interventions. The width of the foveal EZ and the thickness of the foveal OPL-ONL layers could serve as biomarkers of the disease stage. CONCLUSIONS: This study describes the progression of TULP1 IRD suggesting a potential time window for therapeutic interventions. The width of the foveal EZ and the thickness of the foveal OPL-ONL layers could serve as biomarkers of the disease stage.",
+  "publication_type": [
+    "Meta-Analysis",
+    "Journal Article"
+  ],
+  "keywords": [
+    "Child, Preschool",
+    "Humans",
+    "Biomarkers",
+    "Eye Proteins",
+    "Fundus Oculi",
+    "Observational Studies as Topic",
+    "Retina",
+    "Retinal Dystrophies",
+    "Retinitis Pigmentosa",
+    "Tomography, Optical Coherence"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "opl最佳负荷在抗阻训练当中的干预效果",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "Acta ophthalmologica",
+    "issn_input": "1755-3768",
+    "journal_match_status": "not_found",
+    "journal_match_confidence": 0.0,
+    "matched_journal_name": "",
+    "jcr_quartile": "",
+    "cas_quartile": "",
+    "impact_factor": "",
+    "impact_factor_year": "",
+    "ranking_source": "",
+    "publisher": "",
+    "last_verified": "",
+    "journal_score": null,
+    "journal_score_reason": "本地期刊分区表中未找到匹配期刊，需人工核验",
+    "journal_rank_status": "未获取，需人工核验"
+  },
+  "study_design_evaluation": {
+    "study_type": "meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Meta-Analysis, Journal Article"
+    ],
+    "design_score": 5.0,
+    "design_strengths": [
+      "摘要信息不足，需阅读全文判断设计优点"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Search: 摘要未明确列出检索数据库 — 需查看全文",
+      "Risk of bias: 摘要未提及偏倚风险评估工具 — 需查看全文",
+      "Heterogeneity: Meta分析的异质性评估信息不足 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计存在一定局限 (score=5.0)，信息不足以充分评判。 设计优点信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "未报告",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "未报告",
+      "heterogeneity_assessment": "未报告",
+      "model_choice": "unclear",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "regression model",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "r ",
+    "statistics_score": 5.5,
+    "statistics_strengths": [
+      "报告了 p 值"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 3.2,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "intervention: 基本不匹配 (0/1 terms)",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "文献中未找到intervention相关术语 | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "relevance_analysis": {
+    "title_relevance_score": 0.0,
+    "abstract_relevance_score": 1.0,
+    "pico_coverage_score": 0.0,
+    "mandatory_coverage_score": 0.0,
+    "exclusion_penalty": 0.0,
+    "final_relevance_score": 0.2,
+    "relevance_label": "exclude",
+    "matched_terms": {
+      "population": [],
+      "intervention_or_exposure": [],
+      "comparator": [],
+      "outcomes": [],
+      "context": []
+    },
+    "missing_required_concepts": [
+      "opl最佳负荷在抗阻训练当中的干预效果"
+    ],
+    "exclusion_terms_found": [],
+    "decision_reason": "排除：标题和摘要中均未找到核心干预/暴露概念 | 缺失核心词: opl最佳负荷在抗阻训练当中的干预效果"
+  },
+  "overall_appraisal": {
+    "journal_score": null,
+    "design_score": 5.0,
+    "statistics_score": 5.5,
+    "relevance_score": 3.2,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 6.5,
+    "overall_quality_score": 4.6,
+    "weights_used": {
+      "journal_score": 0,
+      "design_score": 0.3,
+      "statistics_score": 0.3,
+      "relevance_score": 0.25,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "期刊分区缺失，综合评分未纳入期刊分区因素，需人工核验。",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "exclude",
+    "recommendation_reason": "主题相关性不足 (3.2/10) | 部分字段信息不足，建议人工复核",
+    "missing_information": [
+      "期刊分区信息缺失 — 需查找JCR/中科院分区或人工核验",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价",
+      "研究设计细节不足 — 建议阅读全文后补充评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Majander_2023_Natural_history_and_biomarkers_of_retina.md",
+  "created_at": "2026-06-03T15:13:12.599814",
+  "updated_at": "2026-06-03T15:13:12.599814"
+}

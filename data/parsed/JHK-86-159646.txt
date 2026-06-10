@@ -1,0 +1,2087 @@
+                     Journal of Human Kinetics volume 86/2023, 175–194   DOI: 10.5114/jhk/159646  
+175 
+                       Section III – Sports and Physical Activity 
+ 
+ 
+ 
+1 NAR—Nucleus of High Performance in Sport, São Paulo, Brazil. 
+2 Department of Human Movement Sciences, Federal University of São Paulo, São Paulo, Brazil. 
+3 University of South Wales, Pontypridd, Wales, United Kingdom. 
+4 School of Health Sciences, Kristiania University College, Oslo, Norway. 
+5 UCAM Research Center for High Performance Sport, Catholic University of Murcia (UCAM), Murcia, Spain. 
+6 Faculty of Sport Sciences, Catholic University of Murcia (UCAM), Murcia, Spain. 
+7 Faculty of Science and Technology, London Sports Institute, Middlesex University, London, UK. 
+8 Centre for Life and Sport Sciences, Birmingham City University, Birmingham, United Kingdom. 
+* Correspondence: irineu.loturco@terra.com.br 
+Accepted for publishing in the Journal of Human Kinetics vol. 86/2023 in January 2023. 
+ Strength and Conditioning Practices of Brazilian Olympic Sprint 
+and Jump Coaches 
+by 
+Irineu Loturco 1,2,3,*, Thomas Haugen 4, Tomás T. Freitas 1,2,5,6, Chris Bishop 7,  
+Tulio B. M. A. Moura 1, Valter P. Mercer 1, Pedro E. Alcaraz 5, Lucas A. Pereira 1,2, 
+Anthony Weldon 8 
+Olympic coaches are likely to have adequate knowledge and implement effective training programs. This study 
+aimed to describe and critically examine the strength and conditioning practices adopted by Brazilian Olympic sprint 
+and jump coaches. Nineteen Olympic coaches (age: 50.2 ± 10.8 years; professional experience: 25.9 ± 13.1 years) completed 
+a survey consisting of eight sections: 1) background information; 2) strength-power development; 3) speed training; 4) 
+plyometrics; 5) flexibility training; 6) physical testing; 7) technology use; and 8) programming. It was noticed that coaches 
+prioritized the development of explosiveness, power, and sprinting speed in their training programs, given the specific 
+requirements of sprint and jump events. Nevertheless, unexpectedly, we observed: (1) large variations in the number of 
+repetitions performed per set during resistance training in the off-season period, (2) a higher volume of resistance training 
+prescribed during the competitive period (compared to other sports), and (3) infrequent use of traditional periodization 
+models. These findings are probably related to the complex characteristics of modern competitive sports (e.g., congested 
+competitive schedule) and the individual needs of sprinters and jumpers. Identification of training practices commonly 
+used by leading track and field coaches may help practitioners and sport scientists create more effective research projects 
+and training programs. 
+Keywords: athletic performance; track and field; coaching practices; speed; resistance training; athletes 
+ 
+Introduction 
+Track and field athletes are usually 
+distinguished 
+by 
+their 
+exceptional 
+physical 
+performance in different events, which regularly 
+occur under maximum effort conditions (e.g., 
+sprinting and jumping) (Franceschi et al., 2020; 
+Haugen et al., 2019b). These “superior capabilities” 
+seem to be even more pronounced during the 
+Olympic Games, when coaches and practitioners 
+use all resources available to optimize the 
+competitive potential of their athletes (Olusoga et 
+al., 2012; Pohl et al., 2019). Each discipline has its 
+own features and rules, with some being more 
+dependent on endurance-related factors (e.g., 
+5,000- and 10,000-m) and others on strength-, 
+speed-, and power-related variables (e.g., 100-m 
+dash and long jump) (Ben-Zaken et al., 2015; 
+Loturco et al., 2015b). Although all Olympic 
+athletes are at the limit of human performance, the 
+margin for error during explosive events is usually 
+much smaller as athletes have a very short time 
+(i.e., ~10 s in the 100-m dash) or a reduced number 
+of trials (i.e., three attempts in long jumps) to  
+
+176  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+properly execute the techniques and achieve their 
+best 
+performances 
+(Loturco 
+et 
+al., 
+2018b; 
+Tonnessen et al., 2013). 
+ 
+Accordingly, variations in performance 
+obtained by top-level sprinters and jumpers across 
+their professional careers tend to be minimal. For 
+example, decreases inferior or equal to 8% have 
+been observed in elite sprinters from the age of 18 
+to their personal-best times (Freitas et al., 2021; 
+Haugen et al., 2015). In addition, annual 
+improvements in the range of only 0.1–0.2% have 
+been detected for both sprinters and jumpers 
+during their early 20s (Haugen et al., 2018). Despite 
+these modest (but meaningful) changes in 
+performance, the body of evidence related to 
+training, testing, technique, and biomechanics of 
+sprinting is vast and robust, with a large number 
+of recent and “classic” studies examining these 
+factors (Bezodis et al., 2019; Colyer et al., 2018; 
+Haugen and Buchheit, 2016; Haugen et al., 2019b; 
+Healy et al., 2019; Loturco et al., 2021b; Mcmaster 
+et al., 2014; Morin et al., 2011; Walker et al., 2021). 
+Consequently, track and field coaches have 
+numerous resources at their disposal for enhancing 
+coaching 
+skills 
+and 
+strategies 
+and 
+hence, 
+optimizing the competitive level of their sprinters 
+(or track and field athletes who heavily rely on 
+sprinting speed, such as long jumpers) (Bridgett 
+and Linthorne, 2006; Granić and Pavlović, 2021; 
+Ngetich and Rintaugu, 2013). Under this rationale, 
+it is highly expected that Olympic sprint and jump 
+coaches are more likely to implement evidence-
+based 
+practices 
+in 
+their 
+daily 
+routines. 
+Nevertheless, few studies to date have analyzed or 
+reported the coaching practices of Olympic 
+coaches, especially with a focus on their strength 
+and conditioning (S&C) methods. 
+ 
+This knowledge is even more scarce in 
+developing countries (e.g., Brazil), where access to 
+technology, expensive equipment, and good 
+training facilities is usually limited, which may 
+compromise 
+the 
+implementation 
+of 
+more 
+sophisticated training approaches (Loturco et al., 
+2022). Analysis of training and testing practices 
+regularly employed by these highly-specialized 
+practitioners could provide valuable and useful 
+insights to coaches of lower-level athletes (i.e., 
+regional or national) and younger age categories, 
+as well as allow them to reflect on the effectiveness 
+of their own training processes (Haugen, 2021). 
+Therefore, the purpose of this study was to  
+ 
+ 
+investigate, describe, and critically examine the 
+S&C practices commonly adopted by Brazilian 
+Olympic sprint and jump coaches.  
+Methods 
+Participants 
+ 
+Nineteen Brazilian Olympic sprint and 
+jump coaches (age: 50.2 ± 10.8 years, age range: 32–
+73 years; professional experience: 25.9 ± 13.1 years, 
+range: 10–50 years), participated in this study. 
+Coaches on average participated in 4 ± 3 (range: 1–
+9) Olympic Games, working with 7 ± 7 (range: 1–
+23) 
+athletes. 
+Athletes 
+training 
+under 
+their 
+supervision won ten Olympic Games, 12 World 
+Championship, 7 Diamond League, and 42 Pan-
+American Games medals. Regarding the academic 
+background of coaches, 5% held a Ph.D. degree, 
+21% had a master’s degree, 53% had completed a 
+post-graduate course, and all of them were 
+graduated in Physical Education or Sport Science. 
+The study was conducted under the ethical 
+standards of the Helsinki Declaration and was 
+approved by the local Ethics Committee. 
+Study Design 
+ 
+This cross-sectional descriptive study was 
+designed to characterize the common training and 
+testing practices of Brazilian sprint and jump 
+coaches. Given that these coaches are generally 
+encouraged to implement contemporary research 
+and science-informed practices, it is important to 
+establish if this is the case. For this purpose, a 
+survey used in previous studies to assess the 
+practices of coaches from distinct countries and 
+sport disciplines (Loturco et al., 2022; Weldon et al., 
+2021a; Weldon et al., 2020; Weldon et al., 2021b) 
+was adapted and designed using TypeformTM. The 
+survey consisted of eight sections (1—background 
+information; 2—muscular strength and power 
+development; 
+3—speed 
+development; 
+4—
+plyometrics; 5—flexibility; 6—physical testing; 7—
+technology use; and 8—programming) comprising 
+27 fixed responses and 15 open-ended questions. In 
+one specific question regarding the use or not of 
+periodization strategies in their training programs, 
+coaches were allowed to provide additional 
+comments or justify their responses at will. As 
+certain questions allowed more than one response, 
+some questions included more responses than 
+others. During the survey preparation, four 
+experienced track and field coaches completed the 
+survey and minor adjustments were made to the  
+ 
+
+ by Irineu Loturco et al. 
+177 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+wording and structure of some questions, to 
+ensure they were clear and appropriate for the 
+surveyed population. A complete explanation of 
+the general information necessary to complete the 
+survey, the study purpose, and the confidentiality 
+of information and identity were provided on the 
+first page. Thereafter, participants provided 
+consent and anonymously completed the online 
+survey. 
+Data Acquisition and Analyses 
+ 
+The survey responses were downloaded 
+from TypeformTM into a customized spreadsheet. 
+Fixed response questions were assessed using 
+frequency analysis and open-ended questions 
+using a thematic analysis approach (Braun and 
+Clarke, 2006), via the following processes: 1) 
+familiarization with the data, 2) generating initial 
+codes, 3) searching for themes, 4) reviewing 
+themes, 5) defining and naming themes, and 6) 
+producing the report. This thematic-analysis 
+method has been used in previous studies 
+surveying coaches (Loturco et al., 2022; Weldon et 
+al., 2021a; Weldon et al., 2021b). Subsequently, key 
+themes representing the main ideas emerging from 
+the raw data were generated for open-ended 
+questions. Some open-ended responses provided 
+information for multiple topics, which could be 
+grouped and considered for further analysis. All 
+topics were reviewed and agreed upon by all 
+authors. 
+Results 
+Muscular Strength and Power Development 
+ 
+Table 1 shows the frequency of responses 
+regarding the organization of strength training 
+programs during preparatory and competitive 
+periods. Figure 1 depicts responses to how coaches 
+determined set loads during strength training 
+sessions. Table 2 demonstrates absolute and 
+relative results regarding the use or not of 
+periodization strategies in strength training 
+programs. Table 3 shows the average recovery time 
+prescribed 
+between 
+strength/power 
+training 
+sessions, sport-specific training, and competitions. 
+Additionally, coaches were asked whether they 
+used 
+Olympic 
+weightlifting 
+and 
+associated 
+derivatives 
+in 
+their 
+programs. 
+Responses 
+demonstrated that 79% of coaches used the snatch, 
+58% the clean, 47% the clean & jerk, 16% the power 
+clean, and 5% the power snatch, while 5% did not 
+use these techniques. The most commonly  
+ 
+ 
+reported resistance training methods were variable 
+(79%), eccentric (63%), concentric (58%), machine 
+(53%), isometric (37%), and isoinertial (16%). Table 
+4 provides the ranking of the five most important 
+exercises that coaches used in their strength 
+training programs. 
+Speed Development 
+ 
+Figure 2 depicts responses regarding the 
+methods most used by coaches for speed 
+development. The methods most frequently 
+reported were maximum speed sprinting (84%), 
+form running (i.e., technical drills) and plyometrics 
+(both 74%), resisted running (68%), and overspeed 
+running (58%). 
+Plyometrics 
+ 
+Coaches were asked the main reasons why 
+they implemented plyometric exercises in their 
+programs, with speed development (89%) being 
+the most reported, followed by improving jump 
+ability (68%), lower-body power (63%), injury 
+prevention (26%), total-body power (16%), and 
+upper-body power (11%). Regarding the period of 
+the season that coaches usually employed 
+plyometric 
+training, 
+preparatory 
+(68%) 
+and 
+competitive (63%) periods were most frequently 
+reported, followed by all year round (37%). 
+Regarding the integration of plyometrics into their 
+training schedule, 53% of coaches reported that it 
+was used on separate days and after resistance 
+training, 42% of coaches applied plyometric 
+exercises as part of complex training, and 26% 
+before resistance training. Figure 3 depicts the 
+frequency of responses involving plyometric 
+exercises commonly used by coaches in their 
+programs. 
+Flexibility Development 
+ 
+Sprint and jump coaches were asked to 
+report when athletes were encouraged or required 
+to perform flexibility exercises in their program. 
+After training (37%) was the most frequent 
+response, followed by before training (32%), and 
+during training (11%). The most common forms of 
+flexibility training used by coaches were dynamic 
+(84%), active and proprioceptive neuromuscular 
+facilitation (both 53%), ballistic (47%), static (42%), 
+passive (21%), and isometric (11%). The average 
+duration of a typical flexibility session was 11–15 
+min (37%), >21 min (26%), 16–20 min (21%), and 6–
+10 min (5%), whereas 11% reported “other”. 
+Physical Testing 
+ 
+The most common time reported by  
+ 
+
+178  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+coaches for physical testing of athletes was all year 
+round (68%), followed by (only during) the 
+preparatory period (21%). The competitive period, 
+the off-season, and no testing were selected by 5% 
+of coaches. Figure 4 shows the frequency of 
+responses regarding the physical tests commonly 
+used by sprint and jump coaches. Furthermore, 
+coaches were asked how they monitored athletes’ 
+well-being, with verbal questionnaires (79%) being 
+most reported, followed by written questionnaires 
+(16%) and online questionnaires or mobile 
+applications (both 11%), whereas 5% did not 
+monitor their athletes’ well-being. 
+Technology Use 
+ 
+Figure 5 depicts responses regarding the 
+technology-based equipment that coaches used in 
+their training programs. Video analysis software 
+(47%) was the most frequent response, followed by 
+speed gates and mobile phone apps (both 42%). 
+Other frequent responses included the use of 
+electronic jump mats (37%) and bar-velocity 
+trackers (32%). 
+Programming 
+ 
+Coaches were asked to report the most 
+significant issues faced during their training 
+practices. 
+Responses 
+included 
+the 
+lack 
+of 
+equipment and poor training facilities (47%), 
+financial problems and athletes’ commitment (both 
+16%), long commutes (11%), and the competitive 
+calendar (5%), whereas 5% did not report any such 
+issues. Another question was to report whether  
+ 
+coaches felt there was anything unique about their 
+training program, with most coaches reporting 
+“no” (63%), while 37% answered “yes”. Some 
+affirmative responses were: “alternative places to 
+perform training sessions in specific periods of the 
+season”, “communication with the athlete”, “good 
+agreement between theory and practice”, “movement 
+perfection based on technical refinement”, and 
+“persistency”. In addition, coaches were asked 
+whether they employed strategies to individualize 
+training loads according to the characteristics of 
+each athlete, with 95% answering “yes” and 5% 
+“no”. When asked whether they would change 
+something in their training program, given 
+unlimited time and resources, 89% answered 
+“yes”, while 11% answered “no”. For coaches who 
+selected “yes”, some responses involved “higher 
+participation in international training camps and 
+competitions”, and “better use of technology and 
+equipment for training load control and physical 
+assessment”. Finally, the last question was about 
+their opinion on future trends in sprint and jump 
+training practices, with technological advancement 
+(26%) being the most reported, followed by better 
+training monitoring approaches (21%), better 
+interaction with multidisciplinary professionals 
+(16%), better understanding of metabolic markers, 
+higher training intensity, and evolution of the 
+science (all 5%), while 21% did not present any 
+opinion. 
+ 
+ 
+ 
+Table 1. Absolute and relative (%) frequency of responses regarding the organization of the 
+strength training program during preparatory (PP) and competitive (CP) periods (n = 19). 
+Weekly sessions 
+ 
+1 
+2 
+3 
+4 
+5 
+>5 
+Other 
+PP 
+0 (0) 
+4(21) 
+9(47) 
+4(21) 
+0(0) 
+2(11) 
+0(0) 
+CP 
+4(21) 
+9(47) 
+3(16) 
+2(11) 
+0(0) 
+0(0) 
+1(5) 
+Session’s length (min) 
+ 
+0–15 
+16–30 
+31–45 
+46–60 
+61–75 
+>75 
+Other 
+PP 
+0(0) 
+0(0) 
+2(11) 
+7(37) 
+8(42) 
+2(11) 
+0(0) 
+CP 
+0(0) 
+2(11) 
+6(32) 
+7(37) 
+2(11) 
+1(5) 
+1(5) 
+Sets per exercise  
+ 
+1–2 
+3–4 
+5–6 
+7–8 
+9–10 
+>10 
+Other 
+PP 
+1(5) 
+13(68) 
+3(16) 
+0(0) 
+0(0) 
+1(5) 
+1(5) 
+CP 
+1(5) 
+15(79) 
+0(0) 
+0(0) 
+0(0) 
+0(0) 
+3(16) 
+Repetitions per exercise 
+set  
+ 
+1–3 
+4–6 
+7–9 
+10–12 
+13–15 
+>15 
+Other 
+PP 
+0(0) 
+6(32) 
+3(16) 
+6(32) 
+1(5) 
+2(11) 
+1(5) 
+CP 
+4(21) 
+11(58) 
+3(16) 
+0(0) 
+0(0) 
+0(0) 
+1(5) 
+ 
+ 
+ 
+ 
+
+ by Irineu Loturco et al. 
+179 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+ 
+ 
+Table 2. Responses regarding models of the strength training plan over the season (n = 19). 
+ 
+Absolute (n) 
+Relative (%) 
+Through the use of periodization models that follow preplanned and/or 
+fixed 
+routines, 
+selecting 
+some 
+events 
+as 
+“most 
+important 
+events/competitions” where athletes must achieve peak performance. 
+6 
+31.6 
+Through the use of programs constantly readjusted according to the 
+individual or collective physical and physiological responses, not 
+necessarily following fixed routines, trying to maintain high 
+performance levels during all/multiple events/competitions of the 
+season. 
+10 
+52.6 
+Other 
+3 
+15.8 
+ 
+Table 3. Absolute and relative (%) frequency of responses regarding the average recovery 
+time between distinct training sessions (n = 19). 
+ 
+Same day
+24 h
+36 h
+48 h 
+>48 h 
+Recovery time between strength-power training and 
+sport-specific training 
+6(32) 
+6(32) 
+1(5) 
+3(16) 
+3(16) 
+Recovery time between strength-power training and 
+competition 
+1(5) 
+4(21) 
+3(16) 
+3(16) 
+8(42) 
+Recovery time between sport-specific training and 
+competition 
+1(5) 
+1(5) 
+1(5) 
+3(16) 
+13(68) 
+ 
+Table 4. Ranking of the five most important exercises used in strength training  
+programs (n = 19). 
+Order of importance
+Exercises
+n (%) 
+1 
+Squat and variations 
+8(42) 
+Olympic weightlifting and derivatives 
+5(26) 
+Ballistics 
+3(16) 
+Hip thrust 
+1(5) 
+Lunge 
+1(5) 
+Did not specify 
+1(5) 
+2 
+Squat and variations 
+11(58) 
+Olympic weightlifting and derivatives 
+4(21) 
+Ballistics 
+2(11) 
+Did not specify 
+2(11) 
+3 
+Olympic weightlifting and derivatives 
+8(42) 
+Ballistics 
+2(11) 
+Bench press 
+1(5) 
+Calf raises 
+1(5) 
+Hip thrust 
+1(5) 
+Leg curl 
+1(5) 
+Squat and variations 
+1(5) 
+Stiff-leg deadlift 
+1(5) 
+Did not specify 
+3(16) 
+4 
+Ballistics 
+4(21) 
+Olympic weightlifting and derivatives 
+3(16) 
+Squat and variations 
+3(16) 
+Hip thrust 
+1(5) 
+Lunge 
+1(5) 
+Core exercises 
+1(5) 
+Did not specify 
+6(32) 
+5 
+Calf raises 
+2(11) 
+Hip thrust 
+2(11) 
+Lunge 
+2(11) 
+Squat and variations 
+2(11) 
+Core exercises 
+1(5) 
+Leg extension 
+1(5) 
+Olympic weightlifting and derivatives 
+1(5) 
+Did not specify 
+8(42) 
+ 
+
+180  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+ 
+Figure 1. Load determination procedures used during strength-power training sessions by 
+Brazilian Olympic sprint and jump coaches. 
+ 
+ 
+ 
+Figure 2. Methods for speed development used by Brazilian Olympic sprint and jump coaches. 
+ 
+ 
+Figure 3. Plyometric exercises used by Brazilian Olympic sprint and jump coaches. 
+ 
+ 
+ 
+
+ by Irineu Loturco et al. 
+181 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+ 
+Figure 4. Physical tests employed by Brazilian Olympic sprint and jump coaches. 
+ 
+ 
+ 
+Figure 5. Technology-based equipment utilized by Brazilian Olympic sprint and jump coaches. 
+ 
+ 
+ 
+ 
+ 
+Discussion 
+In this study, we examined the S&C 
+training and testing practices of Brazilian Olympic 
+sprint and jump coaches. As expected, according to 
+the specific technical and physical requirements of 
+these track and field disciplines, elite sprint and 
+jump 
+coaches 
+typically 
+prioritized 
+the 
+development 
+of 
+explosiveness, 
+power, 
+and 
+sprinting speed in their training programs 
+(Haugen et al., 2019b; Healy et al., 2021; Koyama et 
+al., 2011). Overall, the results of this survey support 
+these assumptions, but, at the same time, reveal 
+some novel and interesting findings which are  
+ 
+probably related to the demanding, challenging, 
+and complex characteristics of modern competitive 
+sports (Kiely, 2018; Loturco and Nakamura, 2016; 
+Schwellnus et al., 2016; Soligard et al., 2016). Below 
+we will present and discuss each of these topics 
+and their possible implications in a point-by-point 
+manner.  
+Resistance Training Prescription 
+Preparatory Period (Off-Season Phase) 
+ 
+A substantial number of sprint and jump 
+coaches (47%) prescribed three resistance training 
+sessions per week. Approximately 21% of them 
+utilized two or four weekly sessions, whereas only 
+11% implemented >5 sessions per week. For 42%  
+
+182  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+and 37% of coaches, typical resistance training 
+sessions lasted between 61 and 75 min or between 
+46 and 60 min, respectively. The majority of them 
+(68%) used 3–4 sets per exercise, with only a 
+minority using 5–6 sets (16%), and >10 sets or 1–2 
+sets (5% for both set configurations). Thirty-two % 
+of coaches prescribed 10–12 or 4–6 repetitions per 
+set; 16% 7–9 repetitions; 11% more than 15 
+repetitions; and 5% of them implemented sets with 
+13–15 repetitions. According to the present 
+findings, a “typical” resistance training session for 
+Brazilian Olympic sprint and jump coaches during 
+the preparatory period occurs between 2 and 4 
+times per week, lasts more than 60 min, and 
+comprises 3–4 sets of 4–6 or 10–12 repetitions per 
+set. This large variation in the number of 
+repetitions per set is seemingly a result of the 
+training conception: while some coaches are more 
+concerned with structural and morphological 
+changes (which require a higher number of 
+repetitions per set), others are more interested in 
+inducing neural adaptations, prescribing sets 
+within the “common strength-power zones” (i.e., 
+4–6 repetitions) (Cormie et al., 2011b; Hartmann et 
+al., 2015). 
+ 
+In general, the volume of resistance 
+training commonly employed by these track and 
+field coaches across the preparatory period was 
+higher than that observed in recent surveys of 
+other coaching populations (e.g., soccer, cricket, 
+and rugby S&C coaches) (Weldon et al., 2022), 
+who, although prioritizing a similar training 
+frequency (2–4 sessions per week), predominantly 
+prescribed resistance training sessions lasting up to 
+45 min (Loturco et al., 2022; Weldon et al., 2021b) 
+or between 45 and 60 min (Jones et al., 2016; 
+Weldon et al., 2021a). In a study conducted with 
+National Basketball Association (NBA) S&C 
+coaches, Simenz et al. (2005) also found a high (but 
+not 
+superior) 
+percentage 
+of 
+coaches 
+who 
+frequently applied resistance training sessions 
+lasting more than 60 min during the off-season. 
+However, this rate was similar to that observed for 
+sessions lasting 46–60 min (40% of NBA S&C 
+coaches, for both 46–60 and >60-minute sessions). 
+Hence, the predominance of extended resistance 
+training sessions (>60 min) across preparatory 
+periods appears to be exclusive to this group of 
+“explosive” track and field athletes. To some 
+extent, this can be attributed to the key role played 
+by strength and power qualities in sprint and jump  
+ 
+ 
+events (Haugen et al., 2019b; Healy et al., 2021; 
+Koyama et al., 2011) and, consequently, the 
+necessity 
+of 
+maximizing 
+these 
+“essential” 
+capabilities as a basis for more specific and 
+intensive training interventions (which are usually 
+programmed for the subsequent training phases) 
+(Bompa and Buzzichelli, 2019). In this regard, 
+Brazilian Olympic sprint and jump coaches seem 
+to dedicate a considerable amount of time of their 
+off-season training programs to develop and 
+optimize these neuromuscular abilities in their 
+athletes. Somewhat surprisingly, this tendency 
+was not limited to this training period, but was also 
+observed during the in-season phase. 
+Competitive Period (In-Season Phase) 
+ 
+Almost half of coaches (47%) prescribed 
+two resistance training sessions per week within 
+the competitive period; 21%, 16%, and 11% of them 
+applied 1, 3, or 4 weekly training sessions, 
+respectively. The most reported duration for 
+resistance training sessions was 46–60 min (37%), 
+31–45 min (32%), 16–30 and 61–75 min (11%), and 
+>75 min (5%). The majority of coaches (79%) 
+implemented training sessions with 3–4 sets, with 
+only a minority using 1–2 sets (5%). Finally, the 
+most prescribed set ranges throughout this phase 
+comprised 4–6 (58%), 1–3 (21%), and 7–9 (16%) 
+repetitions per set. Overall, a “typical” resistance 
+training session for Brazilian Olympic sprint and 
+jump coaches across the in-season was performed 
+twice a week, lasted from 46 to 60 min, and 
+involved 3–4 sets of 4–6 repetitions per exercise.  
+ 
+As previously mentioned, our findings 
+suggest that these coaches also prescribed greater 
+volumes 
+of 
+resistance 
+training 
+during 
+the 
+competitive period (when compared to S&C 
+coaches from other sports, such as cricket and 
+soccer) (Loturco et al., 2022; Weldon et al., 2021a; 
+Weldon et al., 2021b). This highlights the 
+importance of developing and maintaining high 
+levels of strength and power in these explosive and 
+highly specialized track and field athletes. 
+Nonetheless, this volume of strength-power 
+training may be similar or even inferior to that 
+observed in surveys conducted with coaches of 
+combat (i.e., wrestling) (Jamshidi et al., 2014) and 
+“contact” disciplines (i.e., ice-hockey and rugby) 
+(Ebben et al., 2004; Jones et al., 2016), which could 
+be justified by the specific needs of these sports. 
+Both combat and contact sports require not only 
+substantial strength-power levels, but also a  
+ 
+
+ by Irineu Loturco et al. 
+183 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+considerable amount of muscle mass to cope with 
+high-impact forces experienced in combats (e.g., 
+powerful strikes and takedowns) (Marinho et al., 
+2016) and matches (e.g., tackles in rugby) (Gabbett 
+et al., 2011). This certainly demands a great deal of 
+time and effort from coaches and athletes during 
+the in-season phase, thus resulting in longer and 
+more frequent resistance training sessions. On the 
+other hand, interestingly, the number of repetitions 
+per set commonly prescribed within this training 
+period seems to be similar among these sports, 
+with both Brazilian Olympic sprint and jump 
+coaches and, for example, wrestling and ice-
+hockey coaches prioritizing strength-power sets up 
+to 4–6 repetitions (usually performed with heavy 
+loads or at higher velocities) (Ebben et al., 2004; 
+Jamshidi et al., 2014).  
+ 
+Therefore, specifically with regard to the 
+track and field coaches surveyed in this study, 
+there was a clear trend towards increased intensity 
+(and decreased volume) throughout the in-season 
+phase. This tendency can be attributed to the 
+considerable reduction in total training time as a 
+consequence of the programmed (e.g., tapering) 
+and mandatory (e.g., journeys and official 
+competitions) activities that commonly occur over 
+this congested period (Schwellnus et al., 2016; 
+Soligard et al., 2016). As such, sprint and jump 
+coaches 
+implement 
+this 
+resistance 
+training 
+structure (i.e., lower volume and higher intensity) 
+not only to maintain and improve the strength and 
+power levels achieved in the off-season (a 
+methodological approach used by S&C coaches 
+from different sports) (Weldon et al., 2022), but also 
+to increase neuromuscular readiness and diminish 
+perceptual fatigue across successive competitions. 
+This appears to be a favorable strategy for 
+optimizing 
+performance 
+in 
+this 
+population 
+(Franceschi et al., 2020). 
+Loading Determination  
+ 
+A substantial portion of Brazilian Olympic 
+sprint and jump coaches (47%) determined set 
+loads based on movement velocity (e.g., using 
+accelerometers or linear position transducers) 
+(Thompson et al., 2020), while a similar proportion 
+(26%) utilized one-repetition maximum (1RM) 
+tests or varied the loading determination method 
+according to athletes’ preferences or characteristics 
+(i.e., “athlete dependent”). The third and fourth 
+most frequently used methods were, respectively, 
+“subjective guess” and “trial and error” (16% for  
+ 
+ 
+both) and “predicted 1RM” and “rating of 
+perceived exertion” (11% for both). Interestingly, 
+the percentage of sprint and jump coaches utilizing 
+“movement velocity” to define set loads (47%) was 
+higher than that observed in studies performed 
+with S&C coaches from professional cricket (~35%) 
+and soccer (40%; coaches from 18 countries) 
+(Weldon et al., 2021a; Weldon et al., 2021b) and 
+represented almost double value of that reported 
+for Brazilian soccer S&C coaches (24%) (Loturco et 
+al., 2022). High precision of the “velocity-based 
+method” aligned with the possibility of controlling 
+training sessions in real-time and monitoring the 
+variations in strength-power levels that can occur 
+daily have contributed to the increased popularity 
+of this approach among sprint and jump coaches 
+(Pareja-Blanco and Loturco, 2022). Indeed, these 
+technical and practical aspects are extremely 
+relevant in explosive sport disciplines, where 
+strength and power production are of paramount 
+importance (such as sprint and jump events) 
+(Loturco et al., 2019).  
+ 
+Another point to note is that elite Brazilian 
+soccer S&C coaches reported using 1RM tests less 
+frequently (8%) than Olympic sprint and jump 
+coaches in this study (26%) (Loturco et al., 2022). 
+This difference may be easily justifiable by three 
+basic factors: 1) the long time it takes to complete a 
+1RM test with multiple athletes (as in soccer) 
+(Loturco et al., 2022), 2) the traditional use of 1RM 
+measurements and training sessions with heavy 
+and very-heavy loads in track and field disciplines, 
+and hence 3) the ability of top-level sprinters and 
+jumpers to properly perform maximum strength 
+tests (Haugen et al., 2019b). Similarly, the solid and 
+extensive resistance training background of this 
+highly specialized population allows coaches and 
+athletes to select and define appropriate methods 
+of load determination throughout the entire 
+training season, which also explains the high 
+portion of “athlete dependent” responses obtained 
+(26%). All the remaining responses (i.e., “subjective 
+guess”, “trial and error”, “predicted 1RM”, and 
+“rating of perceived exertion) achieved frequency 
+rates equal or inferior to 16% of the total of 
+responses reported herein and are possibly related 
+to personal coaching preferences or lack of 
+appropriate technology (e.g., devices to measure, 
+for example, barbell velocity).  
+Resistance Training Programming 
+ 
+Most sprint and jump coaches in this study  
+ 
+
+184  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+(52.6%) reported implementation of more flexible 
+training programs, adjusting training content, 
+loads, and strategies according to training 
+responses or objective needs (e.g., qualification for 
+participation in international track and field 
+competitions). Somewhat curiously, only 31.6% of 
+them preferred to utilize a fixed and periodized 
+training 
+routine, 
+previously 
+defining 
+some 
+competitions as “most important events”, where 
+sprinters and jumpers had to achieve their peak 
+performance. Some coaches offered additional 
+comments to this question mostly indicating that 
+the “high number of sequential competitions over a 
+considerable short-period of time in the second trimester 
+of the year” combined with “the necessity of meeting 
+the high qualification standards for international 
+competitions (e.g., Diamond League Meetings and 
+World 
+Championships)” 
+required 
+coaches “to 
+frequently change and adjust their training practices, 
+according to the needs and objectives of athletes”. In this 
+regard, for example, if an elite sprinter achieves the 
+qualification time for these key competitions at the 
+beginning of this congested competition cycle, 
+coaches may program the subsequent training 
+phases with a focus on these international events. 
+In contrast, when these main goals are not met at 
+earlier stages, coaches are required to rethink and 
+readjust their training strategies, taking into 
+consideration the competitive performance and 
+specific needs of their athletes. 
+ 
+Other additional comments were related to 
+the 
+current 
+evidence 
+contesting 
+training 
+periodization (Afonso et al., 2017; Afonso et al., 
+2019; Kataoka et al., 2021; Kiely, 2012; Kiely, 2018) 
+that, among other things, “may encourage coaches to 
+search for more modern, effective, and feasible training 
+approaches”, which “could be more adapted to the 
+current competitive scenario”. Although these 
+statements were based on personal opinions and 
+subjective perceptions, they certainly reflect a 
+trend towards an important change in some 
+traditional training paradigms, primarily driven 
+by the necessity of creating more realistic (and 
+“agile”) training schemes (Conceiçao and Affonso, 
+2022; Jovanović, 2020; Kiely, 2012; Loturco and 
+Nakamura, 2016). A similar tendency was 
+observed in a survey conducted with S&C coaches 
+who worked in Brazilian elite soccer – a team-sport 
+discipline that is even more affected by the 
+congested fixture schedules, successive matches in 
+different tournaments, and frequent journeys  
+ 
+ 
+across the country (Loturco et al., 2022). 
+Nevertheless, it is worth noting that the traditional 
+periodization model is still widely and extensively 
+used by coaches from various sports (Weldon et al., 
+2020). Hence, alternative training methods and 
+concepts should not only be effective and viable in 
+contemporary sport contexts, but also ensure their 
+acceptance by the coaching community. 
+Interval Between Resistance Training Sessions, 
+Sport-Specific Training Sessions, and Official 
+Competitions  
+ 
+The majority of Brazilian Olympic sprint 
+and jump coaches programmed resistance training 
+sessions on the same day or 24 h after specific 
+training sessions (32% of coaches, in both cases). A 
+smaller proportion of coaches implemented 
+recovery intervals equal or superior to 48 h (16%, 
+for both responses) or equal to 36 h (5%). 
+Regarding the time between resistance training 
+sessions and competitions, a significant number of 
+coaches (42%) adopted intervals greater than 48 h, 
+with a minority using intervals of 24 h (21%), 36 or 
+48 h (16%), or training “on the same day as 
+competition” (5%). Lastly, most sprint and jump 
+coaches (68%) provided more than 48 h of recovery 
+intervals between sport-specific training (i.e., track 
+and field training) and competition, followed by 48 
+h (16%), 24 and 36 h (5% for both), and training “on 
+the same day as competition” (5%). In summary, 
+the most common intervals applied between 
+resistance training sessions, sport-specific training, 
+and competitions were: ≤24 h between resistance 
+and sport-specific training sessions; and >48 h 
+between 
+resistance 
+training 
+sessions 
+and 
+competitions and/or sport-specific training and 
+competitions.  
+ 
+The findings obtained in this survey are 
+difficult to compare with studies performed with 
+other sports (e.g., soccer and cricket) as for sprint 
+coaches, the sport-specific training session is, 
+essentially, a sprint-specific training session. 
+Nonetheless, it seems that recovery intervals ≤24 h 
+between strength and power training and sport-
+specific training are commonplace between S&C 
+coaches of several sports (Loturco et al., 2022; 
+Weldon et al., 2021a; Weldon et al., 2021b). This 
+may be another indication of the influence of 
+congested fixture schedules on modern sports. 
+Other surveys on sprint coaches have not reported 
+or enquired about specific recovery intervals 
+between distinct training sessions (Bolger et al.,  
+ 
+
+ by Irineu Loturco et al. 
+185 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+2016; Healy et al., 2021; Jones et al., 2009). 
+However, all of them highlight, in different forms 
+and to different extent, the physically demanding 
+characteristics of sprinting and the key role played 
+by strength-power capacities in (and their potential 
+transference to) elite sprint performance. As a 
+consequence, apparently, Brazilian Olympic sprint 
+and jump coaches prioritize longer recovery 
+intervals between resistance or sport-specific 
+training sessions and competitions to optimize the 
+recovery processes and functional readiness, and 
+thus, the subsequent performance of their athletes 
+(Howatson et al., 2016; Thomas et al., 2018).  
+Resistance Training Modalities and Exercises 
+ 
+Variable 
+resistance 
+training 
+was 
+extensively employed by 79% of Brazilian Olympic 
+sprint and jump coaches. They also used, to similar 
+extent, eccentric (63%), concentric (58%), and 
+machine (53%) resistance training modalities. 
+Isometric 
+and 
+isoinertial 
+exercises 
+were 
+implemented by 37% and 16% of coaches, 
+respectively. The high usage of variable resistance 
+training among S&C coaches was also observed in 
+professional team-sports from different leagues 
+and countries (i.e., ~60% in soccer and 76% in 
+cricket) (Loturco et al., 2022; Weldon et al., 2021a; 
+Weldon et al., 2021b). However, for these coaches, 
+concentric and eccentric training modalities were 
+still the most common forms of resistance training. 
+Two factors may explain these results: 1) the 
+scarcity of appropriate track and field training 
+facilities throughout the country (i.e., Brazil), 
+which often means that coaches need to develop 
+and use alternative training approaches (e.g., 
+elastic bands as resistance); 2) the proven 
+effectiveness and practical aspects of variable 
+resistance 
+training, 
+especially 
+in 
+terms 
+of 
+maximum 
+strength 
+development, 
+either 
+in 
+isolation or in combination with more traditional 
+training strategies (e.g., free-weight exercises) 
+(Loturco et al., 2020; Soria-Gila et al., 2015). 
+ 
+In contrast, the use of eccentric and 
+concentric training modalities is in line with that 
+reported for Brazilian soccer S&C coaches (~60–
+65%), which is easily understood by examining the 
+traditional application and wide popularity of 
+these methods (Loturco et al., 2022; Weldon et al., 
+2021a). Interestingly, sprint and jump coaches 
+declared that they more regularly utilized 
+machine-based resistance exercises (i.e., 53% 
+versus ≤37% in other sports) (Loturco et al., 2022;  
+ 
+ 
+Weldon et al., 2021a, 2021b), which is probably 
+related to their rationale for “choosing the most 
+important exercises for their athletes” (Healy et al., 
+2021). In this regard, Healy et al. (2021) used a 
+thematic analysis approach to determine why 
+sprint 
+coaches 
+prioritized 
+some 
+exercises, 
+identifying five distinct reasons: performance 
+adaptations, 
+practicality, 
+muscle 
+groups, 
+movement 
+characteristics, 
+and 
+similarity 
+to 
+sprinting. Importantly, the most prominent theme 
+that emerged for selecting traditional exercises was 
+“muscles/muscle groups”. In practical terms, 
+sprint coaches primarily considered the targeted 
+muscle 
+groups 
+when 
+prescribing 
+strength 
+exercises. Taking into account the complex nature 
+of sprinting (Cronin and Hansen, 2005; Loturco et 
+al., 2017; Loturco et al., 2019; Markovic et al., 2007) 
+and the large number of muscles involved in these 
+short maximal efforts, it is plausible that these 
+coaches are more likely to include certain machine-
+based exercises (e.g., multi-hip, leg-extension, and 
+leg-curl machines) in their training routines, to 
+specifically increase, for example, hip and knee 
+extension and flexion torque (Blazevich and 
+Jenkins, 1998; Miller et al., 2021; Taylor et al., 1991). 
+The lower use of isometric and isoinertial training 
+modalities (compared to the abovementioned 
+methods and/or other sports) is clearly related to 
+the dynamic characteristics of sprint and jump 
+events 
+(which 
+reduce 
+the 
+importance and 
+specificity of isometric actions) and the absence of 
+isoinertial training devices in Brazilian training 
+facilities.  
+ 
+Squats along with different variations of 
+this exercise, Olympic weightlifting and its 
+derivatives, as well as ballistic exercises were 
+reported to be the most commonly used, appearing 
+at least once as “main exercises” and at least three 
+times among the three most frequently used 
+exercises in the five sprint and jump coaching 
+ranks. The hip thrust exercise was mentioned four 
+times among the five most important exercises 
+within the five ranks, while the other exercises 
+(e.g., lunges, calf raises, leg extension, leg curls, 
+core exercises, stiff-leg deadlifts, and the bench-
+press) appeared in a very varied and inconsistent 
+manner. The frequent use of squats and Olympic 
+weightlifting exercises is a common practice 
+among professional coaches from different sports 
+(Weldon et al., 2022) and, specifically in some track 
+and field disciplines, this regular utilization seems  
+ 
+
+186  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+to be highly encouraged (Bolger et al., 2016; Cissik, 
+2010). 
+Higher 
+levels 
+of 
+lower 
+limb 
+force 
+production, power, and explosiveness have been 
+considered key aspects for successful sprint 
+performances 
+which, 
+per 
+se, 
+support 
+the 
+prescription of squat-based movements and 
+Olympic lifts for elite sprinters and jumpers 
+(Bolger et al., 2016; Cissik, 2010; Haugen et al., 
+2019b). Likewise, the unique characteristics of 
+ballistic exercises, i.e., movements that allow for 
+continued acceleration throughout the entire range 
+of motion (Cormie et al., 2011b; James et al., 2018), 
+certainly influence coaches’ selection criteria, as 
+maximum acceleration capacity and the ability to 
+apply substantial amounts of force at higher 
+velocities 
+(i.e., 
+muscle 
+power) 
+also 
+play 
+determinant roles in explosive track and field 
+disciplines (Aoki et al., 2015; Haugen et al., 2019a; 
+Loturco et al., 2018a). Lastly, the common use of 
+the hip-thrust exercise can be related to the easy 
+and practical execution of this barbell-based 
+movement and its close relationship with and 
+potential effects on acceleration and top-speed 
+performance (Dello Iacono and Seitz, 2018; Loturco 
+et al., 2018a; Ribeiro et al., 2020). The less frequent 
+prescription of the other exercises may suggest that 
+they are primarily employed to suit the individual 
+needs of athletes (i.e., tailored training plans) or 
+personal coaching preferences.  
+Speed Development and Plyometrics  
+ 
+As expected, a wide variety of training 
+strategies was regularly used by Brazilian Olympic 
+sprint and jump coaches for speed development. 
+Maximum speed sprinting was the most common 
+speed training method, being prescribed by 84% of 
+sprint and jump coaches. The reasons behind the 
+consistent adherence to this type of training are 
+clear: for sprinters and jumpers, maximum sprint 
+efforts represent the expression of very specific 
+skills 
+which 
+are 
+directly 
+related 
+to 
+their 
+competitive performance (Bridgett and Linthorne, 
+2006; Granić and Pavlović, 2021; Ngetich and 
+Rintaugu, 2013). When implementing this training 
+approach, coaches not only enhance the physical 
+attributes of their sprinters and jumpers, but also 
+improve and control their technical preparedness. 
+Form running (i.e., technical sprinting drills), 
+resisted 
+running, 
+overspeed 
+running, 
+and 
+uphill/downhill running (utilized by 74%, 68%, 
+58%, and 53% of coaches, respectively) can also 
+mimic, from a partial or a more general  
+ 
+ 
+perspective, the typical motor pattern observed in 
+traditional sprints (i.e., unloaded flat sprints), 
+which encourages their regular use as speed-
+specific training strategies (Haugen et al., 2019b; 
+Pareja-Blanco et al., 2020; Whelan et al., 2016). 
+Strength training, sport-specific movements (i.e., 
+isolated sprint movements with added resistance), 
+complex training, and interval training methods 
+seem to work as complementary training activities 
+for optimal speed development, being used for this 
+purpose by 42%, 37%, 21%, and 16% of coaches, 
+respectively. 
+ 
+In line with previous studies conducted 
+with similar or different coaching populations 
+(Loturco et al., 2022; Weldon et al., 2022), a great 
+portion of coaches surveyed here (74%) declared 
+using plyometrics to increase sprint speed, with 
+89% of them considering speed development as the 
+main reason for prescribing plyometric training 
+sessions for top-level sprinters and jumpers. The 
+second and third most important reasons, almost 
+in similar proportions, were improving jumping 
+ability and lower-body power (68% and 63%, 
+respectively), whereas injury prevention, total-
+body, and upper-body power, were indicated by 
+26%, 16%, and 11% of coaches, respectively. 
+Indeed, the effectiveness of plyometric training in 
+enhancing speed performance is well supported in 
+the literature, with several variations in training 
+implementation, specific effects, and exercise types 
+(Makaruk et al., 2020; Ramirez-Campillo et al., 
+2020). For example, while horizontally-directed 
+jumps (e.g., broad jumps and alternate leg 
+bounding) can be more recommended to improve 
+the 
+initial 
+phases 
+of 
+sprint 
+running 
+(i.e., 
+acceleration phase), vertically-directed jumps with 
+relatively shorter ground contact times (e.g., in-
+place pogo jumps) seem to be more applied for 
+developing top-speed qualities (Clark, 2018; 
+Loturco et al., 2015c; Makaruk et al., 2020). 
+Improving 
+jump 
+and 
+lower-body 
+power 
+performance (which are, in fact, interrelated 
+capabilities) may also be considered expected 
+responses in a sample composed of elite sprint and 
+jump coaches (Loturco et al., 2015a). Although less 
+frequent, the other reasons for prescribing 
+plyometric exercises (i.e., injury prevention in 
+multi-intervention training programs, total-body 
+and 
+upper-body 
+power 
+development) 
+are 
+supported by a solid body of research and are 
+commonly reported in surveys conducted with  
+ 
+
+ by Irineu Loturco et al. 
+187 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+other sports (Hübscher et al., 2010; Loturco et al., 
+2022; Mcguigan, 2017; Weldon et al., 2021a). The 
+majority of coaches implemented plyometric 
+training in the preparatory or the competitive 
+period (68% and 63%, respectively), although 37% 
+of them prescribed plyometrics throughout the 
+entire training season. These discrepancies are 
+likely 
+to 
+be 
+due 
+to 
+different 
+training 
+methodologies, since, as mentioned above, 52.6% 
+of coaches in this study reported implementing 
+more flexible training programs (instead of 
+adopting a fixed and periodized training scheme). 
+Therefore, many coaches utilize a variety of 
+plyometric drills since the earlier periods of the 
+training cycle, combining these exercises with, for 
+example, power-oriented (i.e., light or moderate 
+loads moved at faster velocities) or maximum-
+strength-oriented exercises (i.e., heavy loads 
+moved at slower velocities) during different 
+training phases (Cormie et al., 2011a; Cormie et al., 
+2011b; Freitas et al., 2017; Mcguigan, 2017). 
+ 
+In general, Brazilian Olympic sprint and 
+jump coaches prescribed plyometric exercises on 
+separate days and after resistance training sessions 
+(53% of coaches, for both options) or used these 
+exercises as part of complex training methods 
+(42%). 
+Only 
+a 
+minority 
+(26%) 
+prescribed 
+plyometric training before resistance training, an 
+aspect which was also noted in Brazilian soccer 
+S&C coaches (Loturco et al., 2022). This is 
+somewhat unexpected given the evidence that 
+plyometrics is more efficient when executed under 
+well-rested conditions (Chu, 1986; Comfort and 
+Matthews, 2010), which could imply a higher 
+number of coaches implementing this training 
+strategy prior to (and not after) resistance training 
+sessions. Nevertheless, it should be acknowledged 
+that Olympic sprinters and jumpers train and 
+perform at an exceptional level and, hence, coaches 
+may utilize this sequential pattern (i.e., weight 
+training + plyometrics) in an attempt to optimize 
+training responses via post-activation performance 
+enhancement (or other delayed potentiation 
+responses) (Boullosa, 2021; Harrison et al., 2019).  
+ 
+Different types of jumps were commonly 
+used by coaches, with emphasis on hurdle jumps, 
+bounding, box drills, depth jumps, and multiple 
+hops (used by 89%, 79%, 74%, 74%, and 68% of 
+coaches, respectively). Assisted jumps (42%), 
+standing 
+jumps 
+(21%), 
+and 
+upper-body 
+plyometrics (21%) completed the diverse sets of  
+ 
+ 
+plyometric exercises regularly applied by Brazilian 
+Olympic sprint and jump coaches. The high 
+utilization of hurdle and box jumps (including 
+depth jumps) and multiple hops (e.g., ankle and 
+single-leg hops) is commonplace among sprint 
+coaches who believe that these exercises could, 
+among other things, “strengthen the legs and help 
+with ground contact”, “improve reactive and eccentric 
+strength”, and “apply resistance to sprinters on the 
+track” (Bolger et al., 2016; Healy et al., 2021; Whelan 
+et al., 2016). “Similarity to sprinting”, “applicability” 
+(i.e., low-cost and ease of implementation) and 
+“injury prevention/reduction” are other reasons often 
+mentioned by track and field coaches to justify the 
+regular implementation of plyometrics (Healy et 
+al., 2021; Husbands, 2013; Whelan et al., 2016). 
+Thus, from a general perspective, the rationale of 
+Brazilian coaches for choosing and prescribing 
+these commonly used exercises (as well as assisted 
+jumps and upper-body plyometrics) is probably 
+based 
+on 
+traditional 
+coaching 
+views 
+and 
+perceptions, which is also supported by the 
+existing evidence on the positive effects of 
+plyometric 
+training 
+on 
+sprint 
+and 
+jump 
+performance (Bolger et al., 2016; Chu and Meyer, 
+2013; Husbands, 2013; Rimmer and Sleivert, 2000; 
+Saez De Villarreal et al., 2012). 
+Flexibility Development 
+ 
+Sprinters and jumpers were required to 
+perform flexibility training after and before 
+training by 37% and 32% of the coaches, 
+respectively. Only a small portion of Brazilian 
+Olympic coaches (11%) encouraged their athletes 
+to execute these exercises during the specific 
+training activities. Most of the coaches used 
+dynamic stretching (84%) and more than half of 
+them (53%) also prescribed active stretching and 
+proprioceptive neuromuscular facilitation. Ballistic 
+or more traditional static, passive, and isometric 
+flexibility exercises were applied by 47%, 42%, 
+21%, and 11% of coaches, respectively. For 37%, 
+21%, and 5% of coaches, flexibility sessions lasted 
+11–15, 16–20, or 6–10 min, respectively, while for 
+26%, these sessions last >21 min. Utilization of 
+dynamic stretching exercises by Brazilian Olympic 
+sprint and jump coaches was higher than typically 
+observed for other coaching populations (84% 
+versus 75%, on average), which contrasts with their 
+lower preference for static stretching (42% for our 
+sample versus 90%, on average, for coaches from 
+eight distinct sports) (Weldon et al., 2022). These  
+ 
+
+188  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+marked differences in flexibility training strategies 
+are partially predictable and possibly driven by the 
+solid evidence to support these practices. Several 
+articles have appeared in the last decade 
+suggesting that coaches should be cautious when 
+prescribing static stretching to athletes who 
+compete in speed- and power-related sports, 
+particularly when any (minimal) increase or 
+decrease in performance may be relevant (which is 
+a clear case for sprint and jump competitions) 
+(Behm and Chaouachi, 2011; Perrier et al., 2011; 
+Yamaguchi and Ishii, 2005). On the other hand, 
+dynamic stretching may provide a potential 
+stimulus to the neuromuscular system, thus 
+improving (or, at least, not compromising) 
+performance in activities that involve sprinting or 
+jumping (Behm and Chaouachi, 2011; Perrier et al., 
+2011; Yamaguchi and Ishii, 2005). Although we 
+recognize that this evidence is more applicable to 
+warm-up activities (Behm and Chaouachi, 2011; 
+Perrier et al., 2011), this certainly affects the 
+decision-making process of sprint and jump 
+coaches, guiding their practices especially before 
+and during specific training sessions (i.e., track and 
+field training). Finally, the average duration of 
+flexibility training sessions does not differ 
+substantially from that reported for other sports 
+(i.e., ≤20 min) (Weldon et al., 2022), although it is 
+possible to see a trend towards longer flexibility 
+training sessions in our data (as only 5% of coaches 
+prescribed 6–10-min sessions, versus 40% in other 
+sports) (Weldon et al., 2022). Hence, flexibility 
+training sessions for sprinters and jumpers 
+comprised mostly dynamic stretching exercises, 
+lasted between 6 and 20 min, and were performed 
+before, after or during regular track and field 
+training.  
+Physical Testing and Well-Being Assessment 
+ 
+A substantial portion of Brazilian Olympic 
+sprint and jump coaches (68%) regularly assessed 
+their athletes all year round, whereas 21% of them 
+preferred to perform physical tests only during the 
+preparatory period. Few coaches (5%) opted to 
+apply these measurements solely over preparatory 
+or off-season periods. The regular use of physical 
+tests throughout the year is expected in individual 
+sport disciplines in which extremely high levels of 
+physical and technical performance are necessary, 
+as in sprint and jump events (Loturco et al., 2021a). 
+Approximately, 70% of coaches surveyed here 
+applied physical tests within different phases of  
+ 
+ 
+the year, a percentage which is similar to that 
+found in professional cricket coaches, but greater 
+than that found, for example, in elite soccer S&C 
+coaches from various countries (i.e., 46%) (Weldon 
+et al., 2021b). However, there are important (but 
+logical and specific) differences among the 
+physical tests most frequently used in these sports. 
+While 
+professional 
+cricket 
+S&C 
+coaches 
+predominantly utilize cardiovascular endurance 
+and body-composition measurements, sprint and 
+jump coaches are more concerned with sprinting 
+speed and muscular power tests (used by 74% and 
+63% of our sample). In contrast, only 11% of 
+coaches surveyed in this study incorporated 
+cardiovascular endurance assessments into their 
+testing batteries (compared to almost 100% of 
+cricket S&C coaches) (Weldon et al., 2021a). These 
+discrepancies 
+can 
+also 
+be 
+observed 
+when 
+comparing our data with the practices employed 
+by coaches from other sports who predominantly 
+use body composition and muscular strength tests 
+during their testing routines (86% and 75% of 
+them, average data, respectively, compared to 58% 
+in our coaching sample, for both measurements). 
+Overall, sprint and jump coaches are primarily 
+focused on monitoring and maintaining the speed 
+and power levels of their athletes over the entire 
+training season, which is directly related to the 
+competitive performance of sprinters and jumpers 
+(Haugen et al., 2019a; Haugen et al., 2019b; Loturco 
+et 
+al., 
+2015a). 
+Anaerobic 
+capacity 
+and 
+anthropometric 
+assessments, 
+along 
+with 
+acceleration tests were commonly used by 42%, 
+37%, and 32% of Brazilian Olympic sprint and 
+jump coaches, respectively, and only 5% of them 
+evaluated athletes’ flexibility. This can partly be 
+attributed to the fact that flexibility exercises are 
+mainly used during warming up or recovery 
+routines, 
+acting 
+as 
+complementary 
+training 
+activities, since flexibility is not a crucial 
+determinant of sprint and jump performance 
+(Haugen et al., 2019b; Perrier et al., 2011).  
+ 
+The vast majority of coaches (95%) 
+frequently monitored the well-being of their 
+sprinters and jumpers, which appears to be a 
+common practice in elite sports (Weldon et al., 
+2021a; Weldon et al., 2021b). Nonetheless, there is 
+a key difference here: track and field events are 
+individual sport disciplines. As such, these coaches 
+have continuous and very close contact with their 
+athletes, allowing them to predominantly apply  
+ 
+
+ by Irineu Loturco et al. 
+189 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+verbal methods to assess well-being through 
+individual conversations. This explains why 79% 
+of Brazilian Olympic coaches regularly utilize 
+verbal questionnaires to evaluate sprinters and 
+jumpers (versus, for example, 24% and 31% of 
+professional cricket and soccer S&C coaches, 
+respectively) (Loturco et al., 2022; Weldon et al., 
+2021a; Weldon et al., 2021b). The other well-being 
+measurement 
+tools 
+(written 
+and 
+online 
+questionnaires, and mobile applications) were 
+employed by ≤11% of the coaching sample. 
+Overall, Brazilian Olympic sprint and jump 
+coaches evaluated their athletes continuously, 
+prioritizing speed and power tests, and using 
+verbal questionnaires to subjectively assess well-
+being at an individual level.  
+Use of Technology Resources 
+ 
+Technology-based equipment was used by 
+79% of Brazilian Olympic sprint and jump coaches, 
+with video analysis software being the most 
+popular resource (used by 47% of coaches). During 
+some specific training phases (i.e., close to 
+competitions), some coaches may even utilize 
+video analysis tools daily to adjust and refine 
+movement technique and posture (Shih, 2017). 
+Speed gates and mobile phone apps (to assess 
+jump height and barbell velocity, for example) 
+ranked as the second most common options (42%, 
+for both devices), followed by jump mats and bar-
+velocity trackers (used by 37% and 32% of coaches, 
+respectively). The more frequent usage of these 
+devices is compatible with their preferences to 
+frequently assess and monitor sprinting speed and 
+muscular power. Body composition analyzers, 
+force plates, and wearable technologies were used 
+by ≤26% of Brazilian Olympic sprint and jump 
+coaches. This is plausible, given that these 
+technologies are much more expensive (especially 
+in the Brazilian context), and less user-friendly and 
+accessible than “simpler devices” (i.e., force plates 
+and jump mats).  
+Conclusions 
+The sample surveyed in this study had a 
+solid international experience and comprised 
+coaches who had already won several medals in 
+the most important track and field championships 
+around the world. In summary, the typical 
+resistance training program prescribed by these 
+coaches during the off-season period consisted of 
+2–4 sessions per week, which lasted more than 60 
+min, and included 3–4 sets of 4–6 or 10–12  
+ 
+ 
+repetitions per exercise. Across the competitive 
+period, resistance training was usually performed 
+twice a week, with sessions lasting between 46 and 
+60 min, with 3–4 sets of 4–6 repetitions per exercise. 
+Training loads were predominantly determined by 
+movement velocity, although several coaches 
+revealed to use 1RM or “athlete dependent” 
+methods (26% for both methods). The majority of 
+coaches (52.6%) declared that they adopted more 
+flexible training programs, adjusting training 
+content and loads according to the individual 
+demands, needs, or objectives of their athletes. 
+Strength-power training was performed within the 
+same day or 24 h after the specific track and field 
+training 
+sessions, 
+using 
+variable, 
+eccentric, 
+concentric, and “machine” training modalities. 
+Squats along with different variations of this 
+exercise, Olympic weightlifting and its derivatives, 
+as well as ballistic exercises were reported to be the 
+most frequently used exercises, while maximum 
+speed sprinting was highlighted as the most 
+common speed training method. Plyometrics  were 
+primarily used to increase sprinting speed, with 
+various types of jumps being regularly used by 
+coaches, especially hurdle jumps, depth jumps, 
+bounding, box drills, and multiple hops. Flexibility 
+training sessions usually included 6–20 min of 
+dynamic stretching exercises, executed before, 
+after or during track and field training. Most of 
+coaches surveyed here opted to test their athletes 
+all year round, with a special focus on sprint speed 
+and power-related capacities. Athletes’ well-being 
+was typically assessed by verbal questionnaires, in 
+a personal and tailored context. Approximately 
+80% of Brazilian Olympic coaches utilized 
+technological-based equipment to evaluate their 
+sprinters and jumpers, with video analysis 
+software, speed gates, mobile phone apps, jump 
+mats, and bar-velocity trackers being the most 
+regularly used tools. The S&C practices used by 
+leading track and field coaches surveyed in this 
+study may help practitioners and sport scientists 
+create more effective research projects and training 
+programs (Haugen, 2021). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+190  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+Author Contributions: Conceptualization: I.L., T.B.M.A.M., L.A.P. and A.W.; methodology: I.L., T.B.M.A.M., 
+V.P.M., L.A.P. and A.W.; software: L.A.P.; formal analysis: I.L. and L.A.P.; investigation: I.L., T.B.M.A.M. 
+and L.A.P.; writing—original draft preparation: I.L. and L.A.P.; writing—review & editing: I.L., T.H., T.T.F., 
+C.B., T.B.M.A.M., V.P.M., P.E.A., L.A.P. and A.W.; visualization: I.L., T.H., T.T.F., C.B., T.B.M.A.M., V.P.M., 
+P.E.A., L.A.P. and A.W.; supervision: I.L. and A.W.; project administration: I.L., T.B.M.A.M. and L.A.P. All 
+authors have read and agreed to the published version of the manuscript. 
+ORCID iD: 
+Irineu Loturco: 0000-0003-1309-2568 
+Thomas Haugen: 0000-0001-5929-0389 
+Tomás T. Freitas: 0000-0001-8571-3189 
+Chris Bishop: 0000-0002-1505-1287 
+Túlio B. M. A. Moura: 0000-0003-4601-5710 
+Valter P. Mercer: 0000-0003-2976-6053 
+Pedro E. Alcaraz: 0000-0002-9792-6656 
+Lucas A. Pereira: 0000-0003-1079-2446 
+Anthony Weldon: 0000-0001-5762-332X 
+Funding Information: This research received no external funding. 
+Institutional Review Board Statement: Not applicable. 
+Informed Consent: Informed consent was obtained from all participants included in the study. 
+Conflicts of Interest: The authors declare no conflict of interest. 
+References 
+Afonso, J., Nikolaidis, P. T., Sousa, P., & Mesquita, I. (2017). Is Empirical Research on Periodization 
+Trustworthy? A Comprehensive Review of Conceptual and Methodological Issues. Journal of Sports 
+Science and Medicine, 16(1), 27–34. 
+Afonso, J., Rocha, T., Nikolaidis, P. T., Clemente, F. M., Rosemann, T., & Knechtle, B. (2019). A Systematic 
+Review of Meta-Analyses Comparing Periodized and Non-periodized Exercise Programs: Why We 
+Should Go Back to Original Research. Frontiers in Physiology, 10, 1023. 
+Aoki, K., Kohmura, Y., Sakuma, K., Koshikawa, K., & Naito, H. (2015). Relationships between field tests of 
+power and athletic performance in track and field athletes specializing in power events. International 
+Journal of Sports Science and Coaching, 10(1), 133–144. 
+Behm, D. G., & Chaouachi, A. (2011). A review of the acute effects of static and dynamic stretching on 
+performance. European Journal of Applied Physiology, 111(11), 2633–2651. 
+Ben-Zaken, S., Meckel, Y., Nemet, D., & Eliakim, A. (2015). Genetic score of power-speed and endurance track 
+and field athletes. Scandinavian Journal of Medicine and Science in Sports, 25(2), 166–174. 
+Bezodis, N. E., Willwacher, S., & Salo, A. I. T. (2019). The Biomechanics of the Track and Field Sprint Start: A 
+Narrative Review. Sports Medicine, 49(9), 1345–1364. 
+Blazevich, A. J., & Jenkins, D. (1998). Physical performance differences between weight-trained sprinters and 
+weight trainers. Journal of Science and Medicine in Sport, 1(1), 12–21. 
+Bolger, R., Lyons, M., Harrison, A. J., & Kenny, I. C. (2016). Coaching sprinting: Expert coaches’ perception of 
+resistance-based training. International Journal of Sports Science and Coaching, 11(5), 746–754. 
+Bompa, T. O., & Buzzichelli, C.(2019) Periodization-: theory and methodology of training. Human Kinetics. 
+Boullosa, D. (2021). Post-activation performance enhancement stragies in sport: a brief review for practitioners. 
+Human Movement, 22(1), 101–109. 
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 
+77–101. 
+Bridgett, L. A., & Linthorne, N. P. (2006). Changes in long jump take-off technique with increasing run-up 
+speed. Journal of Sports Sciences, 24(8), 889–897. 
+ 
+
+ by Irineu Loturco et al. 
+191 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+Chu, D. A. (1986). Practical considerations for utilizing plyometrics. National Strength and Conditioning 
+Association Journal, 8(3), 14–22. 
+Chu, D. A., & Meyer, G. C.(2013) Plyometrics. Human Kinetics. 
+Cissik, J. M. (2010). Strength and conditioning considerations for the 100–m Sprinter. Strength and Conditioning 
+Journal, 32(6), 89–94. 
+Clark, K. (2018). The need for speed–improving sprinting performance in football players. National Strength 
+and Conditioning Association Coach, 5(4), 14–22. 
+Colyer, S. L., Nagahara, R., Takai, Y., & Salo, A. I. T. (2018). How sprinters accelerate beyond the velocity 
+plateau of soccer players: Waveform analysis of ground reaction forces. Scandinavian Journal of Medicine 
+and Science in Sports, 28(12), 2527–2535. 
+Cormie, P., Mcguigan, M. R., & Newton, R. U. (2011a). Developing maximal neuromuscular power: Part 1--
+biological basis of maximal power production. Sports Medicine, 41(1), 17–38. 
+Cormie, P., Mcguigan, M. R., & Newton, R. U. (2011b). Developing maximal neuromuscular power: part 2 - 
+training considerations for improving maximal power production. Sports Medicine, 41(2), 125–146. 
+Cronin, J. B., & Hansen, K. T. (2005). Strength and power predictors of sports speed. Journal of Strength and 
+Conditioning Research, 19(2), 349–357. 
+Dello Iacono, A., & Seitz, L. B. (2018). Hip thrust-based PAP effects on sprint performance of soccer players: 
+heavy-loaded versus optimum-power development protocols. Journal of Sports Sciences, 36(20), 2375–
+2382. 
+Ebben, W. P., Carroll, R. M., & Simenz, C. J. (2004). Strength and conditioning practices of National Hockey 
+League strength and conditioning coaches. Journal of Strength and Conditioning Research, 18(4), 889–897. 
+Franceschi, A., Conte, D., Airale, M., & Sampaio, J. (2020). Training Load, Neuromuscular Readiness, and 
+Perceptual Fatigue Profile in Youth Elite Long-Jump Athletes. International Journal of Sports Physiology 
+and Performance, 7(15), 1034–1038. 
+Freitas, T. T., Alcaraz, P. E., Winckler, C., Zabaloys, S., Pereira, L. A., & Loturco, I. (2021). Differences in 
+strength, speed, and power performance between Paralympic and Olympic sprinters. International 
+Journal of Sports Physiology and Performance, In Press. 
+Freitas, T. T., Martinez-Rodriguez, A., Calleja-Gonzalez, J., & Alcaraz, P. E. (2017). Short-term adaptations 
+following Complex Training in team-sports: A meta-analysis. PLoS One, 12(6), e0180223. 
+Gabbett, T. J., Jenkins, D. G., & Abernethy, B. (2011). Correlates of tackling ability in high-performance rugby 
+league players. Journal of Strength and Conditioning Research, 25(1), 72–79. 
+Granić, D., & Pavlović, R. (2021). Anthropological profile of long jumpers: differences between olympic games 
+finalist. Journal of Specific Sport Science, 1(2), 9–18. 
+Harrison, P. W., James, L. P., Mcguigan, M. R., Jenkins, D. G., & Kelly, V. G. (2019). Resistance Priming to 
+Enhance Neuromuscular Performance in Sport: Evidence, Potential Mechanisms and Directions for 
+Future Research. Sports Medicine, 49(10), 1499–1514. 
+Hartmann, H., Wirth, K., Keiner, M., Mickel, C., Sander, A., & Szilvas, E. (2015). Short-term Periodization 
+Models: Effects on Strength and Speed-strength Performance. Sports Medicine, 45(10), 1373–1386. 
+Haugen, T. (2021). Best-Practice Coaches: An Untapped Resource in Sport-Science Research. International 
+Journal of Sports Physiology and Performance, 1–2. 
+Haugen, T., & Buchheit, M. (2016). Sprint Running Performance Monitoring: Methodological and Practical 
+Considerations. Sports Medicine, 46(5), 641–656. 
+Haugen, T., Mcghie, D., & Ettema, G. (2019a). Sprint running: from fundamental mechanics to practice-a 
+review. European Journal of Applied Physiology, 119(6), 1273–1287. 
+Haugen, T., Seiler, S., Sandbakk, O., & Tonnessen, E. (2019b). The Training and Development of Elite Sprint 
+Performance: an Integration of Scientific and Best Practice Literature. Sports Medicine Open, 5(1), 44. 
+Haugen, T., Tonnessen, E., & Seiler, S. (2015). 9.58 and 10.49: nearing the citius end for 100 m? International 
+Journal of Sports Physiology and Performance, 10(2), 269–272. 
+Haugen, T. A., Solberg, P. A., Foster, C., Moran-Navarro, R., Breitschadel, F., & Hopkins, W. G. (2018). Peak 
+Age and Performance Progression in World-Class Track-and-Field Athletes. International Journal of 
+Sports Physiology and Performance, 13(9), 1122–1129. 
+ 
+
+192  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+Healy, R., Kenny, I. C., & Harrison, A. J. (2019). Profiling elite male 100-m sprint performance: the role of 
+maximum velocity and relative acceleration. Journal of Sport and Health Science, In Press. 
+Healy, R., Kenny, I. C., & Harrison, A. J. (2021). Resistance Training Practices of Sprint Coaches. Journal of 
+Strength and Conditioning Research, 35(7), 1939–1948. 
+Howatson, G., Brandon, R., & Hunter, A. M. (2016). The Response to and Recovery From Maximum-Strength 
+and -Power Training in Elite Track and Field Athletes. International Journal of Sports Physiology and 
+Performance, 11(3), 356–362. 
+Hübscher, M., Zech, A., Pfeifer, K., Hänsel, F., Vogt, L., & Banzer, W. (2010). Neuromuscular training for sports 
+injury prevention: a systematic review. Medicine and Science in Sports and Exercise, 42(3), 413–421. 
+Husbands, C. (2013) Sprinting: Training, Techniques and Improving Performance. Crowood. 
+James, L. P., Gregory Haff, G., Kelly, V. G., Connick, M. J., Hoffman, B. W., & Beckman, E. M. (2018). The 
+impact of strength level on adaptations to combined weightlifting, plyometric, and ballistic training. 
+Scandinavian Journal of Medicine and Science in Sports, 28(5), 1494–1505. 
+Jamshidi, F. S., Mirzeai, B., & Damirchi, A. (2014). Strength and Conditioning Practices of Iran Wrestling 
+League Strength and Conditioning Coaches. Pedagogics, Psychology, Medical-Biological Problems of Physical 
+Training and Sports, 18(8), 34–45. 
+Jones, R., Bezodis, I., & Thompson, A. (2009). Coaching sprinting: Expert coaches' perception of race phases 
+and technical constructs. International Journal of Sports Science and Coaching, 4(3), 385–396. 
+Jones, T. W., Smith, A., Macnaughton, L. S., & French, D. N. (2016). Strength and Conditioning and Concurrent 
+Training Practices in Elite Rugby Union. Journal of Strength and Conditioning Research, 30(12), 3354–3366. 
+Jovanović, M. (2020). Strength Training Manual: The Agile Periodization Approach. e-book. 
+Kataoka, R., Vasenina, E., Loenneke, J., & Buckner, S. L. (2021). Periodization: Variation in the Definition and 
+Discrepancies in Study Design. Sports Medicine, 51(4), 625–651. 
+Kiely, J. (2012). Periodization paradigms in the 21st century: evidence-led or tradition-driven? International 
+Journal of Sports Physiology and Performance, 7(3), 242–250. 
+Kiely, J. (2018). Periodization Theory: Confronting an Inconvenient Truth. Sports Medicine, 48(4), 753–764. 
+Loturco, I., Contreras, B., Kobal, R., Fernandes, V., Moura, N., Siqueira, F., Winckler, C., Suchomel, T., & 
+Pereira, L. A. (2018a). Vertically and horizontally directed muscle power exercises: Relationships with 
+top-level sprint performance. PLoS One, 13(7), e0201475. 
+Loturco, I., Dʼangelo, R. A., Fernandes, V., Gil, S., Kobal, R., Cal Abad, C. C., Kitamura, K., & Nakamura, F. Y. 
+(2015a). Relationship between sprint ability and loaded/unloaded jump tests in elite sprinters. Journal of 
+Strength and Conditioning Research, 29(3), 758–764. 
+Loturco, I., Fernandes, V., Boullosa, D. A., Siqueira, F., Nakaya, K., Carraco, D., Reis, V. P., Pereira, L. A., & 
+Mcguigan, M. R. (2021a). Correlations between jump measures and competitive performance remain 
+stable over time in top-level sprinters. Journal of Sports Medicine and Physical Fitness, 61(9), 1202–1207. 
+Loturco, I., Freitas, T. T., Alcaraz, P. E., Kobal, R., Nunes, R. F. H., Weldon, A., & Pereira, L. A. (2022). Practices 
+of strength and conditioning coaches in brazilian elite soccer. Biology of Sport, 39(3), 779–791. 
+Loturco, I., Gil, S., Laurino, C. F., Roschel, H., Kobal, R., Cal Abad, C. C., & Nakamura, F. Y. (2015b). Differences 
+in muscle mechanical properties between elite power and endurance athletes: a comparative study. 
+Journal of Strength and Conditioning Research, 29(6), 1723–1728. 
+Loturco, I., Kobal, R., Kitamura, K., Cal Abad, C. C., Faust, B., Almeida, L., & Pereira, L. A. (2017). Mixed 
+Training Methods: Effects of Combining Resisted Sprints or Plyometrics with Optimum Power Loads 
+on Sprint and Agility Performance in Professional Soccer Players. Frontiers in Physiology, 8, 1034. 
+Loturco, I., Kobal, R., Kitamura, K., Fernandes, V., Moura, N., Siqueira, F., Cal Abad, C. C., & Pereira, L. A. 
+(2019). Predictive Factors of Elite Sprint Performance: Influences of Muscle Mechanical Properties and 
+Functional Parameters. Journal of Strength and Conditioning Research, 33(4), 974–986. 
+Loturco, I., Mcguigan, M. R., Freitas, T. T., Valenzuela, P. L., Pereira, L. A., & Pareja-Blanco, F. (2021b). 
+Performance and reference data in the jump squat at different relative loads in elite sprinters, rugby 
+players, and soccer players. Biology of Sport, 38(2), 219–227. 
+Loturco, I., & Nakamura, F. Y. (2016). Training periodisation: an obsolete methodology. Aspetar Sports Medicine 
+Journal, 5(1), 110–115. 
+ 
+
+ by Irineu Loturco et al. 
+193 
+Articles published in the Journal of Human Kinetics are licensed under an open access Creative Commons CC BY 4.0 
+license. 
+ 
+Loturco, I., Pereira, L. A., Kobal, R., Cal Abad, C. C., Fernandes, V., Ramirez-Campillo, R., & Suchomel, T. 
+(2018b). Portable Force Plates: A Viable and Practical Alternative to Rapidly and Accurately Monitor 
+Elite Sprint Performance. Sports (Basel), 6(3) 
+Loturco, I., Pereira, L. A., Kobal, R., Zanetti, V., Kitamura, K., Abad, C. C., & Nakamura, F. Y. (2015c). 
+Transference effect of vertical and horizontal plyometrics on sprint performance of high-level U-20 
+soccer players. Journal of Sports Sciences, 33(20), 2182–2191. 
+Loturco, I., Pereira, L. A., Reis, V. P., Zanetti, V., Bishop, C., & Mcguigan, M. R. (2020). Traditional Free-Weight 
+Vs. Variable Resistance Training Applied to Elite Young Soccer Players During a Short Preseason: 
+Effects on Strength, Speed, and Power Performance. Journal of Strength and Conditioning Research, In 
+Press. 
+Makaruk, H., Starzak, M., Suchecki, B., Czaplicki, M., & Stojiljkovic, N. (2020). The Effects of Assisted and 
+Resisted Plyometric Training Programs on Vertical Jump Performance in Adults: A Systematic Review 
+and Meta-Analysis. Journal of Sports Science and Medicine, 19(2), 347–357. 
+Marinho, B. F., Follmer, B., Esteves, J. V. D. C., & Andreato, L. V. (2016). Body composition, somatotype, and 
+physical fitness of mixed martial arts athletes. Sport Science for Health, 12(2), 157–165. 
+Markovic, G., Jukic, I., Milanovic, D., & Metikos, D. (2007). Effects of sprint and plyometric training on muscle 
+function and athletic performance. Journal of Strength and Conditioning Research, 21(2), 543–549. 
+Mcguigan, M. R. (2017). Developing power. Human Kinetics. 
+Mcmaster, D. T., Gill, N., Cronin, J., & Mcguigan, M. (2014). A brief review of strength and ballistic assessment 
+methodologies in sport. Sports Medicine, 44(5), 603–623. 
+Miller, R., Balshaw, T. G., Massey, G. J., Maeo, S., Lanza, M. B., Johnston, M., Allen, S. J., & Folland, J. P. (2021). 
+The Muscle Morphology of Elite Sprint Running. Medicine and Science in Sports and Exercise, 53(4), 804–
+815. 
+Morin, J. B., Edouard, P., & Samozino, P. (2011). Technical ability of force application as a determinant factor 
+of sprint performance. Medicine and Science in Sports and Exercise, 43(9), 1680–1688. 
+Ngetich, E. D. K., & Rintaugu, E. G. (2013). Assessment of physical fitness components as prediction factors of 
+long jump performance. International Journal of Current Research, 5(1), 17–21. 
+Olusoga, P., Maynard, I., Hays, K., & Butt, J. (2012). Coaching under pressure: a study of Olympic coaches. 
+Journal of Sports Sciences, 30(3), 229–239. 
+Pareja-Blanco, F., Sáez De Villarreal, E., Bachero-Mena, B., Mora-Custodio, R., Asián-Clemente, J. A., Loturco, 
+I., & Rodríguez-Rosell, D. (2020). Effects of Unloaded Sprint and Heavy Sled Training on Sprint 
+Performance in Physically Active Women. International Journal of Sports Physiology and Performance, 
+15(10), 1356–1362. 
+Perrier, E. T., Pavol, M. J., & Hoffman, M. A. (2011). The acute effects of a warm-up including static or dynamic 
+stretching on countermovement jump height, reaction time, and flexibility. Journal of Strength and 
+Conditioning Research, 25(7), 1925–1931. 
+Ramirez-Campillo, R., Castillo, D., Raya-Gonzalez, J., Moran, J., De Villarreal, E. S., & Lloyd, R. S. (2020). 
+Effects of Plyometric Jump Training on Jump and Sprint Performance in Young Male Soccer Players: A 
+Systematic Review and Meta-analysis. Sports Medicine, 50(12), 2125–2143. 
+Ribeiro, J., Teixeira, L., Lemos, R., Teixeira, A. S., Moreira, V., Silva, P., & Nakamura, F. Y. (2020). Effects of 
+Plyometric Versus Optimum Power Load Training on Components of Physical Fitness in Young Male 
+Soccer Players. International Journal of Sports Physiology and Performance, 15(2), 222–230. 
+Rimmer, E., & Sleivert, G. (2000). Effects of a Plyometrics Intervention Program on Sprint Performance. Journal 
+of Strength and Conditioning Research, 14(3), 295–301. 
+Saez De Villarreal, E., Requena, B., & Cronin, J. B. (2012). The effects of plyometric training on sprint 
+performance: a meta-analysis. Journal of Strength and Conditioning Research, 26(2), 575–584. 
+Schwellnus, M., Soligard, T., Alonso, J. M., Bahr, R., Clarsen, B., Dijkstra, H. P., Gabbett, T. J., Gleeson, M., 
+Hägglund, M., Hutchinson, M. R., Janse Van Rensburg, C., Meeusen, R., Orchard, J. W., Pluim, B. M., 
+Raftery, M., Budgett, R., & Engebretsen, L. (2016). How much is too much? (Part 2) International 
+Olympic Committee consensus statement on load in sport and risk of illness. British Journal of Sports 
+Medicine, 50(17), 1043–1052. 
+ 
+
+194  
+Strength and conditioning practices of Brazilian Olympic sprint and jump coaches 
+Journal of Human Kinetics, volume 86/2023 
+http://www.johk.pl 
+ 
+Simenz, C. J., Dugan, C. A., & Ebben, W. P. (2005). Strength and conditioning practices of National Basketball 
+Association strength and conditioning coaches. Journal of Strength and Conditioning Research, 19(3), 495–
+504. 
+Soligard, T., Schwellnus, M., Alonso, J. M., Bahr, R., Clarsen, B., Dijkstra, H. P., Gabbett, T., Gleeson, M., 
+Hägglund, M., Hutchinson, M. R., Janse Van Rensburg, C., Khan, K. M., Meeusen, R., Orchard, J. W., 
+Pluim, B. M., Raftery, M., Budgett, R., & Engebretsen, L. (2016). How much is too much? (Part 1) 
+International Olympic Committee consensus statement on load in sport and risk of injury. British Journal 
+of Sports Medicine, 50(17), 1030–1041. 
+Soria-Gila, M. A., Chirosa, I. J., Bautista, I. J., Baena, S., & Chirosa, L. J. (2015). Effects of Variable Resistance 
+Training on Maximal Strength: A Meta-Analysis. Journal of Strength and Conditioning Research, 29(11), 
+3260–3270. 
+Taylor, N. A., Cotter, J. D., Stanley, S. N., & Marshall, R. N. (1991). Functional torque-velocity and power-
+velocity characteristics of elite athletes. European Journal of Applied Physiology and Occupational Physiology, 
+62(2), 116–121. 
+Thomas, K., Brownstein, C. G., Dent, J., Parker, P., Goodall, S., & Howatson, G. (2018). Neuromuscular Fatigue 
+and Recovery after Heavy Resistance, Jump, and Sprint Training. Medicine and Science in Sports and 
+Exercise, 50(12), 2526–2535. 
+Thompson, S. W., Rogerson, D., Dorrell, H. F., Ruddock, A., & Barnes, A. (2020). The Reliability and Validity 
+of Current Technologies for Measuring Barbell Velocity in the Free-Weight Back Squat and Power 
+Clean. Sports (Basel), 8(7). 
+Tonnessen, E., Haugen, T., & Shalfawi, S. A. (2013). Reaction time aspects of elite sprinters in athletic world 
+championships. Journal of Strength and Conditioning Research, 27(4), 885–892. 
+Walker, J., Bissas, A., Paradisis, G. P., Hanley, B., Tucker, C. B., Jongerius, N., Thomas, A., Von Lieres Und 
+Wilkau, H. C., Brazil, A., Wood, M. A., Merlino, S., Vazel, P. J., & Bezodis, I. N. (2021). Kinematic factors 
+associated with start performance in World-class male sprinters. Journal of Biomechanics, 124, 110554. 
+Weldon, A., Duncan, M. J., Turner, A., Christie, C. J., & Pang, C. (2021a). Contemporary practices of strength 
+and conditioning coaches in professional cricket. International Journal of Sports Science and Coaching, 16(3), 
+1–16. 
+Weldon, A., Duncan, M. J., Turner, A., Laplaca, D., Sampaio, J., & Christie, C. J. (2020). Practices of Strength 
+and Conditioning Coaches: A Snapshot From Different Sports, Countries, and Expertise Levels. Journal 
+of Strength and Conditioning Research, In Press. 
+Weldon, A., Duncan, M. J., Turner, A., Lockie, R. G., & Loturco, I. (2022). Practices of strength and conditioning 
+coaches in professional sports: a systematic review. Biology of Sport, 39(3), 715–726. 
+Weldon, A., Duncan, M. J., Turner, A., Sampaio, J., Noon, M., Wong, D. P., & Lai, V. W. (2021b). Contemporary 
+practices of strength and conditioning coaches in professional soccer. Biology of Sport, 38(3), 377–390. 
+Whelan, N., Kenny, I. C., & Harrison, A. J. (2016). An insight into track and field coaches’ knowledge and use 
+of sprinting drills to improve performance. International Journal of Sports Science and Coaching, 11(2), 182–
+190. 
+Yamaguchi, T., & Ishii, K. (2005). Effects of static stretching for 30 seconds and dynamic stretching on leg 
+extension power. Journal of Strength and Conditioning Research, 19(3), 677–683. 

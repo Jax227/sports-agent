@@ -1,0 +1,21 @@
+{
+  "session": "20260603_132236",
+  "topic": "OPL最佳负荷在抗阻训练当中的干预效果",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "opl最佳负荷在抗阻训练当中的干预效果",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"opl最佳负荷在抗阻训练当中的干预效果\"[Title/Abstract]) AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"randomized controlled trial\"[Publication Type])",
+      "results_count": 10,
+      "timestamp": "2026-06-03T13:22:50.639541"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

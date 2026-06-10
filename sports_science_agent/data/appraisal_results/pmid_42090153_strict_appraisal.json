@@ -1,0 +1,200 @@
+{
+  "paper_id": "pmid_42090153",
+  "source": "pubmed",
+  "title": "Factors Associated With Thromboembolism in Neonates: A Systematic Review and Meta-Analysis.",
+  "authors": [
+    "Marie-Claude Pelland-Marcotte",
+    "Norma Maria Pérez Herrera",
+    "Elisabeth Boileau",
+    "Heleen van Ommen",
+    "Rukhmi Bhat"
+  ],
+  "year": "2026",
+  "journal": "JAMA network open",
+  "doi": "10.1001/jamanetworkopen.2026.10908",
+  "pmid": "42090153",
+  "abstract": "While venous thromboembolism (VTE) is increasingly recognized in neonates and prothrombotic risk factors are being identified, no risk assessment model currently exists to enable early identification of neonates at high risk of VTE. A thorough understanding of existing evidence is necessary to inform the development of a risk-assessment model. IMPORTANCE: While venous thromboembolism (VTE) is increasingly recognized in neonates and prothrombotic risk factors are being identified, no risk assessment model currently exists to enable early identification of neonates at high risk of VTE. A thorough understanding of existing evidence is necessary to inform the development of a risk-assessment model. To describe maternal, obstetrical, and neonatal risk factors associated with VTE in neonates. OBJECTIVES: To describe maternal, obstetrical, and neonatal risk factors associated with VTE in neonates. A literature search of Medline, Embase, CINAHL, and clinicaltrials.gov databases was performed on March 16, 2025, for peer-reviewed publications (1990-2025). Reference lists of included articles were screened to identify other potentially relevant publications. DATA SOURCES: A literature search of Medline, Embase, CINAHL, and clinicaltrials.gov databases was performed on March 16, 2025, for peer-reviewed publications (1990-2025). Reference lists of included articles were screened to identify other potentially relevant publications. Peer-reviewed studies describing factors associated with venous thrombosis in neonates up to 44 weeks of corrected gestational age were included. A total of 282 reports were retrieved and assessed for eligibility. STUDY SELECTION: Peer-reviewed studies describing factors associated with venous thrombosis in neonates up to 44 weeks of corrected gestational age were included. A total of 282 reports were retrieved and assessed for eligibility. Preferred Reporting Items for Systematic Reviews and Meta-Analyses and Meta-Analysis of Observational Studies in Epidemiology reporting guidelines were used to guide data abstraction. Studies were screened independently by 4 trained investigators. Data were pooled using a random-effects model. DATA EXTRACTION AND SYNTHESIS: Preferred Reporting Items for Systematic Reviews and Meta-Analyses and Meta-Analysis of Observational Studies in Epidemiology reporting guidelines were used to guide data abstraction. Studies were screened independently by 4 trained investigators. Data were pooled using a random-effects model. The primary outcome was the factors associated with venous thrombosis. Maternal and obstetrical and patient-related risk factors were considered; catheter-related risk factors are reported separately. Results are expressed using mean differences (MDs) or odds ratio (ORs) with 95% CIs. The degree of heterogeneity (ie, τ2) was estimated using the restricted maximum-likelihood model estimator. Risk of bias in included studies was assessed using the Risk of Bias in Non-randomised Studies of Interventions tool. MAIN OUTCOMES AND MEASURES: The primary outcome was the factors associated with venous thrombosis. Maternal and obstetrical and patient-related risk factors were considered; catheter-related risk factors are reported separately. Results are expressed using mean differences (MDs) or odds ratio (ORs) with 95% CIs. The degree of heterogeneity (ie, τ2) was estimated using the restricted maximum-likelihood model estimator. Risk of bias in included studies was assessed using the Risk of Bias in Non-randomised Studies of Interventions tool. A total of 60 studies (3 366 507 neonates) were included; most were retrospective cohort studies (26 studies [43%]) or case-control studies (15 studies [25%]). The following risk factors were significantly associated with venous thrombosis: preeclampsia (OR, 2.66; 95% CI, 1.70-4.16; P < .001; τ2 = 0.00), low birth weight (OR, 2.05; 95% CI, 1.41-3.00; P < .001; τ2 = 0.00), cardiac disease (OR, 5.90; 95% CI, 1.16-30.05; P = .03; τ2 = 1.27), and infection (OR, 2.90; 95% CI, 1.88-4.48; P < .001; τ2 = 0.33). Several other factors were identified in multiple studies, but with inconsistent results, including maternal diabetes, gestational age and prematurity, asphyxia, mechanical ventilation, surgery, and elevated hemoglobin or hematocrit levels. RESULTS: A total of 60 studies (3 366 507 neonates) were included; most were retrospective cohort studies (26 studies [43%]) or case-control studies (15 studies [25%]). The following risk factors were significantly associated with venous thrombosis: preeclampsia (OR, 2.66; 95% CI, 1.70-4.16; P < .001; τ2 = 0.00), low birth weight (OR, 2.05; 95% CI, 1.41-3.00; P < .001; τ2 = 0.00), cardiac disease (OR, 5.90; 95% CI, 1.16-30.05; P = .03; τ2 = 1.27), and infection (OR, 2.90; 95% CI, 1.88-4.48; P < .001; τ2 = 0.33). Several other factors were identified in multiple studies, but with inconsistent results, including maternal diabetes, gestational age and prematurity, asphyxia, mechanical ventilation, surgery, and elevated hemoglobin or hematocrit levels. In this systematic review and meta-analysis, preeclampsia, low birth weight, cardiac disease, and infection were identified as risk factors of neonatal venous thrombosis. Heterogeneity between studies, lack of thrombosis outcome definition, and limited studies addressing common conditions and medications were identified, highlighting the need for further studies and risk stratification. CONCLUSIONS AND RELEVANCE: In this systematic review and meta-analysis, preeclampsia, low birth weight, cardiac disease, and infection were identified as risk factors of neonatal venous thrombosis. Heterogeneity between studies, lack of thrombosis outcome definition, and limited studies addressing common conditions and medications were identified, highlighting the need for further studies and risk stratification.",
+  "publication_type": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+  ],
+  "keywords": [
+    "Humans",
+    "Infant, Newborn",
+    "Risk Factors",
+    "Female",
+    "Pregnancy",
+    "Venous Thromboembolism",
+    "Risk Assessment",
+    "Male"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design": "systematic_review_with_meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "JAMA network open",
+    "issn_input": "2574-3805",
+    "journal_match_status": "not_found",
+    "journal_match_confidence": 0.0,
+    "matched_journal_name": "",
+    "jcr_quartile": "",
+    "cas_quartile": "",
+    "impact_factor": "",
+    "impact_factor_year": "",
+    "ranking_source": "",
+    "publisher": "",
+    "last_verified": "",
+    "journal_score": null,
+    "journal_score_reason": "本地期刊分区表中未找到匹配期刊，需人工核验",
+    "journal_rank_status": "未获取，需人工核验"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review_with_meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Systematic Review, Meta-Analysis"
+    ],
+    "design_score": 8.0,
+    "design_strengths": [
+      "Search: 检索了 medline, embase, cinahl 等数据库 (≥2)",
+      "Risk of bias: 提及偏倚风险评估工具",
+      "Heterogeneity: 考虑了异质性"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计严谨 (score=8.0)，方法与研究问题匹配良好。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "medline, embase, cinahl",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "已提及",
+      "heterogeneity_assessment": "已提及",
+      "model_choice": "random",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [],
+    "model_type": "未识别",
+    "primary_analysis": "未识别",
+    "effect_size_reported": "是",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "是",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 7.0,
+    "statistics_strengths": [
+      "报告了 p 值",
+      "报告了效应量 (effect size)"
+    ],
+    "statistics_limitations": [
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法总体合理，但有少量报告不充分。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review_with_meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 5.0,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "用户未指定intervention，无法评估匹配度",
+      "comparator_match": "用户未指定comparator，无法评估匹配度",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "overall_appraisal": {
+    "journal_score": null,
+    "design_score": 8.0,
+    "statistics_score": 7.0,
+    "relevance_score": 5.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 8.0,
+    "overall_quality_score": 6.5,
+    "weights_used": {
+      "journal_score": 0,
+      "design_score": 0.3,
+      "statistics_score": 0.3,
+      "relevance_score": 0.25,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "期刊分区缺失，综合评分未纳入期刊分区因素，需人工核验。",
+    "confidence_in_appraisal": "moderate",
+    "confidence_reasons": [
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (6.5/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "期刊分区信息缺失 — 需查找JCR/中科院分区或人工核验",
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260603_Pelland-Marcotte_2026_Factors_Associated_With_Thromboembolism.md",
+  "created_at": "2026-06-03T09:10:38.746010",
+  "updated_at": "2026-06-03T09:10:38.746010"
+}

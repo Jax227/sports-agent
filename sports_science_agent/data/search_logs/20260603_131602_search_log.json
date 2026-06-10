@@ -1,0 +1,21 @@
+{
+  "session": "20260603_131602",
+  "topic": "青少年足球运动员 ACL 损伤预防训练",
+  "pico": {
+    "population": "adolescent youth young teenager",
+    "intervention_or_exposure": "ACL injury prevention neuromuscular training proprioceptive training balance training plyometric training",
+    "comparator": "",
+    "outcomes": "ACL injury knee injury injury rate risk reduction",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(adolescent[Title/Abstract] OR youth[Title/Abstract] OR young[Title/Abstract] OR teen*[Title/Abstract]) AND (soccer[Title/Abstract] OR football[Title/Abstract]) AND (ACL[Title/Abstract] OR anterior cruciate ligament[Title/Abstract]) AND (injury prevention[Title/Abstract] OR prevention training[Title/Abstract] OR neuromuscular training[Title/Abstract] OR proprioceptive training[Title/Abstract] OR balance training[Title/Abstract] OR plyometric[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR clinical trial[Publication Type] OR meta-analysis[Publication Type] OR systematic review[Publication Type]) NOT (animal[Title/Abstract] OR rat[Title/Abstract] OR mouse[Title/Abstract] OR cell[Title/Abstract] OR in vitro[Title/Abstract] OR cadaver[Title/Abstract])",
+      "results_count": 5,
+      "timestamp": "2026-06-03T13:17:04.921874"
+    }
+  ],
+  "total_found": 5,
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "session": "20260603_164301",
+  "topic": "Optimal power load ",
+  "pico": {
+    "population": "athletes healthy adults resistance-trained individuals sportsmen",
+    "intervention_or_exposure": "optimal load power load load for peak power optimal power load",
+    "comparator": "different loads various loads submaximal loads maximal loads load spectrum",
+    "outcomes": "power output peak power maximal power muscle power",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"power load\"[Title/Abstract] OR \"optimal load\"[Title/Abstract] OR \"load that maximizes power\"[Title/Abstract] OR \"peak power load\"[Title/Abstract] OR \"load for peak power\"[Title/Abstract]) AND (\"power output\"[Title/Abstract] OR \"peak power\"[Title/Abstract] OR \"maximal power\"[Title/Abstract] OR \"muscle power\"[Title/Abstract]) AND (\"resistance training\"[Title/Abstract] OR \"strength training\"[Title/Abstract] OR \"weight training\"[Title/Abstract] OR \"exercise\"[Title/Abstract]) NOT (\"animal\"[Title/Abstract] OR \"rat\"[Title/Abstract] OR \"mouse\"[Title/Abstract] OR \"cell\"[Title/Abstract] OR \"in vitro\"[Title/Abstract] OR \"mice\"[Title/Abstract] OR \"animal model\"[Title/Abstract])",
+      "results_count": 10,
+      "timestamp": "2026-06-03T16:43:43.441582"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

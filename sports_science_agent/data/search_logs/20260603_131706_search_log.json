@@ -1,0 +1,21 @@
+{
+  "session": "20260603_131706",
+  "topic": "HRV 用于耐力运动员训练负荷监控",
+  "pico": {
+    "population": "endurance athletes runners cyclists triathletes swimmers cross-country skiers rowers aerobic athletes",
+    "intervention_or_exposure": "heart rate variability HRV HRV monitoring heart rate variability assessment",
+    "comparator": "usual training no monitoring traditional load monitoring",
+    "outcomes": "training load training stress fatigue overtraining recovery performance adaptation internal load session RPE",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "((\"heart rate variability\"[Title/Abstract] OR \"HRV\"[Title/Abstract] OR \"heart period variability\"[Title/Abstract]) AND (\"endurance\"[Title/Abstract] OR \"athlete*\"[Title/Abstract] OR \"runner*\"[Title/Abstract] OR \"cyclist*\"[Title/Abstract] OR \"triathlet*\"[Title/Abstract] OR \"swimmer*\"[Title/Abstract]) AND (\"training load\"[Title/Abstract] OR \"load monitoring\"[Title/Abstract] OR \"training stress\"[Title/Abstract] OR \"overtraining\"[Title/Abstract] OR \"fatigue\"[Title/Abstract] OR \"recovery\"[Title/Abstract] OR \"performance\"[Title/Abstract])) NOT (\"rat\"[Title/Abstract] OR \"mouse\"[Title/Abstract] OR \"animal\"[Title/Abstract] OR \"in vitro\"[Title/Abstract] OR \"cell\"[Title/Abstract] OR \"patient\"[Title/Abstract] OR \"disease\"[Title/Abstract] OR \"sedentary\"[Title/Abstract])",
+      "results_count": 5,
+      "timestamp": "2026-06-03T13:17:57.039445"
+    }
+  ],
+  "total_found": 5,
+  "errors": []
+}

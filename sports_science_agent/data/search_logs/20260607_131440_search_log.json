@@ -1,0 +1,21 @@
+{
+  "session": "20260607_131440",
+  "topic": "最佳功率负荷在抗阻训练中的干预效果",
+  "pico": {
+    "population": "athletes healthy adults physically active individuals",
+    "intervention_or_exposure": "optimal power load optimum power load power load force-velocity profile",
+    "comparator": "traditional strength training high load low load moderate load",
+    "outcomes": "power output muscle power strength hypertrophy athletic performance speed vertical jump",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "((optimal power load[Title/Abstract] OR optimum power load[Title/Abstract] OR force-velocity profile[Title/Abstract] OR power load[Title/Abstract]) AND (resistance training[Title/Abstract] OR strength training[Title/Abstract] OR weight training[Title/Abstract]) AND (intervention[Title/Abstract] OR effect[Title/Abstract] OR adaptation[Title/Abstract] OR performance[Title/Abstract] OR power output[Title/Abstract] OR muscle power[Title/Abstract])) NOT (animal[Title/Abstract] OR rat[Title/Abstract] OR mouse[Title/Abstract] OR cell[Title/Abstract] OR in vitro[Title/Abstract])",
+      "results_count": 10,
+      "timestamp": "2026-06-07T13:15:14.194705"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

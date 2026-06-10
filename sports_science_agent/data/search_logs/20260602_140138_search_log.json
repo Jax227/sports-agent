@@ -1,0 +1,21 @@
+{
+  "session": "20260602_140138",
+  "topic": "OPL optimal load resistance training intervention effects",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "OPL optimal load resistance training intervention effects",
+    "comparator": "control / usual care / moderate-intensity continuous training",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"opl\"[Title/Abstract] OR \"optimal\"[Title/Abstract] OR \"load\"[Title/Abstract] OR \"resistance\"[Title/Abstract] OR \"training\"[Title/Abstract] OR \"intervention\"[Title/Abstract]) AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 5,
+      "timestamp": "2026-06-02T14:01:48.685811"
+    }
+  ],
+  "total_found": 5,
+  "errors": []
+}

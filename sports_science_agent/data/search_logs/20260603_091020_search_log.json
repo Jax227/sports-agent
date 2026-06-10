@@ -1,0 +1,21 @@
+{
+  "session": "20260603_091020",
+  "topic": "OPL最佳负荷训练",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 10,
+      "timestamp": "2026-06-03T09:10:34.058882"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "session": "20260603_152743",
+  "topic": "Optimal load training",
+  "pico": {
+    "population": "athlete athletes healthy adult elderly patient trained individuals untrained",
+    "intervention_or_exposure": "optimal load optimum load load optimization load prescription velocity-based training force-velocity profiling optimal loading",
+    "comparator": "high load heavy load low load light load moderate load traditional training fixed load",
+    "outcomes": "maximum strength muscular strength power output hypertrophy muscle thickness athletic performance force velocity 1RM one-repetition maximum muscle cross-sectional area",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"resistance training\"[Title/Abstract] OR \"strength training\"[Title/Abstract]) AND (\"load\"[Title/Abstract] OR \"loads\"[Title/Abstract] OR \"loading\"[Title/Abstract]) AND (\"optimal\"[Title/Abstract] OR \"optimum\"[Title/Abstract] OR \"power\"[Title/Abstract] OR \"strength\"[Title/Abstract] OR \"hypertrophy\"[Title/Abstract] OR \"performance\"[Title/Abstract]) NOT (animal[Title/Abstract] NOT human[Title/Abstract]) NOT (rat[Title/Abstract] OR mouse[Title/Abstract] OR mice[Title/Abstract] OR cell[Title/Abstract] OR \"in vitro\"[Title/Abstract] OR cadaver[Title/Abstract])",
+      "results_count": 10,
+      "timestamp": "2026-06-03T15:28:57.898221"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

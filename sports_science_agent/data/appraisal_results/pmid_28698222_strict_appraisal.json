@@ -1,0 +1,211 @@
+{
+  "paper_id": "pmid_28698222",
+  "source": "pubmed",
+  "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults.",
+  "authors": [
+    "Robert W Morton",
+    "Kevin T Murphy",
+    "Sean R McKellar",
+    "Brad J Schoenfeld",
+    "Menno Henselmans",
+    "Eric Helms",
+    "Alan A Aragon",
+    "Michaela C Devries",
+    "Laura Banfield",
+    "James W Krieger",
+    "Stuart M Phillips"
+  ],
+  "year": "2018",
+  "journal": "British journal of sports medicine",
+  "doi": "10.1136/bjsports-2017-097608",
+  "pmid": "28698222",
+  "abstract": "We performed a systematic review, meta-analysis and meta-regression to determine if dietary protein supplementation augments resistance exercise training (RET)-induced gains in muscle mass and strength. OBJECTIVE: We performed a systematic review, meta-analysis and meta-regression to determine if dietary protein supplementation augments resistance exercise training (RET)-induced gains in muscle mass and strength. A systematic search of Medline, Embase, CINAHL and SportDiscus. DATA SOURCES: A systematic search of Medline, Embase, CINAHL and SportDiscus. Only randomised controlled trials with RET ≥6 weeks in duration and dietary protein supplementation. ELIGIBILITY CRITERIA: Only randomised controlled trials with RET ≥6 weeks in duration and dietary protein supplementation. Random-effects meta-analyses and meta-regressions with four a priori determined covariates. Two-phase break point analysis was used to determine the relationship between total protein intake and changes in fat-free mass (FFM). DESIGN: Random-effects meta-analyses and meta-regressions with four a priori determined covariates. Two-phase break point analysis was used to determine the relationship between total protein intake and changes in fat-free mass (FFM). Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) and muscle size-muscle fibre cross-sectional area (CSA; 310 µm RESULTS: Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) and muscle size-muscle fibre cross-sectional area (CSA; 310 µm Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults. Increasing age reduces and training experience increases the efficacy of protein supplementation during RET. With protein supplementation, protein intakes at amounts greater than ~1.6 g/kg/day do not further contribute RET-induced gains in FFM. SUMMARY/CONCLUSION: Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults. Increasing age reduces and training experience increases the efficacy of protein supplementation during RET. With protein supplementation, protein intakes at amounts greater than ~1.6 g/kg/day do not further contribute RET-induced gains in FFM.",
+  "publication_type": [
+    "Journal Article",
+    "Meta-Analysis",
+    "Systematic Review"
+  ],
+  "keywords": [
+    "Adult",
+    "Dietary Proteins",
+    "Dietary Supplements",
+    "Humans",
+    "Muscle Strength",
+    "Muscle, Skeletal",
+    "Randomized Controlled Trials as Topic",
+    "Regression Analysis",
+    "Resistance Training"
+  ],
+  "metadata_completeness": "title, abstract, authors, journal, year, doi, publication_type, keywords",
+  "pico_peco": {
+    "population": "未提取",
+    "intervention_or_exposure": "resistance training muscle hypertrophy optimal load",
+    "comparator": "control / usual care / moderate-intensity continuous training",
+    "outcomes": "",
+    "study_design": "systematic_review_with_meta_analysis"
+  },
+  "journal_evaluation": {
+    "journal_name": "British journal of sports medicine",
+    "issn_input": "1473-0480",
+    "journal_match_status": "exact_issn",
+    "journal_match_confidence": 1.0,
+    "matched_journal_name": "British Journal of Sports Medicine",
+    "jcr_quartile": "Q1",
+    "cas_quartile": "Q1",
+    "impact_factor": "18.4",
+    "impact_factor_year": "2024",
+    "ranking_source": "JCR 2024",
+    "publisher": "BMJ Publishing Group",
+    "last_verified": "2026-05",
+    "journal_score": 9.5,
+    "journal_score_reason": "JCR Q1 (Sport Sciences)",
+    "journal_rank_status": "已获取"
+  },
+  "study_design_evaluation": {
+    "study_type": "systematic_review_with_meta_analysis",
+    "study_type_confidence": 0.95,
+    "study_type_evidence": [
+      "依据 PubMed publication_type: Journal Article, Meta-Analysis, Systematic Review"
+    ],
+    "design_score": 7.0,
+    "design_strengths": [
+      "Search: 检索了 medline, embase, cinahl, sportdiscus 等数据库 (≥2)",
+      "Heterogeneity: 考虑了异质性"
+    ],
+    "design_limitations": [
+      "Reporting: 摘要未提及PRISMA — 需查看全文",
+      "Registration: 摘要未提及PROSPERO注册 — 需查看",
+      "Risk of bias: 摘要未提及偏倚风险评估工具 — 需查看全文",
+      "Publication bias: 摘要未提及发表偏倚评估"
+    ],
+    "design_score_reason": "本评价主要基于摘要信息。 研究设计总体合理 (score=7.0)，存在部分方法学信息不足。 存在多项设计相关信息缺失。",
+    "intervention_details": {},
+    "review_details": {
+      "prisma_reported": "未报告",
+      "prospero_registration": "未报告",
+      "databases_searched": "medline, embase, cinahl, sportdiscus",
+      "search_strategy_reported": "摘要未提及 — 需查看全文",
+      "inclusion_criteria_clear": "需查看全文",
+      "screening_process": "需查看全文",
+      "data_extraction_process": "需查看全文",
+      "risk_of_bias_tool": "未报告",
+      "heterogeneity_assessment": "已提及",
+      "model_choice": "random",
+      "publication_bias_assessment": "未报告",
+      "sensitivity_analysis": "需查看全文",
+      "subgroup_analysis": "需查看全文",
+      "certainty_assessment_grade": "未报告"
+    }
+  },
+  "statistics_evaluation": {
+    "statistical_tests": [
+      "meta-regression"
+    ],
+    "model_type": "regression model",
+    "primary_analysis": "regression model",
+    "effect_size_reported": "摘要未报告，需查看全文",
+    "confidence_interval_reported": "摘要未报告，需查看全文",
+    "p_value_reported": "是",
+    "normality_test": "摘要未报告，需查看全文",
+    "variance_assumption": "摘要未报告，需查看全文",
+    "multiple_comparison_correction": "摘要未报告，需查看全文",
+    "sample_size_calculation": "摘要未报告，需查看全文",
+    "power_analysis": "摘要未报告，需查看全文",
+    "intention_to_treat": "摘要未报告，需查看全文",
+    "per_protocol_analysis": "摘要未报告，需查看全文",
+    "missing_data_handling": "摘要未报告，需查看全文",
+    "covariate_adjustment": "摘要未报告，需查看全文",
+    "baseline_adjustment": "摘要未报告，需查看全文",
+    "repeated_measures_handling": "摘要未报告，需查看全文",
+    "cluster_or_team_effect_handling": "摘要未报告，需查看全文",
+    "subgroup_analysis": "摘要未报告，需查看全文",
+    "sensitivity_analysis": "摘要未报告，需查看全文",
+    "heterogeneity_analysis": "摘要未报告，需查看全文",
+    "publication_bias_analysis": "摘要未报告，需查看全文",
+    "statistical_software": "摘要未报告",
+    "statistics_score": 6.5,
+    "statistics_strengths": [
+      "报告了 p 值",
+      "统计方法较为先进，使用了 regression model"
+    ],
+    "statistics_limitations": [
+      "未报告效应量 — 仅凭p值不足以判断实际意义。运动科学强烈建议报告效应量（Cohen's d, Hedges' g, η², OR, HR等）",
+      "未报告置信区间 — 置信区间提供效应估计精度，是APA和CONSORT要求报告的",
+      "未报告样本量估算 — 无法判断研究是否有足够统计功效检测真实效应"
+    ],
+    "statistics_score_reason": "统计方法基本可接受，但缺少效应量、CI、样本量估算或多重比较处理。",
+    "statistics_review_level": "abstract_only"
+  },
+  "bias_and_evidence": {
+    "risk_of_bias": "unclear",
+    "risk_of_bias_domains": {
+      "selection_bias": "unclear",
+      "performance_bias": "unclear",
+      "detection_bias": "unclear",
+      "attrition_bias": "unclear",
+      "reporting_bias": "unclear",
+      "confounding": "unclear"
+    },
+    "risk_of_bias_reasons": [
+      "研究类型不明确，无法进行系统偏倚评估。需人工审核"
+    ],
+    "evidence_level": "moderate",
+    "evidence_level_reasons": [
+      "研究类型: systematic_review_with_meta_analysis → 基线证据等级: high",
+      "偏倚风险不明确 → 降1级",
+      "最终证据等级: moderate (降1级)",
+      "该证据等级为自动化初步判断，不等同于GRADE正式评价。",
+      "需人工复核后确定最终证据等级。"
+    ],
+    "tool_used": "通用自动化初筛",
+    "disclaimer": "该偏倚风险评价为自动化初筛，不等同于人工正式 RoB 2、ROBINS-I、AMSTAR 2 或 GRADE 评价。所有偏倚判断均需全文阅读后由研究者独立复核。"
+  },
+  "relevance_evaluation": {
+    "relevance_score": 6.0,
+    "pico_match": {
+      "population_match": "用户未指定population，无法评估匹配度",
+      "intervention_match": "intervention: 部分匹配 (3/6 terms)",
+      "comparator_match": "comparator: 弱匹配 (2/6 terms)",
+      "outcome_match": "用户未指定outcome，无法评估匹配度",
+      "study_design_match": "研究设计类型部分匹配"
+    },
+    "relevance_reason": "匹配到的intervention术语: resistance, training, muscle | 研究类型为 unknown，用户偏好包含 randomized_controlled_trial, cluster_randomized_trial, crossover_trial, systematic_review, systematic_review_with_meta_analysis, meta_analysis, systematic_review_with_meta_analysis, randomized_controlled_trial, clinical_trial"
+  },
+  "overall_appraisal": {
+    "journal_score": 9.5,
+    "design_score": 7.0,
+    "statistics_score": 6.5,
+    "relevance_score": 6.0,
+    "risk_of_bias_score": 3.0,
+    "reporting_quality_score": 7.5,
+    "overall_quality_score": 6.7,
+    "weights_used": {
+      "journal_score": 0.15,
+      "design_score": 0.25,
+      "statistics_score": 0.25,
+      "relevance_score": 0.2,
+      "risk_of_bias_score": 0.1,
+      "reporting_quality_score": 0.05
+    },
+    "journal_note": "",
+    "confidence_in_appraisal": "high",
+    "confidence_reasons": [
+      "期刊匹配置信度高",
+      "研究类型识别置信度高",
+      "统计评价仅限于摘要信息",
+      "偏倚风险无法判断"
+    ],
+    "recommendation": "manual_review",
+    "recommendation_reason": "综合评分中等 (6.7/10)，但关键信息缺失需人工审核",
+    "missing_information": [
+      "统计方法评价仅基于摘要 — 需阅读全文进一步完善",
+      "效应量未报告 — 需查阅全文或补充材料",
+      "置信区间未报告 — 需查阅全文",
+      "样本量估算未报告 — 需查阅全文",
+      "偏倚风险无法自动化判断 — 需人工正式评价"
+    ]
+  },
+  "journal_club_report_path": "D:\\sports_agent\\sports_science_agent\\outputs\\journal_club_reports\\20260602_Morton_2018_A_systematic_review_meta-analysis_and_m.md",
+  "created_at": "2026-06-02T18:49:55.439434",
+  "updated_at": "2026-06-02T18:49:55.439434"
+}

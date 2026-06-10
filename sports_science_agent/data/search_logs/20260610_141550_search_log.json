@@ -1,0 +1,21 @@
+{
+  "session": "20260610_141550",
+  "topic": "最佳负荷的应用",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "optimal load optimal loading",
+    "comparator": "",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "((\"optimal load\"[Title/Abstract] OR \"optimal loading\"[Title/Abstract] OR \"optimum load\"[Title/Abstract]) AND (exercise[Title/Abstract] OR training[Title/Abstract] OR sport*[Title/Abstract] OR \"resistance training\"[Title/Abstract] OR \"strength training\"[Title/Abstract])) AND (randomized controlled trial[pt] OR clinical trial[pt] OR meta-analysis[pt] OR systematic review[pt])",
+      "results_count": 10,
+      "timestamp": "2026-06-10T14:16:33.604552"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}

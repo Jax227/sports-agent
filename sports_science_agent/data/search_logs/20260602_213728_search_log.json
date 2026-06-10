@@ -1,0 +1,21 @@
+{
+  "session": "20260602_213728",
+  "topic": "Optimal load training in resistant training",
+  "pico": {
+    "population": "",
+    "intervention_or_exposure": "Optimal load training in resistant training",
+    "comparator": "control / usual care / moderate-intensity continuous training",
+    "outcomes": "",
+    "study_design_preference": "RCT / systematic review / meta-analysis / clinical trial"
+  },
+  "searches": [
+    {
+      "database": "pubmed",
+      "query": "(\"optimal\"[Title/Abstract] OR \"load\"[Title/Abstract] OR \"training\"[Title/Abstract] OR \"resistant\"[Title/Abstract]) AND (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type])",
+      "results_count": 10,
+      "timestamp": "2026-06-02T21:37:49.392542"
+    }
+  ],
+  "total_found": 10,
+  "errors": []
+}
