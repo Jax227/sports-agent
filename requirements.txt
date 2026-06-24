@@ -11,7 +11,8 @@ aiosqlite>=0.20
 psycopg2-binary>=2.9
 
 # Vector store (optional — app works without it)
-chromadb>=0.5
+# chromadb 偶尔编译失败会阻塞部署 → 用 try/except import 保护
+# chromadb>=0.5
 sentence-transformers>=2.2
 
 # Document parsing
