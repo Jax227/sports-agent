@@ -38,8 +38,11 @@ def get_db():
     except Exception:
         return None
 
-# Ensure tables exist
-Base.metadata.create_all(bind=engine)
+# Ensure tables exist (idempotent — SQLite may already have them)
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception:
+    pass
 
 
 # ═══════════════════════════════════════════════════════════════════
