@@ -1,8 +1,6 @@
 [server]
-# Bind to all network interfaces for LAN + tunnel access
 headless = true
 address = "0.0.0.0"
-port = 8504
 maxUploadSize = 200
 enableXsrfProtection = true
 enableCORS = true
