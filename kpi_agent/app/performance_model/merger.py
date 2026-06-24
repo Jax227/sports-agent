@@ -434,16 +434,17 @@ def _get_category(c) -> str:
 
 
 def _recompute_scores(c):
-    """Recompute scores after merge."""
+    """Recompute scores after merge, taking the best of old and new.
+
+    The extraction-phase scores are document-aware (relevance to source doc,
+    year, citation count, etc). After merging, we also reward cross-document
+    consensus. We keep whichever is higher so single-method single-document
+    candidates aren't unfairly filtered.
+    """
     if hasattr(c, 'source_literature_ids'):
         source_count = len(c.source_literature_ids)
     else:
         source_count = len(c.get('source_literature_ids', []))
-
-    if hasattr(c, 'source_databases'):
-        db_count = len(c.source_databases)
-    else:
-        db_count = len(c.get('source_databases', []))
 
     if hasattr(c, 'evidence_sentences'):
         evidence_count = len(c.evidence_sentences)
@@ -452,30 +453,45 @@ def _recompute_scores(c):
         evidence_count = len(c.get('evidence_sentences', []))
         methods = set(c.get('extraction_methods', []))
 
-    # Confidence: more methods + more evidence = higher
-    conf = 0.1
+    old_conf = c.confidence_score if hasattr(c, 'confidence_score') else c.get('confidence_score', 0.0)
+    old_strength = c.evidence_strength_score if hasattr(c, 'evidence_strength_score') else c.get('evidence_strength_score', 0.0)
+
+    # Confidence: consistent with _compute_confidence in extractor.py
+    conf = 0.0
     if "dictionary" in methods:
-        conf += 0.3
-    if evidence_count >= 3:
+        conf += 0.4
+    if "regex" in methods:
         conf += 0.2
-    if evidence_count >= 5:
+    if "yake" in methods:
         conf += 0.15
+    if "keybert" in methods:
+        conf += 0.15
+    if "spacy" in methods:
+        conf += 0.1
+    # Multi-method consensus
     if len(methods) >= 2:
         conf += 0.15
     if len(methods) >= 3:
         conf += 0.1
+    # Cross-document consensus
+    if evidence_count >= 2:
+        conf += 0.05
+    if evidence_count >= 3:
+        conf += 0.1
+    if evidence_count >= 5:
+        conf += 0.1
     conf = min(conf, 1.0)
 
-    # Evidence strength: more sources = stronger
-    strength = min(0.1 + source_count * 0.1 + db_count * 0.05, 1.0)
+    # Evidence strength: blend old (doc-quality) with new (cross-document breadth)
+    aggregate_strength = min(0.1 + source_count * 0.1 + min(len(methods), 4) * 0.05, 1.0)
 
+    # Keep the better score between old (per-document) and new (cross-document aggregate)
     if hasattr(c, 'confidence_score'):
-        c.confidence_score = conf
-        c.evidence_strength_score = strength
-        # Relevance is the average, kept as-is from extraction
+        c.confidence_score = max(old_conf, conf)
+        c.evidence_strength_score = max(old_strength, aggregate_strength)
     else:
-        c['confidence_score'] = conf
-        c['evidence_strength_score'] = strength
+        c['confidence_score'] = max(old_conf, conf)
+        c['evidence_strength_score'] = max(old_strength, aggregate_strength)
 
 
 def standardize_all_names(candidates: list) -> list:

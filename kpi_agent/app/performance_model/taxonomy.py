@@ -693,9 +693,16 @@ def classify_term(term: str) -> str:
     Uses exact keyword matching. Returns 'other_uncertain' if no match.
     """
     term_lower = term.strip().lower()
+    # Try exact match first (works for space-separated and canonical forms)
     for cat_key, keywords in CATEGORY_KEYWORD_MAP.items():
         if term_lower in keywords:
             return cat_key
+    # Try with underscores → spaces (canonical names use underscores, keywords use spaces)
+    term_spaces = term_lower.replace("_", " ")
+    if term_spaces != term_lower:
+        for cat_key, keywords in CATEGORY_KEYWORD_MAP.items():
+            if term_spaces in keywords:
+                return cat_key
     return "other_uncertain"
 
 
