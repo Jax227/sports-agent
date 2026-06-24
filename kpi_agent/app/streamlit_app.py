@@ -1882,7 +1882,7 @@ def page_create_project():
 
 def page_literature_to_performance_model():
     st.title("🧬 文献 → 表现模型")
-    st.caption("从已检索文献中批量提取表现决定因素 · 自动归类八大层级 · 构建证据链接模型")
+    st.caption("从已检索文献中按9大维度提取表现决定因素 · 手动审核 · 一键保存")
 
     # ── Initialize session state ──
     if "pm_pipeline_result" not in st.session_state:
@@ -1894,10 +1894,23 @@ def page_literature_to_performance_model():
     if "pm_selected_query" not in st.session_state:
         st.session_state.pm_selected_query = None
 
+    # ── Category definitions (order + display names) ──
+    CATEGORY_ORDER = [
+        ("physiological_requirements", "生理要求", "Physiological Requirements"),
+        ("technical_requirements", "技术要求", "Technical Requirements"),
+        ("tactical_requirements", "战术要求", "Tactical Requirements"),
+        ("nutritional_requirements", "营养要求", "Nutritional Requirements"),
+        ("psychological_skills", "心理技能", "Psychological Skills"),
+        ("equipment_characteristics", "器材特点", "Equipment Characteristics"),
+        ("health", "健康", "Health"),
+        ("competition_rules", "比赛规则", "Competition Rules"),
+        ("other_uncertain", "其他/不确定", "Other / Uncertain"),
+    ]
+
     # ── Step 1: Select literature source ──
     st.subheader("1. 选择文献来源")
 
-    col_a, col_b, col_c = st.columns([2, 1, 1])
+    col_a, col_b = st.columns([3, 1])
 
     with col_a:
         from app.performance_model.batch_loader import get_cached_queries as _get_queries
@@ -1923,232 +1936,224 @@ def page_literature_to_performance_model():
 
     with col_b:
         limit = st.number_input("读取文献上限", min_value=5, max_value=200, value=50, step=5)
-        min_conf = st.slider("最低置信度", min_value=0.0, max_value=1.0, value=0.2, step=0.05)
+        use_yake = st.checkbox("YAKE 提取", value=True, help="轻量级无监督关键词提取")
+        use_keybert = st.checkbox("KeyBERT 提取", value=False, help="需要 sentence-transformers（更准但更慢）")
 
-    with col_c:
-        use_yake = st.checkbox("使用 YAKE", value=True, help="轻量级无监督关键词提取")
-        use_keybert = st.checkbox("使用 KeyBERT", value=False, help="需要 sentence-transformers")
-        include_fulltext = st.checkbox("包含全文", value=False, help="如果有 fulltext 链接则尝试获取")
+    # ── Step 2: Extract ──
+    st.subheader("2. 提取表现决定因素")
 
-    # ── Step 2: Extract button ──
-    st.subheader("2. 批量提取表现决定因素")
-
-    if st.button("🚀 从文献批量提取表现决定因素", type="primary", use_container_width=True):
-        with st.spinner("正在提取... 读取文献 → 词典匹配 → 关键词提取 → 分类 → 合并 → 评分"):
+    if st.button("🚀 从文献中提取", type="primary", use_container_width=True):
+        with st.spinner("正在提取… 词典匹配 + 正则匹配" + (" + YAKE" if use_yake else "") + (" + KeyBERT" if use_keybert else "") + " → 按9维分类"):
             try:
                 from app.performance_model.pipeline import run_full_pipeline
                 result = run_full_pipeline(
                     query_id=st.session_state.pm_selected_query,
                     limit=limit,
-                    include_fulltext=include_fulltext,
+                    include_fulltext=False,
                     use_keybert=use_keybert,
                     use_yake=use_yake,
                     use_spacy=False,
-                    min_confidence=min_conf,
+                    min_confidence=0.0,  # no filtering — show everything
                 )
                 st.session_state.pm_pipeline_result = result
                 st.session_state.pm_candidates = result.get("candidates", [])
-                # Reset status tracking
                 st.session_state.pm_candidate_status = {
                     c.get("canonical_name", ""): "candidate"
                     for c in result.get("candidates", [])
                 }
-                st.success(f"提取完成！{result['documents_loaded']} 篇文献 → {result['candidates_extracted']} 原始候选 → {result['candidates_merged']} 合并后 → {result['candidates_filtered']} 最终候选")
+                st.success(
+                    f"{result['documents_loaded']} 篇文献 → {result['candidates_extracted']} 个原始候选 → "
+                    f"去重合并后 {result['candidates_merged']} 个"
+                )
             except Exception as e:
                 st.error(f"提取失败: {e}")
 
-    # ── Results display ──
+    # ── Results ──
     result = st.session_state.pm_pipeline_result
     if not result:
-        st.info("请先点击「从文献批量提取表现决定因素」按钮开始分析。")
+        st.info("请先点击「从文献中提取」按钮开始分析。")
         return
-
-    # ── Step 3: Processing stats ──
-    st.subheader("3. 处理状态")
-    cols = st.columns(6)
-    cols[0].metric("已读取文献", result.get("documents_loaded", 0))
-    cols[1].metric("有摘要", result.get("documents_with_abstract", 0))
-    cols[2].metric("有全文", result.get("documents_with_fulltext", 0))
-    cols[3].metric("原始候选", result.get("candidates_extracted", 0))
-    cols[4].metric("合并后", result.get("candidates_merged", 0))
-    cols[5].metric("最终候选", result.get("candidates_filtered", 0))
 
     candidates = st.session_state.pm_candidates
     if not candidates:
-        st.warning("没有提取到满足最低置信度的候选指标。")
+        st.warning("没有提取到候选指标。请确认文献缓存中有数据（先执行文献检索）。")
+        return
 
-    # ── Step 4: Candidate table ──
-    st.subheader("4. 候选指标列表")
-    import pandas as pd
+    # ── Summary stats ──
+    st.divider()
+    st.subheader("3. 提取概览")
+    total_accepted = sum(1 for v in st.session_state.pm_candidate_status.values() if v == "accepted")
+    total_rejected = sum(1 for v in st.session_state.pm_candidate_status.values() if v == "rejected")
 
-    # Build table data
-    table_data = []
-    for i, c in enumerate(candidates):
-        canon = c.get("canonical_name", "")
-        status = st.session_state.pm_candidate_status.get(canon, "candidate")
-        table_data.append({
-            "序号": i + 1,
-            "canonical_name": canon,
-            "display_name_en": c.get("display_name_en", ""),
-            "category": c.get("category_key", "other").replace("_", " "),
-            "evidence_count": len(c.get("source_literature_ids", [])),
-            "source_count": len(c.get("source_databases", [])),
-            "confidence": f"{c.get('confidence_score', 0):.2f}",
-            "relevance": f"{c.get('relevance_score', 0):.2f}",
-            "strength": f"{c.get('evidence_strength_score', 0):.2f}",
-            "methods": ", ".join(c.get("extraction_methods", [])),
-            "status": status,
-        })
+    cols = st.columns(5)
+    cols[0].metric("已读文献", result.get("documents_loaded", 0))
+    cols[1].metric("提取候选", len(candidates))
+    cols[2].metric("已接受", total_accepted, delta=f"+{total_accepted}" if total_accepted else None)
+    cols[3].metric("已拒绝", total_rejected)
+    cols[4].metric("待审核", len(candidates) - total_accepted - total_rejected)
 
-    df = pd.DataFrame(table_data)
-    st.dataframe(df, use_container_width=True, height=300,
-                 column_config={
-                     "canonical_name": "标准名称",
-                     "display_name_en": "显示名称",
-                     "category": "分类",
-                     "evidence_count": "证据数",
-                     "confidence": "置信度",
-                     "status": "状态",
-                 })
+    # ── Group candidates by category ──
+    by_category: dict[str, list] = {}
+    for c in candidates:
+        cat = c.get("category_key", "other_uncertain")
+        if cat not in by_category:
+            by_category[cat] = []
+        by_category[cat].append(c)
 
-    # ── Step 5: Expandable evidence ──
-    st.subheader("5. 证据详情（点击展开）")
+    # ── Category-by-category review ──
+    st.divider()
+    st.subheader("4. 按维度审核")
 
-    for i, c in enumerate(candidates[:30]):  # limit to 30 for performance
-        canon = c.get("canonical_name", "")
-        cat = c.get("category_key", "other")
-        status = st.session_state.pm_candidate_status.get(canon, "candidate")
-        status_icon = {"accepted": "✅", "rejected": "❌", "candidate": "🔍"}.get(status, "🔍")
+    for cat_key, name_cn, name_en in CATEGORY_ORDER:
+        cat_candidates = by_category.get(cat_key, [])
+        cat_accepted = sum(
+            1 for c in cat_candidates
+            if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
+        )
+        cat_rejected = sum(
+            1 for c in cat_candidates
+            if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "rejected"
+        )
 
-        with st.expander(f"{status_icon} {canon} — {cat} — {len(c.get('source_literature_ids', []))} evidence(s)"):
-            col_info, col_action = st.columns([3, 1])
-            with col_info:
-                st.markdown(f"**Standard name**: `{canon}`")
-                st.markdown(f"**Display name**: {c.get('display_name_en', '')}")
-                st.markdown(f"**Category**: {cat}")
-                st.markdown(f"**Aliases**: {', '.join(c.get('aliases', [])[:10])}")
-                st.markdown(f"**Extraction methods**: {', '.join(c.get('extraction_methods', []))}")
-                st.markdown(f"**Confidence**: {c.get('confidence_score', 0):.2f} | **Relevance**: {c.get('relevance_score', 0):.2f} | **Strength**: {c.get('evidence_strength_score', 0):.2f}")
+        expander_label = f"📁 {name_cn} ({name_en}) — {len(cat_candidates)} 个候选"
+        if cat_accepted:
+            expander_label += f" | ✅ {cat_accepted}"
+        if cat_rejected:
+            expander_label += f" | ❌ {cat_rejected}"
 
-                # Evidence sentences
-                st.markdown("**Supporting evidence:**")
-                for ev in c.get("evidence_sentences", [])[:10]:
-                    lit_id = ev.get("literature_id", "?")
-                    text = ev.get("text", "")[:300]
-                    doi = ev.get("doi", "")
-                    year = ev.get("year", "")
-                    loc = ev.get("location", "")
-                    matched = ev.get("matched_term", "")
-                    st.markdown(f"- **[Lit#{lit_id}]** ({year}, {loc}) `{matched}`")
-                    st.markdown(f"  DOI: {doi}")
-                    st.text(f"  \"{text}...\"")
+        with st.expander(expander_label, expanded=(len(cat_candidates) > 0 and cat_key != "other_uncertain")):
+            if not cat_candidates:
+                st.caption("无候选")
+                continue
 
-            with col_action:
-                new_status = st.selectbox(
-                    "状态", ["candidate", "accepted", "rejected"],
-                    index=["candidate", "accepted", "rejected"].index(status),
-                    key=f"status_{canon}_{i}"
-                )
-                if new_status != st.session_state.pm_candidate_status.get(canon, "candidate"):
-                    st.session_state.pm_candidate_status[canon] = new_status
-                    st.rerun()
-
-    # ── Step 6: Category tree ──
-    st.subheader("6. 层级结构展示")
-    model_tree = result.get("model_tree", {})
-
-    if model_tree.get("categories"):
-        for cat_node in model_tree["categories"]:
-            cat_key = cat_node.get("category_key", "")
-            name_cn = cat_node.get("name_cn", cat_key)
-            name_en = cat_node.get("name_en", "")
-            count = cat_node.get("candidate_count", 0)
-            total_ev = cat_node.get("total_evidence_count", 0)
-
-            # Check how many are accepted
-            accepted_count = sum(
-                1 for c in cat_node.get("candidates", [])
-                if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
-            )
-
-            bar = "█" * min(count, 20)
-            st.markdown(f"### 📁 {name_cn} ({name_en})")
-            st.progress(min(count / max(1, len(candidates)), 1.0),
-                        text=f"{count} candidates, {accepted_count} accepted, {total_ev} total evidence")
-
-            # Show top candidates in this category
-            for cand in cat_node.get("candidates", [])[:8]:
-                canon = cand.get("canonical_name", "")
-                display = cand.get("display_name_en", canon)
-                ev_count = len(cand.get("source_literature_ids", []))
-                conf = cand.get("confidence_score", 0)
+            for i, c in enumerate(cat_candidates):
+                canon = c.get("canonical_name", "")
+                display = c.get("display_name_en", canon)
+                aliases = c.get("aliases", [])
+                methods = c.get("extraction_methods", [])
+                evidence_sentences = c.get("evidence_sentences", [])
+                source_ids = c.get("source_literature_ids", [])
                 status = st.session_state.pm_candidate_status.get(canon, "candidate")
-                icon = {"accepted": "✅", "rejected": "❌", "candidate": "🔍"}.get(status, "🔍")
-                st.markdown(f"  {icon} **{display}** `{canon}` — {ev_count} evidence, conf={conf:.2f}")
 
-    # ── Step 7: Export ──
-    st.subheader("7. 导出")
+                # Status icon
+                status_icon = {"accepted": "✅", "rejected": "❌"}.get(status, "🔍")
 
-    col_x1, col_x2, col_x3, col_x4 = st.columns(4)
+                # Candidate card
+                with st.container():
+                    c1, c2 = st.columns([5, 1])
+                    with c1:
+                        st.markdown(f"**{status_icon} {display}**  `{canon}`")
+                        if aliases:
+                            st.caption(f"别名: {', '.join(aliases[:8])}")
+                        st.caption(f"来源: {len(source_ids)} 篇文献 | 方法: {', '.join(methods)}")
+                    with c2:
+                        new_status = st.selectbox(
+                            "审核",
+                            ["candidate", "accepted", "rejected"],
+                            format_func=lambda s: {"candidate": "🔍 待定", "accepted": "✅ 接受", "rejected": "❌ 拒绝"}[s],
+                            index=["candidate", "accepted", "rejected"].index(status),
+                            key=f"pm_review_{cat_key}_{canon}",
+                        )
+                        if new_status != status:
+                            st.session_state.pm_candidate_status[canon] = new_status
+                            st.rerun()
+
+                    # Evidence sentences
+                    if evidence_sentences:
+                        with st.expander(f"📄 证据 ({len(evidence_sentences)} 条)", expanded=False):
+                            for ev in evidence_sentences[:10]:
+                                lit_id = ev.get("literature_id", "?")
+                                year = ev.get("year", "")
+                                doi = ev.get("doi", "")
+                                matched = ev.get("matched_term", "")
+                                text = ev.get("text", "")[:400]
+                                st.markdown(f"**[Lit#{lit_id}]** ({year}) — 匹配词: `{matched}`")
+                                if doi:
+                                    st.caption(f"DOI: {doi}")
+                                st.text(text[:400])
+
+                st.divider()
+
+    # ── Bulk actions ──
+    st.subheader("5. 批量操作")
+
+    col_ba, col_bb, col_bc = st.columns(3)
+    with col_ba:
+        if st.button("✅ 全部接受", use_container_width=True):
+            for c in candidates:
+                st.session_state.pm_candidate_status[c.get("canonical_name", "")] = "accepted"
+            st.rerun()
+    with col_bb:
+        if st.button("🔄 全部重置", use_container_width=True):
+            for c in candidates:
+                st.session_state.pm_candidate_status[c.get("canonical_name", "")] = "candidate"
+            st.rerun()
+
+    # ── Export ──
+    st.divider()
+    st.subheader("6. 导出 & 保存")
+
+    col_x1, col_x2, col_x3 = st.columns(3)
 
     with col_x1:
-        # CSV export
+        # CSV
         import csv as _csv, io as _io
         csv_buf = _io.StringIO()
         writer = _csv.writer(csv_buf)
-        writer.writerow(["canonical_name", "display_name_en", "category_key", "evidence_count",
-                          "confidence_score", "relevance_score", "evidence_strength_score", "status"])
+        writer.writerow(["canonical_name", "display_name_en", "category_key", "category_cn",
+                          "evidence_count", "extraction_methods", "aliases", "status"])
         for c in candidates:
             canon = c.get("canonical_name", "")
+            cat = c.get("category_key", "")
+            cat_cn = dict(CATEGORY_ORDER).get(cat, cat)
             writer.writerow([
-                canon, c.get("display_name_en", ""), c.get("category_key", ""),
+                canon, c.get("display_name_en", ""), cat, cat_cn,
                 len(c.get("source_literature_ids", [])),
-                c.get("confidence_score", 0), c.get("relevance_score", 0),
-                c.get("evidence_strength_score", 0),
+                "; ".join(c.get("extraction_methods", [])),
+                "; ".join(c.get("aliases", [])[:10]),
                 st.session_state.pm_candidate_status.get(canon, "candidate"),
             ])
-        st.download_button("📊 CSV", csv_buf.getvalue().encode("utf-8"),
+        st.download_button("📊 CSV", csv_buf.getvalue().encode("utf-8-sig"),
                            "determinant_candidates.csv", "text/csv")
 
     with col_x2:
-        # JSON export
+        # JSON
         import json as _json
         json_data = _json.dumps({
-            "model_tree": model_tree,
             "candidates": candidates,
+            "category_summary": {
+                cat: {"count": len(by_category.get(cat, []))}
+                for cat, _, _ in CATEGORY_ORDER
+            },
             "evidence_links": result.get("evidence_links_data", []),
         }, ensure_ascii=False, indent=2)
-        st.download_button("📦 JSON (完整模型)", json_data.encode("utf-8"),
+        st.download_button("📦 JSON", json_data.encode("utf-8"),
                            "performance_model.json", "application/json")
 
     with col_x3:
-        # Markdown report
-        md_content = result.get("evidence_report", "")
-        st.download_button("📝 Markdown 报告", md_content.encode("utf-8"),
-                           "evidence_report.md", "text/markdown")
-
-    with col_x4:
-        # Save to project
-        if st.button("💾 保存到当前项目", help=f"保存到项目 #{project_id}", disabled=(project_id <= 0)):
+        if st.button("💾 保存已接受的到项目", help=f"将已接受的候选保存到项目 #{project_id}",
+                     disabled=(project_id <= 0), use_container_width=True):
             if project_id > 0:
-                with st.spinner("保存中..."):
-                    try:
-                        accepted = [
-                            c for c in candidates
-                            if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
-                        ]
-                        if not accepted:
-                            st.warning("没有已接受的候选指标。请先在上方展开证据详情，将需要保存的候选标记为「accepted」。")
-                        else:
+                accepted = [
+                    c for c in candidates
+                    if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
+                ]
+                if not accepted:
+                    st.warning("没有已接受的候选。请先审核并标记为「接受」。")
+                else:
+                    with st.spinner(f"保存 {len(accepted)} 个因素..."):
+                        try:
                             from app.performance_model.pipeline import save_model_to_db as _save
                             pipeline_data = {
                                 "candidates": accepted,
                                 "evidence_links_data": result.get("evidence_links_data", []),
                             }
                             created = _save(pipeline_data, project_id)
-                            st.success(f"已保存到项目 #{project_id}: {created['categories']} 个类别节点, {created['determinants']} 个决定因素, {created['evidence_sources']} 个证据来源")
-                    except Exception as e:
-                        st.error(f"保存失败: {e}")
+                            st.success(
+                                f"已保存: {created['categories']} 类别 + {created['determinants']} 因素 + {created['evidence_sources']} 证据"
+                            )
+                        except Exception as e:
+                            st.error(f"保存失败: {e}")
 
 
 # ═══════════════════════════════════════════════════════════════════
