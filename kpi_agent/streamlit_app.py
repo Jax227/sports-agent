@@ -14,10 +14,9 @@ Local usage:
 import sys
 from pathlib import Path
 
-# Ensure app/ is importable
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+_pkg_dir = Path(__file__).resolve().parent
+if str(_pkg_dir) not in sys.path:
+    sys.path.insert(0, str(_pkg_dir))
 
-# Run the full Streamlit app
-app_path = Path(__file__).resolve().parent / "app" / "streamlit_app.py"
-code = compile(app_path.read_text(encoding="utf-8"), str(app_path), "exec")
-exec(code, {"__name__": "__main__", "__file__": str(app_path)})
+import runpy
+runpy.run_path(str(_pkg_dir / "app" / "streamlit_app.py"), run_name="__main__")
