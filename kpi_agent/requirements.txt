@@ -34,6 +34,8 @@ httpx>=0.28
 requests>=2.31
 rapidfuzz>=3.0
 rank-bm25>=0.2
+keybert>=0.8
+yake>=0.4
 
 # Testing
 pytest>=8.0

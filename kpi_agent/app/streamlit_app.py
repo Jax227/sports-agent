@@ -1882,29 +1882,28 @@ def page_create_project():
 
 def page_literature_to_performance_model():
     st.title("🧬 文献 → 表现模型")
-    st.caption("从已检索文献中按9大维度提取表现决定因素 · 手动审核 · 一键保存")
+    st.caption("混合三层分类 · 人工审核 · 一键写入表现模型")
 
     # ── Initialize session state ──
-    if "pm_pipeline_result" not in st.session_state:
-        st.session_state.pm_pipeline_result = None
-    if "pm_candidates" not in st.session_state:
-        st.session_state.pm_candidates = []
-    if "pm_candidate_status" not in st.session_state:
-        st.session_state.pm_candidate_status = {}
-    if "pm_selected_query" not in st.session_state:
-        st.session_state.pm_selected_query = None
+    if "l2m_pipeline_result" not in st.session_state:
+        st.session_state.l2m_pipeline_result = None
+    if "l2m_assignment_status" not in st.session_state:
+        st.session_state.l2m_assignment_status = {}
+    if "l2m_node_status" not in st.session_state:
+        st.session_state.l2m_node_status = {}
+    if "l2m_selected_query" not in st.session_state:
+        st.session_state.l2m_selected_query = None
 
-    # ── Category definitions (order + display names) ──
     CATEGORY_ORDER = [
-        ("physiological_requirements", "生理要求", "Physiological Requirements"),
-        ("technical_requirements", "技术要求", "Technical Requirements"),
-        ("tactical_requirements", "战术要求", "Tactical Requirements"),
-        ("nutritional_requirements", "营养要求", "Nutritional Requirements"),
-        ("psychological_skills", "心理技能", "Psychological Skills"),
-        ("equipment_characteristics", "器材特点", "Equipment Characteristics"),
-        ("health", "健康", "Health"),
-        ("competition_rules", "比赛规则", "Competition Rules"),
-        ("other_uncertain", "其他/不确定", "Other / Uncertain"),
+        ("physiological_requirements", "生理要求"),
+        ("technical_requirements", "技术要求"),
+        ("tactical_requirements", "战术要求"),
+        ("nutritional_requirements", "营养要求"),
+        ("psychological_skills", "心理技能"),
+        ("equipment_characteristics", "器材特点"),
+        ("health", "健康"),
+        ("competition_rules", "比赛规则"),
+        ("other_uncertain", "其他/不确定"),
     ]
 
     # ── Step 1: Select literature source ──
@@ -1923,234 +1922,375 @@ def page_literature_to_performance_model():
             f"Query #{q['id']}: {q['query_text'][:80]} ({q['result_count']} results, {q['created_at'][:10]})"
             for q in queries
         ]
-        selected_query_label = st.selectbox("选择已缓存的检索查询", query_options, key="pm_query_select")
+        selected_query_label = st.selectbox("选择已缓存的检索查询", query_options, key="l2m_query_select")
 
         if selected_query_label and selected_query_label != "(使用全部缓存文献)":
             for q in queries:
                 label = f"Query #{q['id']}: {q['query_text'][:80]} ({q['result_count']} results, {q['created_at'][:10]})"
                 if label == selected_query_label:
-                    st.session_state.pm_selected_query = q['id']
+                    st.session_state.l2m_selected_query = q['id']
                     break
         else:
-            st.session_state.pm_selected_query = None
+            st.session_state.l2m_selected_query = None
 
     with col_b:
-        limit = st.number_input("读取文献上限", min_value=5, max_value=200, value=50, step=5)
-        use_yake = st.checkbox("YAKE 提取", value=True, help="轻量级无监督关键词提取")
-        use_keybert = st.checkbox("KeyBERT 提取", value=False, help="需要 sentence-transformers（更准但更慢）")
+        limit = st.number_input("读取文献上限", min_value=5, max_value=200, value=50, step=5, key="l2m_limit")
+        with st.expander("⚙️ 提取参数", expanded=False):
+            use_keybert = st.checkbox("KeyBERT", value=True, help="语义关键词提取（最准）")
+            use_yake = st.checkbox("YAKE", value=True, help="无监督关键词提取")
+            use_regex = st.checkbox("Regex + 词典", value=True, help="规则匹配提取")
+            use_np = st.checkbox("名词短语", value=True, help="spaCy/NLTK 名词短语")
+            sem_threshold = st.slider("语义匹配阈值", 0.20, 0.60, 0.35, 0.05,
+                                       help="越高越严格，越少候选被分类")
+            rule_threshold = st.slider("规则匹配阈值", 0.10, 0.60, 0.30, 0.05)
 
-    # ── Step 2: Extract ──
-    st.subheader("2. 提取表现决定因素")
+    # ── Step 2: Run enhanced pipeline ──
+    st.subheader("2. 运行增强管线")
 
-    if st.button("🚀 从文献中提取", type="primary", use_container_width=True):
-        with st.spinner("正在提取… 词典匹配 + 正则匹配" + (" + YAKE" if use_yake else "") + (" + KeyBERT" if use_keybert else "") + " → 按9维分类"):
+    if st.button("🚀 从文献中提取", type="primary", use_container_width=True, key="l2m_run"):
+        with st.spinner("加载文献 → 构建片段 → 提取候选词 → 三层混合分类 → 构建建议节点..."):
             try:
-                from app.performance_model.pipeline import run_full_pipeline
-                result = run_full_pipeline(
-                    query_id=st.session_state.pm_selected_query,
+                # Load literature data
+                from app.performance_model.batch_loader import load_literature_batch
+                docs = load_literature_batch(
+                    query_id=st.session_state.l2m_selected_query,
                     limit=limit,
                     include_fulltext=False,
+                )
+                # Convert LiteratureDocument objects to dicts
+                lit_data = []
+                for doc in docs:
+                    lit_data.append({
+                        "id": doc.literature_id,
+                        "title": doc.title,
+                        "abstract": doc.abstract or "",
+                        "year": doc.year,
+                        "doi": doc.doi,
+                        "source_database": ", ".join(doc.source_databases) if doc.source_databases else "",
+                        "authors": "",  # authors not in LiteratureDocument
+                    })
+
+                if not lit_data:
+                    st.error("未找到文献数据。请先执行文献检索。")
+                    return
+
+                # Run enhanced pipeline
+                from app.literature_to_model.pipeline import run_enhanced_pipeline
+                result = run_enhanced_pipeline(
+                    literature_data=lit_data,
+                    include_title=True,
+                    include_abstract=True,
                     use_keybert=use_keybert,
                     use_yake=use_yake,
-                    use_spacy=False,
-                    min_confidence=0.0,  # no filtering — show everything
+                    use_regex=use_regex,
+                    use_noun_phrases=use_np,
+                    min_extraction_score=0.0,
+                    semantic_threshold=sem_threshold,
+                    rule_threshold=rule_threshold,
                 )
-                st.session_state.pm_pipeline_result = result
-                st.session_state.pm_candidates = result.get("candidates", [])
-                st.session_state.pm_candidate_status = {
-                    c.get("canonical_name", ""): "candidate"
-                    for c in result.get("candidates", [])
+
+                st.session_state.l2m_pipeline_result = result
+
+                # Initialize status tracking
+                st.session_state.l2m_assignment_status = {
+                    a.normalized_term: "candidate" for a in result.assignments
                 }
+                st.session_state.l2m_node_status = {
+                    n.node_name: "proposed" for n in result.proposed_nodes
+                }
+
+                summary = result.to_summary()
                 st.success(
-                    f"{result['documents_loaded']} 篇文献 → {result['candidates_extracted']} 个原始候选 → "
-                    f"去重合并后 {result['candidates_merged']} 个"
+                    f"{summary['文献数量']} 篇文献 → {summary['文本片段数']} 个片段 → "
+                    f"{summary['候选术语数']} 个候选 → {summary['归档分配数']} 个归档分配"
                 )
+                st.rerun()
             except Exception as e:
                 st.error(f"提取失败: {e}")
+                import traceback
+                st.code(traceback.format_exc())
 
     # ── Results ──
-    result = st.session_state.pm_pipeline_result
+    result = st.session_state.l2m_pipeline_result
     if not result:
         st.info("请先点击「从文献中提取」按钮开始分析。")
         return
 
-    candidates = st.session_state.pm_candidates
-    if not candidates:
-        st.warning("没有提取到候选指标。请确认文献缓存中有数据（先执行文献检索）。")
+    assignments = result.assignments
+    if not assignments:
+        st.warning("没有生成归档分配。请确认文献缓存中有数据。")
         return
 
     # ── Summary stats ──
     st.divider()
     st.subheader("3. 提取概览")
-    total_accepted = sum(1 for v in st.session_state.pm_candidate_status.values() if v == "accepted")
-    total_rejected = sum(1 for v in st.session_state.pm_candidate_status.values() if v == "rejected")
+    total_accepted = sum(1 for v in st.session_state.l2m_assignment_status.values() if v == "accepted")
+    total_rejected = sum(1 for v in st.session_state.l2m_assignment_status.values() if v == "rejected")
 
     cols = st.columns(5)
-    cols[0].metric("已读文献", result.get("documents_loaded", 0))
-    cols[1].metric("提取候选", len(candidates))
-    cols[2].metric("已接受", total_accepted, delta=f"+{total_accepted}" if total_accepted else None)
-    cols[3].metric("已拒绝", total_rejected)
-    cols[4].metric("待审核", len(candidates) - total_accepted - total_rejected)
+    cols[0].metric("文献数", result.total_literature)
+    cols[1].metric("候选术语", result.total_candidates)
+    cols[2].metric("归档分配", result.total_assignments)
+    cols[3].metric("已接受", total_accepted)
+    cols[4].metric("已拒绝", total_rejected)
 
-    # ── Group candidates by category ──
-    by_category: dict[str, list] = {}
-    for c in candidates:
-        cat = c.get("category_key", "other_uncertain")
-        if cat not in by_category:
-            by_category[cat] = []
-        by_category[cat].append(c)
+    st.caption(
+        f"高置信(≥0.75): {result.high_confidence_count} | "
+        f"中(0.5-0.75): {result.medium_confidence_count} | "
+        f"低(<0.5): {result.low_confidence_count}"
+    )
 
-    # ── Category-by-category review ──
+    # ── Output Area A: Assignments by dimension ──
     st.divider()
-    st.subheader("4. 按维度审核")
+    st.subheader("4. 候选内容归档表（按维度审核）")
 
-    for cat_key, name_cn, name_en in CATEGORY_ORDER:
-        cat_candidates = by_category.get(cat_key, [])
+    # Group assignments by dimension
+    by_dim: dict[str, list] = {}
+    for a in assignments:
+        dim = a.assigned_dimension
+        if dim not in by_dim:
+            by_dim[dim] = []
+        by_dim[dim].append(a)
+
+    for cat_key, name_cn in CATEGORY_ORDER:
+        cat_assignments = by_dim.get(cat_key, [])
         cat_accepted = sum(
-            1 for c in cat_candidates
-            if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
+            1 for a in cat_assignments
+            if st.session_state.l2m_assignment_status.get(a.normalized_term) == "accepted"
         )
         cat_rejected = sum(
-            1 for c in cat_candidates
-            if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "rejected"
+            1 for a in cat_assignments
+            if st.session_state.l2m_assignment_status.get(a.normalized_term) == "rejected"
         )
 
-        expander_label = f"📁 {name_cn} ({name_en}) — {len(cat_candidates)} 个候选"
+        expander_label = f"📁 {name_cn} — {len(cat_assignments)} 条"
         if cat_accepted:
             expander_label += f" | ✅ {cat_accepted}"
         if cat_rejected:
             expander_label += f" | ❌ {cat_rejected}"
 
-        with st.expander(expander_label, expanded=(len(cat_candidates) > 0 and cat_key != "other_uncertain")):
-            if not cat_candidates:
-                st.caption("无候选")
+        with st.expander(expander_label, expanded=(len(cat_assignments) > 0 and cat_key != "other_uncertain")):
+            if not cat_assignments:
+                st.caption("无归档分配")
                 continue
 
-            for i, c in enumerate(cat_candidates):
-                canon = c.get("canonical_name", "")
-                display = c.get("display_name_en", canon)
-                aliases = c.get("aliases", [])
-                methods = c.get("extraction_methods", [])
-                evidence_sentences = c.get("evidence_sentences", [])
-                source_ids = c.get("source_literature_ids", [])
-                status = st.session_state.pm_candidate_status.get(canon, "candidate")
+            for a in cat_assignments:
+                conf = a.confidence_score
+                status = st.session_state.l2m_assignment_status.get(a.normalized_term, "candidate")
 
-                # Status icon
+                # Color coding
+                if conf >= 0.75:
+                    conf_color = "green"
+                    conf_icon = "🟢"
+                elif conf >= 0.5:
+                    conf_color = "orange"
+                    conf_icon = "🟡"
+                else:
+                    conf_color = "red"
+                    conf_icon = "🔴"
+
                 status_icon = {"accepted": "✅", "rejected": "❌"}.get(status, "🔍")
 
-                # Candidate card
                 with st.container():
-                    c1, c2 = st.columns([5, 1])
+                    c1, c2 = st.columns([4, 1])
                     with c1:
-                        st.markdown(f"**{status_icon} {display}**  `{canon}`")
-                        if aliases:
-                            st.caption(f"别名: {', '.join(aliases[:8])}")
-                        st.caption(f"来源: {len(source_ids)} 篇文献 | 方法: {', '.join(methods)}")
+                        st.markdown(
+                            f"**{status_icon} {conf_icon} {a.candidate_term}** "
+                            f"[:{conf_color}[conf={conf:.2f}]] "
+                            f"`{a.match_method}`"
+                        )
+                        st.caption(
+                            f"标准化: `{a.normalized_term}` | "
+                            f"来源: [{a.source_title[:60]}] ({a.source_year})"
+                        )
                     with c2:
                         new_status = st.selectbox(
                             "审核",
                             ["candidate", "accepted", "rejected"],
                             format_func=lambda s: {"candidate": "🔍 待定", "accepted": "✅ 接受", "rejected": "❌ 拒绝"}[s],
                             index=["candidate", "accepted", "rejected"].index(status),
-                            key=f"pm_review_{cat_key}_{canon}",
+                            key=f"l2m_rev_{a.normalized_term}_{a.source_literature_id}",
+                            label_visibility="collapsed",
                         )
                         if new_status != status:
-                            st.session_state.pm_candidate_status[canon] = new_status
+                            st.session_state.l2m_assignment_status[a.normalized_term] = new_status
                             st.rerun()
 
-                    # Evidence sentences
-                    if evidence_sentences:
-                        with st.expander(f"📄 证据 ({len(evidence_sentences)} 条)", expanded=False):
-                            for ev in evidence_sentences[:10]:
-                                lit_id = ev.get("literature_id", "?")
-                                year = ev.get("year", "")
-                                doi = ev.get("doi", "")
-                                matched = ev.get("matched_term", "")
-                                text = ev.get("text", "")[:400]
-                                st.markdown(f"**[Lit#{lit_id}]** ({year}) — 匹配词: `{matched}`")
-                                if doi:
-                                    st.caption(f"DOI: {doi}")
-                                st.text(text[:400])
+                    # Evidence sentence
+                    if a.evidence_sentence:
+                        with st.expander(f"📄 证据 & 详情", expanded=False):
+                            st.markdown(f"**证据句**: {a.evidence_sentence[:500]}")
+                            st.markdown(f"**理由**: {a.reason}")
+                            st.caption(
+                                f"语义={a.semantic_score:.3f} | "
+                                f"规则={a.rule_score:.3f} | "
+                                f"关键词={a.keyword_score:.3f} | "
+                                f"证据质量={a.evidence_quality_score:.3f}"
+                            )
 
                 st.divider()
 
     # ── Bulk actions ──
     st.subheader("5. 批量操作")
 
-    col_ba, col_bb, col_bc = st.columns(3)
+    col_ba, col_bb = st.columns(2)
     with col_ba:
-        if st.button("✅ 全部接受", use_container_width=True):
-            for c in candidates:
-                st.session_state.pm_candidate_status[c.get("canonical_name", "")] = "accepted"
+        if st.button("✅ 全部接受", use_container_width=True, key="l2m_accept_all"):
+            for a in assignments:
+                st.session_state.l2m_assignment_status[a.normalized_term] = "accepted"
             st.rerun()
     with col_bb:
-        if st.button("🔄 全部重置", use_container_width=True):
-            for c in candidates:
-                st.session_state.pm_candidate_status[c.get("canonical_name", "")] = "candidate"
+        if st.button("🔄 全部重置", use_container_width=True, key="l2m_reset_all"):
+            for a in assignments:
+                st.session_state.l2m_assignment_status[a.normalized_term] = "candidate"
             st.rerun()
 
-    # ── Export ──
+    # ── Output Area B: Proposed model nodes ──
+    if result.proposed_nodes:
+        st.divider()
+        st.subheader("6. 建议新增表现模型节点")
+
+        for node in result.proposed_nodes:
+            node_status = st.session_state.l2m_node_status.get(node.node_name, "proposed")
+            node_icon = {"accepted": "✅", "rejected": "❌"}.get(node_status, "📋")
+
+            with st.expander(
+                f"{node_icon} {node.node_name} ({node.parent_dimension_name_cn}) — "
+                f"conf={node.confidence_score:.2f} | {node.source_count} sources | "
+                f"{len(node.evidence_items)} evidence",
+                expanded=(node.confidence_score >= 0.5),
+            ):
+                c1, c2, c3 = st.columns([2, 1, 1])
+                with c1:
+                    st.markdown(f"**{node.node_name_en}**")
+                    st.caption(f"类型: {node.suggested_as} | 别名: {', '.join(node.aliases[:5])}")
+                    if node.description:
+                        st.text(node.description[:300])
+                with c2:
+                    new_node_status = st.selectbox(
+                        "节点状态",
+                        ["proposed", "accepted", "rejected"],
+                        format_func=lambda s: {"proposed": "📋 建议", "accepted": "✅ 接受", "rejected": "❌ 拒绝"}[s],
+                        index=["proposed", "accepted", "rejected"].index(node_status),
+                        key=f"l2m_node_{node.node_name}",
+                    )
+                    if new_node_status != node_status:
+                        st.session_state.l2m_node_status[node.node_name] = new_node_status
+                        st.rerun()
+                with c3:
+                    st.metric("置信度", f"{node.confidence_score:.2f}")
+                    st.metric("来源数", node.source_count)
+
+                # Evidence items within the node
+                with st.expander(f"证据项 ({len(node.evidence_items)} 条)", expanded=False):
+                    for ei in node.evidence_items[:10]:
+                        st.markdown(
+                            f"- `{ei.get('normalized_term', '')}` "
+                            f"[conf={ei.get('confidence_score', 0):.2f}] "
+                            f"*{ei.get('source_title', '')[:50]}*"
+                        )
+                        if ei.get('evidence_sentence'):
+                            st.caption(ei['evidence_sentence'][:200])
+
+    # ── Export & Save ──
     st.divider()
-    st.subheader("6. 导出 & 保存")
+    st.subheader("7. 导出 & 保存")
 
     col_x1, col_x2, col_x3 = st.columns(3)
 
     with col_x1:
-        # CSV
-        import csv as _csv, io as _io
+        # CSV export of assignments
+        import io as _io
         csv_buf = _io.StringIO()
-        writer = _csv.writer(csv_buf)
-        writer.writerow(["canonical_name", "display_name_en", "category_key", "category_cn",
-                          "evidence_count", "extraction_methods", "aliases", "status"])
-        for c in candidates:
-            canon = c.get("canonical_name", "")
-            cat = c.get("category_key", "")
-            cat_cn = dict(CATEGORY_ORDER).get(cat, cat)
-            writer.writerow([
-                canon, c.get("display_name_en", ""), cat, cat_cn,
-                len(c.get("source_literature_ids", [])),
-                "; ".join(c.get("extraction_methods", [])),
-                "; ".join(c.get("aliases", [])[:10]),
-                st.session_state.pm_candidate_status.get(canon, "candidate"),
-            ])
-        st.download_button("📊 CSV", csv_buf.getvalue().encode("utf-8-sig"),
-                           "determinant_candidates.csv", "text/csv")
+        csv_buf.write("candidate_term,normalized_term,dimension,dimension_cn,confidence,"
+                       "semantic_score,rule_score,keyword_score,evidence_quality,"
+                       "match_method,needs_review,evidence_sentence,source_title,source_year,reason,status\n")
+        for a in assignments:
+            status = st.session_state.l2m_assignment_status.get(a.normalized_term, "candidate")
+            dim_cn = dict(CATEGORY_ORDER).get(a.assigned_dimension, a.assigned_dimension)
+            csv_buf.write(
+                f'"{a.candidate_term}","{a.normalized_term}","{a.assigned_dimension}",'
+                f'"{dim_cn}",{a.confidence_score:.3f},'
+                f'{a.semantic_score:.3f},{a.rule_score:.3f},{a.keyword_score:.3f},'
+                f'{a.evidence_quality_score:.3f},'
+                f'"{a.match_method}",{a.needs_review},'
+                f'"{a.evidence_sentence[:200] if a.evidence_sentence else ""}",'
+                f'"{a.source_title[:80] if a.source_title else ""}",{a.source_year or ""},'
+                f'"{a.reason[:200] if a.reason else ""}",{status}\n'
+            )
+        st.download_button(
+            "📊 CSV (归档分配)", csv_buf.getvalue().encode("utf-8-sig"),
+            "dimension_assignments.csv", "text/csv",
+            key="l2m_csv_assignments",
+        )
 
     with col_x2:
-        # JSON
+        # JSON export
         import json as _json
         json_data = _json.dumps({
-            "candidates": candidates,
-            "category_summary": {
-                cat: {"count": len(by_category.get(cat, []))}
-                for cat, _, _ in CATEGORY_ORDER
-            },
-            "evidence_links": result.get("evidence_links_data", []),
+            "summary": result.to_summary(),
+            "assignments": [a.to_dict() for a in assignments],
+            "proposed_nodes": [n.to_dict() for n in result.proposed_nodes],
         }, ensure_ascii=False, indent=2)
-        st.download_button("📦 JSON", json_data.encode("utf-8"),
-                           "performance_model.json", "application/json")
+        st.download_button(
+            "📦 JSON (完整)", json_data.encode("utf-8"),
+            "literature_to_model.json", "application/json",
+            key="l2m_json_full",
+        )
 
     with col_x3:
-        if st.button("💾 保存已接受的到项目", help=f"将已接受的候选保存到项目 #{project_id}",
-                     disabled=(project_id <= 0), use_container_width=True):
+        if st.button(
+            "💾 保存已接受的到项目",
+            help=f"将已接受的归档和建议节点保存到项目 #{project_id}",
+            disabled=(project_id <= 0),
+            use_container_width=True,
+            key="l2m_save",
+        ):
             if project_id > 0:
-                accepted = [
-                    c for c in candidates
-                    if st.session_state.pm_candidate_status.get(c.get("canonical_name", "")) == "accepted"
+                accepted_assignments = [
+                    a for a in assignments
+                    if st.session_state.l2m_assignment_status.get(a.normalized_term) == "accepted"
                 ]
-                if not accepted:
-                    st.warning("没有已接受的候选。请先审核并标记为「接受」。")
+                accepted_nodes = [
+                    n for n in result.proposed_nodes
+                    if st.session_state.l2m_node_status.get(n.node_name) == "accepted"
+                ]
+                if not accepted_assignments and not accepted_nodes:
+                    st.warning("没有已接受的归档或节点。请先审核并标记为「接受」。")
                 else:
-                    with st.spinner(f"保存 {len(accepted)} 个因素..."):
+                    with st.spinner(f"保存 {len(accepted_assignments)} 归档 + {len(accepted_nodes)} 节点..."):
                         try:
                             from app.performance_model.pipeline import save_model_to_db as _save
+                            # Convert assignments to the dict format save_model_to_db expects
+                            candidates_for_save = []
+                            for a in accepted_assignments:
+                                candidates_for_save.append({
+                                    "canonical_name": a.normalized_term.replace(" ", "_"),
+                                    "display_name_en": a.normalized_term,
+                                    "display_name_cn": a.candidate_term,
+                                    "category_key": a.assigned_dimension,
+                                    "evidence_sentences": [{
+                                        "literature_id": a.source_literature_id,
+                                        "year": a.source_year,
+                                        "text": a.evidence_sentence,
+                                        "matched_term": a.candidate_term,
+                                    }],
+                                    "source_literature_ids": [a.source_literature_id],
+                                    "extraction_methods": [a.match_method],
+                                    "aliases": [],
+                                    "confidence_score": a.confidence_score,
+                                    "relevance_score": a.confidence_score,
+                                    "evidence_strength_score": a.evidence_quality_score,
+                                })
                             pipeline_data = {
-                                "candidates": accepted,
-                                "evidence_links_data": result.get("evidence_links_data", []),
+                                "candidates": candidates_for_save,
+                                "evidence_links_data": [],
                             }
                             created = _save(pipeline_data, project_id)
                             st.success(
-                                f"已保存: {created['categories']} 类别 + {created['determinants']} 因素 + {created['evidence_sources']} 证据"
+                                f"已保存: {created.get('categories', 0)} 类别 + "
+                                f"{created.get('determinants', 0)} 因素 + "
+                                f"{created.get('evidence_sources', 0)} 证据"
                             )
                         except Exception as e:
                             st.error(f"保存失败: {e}")
