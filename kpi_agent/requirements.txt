@@ -6,19 +6,25 @@ pydantic>=2.0
 python-dotenv>=1.0
 streamlit>=1.28
 
-# Database (SQLite for MVP, PostgreSQL for Streamlit Cloud)
+# Database (SQLite for local, PostgreSQL for Streamlit Cloud)
 aiosqlite>=0.20
 psycopg2-binary>=2.9
 
-# Vector store
-chromadb>=0.5
+# Vector store (optional — app works without it)
+# chromadb 偶尔编译失败会阻塞部署 → 用 try/except import 保护
+# chromadb>=0.5
 sentence-transformers>=2.2
 
 # Document parsing
 pymupdf>=1.23
+beautifulsoup4>=4.12
+trafilatura>=2.0
 
-# Report export
-# weasyprint>=60  # for PDF
+# Data & visualization
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.0
+plotly>=5.17
 
 # Literature search (free enhanced)
 pyalex>=0.15
@@ -31,4 +37,3 @@ rank-bm25>=0.2
 
 # Testing
 pytest>=8.0
-httpx>=0.28
