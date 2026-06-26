@@ -520,6 +520,71 @@ if page == "📊 仪表盘":
         else:
             st.info("暂无 ACWR 数据")
 
+    # ── SRSS 恢复压力趋势（仅运动员模式）──────────────
+    if selected_athlete_id:
+        all_raw = athlete_store.load_daily_data(selected_athlete_id)
+        srss_raw = [
+            {"date": r["date"], "recovery_avg": r["srss_scored"]["recovery_avg"],
+             "stress_avg": r["srss_scored"]["stress_avg"],
+             "red_count": len(r.get("srss_red_lights", []))}
+            for r in all_raw if "srss_scored" in r and "date" in r
+        ]
+        if srss_raw:
+            srss_df = pd.DataFrame(srss_raw)
+            srss_df["date"] = pd.to_datetime(srss_df["date"])
+            srss_df = srss_df.sort_values("date")
+            if len(date_range) == 2:
+                srss_df = srss_df[(srss_df["date"] >= pd.Timestamp(start_d)) & (srss_df["date"] <= pd.Timestamp(end_d))]
+
+            st.markdown("---")
+            st.subheader("🫀 SRSS 恢复压力趋势")
+
+            srss_c1, srss_c2 = st.columns(2)
+
+            with srss_c1:
+                fig_srss = go.Figure()
+                fig_srss.add_trace(go.Scatter(
+                    x=srss_df["date"], y=srss_df["recovery_avg"],
+                    mode="lines+markers", name="恢复均值",
+                    line=dict(color="#4ade80", width=2.5), marker=dict(size=7, color="#4ade80"),
+                ))
+                fig_srss.add_trace(go.Scatter(
+                    x=srss_df["date"], y=srss_df["stress_avg"],
+                    mode="lines+markers", name="压力均值",
+                    line=dict(color="#f87171", width=2.5), marker=dict(size=7, color="#f87171"),
+                ))
+                fig_srss.add_hline(y=60, line_dash="dash", line_color="#4ade80", opacity=0.3,
+                                   annotation_text="恢复良好线 (60)")
+                fig_srss.add_hline(y=35, line_dash="dash", line_color="#f87171", opacity=0.3,
+                                   annotation_text="压力较低线 (35)")
+                fig_srss.update_layout(
+                    template="plotly_dark", height=320,
+                    margin=dict(l=20, r=20, t=10, b=20),
+                    legend=dict(orientation="h", yanchor="bottom", y=1.05),
+                    hovermode="x unified",
+                    xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
+                    yaxis=dict(gridcolor="rgba(255,255,255,0.06)", range=[0, 100], title="得分 (0-100)"),
+                )
+                st.plotly_chart(fig_srss, use_container_width=True)
+
+            with srss_c2:
+                fig_red = go.Figure()
+                colors_red = ["#f87171" if c > 0 else "#4ade80" for c in srss_df["red_count"]]
+                fig_red.add_trace(go.Bar(
+                    x=srss_df["date"], y=srss_df["red_count"],
+                    name="红灯数", marker_color=colors_red,
+                    text=srss_df["red_count"], textposition="outside",
+                ))
+                fig_red.update_layout(
+                    template="plotly_dark", height=320,
+                    margin=dict(l=20, r=20, t=10, b=20),
+                    showlegend=False,
+                    xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
+                    yaxis=dict(gridcolor="rgba(255,255,255,0.06)", tickformat="d", title="红灯数",
+                               range=[0, max(8, srss_df["red_count"].max() + 1)]),
+                )
+                st.plotly_chart(fig_red, use_container_width=True)
+
 
 # ╔══════════════════════════════════════════════════════╗
 # ║           📈 训练负荷分析                            ║
