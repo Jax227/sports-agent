@@ -50,16 +50,25 @@ def _athlete_daily_to_dataframes(athlete_id: str):
     if "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"])
 
-    # Wellness columns
-    wellness_cols = ["date", "hrv", "resting_hr", "sleep_quality", "fatigue", "mood"]
-    wellness_df = df[[c for c in wellness_cols if c in df.columns]].copy()
-    if "hrv" in wellness_df.columns:
-        wellness_df = wellness_df.rename(columns={"hrv": "rmssd", "resting_hr": "hr_rest"})
+    # Wellness columns — map hrv→rmssd, resting_hr→hr_rest if present
+    wellness_df = pd.DataFrame({"date": df["date"]})
+    for src, dst in [("hrv", "rmssd"), ("resting_hr", "hr_rest"),
+                      ("sleep_quality", "sleep_quality"), ("fatigue", "fatigue"),
+                      ("mood", "mood")]:
+        if src in df.columns:
+            wellness_df[dst] = df[src]
+        else:
+            wellness_df[dst] = np.nan
 
     # Training columns
-    training_cols = ["date", "session_rpe", "duration_min", "training_load"]
-    training_df = df[[c for c in training_cols if c in df.columns]].copy()
-    if "training_load" in training_df.columns:
+    training_df = pd.DataFrame({"date": df["date"]})
+    for col in ["session_rpe", "duration_min", "training_load"]:
+        if col in df.columns:
+            training_df[col] = df[col]
+        else:
+            training_df[col] = np.nan
+
+    if "training_load" in df.columns and df["training_load"].notna().any():
         training_df["acute_load_7d"] = training_df["training_load"].rolling(7, min_periods=4).mean().round(0)
         training_df["chronic_load_28d"] = training_df["training_load"].rolling(28, min_periods=14).mean().round(0)
         chronic_safe = training_df["chronic_load_28d"].replace(0, np.nan)
@@ -68,6 +77,9 @@ def _athlete_daily_to_dataframes(athlete_id: str):
         rolling_std = training_df["training_load"].rolling(7, min_periods=4).std().replace(0, np.nan)
         training_df["training_monotony"] = (rolling_mean / rolling_std).round(2)
         training_df["training_strain"] = (training_df["acute_load_7d"] * training_df["training_monotony"]).round(0)
+    else:
+        for col in ["acute_load_7d", "chronic_load_28d", "acwr", "training_monotony", "training_strain"]:
+            training_df[col] = np.nan
 
     return wellness_df, training_df
 
@@ -108,6 +120,14 @@ def _generate_empty_training():
         "date": dates, "session_rpe": [np.nan] * 30, "duration_min": [np.nan] * 30,
         "training_load": [np.nan] * 30,
     })
+
+
+def _safe_dropna(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
+    """dropna(subset=cols) without KeyError — missing columns treated as all-NaN."""
+    available = [c for c in cols if c in df.columns]
+    if not available:
+        return pd.DataFrame()
+    return df.dropna(subset=available)
 
 
 def compute_moving_average(series, window=7):
@@ -264,8 +284,9 @@ if page == "📊 仪表盘":
     # ── 顶部指标卡片行 ──────────────────────────────
     col1, col2, col3, col4, col5 = st.columns(5)
 
-    latest = wellness_df.dropna(subset=["rmssd", "hr_rest"]).iloc[-1] if not wellness_df.dropna(subset=["rmssd", "hr_rest"]).empty else None
-    prev = wellness_df.dropna(subset=["rmssd", "hr_rest"]).iloc[-2] if not wellness_df.dropna(subset=["rmssd", "hr_rest"]).empty and len(wellness_df.dropna(subset=["rmssd", "hr_rest"])) > 1 else None
+    hr_valid = _safe_dropna(wellness_df, ["rmssd", "hr_rest"])
+    latest = hr_valid.iloc[-1] if not hr_valid.empty else None
+    prev = hr_valid.iloc[-2] if len(hr_valid) > 1 else None
 
     # RMSSD 卡片
     with col1:
@@ -384,7 +405,7 @@ if page == "📊 仪表盘":
     st.markdown("---")
     st.subheader("🔬 RMSSD 趋势分析")
 
-    rmssd_data = wellness_df.dropna(subset=["rmssd"])
+    rmssd_data = _safe_dropna(wellness_df, ["rmssd"])
 
     if not rmssd_data.empty:
         fig_rmssd = go.Figure()
@@ -439,7 +460,7 @@ if page == "📊 仪表盘":
     # ── HRrest 趋势图 + 移动平均线 ──────────────────
     st.subheader("💓 静息心率趋势分析")
 
-    hr_data = wellness_df.dropna(subset=["hr_rest"])
+    hr_data = _safe_dropna(wellness_df, ["hr_rest"])
 
     if not hr_data.empty:
         fig_hr = go.Figure()
@@ -489,8 +510,8 @@ if page == "📊 仪表盘":
     c1, c2 = st.columns(2)
 
     with c1:
-        if not wellness_df.dropna(subset=["sleep_quality", "fatigue", "mood"]).empty:
-            sub = wellness_df.dropna(subset=["sleep_quality", "fatigue", "mood"]).tail(30)
+        sub = _safe_dropna(wellness_df, ["sleep_quality", "fatigue", "mood"]).tail(30)
+        if not sub.empty:
 
             fig_sub = make_subplots(specs=[[{"secondary_y": False}]])
             for col, name, color in [
