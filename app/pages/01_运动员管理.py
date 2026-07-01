@@ -12,6 +12,7 @@ from src.athlete_manager import (
     delete_athlete, restore_athlete, get_athlete_detail, get_last_entry_date,
 )
 from src.baseline_calculator import get_baseline_status, rebuild_baseline
+from src.data_backup import backup_on_change
 
 st.set_page_config(page_title="运动员管理", page_icon="👥", layout="wide")
 
@@ -110,6 +111,7 @@ if st.session_state.editing_athlete == "__new__":
                     )
                     st.success(f"运动员 {profile['name']} 创建成功! ID: {profile['athlete_id']}")
                     st.session_state.editing_athlete = None
+                    backup_on_change("create_athlete")
                     st.rerun()
                 except Exception as e:
                     st.error(f"创建失败: {e}")
@@ -152,6 +154,7 @@ if st.session_state.editing_athlete and st.session_state.editing_athlete != "__n
                     "notes": notes,
                 }
                 update_athlete(aid, updates)
+                backup_on_change("update_athlete")
                 st.success("已保存!")
                 st.session_state.editing_athlete = None
                 st.rerun()
@@ -174,6 +177,7 @@ if st.session_state.confirm_delete:
             st.warning("**软删除**: 仅隐藏档案，保留全部历史数据")
             if st.button("🗑 软删除", use_container_width=True):
                 delete_athlete(aid, hard=False)
+                backup_on_change("soft_delete_athlete")
                 st.success(f"{profile.get('name')} 已软删除")
                 st.session_state.confirm_delete = None
                 st.rerun()
@@ -183,6 +187,7 @@ if st.session_state.confirm_delete:
             hard_confirm = st.text_input("输入 DELETE 确认硬删除", key="hard_delete_input")
             if st.button("💀 硬删除", type="secondary", use_container_width=True, disabled=(hard_confirm != "DELETE")):
                 delete_athlete(aid, hard=True)
+                backup_on_change("hard_delete_athlete")
                 st.success(f"{profile.get('name')} 已硬删除（已自动备份）")
                 st.session_state.confirm_delete = None
                 st.rerun()
@@ -246,6 +251,7 @@ else:
                 else:
                     if st.button("♻️ 恢复", key=f"restore_{aid}", use_container_width=True):
                         restore_athlete(aid)
+                        backup_on_change("restore_athlete")
                         st.rerun()
 
 st.markdown("---")

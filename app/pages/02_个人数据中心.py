@@ -17,6 +17,7 @@ from src.baseline_calculator import (
 )
 from src.risk_analyzer import analyze_daily_record
 from src import athlete_storage as store
+from src.data_backup import backup_on_change
 
 st.set_page_config(page_title="个人数据中心", page_icon="📋", layout="wide")
 
@@ -243,6 +244,7 @@ with tab2:
 
             store.add_daily_record(athlete_id, record)
             rebuild_baseline(athlete_id)
+            backup_on_change("daily_entry")
 
             # Show baseline comparison if completed
             current_baseline = store.load_baseline(athlete_id)
@@ -315,6 +317,7 @@ with tab3:
                     else:
                         store.delete_daily_record(athlete_id, target["record_id"])
                         rebuild_baseline(athlete_id)
+                        backup_on_change("delete_entry")
                         del st.session_state[confirm_key]
                         st.success(f"已删除 {edit_date} 的数据")
                         st.rerun()

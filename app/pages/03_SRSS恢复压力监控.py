@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from src.athlete_manager import list_athletes
 from src import athlete_storage as store
+from src.data_backup import backup_on_change
 from src.srss_analyzer import (
     RECOVERY_ITEMS, STRESS_ITEMS, SRSS_ITEM_ORDER, ALL_SRSS_ITEMS,
     map_raw_to_100, label_recovery, label_stress,
@@ -252,6 +253,7 @@ with tab1:
                 merged = srss_record
 
             store.add_daily_record(athlete_id, merged)
+            backup_on_change("srss_entry")
             st.success(f"SRSS 数据已保存！({date_str})")
             st.rerun()
 

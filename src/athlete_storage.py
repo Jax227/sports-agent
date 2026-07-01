@@ -132,13 +132,13 @@ def save_daily_data(athlete_id: str, records: list[dict]) -> None:
 def add_daily_record(athlete_id: str, record: dict) -> dict:
     records = load_daily_data(athlete_id)
     record["updated_at"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    # Upsert by date: replace existing record for same date
+    # Upsert by date: merge into existing record for same date
     date_str = record.get("date", "")
     for i, r in enumerate(records):
         if r.get("date") == date_str:
-            records[i] = record
+            records[i] = {**r, **record}
             save_daily_data(athlete_id, records)
-            return record
+            return records[i]
     records.append(record)
     save_daily_data(athlete_id, records)
     return record

@@ -8,9 +8,6 @@ dist/
 # Models (184M — downloaded automatically by sentence-transformers on first use)
 models/
 
-# Athlete personal data (excluded for privacy)
-data/athletes/
-
 # Logs & DB
 logs/
 db/
