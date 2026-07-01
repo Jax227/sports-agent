@@ -166,18 +166,37 @@ with st.sidebar:
 
     # ── 运动员选择器 ─────────────────────────────────
     athletes = list_athletes(include_deleted=False)
-    athlete_options = ["(全局演示数据)"] + [f"{a['name']} ({a['athlete_id']})" for a in athletes]
-    selected_athlete_label = st.selectbox("👤 当前运动员", athlete_options, key="global_athlete")
-    selected_athlete_id = None
-    if selected_athlete_label != "(全局演示数据)":
+
+    # No demo fallback — always use real athlete data
+    if not athletes:
+        # Fallback: use global demo CSVs when no athletes exist
+        selected_athlete_id = None
+        st.caption("暂无运动员，显示演示数据。请前往「运动员管理」创建档案。")
+    else:
+        athlete_options = [f"{a['name']} ({a['athlete_id']})" for a in athletes]
+        # If session has a previously selected athlete, use it; else default to first
+        default_idx = 0
+        if "global_athlete_label" in st.session_state:
+            try:
+                default_idx = athlete_options.index(st.session_state["global_athlete_label"])
+            except ValueError:
+                default_idx = 0
+        selected_athlete_label = st.selectbox(
+            "👤 当前运动员", athlete_options,
+            index=default_idx, key="global_athlete_select",
+        )
+        st.session_state["global_athlete_label"] = selected_athlete_label
         selected_athlete_id = selected_athlete_label.split("(")[-1].rstrip(")")
 
     st.markdown("---")
 
     # 时间范围选择器（全局）
+    # Default to a wide range — will be narrowed by actual data
+    default_start = datetime(2025, 1, 1)
+    default_end = datetime.now()
     date_range = st.date_input(
         "📅 时间范围",
-        value=(datetime(2026, 1, 15), datetime(2026, 5, 29)),
+        value=(default_start, default_end),
     )
 
     # 移动平均窗口
@@ -193,9 +212,9 @@ with st.sidebar:
 # ── 加载数据 ──────────────────────────────────────────
 if selected_athlete_id:
     wellness_df, training_df = _athlete_daily_to_dataframes(selected_athlete_id)
-    if wellness_df is None:
+    if wellness_df is None or wellness_df.empty:
         wellness_df = _generate_empty_wellness()
-    if training_df is None:
+    if training_df is None or training_df.empty:
         training_df = _generate_empty_training()
     # Use athlete's personal baseline
     baseline_data = athlete_store.load_baseline(selected_athlete_id)
@@ -204,12 +223,14 @@ if selected_athlete_id:
         rmssd_baseline = bm.get("hrv", {}).get("mean", 45.0) if "hrv" in bm else 45.0
         hr_baseline = bm.get("resting_hr", {}).get("mean", 55.0) if "resting_hr" in bm else 55.0
     else:
-        rmssd_baseline = wellness_df["rmssd"].mean() if not wellness_df.empty and "rmssd" in wellness_df.columns else 45.0
-        hr_baseline = wellness_df["hr_rest"].mean() if not wellness_df.empty and "hr_rest" in wellness_df.columns else 55.0
+        real_wellness = wellness_df[wellness_df["rmssd"].notna()] if "rmssd" in wellness_df.columns else pd.DataFrame()
+        rmssd_baseline = real_wellness["rmssd"].mean() if not real_wellness.empty else 45.0
+        real_hr = wellness_df[wellness_df["hr_rest"].notna()] if "hr_rest" in wellness_df.columns else pd.DataFrame()
+        hr_baseline = real_hr["hr_rest"].mean() if not real_hr.empty else 55.0
 else:
+    # Demo fallback — only when zero athletes exist
     wellness_df = load_wellness_data()
     training_df = load_training_data()
-    # 计算基线（前 2 周数据）
     if len(wellness_df) >= 7:
         base14 = wellness_df.head(14)
         rmssd_baseline = base14["rmssd"].mean()
@@ -217,6 +238,7 @@ else:
     else:
         rmssd_baseline = wellness_df["rmssd"].mean() if not wellness_df.empty else 45.0
         hr_baseline = wellness_df["hr_rest"].mean() if not wellness_df.empty else 55.0
+    st.info("当前使用演示数据。请在「运动员管理」中创建运动员档案，录入真实数据后将自动切换。")
 
 # 合并数据用于交叉分析
 if not wellness_df.empty and not training_df.empty:
