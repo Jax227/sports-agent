@@ -18,6 +18,7 @@ cloudflared_*.txt
 # Environment
 .env
 .env.local
+.streamlit/secrets.toml
 
 # IDE
 .vscode/

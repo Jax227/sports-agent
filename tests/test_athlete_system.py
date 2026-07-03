@@ -274,24 +274,81 @@ def test_hard_delete(aid3):
     print("  PASS")
 
 
-def cleanup():
-    """Remove test data."""
-    import shutil
-    store.ATHLETES_DIR.mkdir(parents=True, exist_ok=True)
-    # Remove test athlete dirs but keep the index
-    for d in store.ATHLETES_DIR.iterdir():
-        if d.is_dir() and d.name.startswith("ATH_"):
-            shutil.rmtree(d)
-    # Reset index
+def _existing_athlete_ids():
+    """Return set of athlete IDs that exist before the test run."""
+    if not store.INDEX_PATH.exists():
+        return set()
+    import json
+    index = json.loads(store.INDEX_PATH.read_text(encoding="utf-8"))
+    return {a.get("athlete_id") for a in index if a.get("athlete_id")}
+
+
+def _backup_existing_data(ids: set):
+    """Copy existing athlete dirs to a temp backup location. Returns the backup path."""
+    import shutil, tempfile
+    if not ids:
+        return None
+    backup_root = Path(tempfile.mkdtemp(prefix="athlete_backup_"))
+    for aid in ids:
+        src = store.ATHLETES_DIR / aid
+        if src.is_dir():
+            shutil.copytree(src, backup_root / aid)
     if store.INDEX_PATH.exists():
-        store.INDEX_PATH.unlink()
+        shutil.copy2(store.INDEX_PATH, backup_root / "athletes_index.json")
+    return backup_root
+
+
+def _restore_existing_data(backup_root, preserved_ids):
+    """Restore athlete data that existed before the test run."""
+    import shutil
+    if backup_root is None or not backup_root.exists():
+        return
+    # Restore index first
+    saved_index = backup_root / "athletes_index.json"
+    if saved_index.exists():
+        shutil.copy2(saved_index, store.INDEX_PATH)
+    # Restore each previously-existing athlete dir (overwrite test data if needed)
+    for aid in preserved_ids:
+        src = backup_root / aid
+        if src.is_dir():
+            dst = store.ATHLETES_DIR / aid
+            if dst.exists():
+                shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+    # Clean up backup
+    shutil.rmtree(backup_root, ignore_errors=True)
+
+
+def cleanup(preserved_ids: set = None):
+    """Remove test data while preserving existing user data.
+
+    If preserved_ids is given, only those are kept; all other ATH_* dirs
+    (created by tests) are removed. The index is rebuilt afterward.
+    """
+    import shutil, json
+    preserved_ids = preserved_ids or set()
+    store.ATHLETES_DIR.mkdir(parents=True, exist_ok=True)
+    for d in store.ATHLETES_DIR.iterdir():
+        if d.is_dir() and d.name.startswith("ATH_") and d.name not in preserved_ids:
+            shutil.rmtree(d)
+    # Rebuild index keeping only preserved entries
+    if store.INDEX_PATH.exists():
+        index = json.loads(store.INDEX_PATH.read_text(encoding="utf-8"))
+        index = [a for a in index if a.get("athlete_id") in preserved_ids]
+        store.INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
     print("\n=== Sports Agent — Athlete System E2E Test ===\n")
 
+    # Backup existing user data so tests don't destroy it
+    existing_ids = _existing_athlete_ids()
+    backup_root = _backup_existing_data(existing_ids)
+    if existing_ids:
+        print(f"Preserved {len(existing_ids)} existing athlete(s): {existing_ids}")
+
     try:
-        cleanup()  # Start fresh
+        cleanup(preserved_ids=set())  # Start with clean slate for tests
         aid1, aid2, aid3 = test_create_athletes()
         test_list_athletes(aid1, aid2, aid3)
         test_baseline_day_validation()
@@ -309,3 +366,9 @@ if __name__ == "__main__":
     except AssertionError as e:
         print(f"\nFAIL: {e}")
         sys.exit(1)
+    finally:
+        # Restore user data that existed before the test run
+        if existing_ids:
+            print("\nRestoring preserved athlete data...")
+            _restore_existing_data(backup_root, existing_ids)
+            print("Restore complete.")
