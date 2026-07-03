@@ -14,9 +14,7 @@ Setup for Streamlit Cloud:
 import json
 import os
 import subprocess
-from base64 import b64encode
 from pathlib import Path
-from hashlib import sha1
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "athletes"
@@ -128,21 +126,10 @@ def _collect_data_files() -> dict[str, str]:
     return files
 
 
-def _compute_blob_sha(content: str) -> str:
-    """Compute a git blob SHA for the given content."""
-    header = f"blob {len(content)}\0"
-    store = header + content
-    return sha1(store.encode("utf-8")).hexdigest()
-
-
 def backup_via_github_api(action: str = "data_change") -> bool:
     """Backup data files via GitHub API. Works on Streamlit Cloud.
 
-    1. Read all data/athletes/ JSON files
-    2. Create blobs for each
-    3. Create a tree based on the current master HEAD
-    4. Create a commit
-    5. Update master ref
+    Uses inline content in tree items — no need to pre-create blobs.
     """
     token = _get_github_token()
     if not token:
@@ -156,7 +143,6 @@ def backup_via_github_api(action: str = "data_change") -> bool:
     # Get current master HEAD SHA
     ref_data = _api_request("GET", f"/repos/{repo}/git/ref/heads/master", token)
     if not ref_data:
-        # Try 'main' branch
         ref_data = _api_request("GET", f"/repos/{repo}/git/ref/heads/main", token)
     if not ref_data:
         print("[backup] Cannot get master/main ref")
@@ -175,33 +161,17 @@ def backup_via_github_api(action: str = "data_change") -> bool:
     if not local_files:
         return False
 
-    # Get existing tree to detect changes
-    existing_tree = _api_request(
-        "GET", f"/repos/{repo}/git/trees/{base_tree_sha}?recursive=1", token
-    )
-
-    # Check if any file actually changed (compare blob SHAs)
-    existing_blobs = {}
-    if existing_tree and "tree" in existing_tree:
-        for item in existing_tree["tree"]:
-            if item["type"] == "blob":
-                existing_blobs[item["path"]] = item["sha"]
-
-    changed = False
+    # Build tree items with inline content — GitHub creates blobs for us
     tree_items = []
     for rel_path, content in sorted(local_files.items()):
-        new_sha = _compute_blob_sha(content)
-        old_sha = existing_blobs.get(rel_path)
-        if new_sha != old_sha:
-            changed = True
         tree_items.append({
             "path": rel_path,
             "mode": "100644",
             "type": "blob",
-            "sha": new_sha,
+            "content": content,
         })
 
-    if not changed:
+    if not tree_items:
         return False
 
     # Create tree
@@ -213,6 +183,10 @@ def backup_via_github_api(action: str = "data_change") -> bool:
         print("[backup] Failed to create tree")
         return False
     new_tree_sha = tree_result["sha"]
+
+    # Stop if tree didn't actually change
+    if new_tree_sha == base_tree_sha:
+        return False
 
     # Create commit
     commit_result = _api_request(
@@ -229,7 +203,7 @@ def backup_via_github_api(action: str = "data_change") -> bool:
     new_commit_sha = commit_result["sha"]
 
     # Update ref
-    branch = ref_data["ref"].split("/")[-1]  # "master" or "main"
+    branch = ref_data["ref"].split("/")[-1]
     update_result = _api_request(
         "PATCH", f"/repos/{repo}/git/refs/heads/{branch}", token,
         data={"sha": new_commit_sha, "force": False},
