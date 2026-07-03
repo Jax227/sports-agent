@@ -1,17 +1,17 @@
 {
   "athlete_id": "ATH_20260703_0001",
-  "name": "测试验证",
+  "name": "Jax",
   "sex": "男",
   "date_of_birth": "",
-  "sport": "测试",
-  "event_or_position": "",
-  "training_level": "",
-  "team": "",
+  "sport": "冰球",
+  "event_or_position": "前锋",
+  "training_level": "精英",
+  "team": "A队",
   "coach": "",
-  "created_at": "2026-07-03T14:28:17",
-  "updated_at": "2026-07-03T14:28:17",
+  "created_at": "2026-07-03T14:31:54",
+  "updated_at": "2026-07-03T14:31:54",
   "is_active": true,
   "deleted_at": null,
   "baseline_status": "not_started",
-  "notes": "备份功能验证"
+  "notes": ""
 }
