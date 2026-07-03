@@ -1,10 +1,10 @@
 {
   "athlete_id": "ATH_20260703_0002",
   "baseline_status": "in_progress",
-  "baseline_days_count": 2,
+  "baseline_days_count": 3,
   "baseline_start_date": "2026-06-26",
-  "baseline_end_date": "2026-06-27",
-  "total_records": 2,
+  "baseline_end_date": "2026-06-28",
+  "total_records": 3,
   "metrics": {},
-  "updated_at": "2026-07-03T06:44:17"
+  "updated_at": "2026-07-03T06:45:33"
 }
