@@ -15,5 +15,22 @@
     "deleted_at": null,
     "baseline_status": "not_started",
     "notes": ""
+  },
+  {
+    "athlete_id": "ATH_20260703_0002",
+    "name": "Juejue",
+    "sex": "女",
+    "date_of_birth": "1990",
+    "sport": "hybrid",
+    "event_or_position": "",
+    "training_level": "",
+    "team": "",
+    "coach": "",
+    "created_at": "2026-07-03T06:38:54",
+    "updated_at": "2026-07-03T06:38:54",
+    "is_active": true,
+    "deleted_at": null,
+    "baseline_status": "not_started",
+    "notes": ""
   }
 ]
