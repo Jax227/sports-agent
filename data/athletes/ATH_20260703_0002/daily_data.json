@@ -196,5 +196,27 @@
     "notes": "发烧",
     "created_at": "2026-07-07T02:44:52",
     "updated_at": "2026-07-07T02:44:52"
+  },
+  {
+    "record_id": "REC_ATH_20260703_0002_20260705",
+    "athlete_id": "ATH_20260703_0002",
+    "date": "2026-07-05",
+    "sleep_hours": 9.0,
+    "sleep_quality": 7,
+    "fatigue": 4,
+    "muscle_soreness": 1,
+    "mood": 6,
+    "stress": 4,
+    "resting_hr": 66,
+    "hrv": 21.0,
+    "body_weight": 44.5,
+    "training_type": "",
+    "duration_min": 0,
+    "session_rpe": 1,
+    "training_load": 0,
+    "wellness_score": 4,
+    "notes": "",
+    "created_at": "2026-07-07T02:46:20",
+    "updated_at": "2026-07-07T02:46:20"
   }
 ]
