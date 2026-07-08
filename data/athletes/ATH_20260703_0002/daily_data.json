@@ -262,5 +262,106 @@
     "notes": "",
     "created_at": "2026-07-08T08:57:05",
     "updated_at": "2026-07-08T08:57:05"
+  },
+  {
+    "record_id": "REC_ATH_20260703_0002_20260708",
+    "athlete_id": "ATH_20260703_0002",
+    "date": "2026-07-08",
+    "srss_responses": {
+      "PPC": 4,
+      "MPC": 4,
+      "EB": 2,
+      "OR": 3,
+      "MS": 2,
+      "LA": 4,
+      "NES": 2,
+      "OS": 3
+    },
+    "srss_scored": {
+      "items": {
+        "PPC": {
+          "raw": 4,
+          "mapped": 60.0,
+          "label": "体能恢复 (Physical Performance Capability)",
+          "category": "recovery"
+        },
+        "MPC": {
+          "raw": 4,
+          "mapped": 60.0,
+          "label": "心理恢复 (Mental Performance Capability)",
+          "category": "recovery"
+        },
+        "EB": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "情绪平衡 (Emotional Balance)",
+          "category": "recovery"
+        },
+        "OR": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "整体恢复 (Overall Recovery)",
+          "category": "recovery"
+        },
+        "MS": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "肌肉压力 (Muscular Stress)",
+          "category": "stress"
+        },
+        "LA": {
+          "raw": 4,
+          "mapped": 60.0,
+          "label": "缺乏活力 (Lack of Activation)",
+          "category": "stress"
+        },
+        "NES": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "负面情绪 (Negative Emotional State)",
+          "category": "stress"
+        },
+        "OS": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "整体压力 (Overall Stress)",
+          "category": "stress"
+        }
+      },
+      "recovery_avg": 45.0,
+      "stress_avg": 35.0,
+      "recovery_sum": 180.0,
+      "stress_sum": 140.0
+    },
+    "srss_readiness": {
+      "status": "adjust_training",
+      "title": "需要进一步观察，建议调整训练",
+      "rationale": "出现红灯信号: EB。",
+      "recommendation": "对运动员进行进一步观察，并适当调整训练内容以降低损伤与过度训练风险（例如降低总量/强度、减少高冲击/高变向、增加恢复与技术性训练）。",
+      "recovery_avg": 45.0,
+      "stress_avg": 35.0,
+      "red_lights": [
+        {
+          "item": "EB",
+          "label": "情绪平衡 (Emotional Balance)",
+          "raw": 2,
+          "reason": "恢复条目 'EB' 得分偏低 (≤2)",
+          "level": "red"
+        }
+      ]
+    },
+    "srss_red_lights": [
+      {
+        "item": "EB",
+        "label": "情绪平衡 (Emotional Balance)",
+        "raw": 2,
+        "reason": "恢复条目 'EB' 得分偏低 (≤2)",
+        "level": "red"
+      }
+    ],
+    "cmj_height": null,
+    "cmj_rsimod": null,
+    "created_at": "2026-07-08T09:01:14",
+    "updated_at": "2026-07-08T09:01:14"
   }
 ]
