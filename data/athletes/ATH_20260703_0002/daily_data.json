@@ -439,7 +439,22 @@
     ],
     "cmj_height": null,
     "cmj_rsimod": null,
-    "created_at": "2026-07-08T09:01:14",
-    "updated_at": "2026-07-08T09:01:14"
+    "created_at": "2026-07-08T09:04:59",
+    "updated_at": "2026-07-08T09:04:59",
+    "sleep_hours": 8.0,
+    "sleep_quality": 9,
+    "fatigue": 3,
+    "muscle_soreness": 3,
+    "mood": 6,
+    "stress": 4,
+    "resting_hr": 59,
+    "hrv": 25.0,
+    "body_weight": 46.0,
+    "training_type": "",
+    "duration_min": 0,
+    "session_rpe": 1,
+    "training_load": 0,
+    "wellness_score": 5,
+    "notes": ""
   }
 ]
