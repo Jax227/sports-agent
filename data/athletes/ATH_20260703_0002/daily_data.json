@@ -476,8 +476,86 @@
     "training_load": 80,
     "wellness_score": 11,
     "notes": "",
-    "created_at": "2026-07-10T02:24:03",
-    "updated_at": "2026-07-10T02:24:03"
+    "created_at": "2026-07-10T02:26:07",
+    "updated_at": "2026-07-10T02:26:07",
+    "srss_responses": {
+      "PPC": 5,
+      "MPC": 5,
+      "EB": 5,
+      "OR": 5,
+      "MS": 2,
+      "LA": 2,
+      "NES": 2,
+      "OS": 2
+    },
+    "srss_scored": {
+      "items": {
+        "PPC": {
+          "raw": 5,
+          "mapped": 80.0,
+          "label": "体能恢复 (Physical Performance Capability)",
+          "category": "recovery"
+        },
+        "MPC": {
+          "raw": 5,
+          "mapped": 80.0,
+          "label": "心理恢复 (Mental Performance Capability)",
+          "category": "recovery"
+        },
+        "EB": {
+          "raw": 5,
+          "mapped": 80.0,
+          "label": "情绪平衡 (Emotional Balance)",
+          "category": "recovery"
+        },
+        "OR": {
+          "raw": 5,
+          "mapped": 80.0,
+          "label": "整体恢复 (Overall Recovery)",
+          "category": "recovery"
+        },
+        "MS": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "肌肉压力 (Muscular Stress)",
+          "category": "stress"
+        },
+        "LA": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "缺乏活力 (Lack of Activation)",
+          "category": "stress"
+        },
+        "NES": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "负面情绪 (Negative Emotional State)",
+          "category": "stress"
+        },
+        "OS": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "整体压力 (Overall Stress)",
+          "category": "stress"
+        }
+      },
+      "recovery_avg": 80.0,
+      "stress_avg": 20.0,
+      "recovery_sum": 320.0,
+      "stress_sum": 80.0
+    },
+    "srss_readiness": {
+      "status": "good",
+      "title": "运动员准备状态良好",
+      "rationale": "恢复均分 (80.0) > 压力均分 (20.0)，且无红灯信号。",
+      "recommendation": "按计划训练为主，继续日常跟踪。",
+      "recovery_avg": 80.0,
+      "stress_avg": 20.0,
+      "red_lights": []
+    },
+    "srss_red_lights": [],
+    "cmj_height": null,
+    "cmj_rsimod": null
   },
   {
     "record_id": "REC_ATH_20260703_0002_20260710",
