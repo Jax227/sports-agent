@@ -7,26 +7,26 @@
   "total_records": 17,
   "metrics": {
     "sleep_hours": {
-      "mean": 7.21,
-      "sd": 1.27,
+      "mean": 7.09,
+      "sd": 1.29,
       "min": 3.5,
       "max": 9.0,
       "n": 17,
-      "normal_low": 5.93,
-      "normal_high": 8.48,
-      "caution_low": 4.66,
-      "caution_high": 9.75
+      "normal_low": 5.8,
+      "normal_high": 8.37,
+      "caution_low": 4.52,
+      "caution_high": 9.66
     },
     "sleep_quality": {
-      "mean": 7.35,
-      "sd": 2.03,
+      "mean": 7.29,
+      "sd": 2.05,
       "min": 2.0,
       "max": 9.0,
       "n": 17,
-      "normal_low": 5.33,
-      "normal_high": 9.38,
-      "caution_low": 3.3,
-      "caution_high": 11.41
+      "normal_low": 5.24,
+      "normal_high": 9.35,
+      "caution_low": 3.19,
+      "caution_high": 11.4
     },
     "fatigue": {
       "mean": 3.0,
@@ -40,15 +40,15 @@
       "caution_high": 5.99
     },
     "muscle_soreness": {
-      "mean": 1.82,
-      "sd": 1.15,
+      "mean": 1.88,
+      "sd": 1.18,
       "min": 1.0,
       "max": 5.0,
       "n": 17,
-      "normal_low": 0.67,
-      "normal_high": 2.97,
+      "normal_low": 0.7,
+      "normal_high": 3.06,
       "caution_low": -0.48,
-      "caution_high": 4.12
+      "caution_high": 4.25
     },
     "mood": {
       "mean": 6.29,
@@ -62,15 +62,15 @@
       "caution_high": 9.42
     },
     "stress": {
-      "mean": 3.41,
+      "mean": 3.47,
       "sd": 1.5,
       "min": 2.0,
       "max": 7.0,
       "n": 17,
-      "normal_low": 1.91,
-      "normal_high": 4.91,
-      "caution_low": 0.42,
-      "caution_high": 6.41
+      "normal_low": 1.97,
+      "normal_high": 4.97,
+      "caution_low": 0.47,
+      "caution_high": 6.47
     },
     "resting_hr": {
       "mean": 61.94,
@@ -139,16 +139,16 @@
       "caution_high": 375.2
     },
     "wellness_score": {
-      "mean": 5.41,
-      "sd": 6.01,
+      "mean": 5.24,
+      "sd": 6.03,
       "min": -10.0,
       "max": 11.0,
       "n": 17,
-      "normal_low": -0.6,
-      "normal_high": 11.42,
-      "caution_low": -6.61,
-      "caution_high": 17.43
+      "normal_low": -0.8,
+      "normal_high": 11.27,
+      "caution_low": -6.83,
+      "caution_high": 17.3
     }
   },
-  "updated_at": "2026-07-12T13:26:28"
+  "updated_at": "2026-07-12T13:27:39"
 }
