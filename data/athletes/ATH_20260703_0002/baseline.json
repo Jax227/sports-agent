@@ -106,37 +106,37 @@
       "caution_high": 46.46
     },
     "duration_min": {
-      "mean": 39.41,
-      "sd": 35.76,
+      "mean": 41.76,
+      "sd": 34.38,
       "min": 0.0,
       "max": 90.0,
       "n": 17,
-      "normal_low": 3.65,
-      "normal_high": 75.18,
-      "caution_low": -32.12,
-      "caution_high": 110.94
+      "normal_low": 7.38,
+      "normal_high": 76.15,
+      "caution_low": -27.0,
+      "caution_high": 110.53
     },
     "session_rpe": {
-      "mean": 2.12,
-      "sd": 1.32,
+      "mean": 2.18,
+      "sd": 1.29,
       "min": 1.0,
       "max": 5.0,
       "n": 17,
-      "normal_low": 0.79,
-      "normal_high": 3.44,
-      "caution_low": -0.53,
+      "normal_low": 0.88,
+      "normal_high": 3.47,
+      "caution_low": -0.41,
       "caution_high": 4.76
     },
     "training_load": {
-      "mean": 112.94,
-      "sd": 131.13,
+      "mean": 117.65,
+      "sd": 128.4,
       "min": 0.0,
       "max": 400.0,
       "n": 17,
-      "normal_low": -18.19,
-      "normal_high": 244.07,
-      "caution_low": -149.31,
-      "caution_high": 375.2
+      "normal_low": -10.75,
+      "normal_high": 246.04,
+      "caution_low": -139.15,
+      "caution_high": 374.44
     },
     "wellness_score": {
       "mean": 5.24,
@@ -150,5 +150,5 @@
       "caution_high": 17.3
     }
   },
-  "updated_at": "2026-07-12T13:27:39"
+  "updated_at": "2026-07-13T01:33:49"
 }
