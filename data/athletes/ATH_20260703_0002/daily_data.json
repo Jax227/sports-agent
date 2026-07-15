@@ -1056,5 +1056,27 @@
     "srss_red_lights": [],
     "cmj_height": null,
     "cmj_rsimod": null
+  },
+  {
+    "record_id": "REC_ATH_20260703_0002_20260715",
+    "athlete_id": "ATH_20260703_0002",
+    "date": "2026-07-15",
+    "sleep_hours": 6.0,
+    "sleep_quality": 6,
+    "fatigue": 4,
+    "muscle_soreness": 1,
+    "mood": 6,
+    "stress": 2,
+    "resting_hr": 55,
+    "hrv": 24.0,
+    "body_weight": 70.0,
+    "training_type": "",
+    "duration_min": 0,
+    "session_rpe": 1,
+    "training_load": 0,
+    "wellness_score": 5,
+    "notes": "胃镜检查",
+    "created_at": "2026-07-15T02:44:19",
+    "updated_at": "2026-07-15T02:44:19"
   }
 ]
