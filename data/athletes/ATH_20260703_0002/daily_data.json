@@ -1200,5 +1200,27 @@
     "notes": "",
     "created_at": "2026-07-18T12:54:08",
     "updated_at": "2026-07-18T12:54:08"
+  },
+  {
+    "record_id": "REC_ATH_20260703_0002_20260718",
+    "athlete_id": "ATH_20260703_0002",
+    "date": "2026-07-18",
+    "sleep_hours": 8.0,
+    "sleep_quality": 9,
+    "fatigue": 2,
+    "muscle_soreness": 1,
+    "mood": 8,
+    "stress": 2,
+    "resting_hr": 61,
+    "hrv": 21.0,
+    "body_weight": 45.4,
+    "training_type": "",
+    "duration_min": 0,
+    "session_rpe": 1,
+    "training_load": 0,
+    "wellness_score": 12,
+    "notes": "",
+    "created_at": "2026-07-18T12:55:10",
+    "updated_at": "2026-07-18T12:55:10"
   }
 ]
