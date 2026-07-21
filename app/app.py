@@ -150,24 +150,514 @@ def compute_hr_zones(hr_baseline):
     }
 
 
-# ── CSS ───────────────────────────────────────────────
-st.markdown("""
-<style>
-    .metric-card {
-        background: linear-gradient(135deg, #1e2130 0%, #2a2f3f 100%);
-        border-radius: 16px; padding: 24px 28px; margin: 8px 0;
-        border: 1px solid #3a3f50;
+# ── Pro Sports Science Style Injection ─────────────────
+def inject_pro_style():
+    """Inject professional sports-science dashboard CSS for Streamlit.
+
+    Design philosophy — "Precision Performance":
+      • Dark sidebar anchors navigation with authority
+      • White metric cards with color-coded accent bars for instant scanning
+      • Generous whitespace lets data breathe
+      • Cyan primary palette signals technology + precision
+      • Emerald / Amber / Rose status system mirrors physiological zones
+    """
+    st.markdown("""
+    <style>
+    /* ============================================================
+       CSS Custom Properties — Design Tokens
+       ============================================================ */
+    :root {
+        --pro-bg: #f1f5f9;
+        --pro-surface: #ffffff;
+        --pro-primary: #0891b2;
+        --pro-primary-hover: #0e7490;
+        --pro-primary-subtle: rgba(8, 145, 178, 0.08);
+        --pro-accent: #6366f1;
+        --pro-success: #059669;
+        --pro-success-subtle: rgba(5, 150, 105, 0.08);
+        --pro-warning: #d97706;
+        --pro-warning-subtle: rgba(217, 119, 6, 0.08);
+        --pro-danger: #e11d48;
+        --pro-danger-subtle: rgba(225, 29, 72, 0.08);
+        --pro-text: #1e293b;
+        --pro-text-secondary: #64748b;
+        --pro-text-muted: #94a3b8;
+        --pro-border: #e2e8f0;
+        --pro-border-light: #f1f5f9;
+        --pro-shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+        --pro-shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+        --pro-shadow-lg: 0 12px 32px rgba(0,0,0,0.08);
+        --pro-shadow-xl: 0 20px 48px rgba(0,0,0,0.10);
+        --pro-radius-sm: 8px;
+        --pro-radius-md: 12px;
+        --pro-radius-lg: 16px;
+        --pro-radius-xl: 20px;
+        --pro-sidebar-bg: #0f172a;
+        --pro-sidebar-text: #cbd5e1;
+        --pro-sidebar-text-dim: #64748b;
+        --pro-sidebar-accent: #0891b2;
+        --pro-sidebar-border: rgba(255,255,255,0.06);
+        --pro-transition: 180ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .metric-value { font-size: 42px; font-weight: 700; line-height: 1.1; }
-    .metric-label { font-size: 13px; color: #8890a0; text-transform: uppercase; letter-spacing: 1px; }
-    .metric-delta { font-size: 14px; margin-top: 4px; }
-    .status-green  { color: #4ade80; }
-    .status-orange { color: #fbbf24; }
-    .status-red    { color: #f87171; }
-    .status-blue   { color: #60a5fa; }
-    hr.divider { border-color: #2a2f3f; margin: 8px 0 20px 0; }
-</style>
-""", unsafe_allow_html=True)
+
+    /* ============================================================
+       Global Background
+       ============================================================ */
+    .stApp {
+        background: var(--pro-bg) !important;
+    }
+    .stApp div[data-testid],
+    .stApp section:not([data-testid="stSidebar"]) {
+        background: transparent !important;
+        background-color: transparent !important;
+    }
+    .stApp .block-container,
+    .stApp div[class*="block-container"] {
+        background: transparent !important;
+        background-color: transparent !important;
+    }
+
+    /* subtle dot-pattern texture on main background */
+    .stMain {
+        background-image:
+            radial-gradient(circle, rgba(8, 145, 178, 0.04) 1px, transparent 1px) !important;
+        background-size: 24px 24px !important;
+    }
+
+    /* ============================================================
+       Typography
+       ============================================================ */
+    html, body, [class*="css"], .stMarkdown {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display",
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: var(--pro-text) !important;
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700 !important;
+        letter-spacing: -0.02em !important;
+        color: #0f172a !important;
+    }
+    h1 { font-size: 1.75rem !important; }
+    h2 { font-size: 1.35rem !important; }
+    h3 { font-size: 1.1rem !important; }
+
+    /* ============================================================
+       Sidebar — Dark Navy
+       ============================================================ */
+    section[data-testid="stSidebar"] {
+        background: var(--pro-sidebar-bg) !important;
+        border-right: 1px solid var(--pro-sidebar-border) !important;
+        box-shadow: 2px 0 24px rgba(0,0,0,0.12) !important;
+    }
+    section[data-testid="stSidebar"] * {
+        color: var(--pro-sidebar-text) !important;
+    }
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3 {
+        color: #f1f5f9 !important;
+        font-weight: 700 !important;
+    }
+    section[data-testid="stSidebar"] .stSelectbox label,
+    section[data-testid="stSidebar"] .stDateInput label,
+    section[data-testid="stSidebar"] .stMultiselect label {
+        color: var(--pro-sidebar-text-dim) !important;
+        font-size: 0.75rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.06em !important;
+        font-weight: 600 !important;
+    }
+    /* sidebar select boxes */
+    section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
+        background: rgba(255,255,255,0.06) !important;
+        border: 1px solid rgba(255,255,255,0.10) !important;
+        border-radius: var(--pro-radius-md) !important;
+        color: #e2e8f0 !important;
+    }
+    section[data-testid="stSidebar"] div[data-baseweb="select"] * {
+        color: #e2e8f0 !important;
+    }
+    /* sidebar radio */
+    section[data-testid="stSidebar"] div[role="radiogroup"] label {
+        border-radius: var(--pro-radius-md) !important;
+        padding: 8px 12px !important;
+        transition: var(--pro-transition) !important;
+    }
+    section[data-testid="stSidebar"] div[role="radiogroup"] label:hover {
+        background: rgba(255,255,255,0.06) !important;
+    }
+    section[data-testid="stSidebar"] div[role="radiogroup"] label[data-selected="true"],
+    section[data-testid="stSidebar"] div[role="radiogroup"] label[aria-checked="true"] {
+        background: rgba(8, 145, 178, 0.20) !important;
+        border-left: 3px solid var(--pro-sidebar-accent) !important;
+        color: #22d3ee !important;
+    }
+    /* sidebar date input */
+    section[data-testid="stSidebar"] .stDateInput input {
+        background: rgba(255,255,255,0.06) !important;
+        border: 1px solid rgba(255,255,255,0.10) !important;
+        border-radius: var(--pro-radius-md) !important;
+        color: #e2e8f0 !important;
+    }
+    /* sidebar dividers */
+    section[data-testid="stSidebar"] hr {
+        border-color: rgba(255,255,255,0.08) !important;
+    }
+
+    /* ============================================================
+       Metric Cards — Color-Coded Accent Bars
+       ============================================================ */
+    .metric-card {
+        background: var(--pro-surface) !important;
+        border-radius: var(--pro-radius-xl) !important;
+        padding: 20px 24px !important;
+        margin: 6px 0 !important;
+        border: 1px solid var(--pro-border) !important;
+        border-left: 4px solid var(--pro-border) !important;
+        box-shadow: var(--pro-shadow-sm) !important;
+        transition: all var(--pro-transition) !important;
+        position: relative !important;
+        overflow: hidden !important;
+    }
+    .metric-card::after {
+        content: "" !important;
+        position: absolute !important;
+        top: 0; right: 0; bottom: 0; left: 0 !important;
+        background: linear-gradient(135deg, transparent 60%, rgba(248,250,252,0.4) 100%) !important;
+        pointer-events: none !important;
+    }
+    .metric-card:hover {
+        box-shadow: var(--pro-shadow-lg) !important;
+        transform: translateY(-2px) !important;
+        border-color: #cbd5e1 !important;
+    }
+    .metric-value {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        line-height: 1.05 !important;
+        letter-spacing: -0.03em !important;
+        font-variant-numeric: tabular-nums !important;
+        font-feature-settings: "tnum" !important;
+    }
+    .metric-label {
+        font-size: 11px !important;
+        color: var(--pro-text-muted) !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.08em !important;
+        font-weight: 700 !important;
+        margin-bottom: 6px !important;
+    }
+    .metric-delta {
+        font-size: 12.5px !important;
+        margin-top: 6px !important;
+        color: var(--pro-text-secondary) !important;
+        font-weight: 500 !important;
+    }
+
+    /* status colors — each card gets its left-border via a wrapper */
+    .status-green  { color: #059669 !important; }
+    .status-orange { color: #d97706 !important; }
+    .status-red    { color: #e11d48 !important; }
+    .status-blue   { color: #0891b2 !important; }
+
+    /* card accent bar overrides — set via inline style or class */
+    .metric-card.accent-green  { border-left-color: #059669 !important; }
+    .metric-card.accent-orange { border-left-color: #d97706 !important; }
+    .metric-card.accent-red    { border-left-color: #e11d48 !important; }
+    .metric-card.accent-blue   { border-left-color: #0891b2 !important; }
+
+    hr.divider {
+        border: none !important;
+        border-top: 1px solid var(--pro-border) !important;
+        margin: 6px 0 24px 0 !important;
+    }
+
+    /* ============================================================
+       Primary Buttons
+       ============================================================ */
+    button[kind="primary"],
+    button[data-testid="baseButton-primary"] {
+        border-radius: var(--pro-radius-md) !important;
+        background: var(--pro-primary) !important;
+        border: none !important;
+        box-shadow: 0 2px 8px rgba(8, 145, 178, 0.25),
+                    0 0 0 0 rgba(8, 145, 178, 0) !important;
+        transition: all var(--pro-transition) !important;
+        font-weight: 600 !important;
+        color: #fff !important;
+        font-size: 0.875rem !important;
+        letter-spacing: 0.01em !important;
+    }
+    button[kind="primary"]:hover,
+    button[data-testid="baseButton-primary"]:hover {
+        background: var(--pro-primary-hover) !important;
+        box-shadow: 0 4px 16px rgba(8, 145, 178, 0.35),
+                    0 0 0 3px rgba(8, 145, 178, 0.10) !important;
+        transform: translateY(-1px) !important;
+    }
+    button[kind="primary"]:active {
+        transform: translateY(0) !important;
+    }
+
+    /* ============================================================
+       Secondary Buttons
+       ============================================================ */
+    button[kind="secondary"] {
+        border-radius: var(--pro-radius-md) !important;
+        border: 1px solid var(--pro-border) !important;
+        transition: all var(--pro-transition) !important;
+        font-weight: 500 !important;
+    }
+    button[kind="secondary"]:hover {
+        border-color: #cbd5e1 !important;
+        background: #f8fafc !important;
+        transform: translateY(-1px) !important;
+    }
+
+    /* ============================================================
+       Text Inputs & Textareas
+       ============================================================ */
+    textarea,
+    input:not([type="checkbox"]):not([type="radio"]) {
+        border-radius: var(--pro-radius-md) !important;
+        border: 1px solid var(--pro-border) !important;
+        transition: all var(--pro-transition) !important;
+        background: var(--pro-surface) !important;
+        font-size: 0.9rem !important;
+    }
+    textarea:focus,
+    input:not([type="checkbox"]):not([type="radio"]):focus {
+        border-color: var(--pro-primary) !important;
+        box-shadow: 0 0 0 3px var(--pro-primary-subtle) !important;
+        outline: none !important;
+    }
+
+    /* ============================================================
+       Select Boxes
+       ============================================================ */
+    div[data-baseweb="select"] > div {
+        border-radius: var(--pro-radius-md) !important;
+        border: 1px solid var(--pro-border) !important;
+        transition: all var(--pro-transition) !important;
+    }
+    div[data-baseweb="select"] > div:focus-within {
+        border-color: var(--pro-primary) !important;
+        box-shadow: 0 0 0 3px var(--pro-primary-subtle) !important;
+    }
+
+    /* ============================================================
+       Tabs
+       ============================================================ */
+    button[data-baseweb="tab"] {
+        border-radius: var(--pro-radius-md) var(--pro-radius-md) 0 0 !important;
+        transition: all var(--pro-transition) !important;
+        font-weight: 500 !important;
+        font-size: 0.875rem !important;
+    }
+    button[data-baseweb="tab"][aria-selected="true"] {
+        color: var(--pro-primary) !important;
+        border-bottom: 2px solid var(--pro-primary) !important;
+    }
+
+    /* ============================================================
+       Expander
+       ============================================================ */
+    details[data-testid="stExpander"] {
+        border-radius: var(--pro-radius-lg) !important;
+        border: 1px solid var(--pro-border) !important;
+        background: var(--pro-surface) !important;
+        transition: all var(--pro-transition) !important;
+        box-shadow: var(--pro-shadow-sm) !important;
+    }
+    details[data-testid="stExpander"]:hover {
+        box-shadow: var(--pro-shadow-md) !important;
+    }
+
+    /* ============================================================
+       DataFrames & Tables
+       ============================================================ */
+    div[data-testid="stDataFrame"] {
+        border-radius: var(--pro-radius-lg) !important;
+        overflow: hidden !important;
+        border: 1px solid var(--pro-border) !important;
+        box-shadow: var(--pro-shadow-sm) !important;
+    }
+    div[data-testid="stTable"] {
+        border-radius: var(--pro-radius-lg) !important;
+        overflow: hidden !important;
+    }
+
+    /* ============================================================
+       Code Blocks
+       ============================================================ */
+    pre, code {
+        border-radius: var(--pro-radius-md) !important;
+        font-family: "JetBrains Mono", "Fira Code", "SF Mono", monospace !important;
+    }
+
+    /* ============================================================
+       Alerts — status messages
+       ============================================================ */
+    div[data-testid="stAlert"] {
+        border-radius: var(--pro-radius-lg) !important;
+        border: none !important;
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+    }
+
+    /* ============================================================
+       Radio Buttons
+       ============================================================ */
+    div[role="radiogroup"] label {
+        border-radius: var(--pro-radius-md) !important;
+        transition: all var(--pro-transition) !important;
+        padding: 6px 14px !important;
+    }
+    div[role="radiogroup"] label:hover {
+        background: #f1f5f9 !important;
+    }
+
+    /* ============================================================
+       Sliders
+       ============================================================ */
+    div[data-testid="stSlider"] div[data-baseweb="slider"] div[role="slider"] {
+        background: var(--pro-primary) !important;
+        box-shadow: 0 1px 4px rgba(8, 145, 178, 0.3) !important;
+    }
+
+    /* ============================================================
+       Metrics (Streamlit built-in)
+       ============================================================ */
+    div[data-testid="stMetricValue"] {
+        font-weight: 800 !important;
+        font-variant-numeric: tabular-nums !important;
+        color: var(--pro-text) !important;
+    }
+
+    /* ============================================================
+       Page Link Cards
+       ============================================================ */
+    a[data-testid="stPageLink"] {
+        border-radius: var(--pro-radius-lg) !important;
+        border: 1px solid var(--pro-border) !important;
+        transition: all var(--pro-transition) !important;
+        text-decoration: none !important;
+    }
+    a[data-testid="stPageLink"]:hover {
+        border-color: var(--pro-primary) !important;
+        box-shadow: var(--pro-shadow-md) !important;
+    }
+
+    /* ============================================================
+       Plotly Charts — subtle wrapper polish
+       ============================================================ */
+    div[data-testid="stPlotlyChart"] {
+        border-radius: var(--pro-radius-lg) !important;
+        overflow: hidden !important;
+    }
+    div.js-plotly-plot .main-svg {
+        border-radius: var(--pro-radius-lg) !important;
+    }
+
+    /* ============================================================
+       Scrollbar styling
+       ============================================================ */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    section[data-testid="stSidebar"] ::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,0.15);
+    }
+
+    /* ============================================================
+       Dark Mode
+       ============================================================ */
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --pro-bg: #0f172a;
+            --pro-surface: #1e293b;
+            --pro-text: #e2e8f0;
+            --pro-text-secondary: #94a3b8;
+            --pro-text-muted: #64748b;
+            --pro-border: #334155;
+            --pro-border-light: #1e293b;
+            --pro-shadow-sm: 0 1px 2px rgba(0,0,0,0.20);
+            --pro-shadow-md: 0 4px 12px rgba(0,0,0,0.30);
+            --pro-shadow-lg: 0 12px 32px rgba(0,0,0,0.40);
+        }
+        .stApp {
+            background: #0f172a !important;
+        }
+        .stMain {
+            background-image:
+                radial-gradient(circle, rgba(8, 145, 178, 0.06) 1px, transparent 1px) !important;
+            background-size: 24px 24px !important;
+        }
+        section[data-testid="stSidebar"] {
+            background: #020617 !important;
+            border-right: 1px solid rgba(255,255,255,0.06) !important;
+        }
+        .metric-card {
+            background: #1e293b !important;
+            border-color: #334155 !important;
+        }
+        .metric-card:hover {
+            border-color: #475569 !important;
+        }
+        .metric-label { color: #64748b !important; }
+        .metric-delta { color: #94a3b8 !important; }
+        hr.divider { border-top-color: #334155 !important; }
+        h1, h2, h3, h4, h5, h6 { color: #f1f5f9 !important; }
+
+        textarea,
+        input:not([type="checkbox"]):not([type="radio"]) {
+            background: #1e293b !important;
+            border-color: #334155 !important;
+            color: #e2e8f0 !important;
+        }
+        textarea:focus,
+        input:not([type="checkbox"]):not([type="radio"]):focus {
+            border-color: var(--pro-primary) !important;
+            box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.20) !important;
+        }
+        div[data-baseweb="select"] > div {
+            background: #1e293b !important;
+            border-color: #334155 !important;
+        }
+        details[data-testid="stExpander"] {
+            background: #1e293b !important;
+            border-color: #334155 !important;
+        }
+        div[data-testid="stDataFrame"] {
+            border-color: #334155 !important;
+        }
+        div[role="radiogroup"] label:hover {
+            background: rgba(255,255,255,0.04) !important;
+        }
+        button[kind="secondary"] {
+            border-color: #334155 !important;
+            color: #e2e8f0 !important;
+        }
+        button[kind="secondary"]:hover {
+            background: #1e293b !important;
+        }
+        ::-webkit-scrollbar-thumb { background: #475569; }
+        .status-green  { color: #34d399 !important; }
+        .status-orange { color: #fbbf24 !important; }
+        .status-red    { color: #fb7185 !important; }
+        .status-blue   { color: #22d3ee !important; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+
+inject_pro_style()
 
 
 # ── 侧边栏 ────────────────────────────────────────────
@@ -304,12 +794,13 @@ if page == "📊 仪表盘":
                 color = "status-red"
                 status_text = "异常"
 
+            accent = color.replace("status-", "accent-")
             st.markdown(f"""
-            <div class="metric-card">
+            <div class="metric-card {accent}">
                 <div class="metric-label">RMSSD (ms)</div>
                 <div class="metric-value {color}">{val:.0f}</div>
                 <div class="metric-delta">{'↑' if delta > 0 else '↓'} {abs(delta):.1f} ms vs 前日</div>
-                <div style="font-size:12px; color:#8890a0; margin-top:4px;">基线: {rmssd_baseline:.0f} ms · {status_text}</div>
+                <div style="font-size:12px; color:var(--pro-text-muted); margin-top:4px;">基线: {rmssd_baseline:.0f} ms · {status_text}</div>
             </div>
             """, unsafe_allow_html=True)
         else:
@@ -330,12 +821,13 @@ if page == "📊 仪表盘":
                 color = "status-red"
                 status_text = "异常"
 
+            accent = color.replace("status-", "accent-")
             st.markdown(f"""
-            <div class="metric-card">
+            <div class="metric-card {accent}">
                 <div class="metric-label">静息心率 (bpm)</div>
                 <div class="metric-value {color}">{val:.0f}</div>
                 <div class="metric-delta">{'↑' if delta > 0 else '↓'} {abs(delta):.1f} bpm vs 前日</div>
-                <div style="font-size:12px; color:#8890a0; margin-top:4px;">基线: {hr_baseline:.0f} bpm · {status_text}</div>
+                <div style="font-size:12px; color:var(--pro-text-muted); margin-top:4px;">基线: {hr_baseline:.0f} bpm · {status_text}</div>
             </div>
             """, unsafe_allow_html=True)
         else:
@@ -353,12 +845,13 @@ if page == "📊 仪表盘":
             else:
                 color, risk = "status-red", "危险区"
 
+            accent = color.replace("status-", "accent-")
             st.markdown(f"""
-            <div class="metric-card">
+            <div class="metric-card {accent}">
                 <div class="metric-label">ACWR</div>
                 <div class="metric-value {color}">{acwr:.2f}</div>
                 <div class="metric-delta">急性 {latest_tr.get('acute_load_7d', 0):.0f} / 慢性 {latest_tr.get('chronic_load_28d', 0):.0f}</div>
-                <div style="font-size:12px; color:#8890a0; margin-top:4px;">{risk}</div>
+                <div style="font-size:12px; color:var(--pro-text-muted); margin-top:4px;">{risk}</div>
             </div>
             """, unsafe_allow_html=True)
         else:
@@ -371,7 +864,7 @@ if page == "📊 仪表盘":
             load = latest_tr["training_load"]
             acute = latest_tr.get("acute_load_7d", np.nan)
             st.markdown(f"""
-            <div class="metric-card">
+            <div class="metric-card accent-blue">
                 <div class="metric-label">训练负荷 (AU)</div>
                 <div class="metric-value status-blue">{load:.0f}</div>
                 <div class="metric-delta">7d 均值: {acute:.0f} AU</div>
@@ -391,8 +884,9 @@ if page == "📊 仪表盘":
                 color = "status-orange"
             else:
                 color = "status-red"
+            accent = color.replace("status-", "accent-")
             st.markdown(f"""
-            <div class="metric-card">
+            <div class="metric-card {accent}">
                 <div class="metric-label">训练单调性</div>
                 <div class="metric-value {color}">{mono:.2f}</div>
                 <div class="metric-delta">应变: {latest_tr.get('training_strain', 0):.0f} AU</div>
@@ -432,7 +926,7 @@ if page == "📊 仪表盘":
             ))
 
         # 基线 ± 区间
-        fig_rmssd.add_hline(y=rmssd_baseline, line_dash="dash", line_color="white", opacity=0.4,
+        fig_rmssd.add_hline(y=rmssd_baseline, line_dash="dash", line_color="#86868b", opacity=0.4,
                             annotation_text=f"基线 {rmssd_baseline:.0f}", annotation_position="bottom right")
         for pct, color, label in [(0.85, "rgba(251,191,36,0.15)", "-15%"), (1.15, "rgba(251,191,36,0.15)", "+15%")]:
             fig_rmssd.add_hrect(
@@ -445,12 +939,12 @@ if page == "📊 仪表盘":
             )
 
         fig_rmssd.update_layout(
-            template="plotly_dark",
+            template="plotly_white",
             height=420,
             margin=dict(l=20, r=20, t=10, b=20),
             legend=dict(orientation="h", yanchor="top", y=1.12, xanchor="left", x=0),
-            xaxis=dict(title=None, gridcolor="rgba(255,255,255,0.06)"),
-            yaxis=dict(title="RMSSD (ms)", gridcolor="rgba(255,255,255,0.06)"),
+            xaxis=dict(title=None, gridcolor="rgba(0,0,0,0.06)"),
+            yaxis=dict(title="RMSSD (ms)", gridcolor="rgba(0,0,0,0.06)"),
             hovermode="x unified",
         )
         st.plotly_chart(fig_rmssd, use_container_width=True, config={"displayModeBar": True, "scrollZoom": True})
@@ -484,7 +978,7 @@ if page == "📊 仪表盘":
                 hovertemplate=f"<b>%{{x|%m-%d}}</b><br>{w}d MA: %{{y:.1f}} bpm<extra></extra>",
             ))
 
-        fig_hr.add_hline(y=hr_baseline, line_dash="dash", line_color="white", opacity=0.4,
+        fig_hr.add_hline(y=hr_baseline, line_dash="dash", line_color="#86868b", opacity=0.4,
                          annotation_text=f"基线 {hr_baseline:.0f}", annotation_position="bottom right")
         fig_hr.add_hrect(y0=hr_baseline * 0.8, y1=hr_baseline * 0.88,
                          fillcolor="rgba(248,113,113,0.08)", line_width=0)
@@ -492,12 +986,12 @@ if page == "📊 仪表盘":
                          fillcolor="rgba(248,113,113,0.08)", line_width=0)
 
         fig_hr.update_layout(
-            template="plotly_dark",
+            template="plotly_white",
             height=420,
             margin=dict(l=20, r=20, t=10, b=20),
             legend=dict(orientation="h", yanchor="top", y=1.12, xanchor="left", x=0),
-            xaxis=dict(title=None, gridcolor="rgba(255,255,255,0.06)"),
-            yaxis=dict(title="HRrest (bpm)", gridcolor="rgba(255,255,255,0.06)"),
+            xaxis=dict(title=None, gridcolor="rgba(0,0,0,0.06)"),
+            yaxis=dict(title="HRrest (bpm)", gridcolor="rgba(0,0,0,0.06)"),
             hovermode="x unified",
         )
         st.plotly_chart(fig_hr, use_container_width=True, config={"displayModeBar": True, "scrollZoom": True})
@@ -525,10 +1019,10 @@ if page == "📊 仪表盘":
                 ))
 
             fig_sub.update_layout(
-                template="plotly_dark", height=300, margin=dict(l=20, r=20, t=10, b=20),
+                template="plotly_white", height=300, margin=dict(l=20, r=20, t=10, b=20),
                 legend=dict(orientation="h", yanchor="top", y=1.1),
-                yaxis=dict(range=[0.5, 5.5], tickvals=[1, 2, 3, 4, 5], gridcolor="rgba(255,255,255,0.06)"),
-                xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
+                yaxis=dict(range=[0.5, 5.5], tickvals=[1, 2, 3, 4, 5], gridcolor="rgba(0,0,0,0.06)"),
+                xaxis=dict(gridcolor="rgba(0,0,0,0.06)"),
                 hovermode="x unified",
             )
             st.plotly_chart(fig_sub, use_container_width=True)
@@ -554,9 +1048,9 @@ if page == "📊 仪表盘":
             fig_acwr.add_hrect(y0=1.3, y1=2.0, fillcolor="rgba(251,191,36,0.06)", line_width=0)
 
             fig_acwr.update_layout(
-                template="plotly_dark", height=300, margin=dict(l=20, r=20, t=10, b=20),
-                xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
-                yaxis=dict(title="ACWR", gridcolor="rgba(255,255,255,0.06)"),
+                template="plotly_white", height=300, margin=dict(l=20, r=20, t=10, b=20),
+                xaxis=dict(gridcolor="rgba(0,0,0,0.06)"),
+                yaxis=dict(title="ACWR", gridcolor="rgba(0,0,0,0.06)"),
                 hovermode="x unified",
             )
             st.plotly_chart(fig_acwr, use_container_width=True)
@@ -601,12 +1095,12 @@ if page == "📊 仪表盘":
                 fig_srss.add_hline(y=35, line_dash="dash", line_color="#f87171", opacity=0.3,
                                    annotation_text="压力较低线 (35)")
                 fig_srss.update_layout(
-                    template="plotly_dark", height=320,
+                    template="plotly_white", height=320,
                     margin=dict(l=20, r=20, t=10, b=20),
                     legend=dict(orientation="h", yanchor="bottom", y=1.05),
                     hovermode="x unified",
-                    xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
-                    yaxis=dict(gridcolor="rgba(255,255,255,0.06)", range=[0, 100], title="得分 (0-100)"),
+                    xaxis=dict(gridcolor="rgba(0,0,0,0.06)"),
+                    yaxis=dict(gridcolor="rgba(0,0,0,0.06)", range=[0, 100], title="得分 (0-100)"),
                 )
                 st.plotly_chart(fig_srss, use_container_width=True)
 
@@ -619,11 +1113,11 @@ if page == "📊 仪表盘":
                     text=srss_df["red_count"], textposition="outside",
                 ))
                 fig_red.update_layout(
-                    template="plotly_dark", height=320,
+                    template="plotly_white", height=320,
                     margin=dict(l=20, r=20, t=10, b=20),
                     showlegend=False,
-                    xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
-                    yaxis=dict(gridcolor="rgba(255,255,255,0.06)", tickformat="d", title="红灯数",
+                    xaxis=dict(gridcolor="rgba(0,0,0,0.06)"),
+                    yaxis=dict(gridcolor="rgba(0,0,0,0.06)", tickformat="d", title="红灯数",
                                range=[0, max(8, srss_df["red_count"].max() + 1)]),
                 )
                 st.plotly_chart(fig_red, use_container_width=True)
@@ -727,15 +1221,15 @@ elif page == "📈 训练负荷分析":
     )
 
     fig_load.update_layout(
-        template="plotly_dark",
+        template="plotly_white",
         height=500,
         margin=dict(l=20, r=60, t=10, b=20),
         legend=dict(orientation="h", yanchor="top", y=1.12, xanchor="left", x=0),
         hovermode="x unified",
     )
-    fig_load.update_xaxes(title=None, gridcolor="rgba(255,255,255,0.06)")
-    fig_load.update_yaxes(title_text="训练负荷 (AU)", gridcolor="rgba(255,255,255,0.06)", secondary_y=False)
-    fig_load.update_yaxes(title_text="训练单调性", gridcolor="rgba(255,255,255,0.06)",
+    fig_load.update_xaxes(title=None, gridcolor="rgba(0,0,0,0.06)")
+    fig_load.update_yaxes(title_text="训练负荷 (AU)", gridcolor="rgba(0,0,0,0.06)", secondary_y=False)
+    fig_load.update_yaxes(title_text="训练单调性", gridcolor="rgba(0,0,0,0.06)",
                            range=[0, max(tr_data["training_monotony"].max() * 1.2, 4.0)],
                            secondary_y=True)
 
@@ -759,10 +1253,10 @@ elif page == "📈 训练负荷分析":
                 marker=dict(size=5, color="#c084fc"),
             ))
             fig_strain.update_layout(
-                template="plotly_dark", height=320,
+                template="plotly_white", height=320,
                 margin=dict(l=20, r=20, t=10, b=20),
-                xaxis=dict(gridcolor="rgba(255,255,255,0.06)"),
-                yaxis=dict(title="应变 (AU)", gridcolor="rgba(255,255,255,0.06)"),
+                xaxis=dict(gridcolor="rgba(0,0,0,0.06)"),
+                yaxis=dict(title="应变 (AU)", gridcolor="rgba(0,0,0,0.06)"),
                 hovermode="x unified",
             )
             st.plotly_chart(fig_strain, use_container_width=True)
@@ -796,10 +1290,10 @@ elif page == "📈 训练负荷分析":
                                 line_color="rgba(248,113,113,0.5)", annotation_text="高单调")
 
             fig_cross.update_layout(
-                template="plotly_dark", height=320,
+                template="plotly_white", height=320,
                 margin=dict(l=20, r=20, t=10, b=20),
-                xaxis=dict(title="7日急性负荷 (AU)", gridcolor="rgba(255,255,255,0.06)"),
-                yaxis=dict(title="训练单调性", gridcolor="rgba(255,255,255,0.06)"),
+                xaxis=dict(title="7日急性负荷 (AU)", gridcolor="rgba(0,0,0,0.06)"),
+                yaxis=dict(title="训练单调性", gridcolor="rgba(0,0,0,0.06)"),
                 hovermode="closest",
             )
             st.plotly_chart(fig_cross, use_container_width=True)
