@@ -168,5 +168,134 @@
     "cmj_rsimod": null,
     "created_at": "2026-07-16T01:53:07",
     "updated_at": "2026-07-16T01:53:07"
+  },
+  {
+    "record_id": "REC_ATH_20260703_0001_20260729",
+    "athlete_id": "ATH_20260703_0001",
+    "date": "2026-07-29",
+    "srss_responses": {
+      "PPC": 3,
+      "MPC": 2,
+      "EB": 3,
+      "OR": 3,
+      "MS": 6,
+      "LA": 6,
+      "NES": 1,
+      "OS": 3
+    },
+    "srss_scored": {
+      "items": {
+        "PPC": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "体能恢复 (Physical Performance Capability)",
+          "category": "recovery"
+        },
+        "MPC": {
+          "raw": 2,
+          "mapped": 20.0,
+          "label": "心理恢复 (Mental Performance Capability)",
+          "category": "recovery"
+        },
+        "EB": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "情绪平衡 (Emotional Balance)",
+          "category": "recovery"
+        },
+        "OR": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "整体恢复 (Overall Recovery)",
+          "category": "recovery"
+        },
+        "MS": {
+          "raw": 6,
+          "mapped": 100.0,
+          "label": "肌肉压力 (Muscular Stress)",
+          "category": "stress"
+        },
+        "LA": {
+          "raw": 6,
+          "mapped": 100.0,
+          "label": "缺乏活力 (Lack of Activation)",
+          "category": "stress"
+        },
+        "NES": {
+          "raw": 1,
+          "mapped": 0.0,
+          "label": "负面情绪 (Negative Emotional State)",
+          "category": "stress"
+        },
+        "OS": {
+          "raw": 3,
+          "mapped": 40.0,
+          "label": "整体压力 (Overall Stress)",
+          "category": "stress"
+        }
+      },
+      "recovery_avg": 35.0,
+      "stress_avg": 60.0,
+      "recovery_sum": 140.0,
+      "stress_sum": 240.0
+    },
+    "srss_readiness": {
+      "status": "adjust_training",
+      "title": "需要进一步观察，建议调整训练",
+      "rationale": "恢复均分 (35.0) ≤ 压力均分 (60.0)；出现红灯信号: MPC, MS, LA。",
+      "recommendation": "对运动员进行进一步观察，并适当调整训练内容以降低损伤与过度训练风险（例如降低总量/强度、减少高冲击/高变向、增加恢复与技术性训练）。",
+      "recovery_avg": 35.0,
+      "stress_avg": 60.0,
+      "red_lights": [
+        {
+          "item": "MPC",
+          "label": "心理恢复 (Mental Performance Capability)",
+          "raw": 2,
+          "reason": "恢复条目 'MPC' 得分偏低 (≤2)",
+          "level": "red"
+        },
+        {
+          "item": "MS",
+          "label": "肌肉压力 (Muscular Stress)",
+          "raw": 6,
+          "reason": "压力条目 'MS' 得分偏高 (≥5)",
+          "level": "red"
+        },
+        {
+          "item": "LA",
+          "label": "缺乏活力 (Lack of Activation)",
+          "raw": 6,
+          "reason": "压力条目 'LA' 得分偏高 (≥5)",
+          "level": "red"
+        }
+      ]
+    },
+    "srss_red_lights": [
+      {
+        "item": "MPC",
+        "label": "心理恢复 (Mental Performance Capability)",
+        "raw": 2,
+        "reason": "恢复条目 'MPC' 得分偏低 (≤2)",
+        "level": "red"
+      },
+      {
+        "item": "MS",
+        "label": "肌肉压力 (Muscular Stress)",
+        "raw": 6,
+        "reason": "压力条目 'MS' 得分偏高 (≥5)",
+        "level": "red"
+      },
+      {
+        "item": "LA",
+        "label": "缺乏活力 (Lack of Activation)",
+        "raw": 6,
+        "reason": "压力条目 'LA' 得分偏高 (≥5)",
+        "level": "red"
+      }
+    ],
+    "cmj_height": null,
+    "cmj_rsimod": null,
+    "created_at": "2026-07-29T02:39:53",
+    "updated_at": "2026-07-29T02:39:53"
   }
 ]
